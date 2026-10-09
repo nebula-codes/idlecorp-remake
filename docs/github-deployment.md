@@ -66,7 +66,7 @@ Point DNS at the host and expose the proxy's ports 80/443. Enable proxy trust on
 
 ## Image publishing and updates
 
-The workflow in `.github/workflows/publish-image.yml` validates types, lint, unit tests, PostgreSQL API tests, and a container smoke test before publishing Linux `amd64` and `arm64` images. A push to `main` publishes `latest` and `sha-<full commit SHA>`; a `v*` release tag publishes its semantic-version tags and commit tag. Manual dispatch on `main` also publishes `latest`. Pull requests run validation without publishing.
+The workflow in `.github/workflows/publish-image.yml` validates types, lint, unit tests, PostgreSQL API tests, browser purchases over plain HTTP, and a container smoke test before publishing Linux `amd64` and `arm64` images. A push to `main` publishes `latest` and `sha-<full commit SHA>`; a `v*` release tag publishes its semantic-version tags and commit tag. Manual dispatch on `main` also publishes `latest`. Pull requests run validation without publishing.
 
 The workflow uses GitHub's scoped Actions token for package publication; deployment hosts do not need that token. Inspect the repository's **Actions** tab for build results and the package page for available image tags and digests. A failed workflow does not produce a new successful image.
 
@@ -82,6 +82,12 @@ docker compose --env-file .env.deploy -f compose.deploy.yaml logs --tail=100 ser
 ```
 
 Use `latest` to follow the default release stream, or set `IDLECORP_IMAGE` to a published version tag or `ghcr.io/nebula-codes/idlecorp-remake@sha256:YOUR_VERIFIED_DIGEST` for a fixed image. A rollback may require restoring the matching database backup when schema changes are involved. Preserve the previous image reference and backup before upgrading. See [self-hosting](self-hosting.md) for general upgrade guidance.
+
+### Purchases stuck on “Confirming with server…” over LAN HTTP
+
+The initial image used `crypto.randomUUID()` to prepare action requests. Browsers do not expose that method on plain HTTP LAN origins, so purchases could stop before reaching the server and leave the confirmation indicator visible. The updated client uses `crypto.getRandomValues()`, which works on LAN HTTP, and clears the pending indicator even if request preparation fails. A purchase that failed at this preparation step did not charge the corporation.
+
+In Portainer, update the existing stack with the newest `ghcr.io/nebula-codes/idlecorp-remake:latest` image and enable the option to pull the image again. Keep the existing database credentials and named volumes. After the server is healthy, hard-refresh the game tab (Ctrl+F5) so it loads the new client. Restarting an existing container without pulling/recreating it does not install the fix. This update does not change the database schema.
 
 ## Accounts, administration, and the expansion
 

@@ -4,7 +4,7 @@ import pg from 'pg';
 import fs from 'node:fs';
 import path from 'node:path';
 export const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-export async function testServer(label, port=3011, workspace=process.cwd()) {
+export async function testServer(label, port=3011, workspace=process.cwd(), options={}) {
   const base = new URL(process.env.TEST_DATABASE_URL || 'postgres://idlecorp:idlecorp@localhost:5432/postgres');
   const name = `idlecorp_test_${label}_${Date.now()}`;
   const admin = new pg.Client({connectionString:base.href}); await admin.connect();
@@ -13,7 +13,7 @@ export async function testServer(label, port=3011, workspace=process.cwd()) {
   let child, logs='';
   const origin=`http://127.0.0.1:${port}`;
   async function start() {
-    child=spawn(process.execPath,['--import','tsx','apps/server/src/index.ts'],{cwd:workspace,windowsHide:true,stdio:['ignore','pipe','pipe'],env:{...process.env,NODE_ENV:'test',DATABASE_URL:url.href,PORT:String(port),HOST:'127.0.0.1',PUBLIC_ORIGIN:origin}});
+    child=spawn(process.execPath,['--import','tsx','apps/server/src/index.ts'],{cwd:workspace,windowsHide:true,stdio:['ignore','pipe','pipe'],env:{...process.env,NODE_ENV:'test',DATABASE_URL:url.href,PORT:String(port),HOST:'127.0.0.1',PUBLIC_ORIGIN:options.publicOrigin||origin}});
     child.stdout.on('data',d=>{logs+=d;});child.stderr.on('data',d=>{logs+=d;});
     for(let i=0;i<100;i++){if(child.exitCode!==null)throw new Error(`Server exited ${child.exitCode}: ${logs}`);try{if((await fetch(origin+'/api/health')).ok)return;}catch{/* Starting */}await sleep(100);}
     throw new Error('Server startup timeout: '+logs);

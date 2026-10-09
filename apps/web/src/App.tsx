@@ -10,6 +10,8 @@ import { OverviewInsights, TradeInsights } from './Insights';
 
 import { Cooperation } from './Cooperation';
 
+import { createRequestKey } from './request-key';
+
 import { Activity, ArrowDownLeft, ArrowRight, ArrowRightLeft, ArrowUpRight, Award, Bell, BookOpen, Building2, Check, CheckCircle2, ChevronDown, ChevronRight, CircleHelp, Compass, Factory, FlaskConical, Globe2, Landmark, Layers3, Leaf, LockKeyhole, LogOut, MapPin, Menu, Package, Pause, Play, Plus, Radio, RefreshCw, Rocket, Search, Settings2, ShieldCheck, ShoppingBag, Sparkles, Star, Store, Timer, Trash2, TrendingUp, Truck, Users, Wallet, WifiOff, X, Zap } from 'lucide-react';
 
 const nav: { id: Screen; name: string; icon: ElementType; group: string }[] = [
@@ -38,7 +40,7 @@ export default function App() {
 
  useEffect(()=>{window.idlecorp?.getServerOrigin().then(value=>{setOrigin(value);setInitialized(true);}).catch(()=>setInitialized(true));},[]);
 
- const api=useCallback(async(path:string,opts:RequestInit={})=>{const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),20000);try{const response=await fetch((window.idlecorp?'':origin)+path,{...opts,credentials:'include',headers:{'Content-Type':'application/json',...opts.headers},signal:controller.signal});const data=await response.json().catch(()=>({error:'The server returned an unreadable response.'}));if(!response.ok)throw Object.assign(new Error(data.error||'Request failed'),{status:response.status});return data;}finally{clearTimeout(timeout);}},[origin]);
+ const api=useCallback(async(path:string,opts:RequestInit={})=>{const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),20000);try{const response=await fetch((window.idlecorp?'':origin)+path,{...opts,credentials:'include',headers:{'Content-Type':'application/json',...opts.headers},signal:controller.signal});const data=await response.json().catch(()=>{throw Object.assign(new Error('The server returned an unreadable response.'),response.ok?{}:{status:response.status});});if(!response.ok)throw Object.assign(new Error(data.error||'Request failed'),{status:response.status});return data;}finally{clearTimeout(timeout);}},[origin]);
 
  const accept=useCallback((value:Data)=>{const snapshot=value.snapshot||value.state||value;if(!snapshot.corporation)return;if(snapshot.protocol!==1){setError('This server uses an incompatible protocol. Update your client and server together.');return;}if(stateRef.current&&snapshot.revision<stateRef.current.revision)return;if(stateRef.current&&snapshot.corporation.notifications!==false){const completed=[...list(snapshot.shipments).filter(item=>item.status==='arrived'&&list(stateRef.current?.shipments).some(old=>old.id===item.id&&old.status==='traveling')),...Object.entries(snapshot.holdings||{}).flatMap(([id,h]:[string,any])=>list(h.research).filter(item=>item.status==='ready'&&list(stateRef.current?.holdings?.[id]?.research).some(old=>old.id===item.id&&old.status==='working')))];if(completed.length)setNotice(`${completed.length} completed ${completed.length===1?'event is':'events are'} ready to claim in Logistics or Research.`);const freshNotes=list(snapshot.notifications).filter(note=>!note.read&&!list(stateRef.current?.notifications).some(old=>old.id===note.id));if(freshNotes.length)setNotice(`${freshNotes[0].title}: ${freshNotes[0].message}`);if(snapshot.space?.expedition?.status==='ready'&&stateRef.current?.space?.expedition?.status==='traveling')setNotice('Your galactic expedition has returned. Receive its report in the Space program.');}if(!snapshot.onboarding&&stateRef.current?.onboarding)snapshot.onboarding=stateRef.current.onboarding;if(Number(snapshot.returnSummary?.elapsedMs||0)<60000&&Number(stateRef.current?.returnSummary?.elapsedMs||0)>=60000)snapshot.returnSummary=stateRef.current?.returnSummary;offsetRef.current=Number(snapshot.serverTime)-Date.now();setNow(Number(snapshot.serverTime));setState(snapshot);setOnline(true);setRegionId(id=>snapshot.holdings?.[id]?id:snapshot.regions?.[0]?.id||Object.keys(snapshot.holdings||{})[0]||'');},[]);
 
@@ -50,7 +52,27 @@ export default function App() {
 
  useEffect(()=>{if(!notice)return;const timeout=setTimeout(()=>setNotice(''),5000);return()=>clearTimeout(timeout);},[notice]);
 
- const act=useCallback(async(type:string,data:Data={})=>{if(actionActive.current)return;actionActive.current=true;setBusy(true);setError('');const payload=JSON.stringify({type,regionId,...data});const key=pendingKeys.current.get(payload)||crypto.randomUUID();pendingKeys.current.set(payload,key);try{const result=await api('/api/action',{method:'POST',headers:{'Idempotency-Key':key},body:payload});pendingKeys.current.delete(payload);accept(result);if(!type.endsWith('.preview'))setNotice(result.message||`${titleCase(type.replace(/\./g,' '))} confirmed`);return result;}catch(e:any){if(e.status&&e.status<500){pendingKeys.current.delete(payload);setError(e.message);}else setError(`${e.message||'Connection interrupted'}. Your request may have completed. Retrying the same action is safe; the original request key is preserved.`);if(e.status===401)setState(null);void refresh();return null;}finally{actionActive.current=false;setBusy(false);}},[api,accept,regionId,refresh]);
+ const act=useCallback(async(type:string,data:Data={})=>{
+  if(actionActive.current)return;
+  actionActive.current=true;setBusy(true);setError('');
+  let payload='';let requestStarted=false;
+  try{
+   payload=JSON.stringify({type,regionId,...data});
+   const key=pendingKeys.current.get(payload)||createRequestKey();
+   pendingKeys.current.set(payload,key);
+   requestStarted=true;
+   const result=await api('/api/action',{method:'POST',headers:{'Idempotency-Key':key},body:payload});
+   pendingKeys.current.delete(payload);accept(result);
+   if(!type.endsWith('.preview'))setNotice(result.message||`${titleCase(type.replace(/\./g,' '))} confirmed`);
+   return result;
+  }catch(e:any){
+   if(!requestStarted)setError('Could not prepare your request. No request was sent. Please try again.');
+   else if(e.status&&e.status<500){pendingKeys.current.delete(payload);setError(e.message);}
+   else setError(`${e.message||'Connection interrupted'}. Your request may have completed. Retrying the same action is safe; the original request key is preserved.`);
+   if(e.status===401)setState(null);
+   void refresh();return null;
+  }finally{actionActive.current=false;setBusy(false);}
+ },[api,accept,regionId,refresh]);
 
  useEffect(()=>{if(!state||!regionId)return;let current=true;api('/api/plan?'+new URLSearchParams({regionId})).then(value=>{if(current)setAdvice(value);}).catch(()=>{});return()=>{current=false;};},[regionId,state?.revision,api]);
 
