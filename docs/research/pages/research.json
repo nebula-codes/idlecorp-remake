@@ -1,0 +1,209 @@
+{
+  "id": 43,
+  "title": "Research",
+  "namespace": 0,
+  "revisionId": 1715,
+  "revisionTimestamp": "2021-12-19T14:11:52Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Research",
+  "wikitext": "Research allows [[corporation|corporations]] to discover [[blueprint|blueprints]] by spending 1,000,000 [[energy]] and $1,000,000, with an additional expense of 500,000 [[energy]]+ for every research facility beyond 6 in the region, which can then be instantly finished with 4x gratitude points or [[relic of knowledge]]. Corporations need to have a [[research facility]] built in the region to perform research.  Blueprints can be developed into their respective [[:Category:Asset#Technology|technologies]] to be installed in a region. \n\n3 of the same tech can be upgraded for increased power. Losing some of the original power to save 2 slots helps when you have other tech that can fit the other spots. When the tech is already u, sometimes the 3 techs are actually better off combined to uu as they give more than 3x benefit. Any non-stackable tech one wishes to keep should ALWAYS be upgraded to maximum capacity ASAP.\n\nUpgraded tech becomes (tech name)u. Upgrading consumes 3 of the original tech to build the tech u. Some tech can be upgraded to another level, creating a (tech name)uu. Use the examine command to view each tech. Note: Tech installed into a region tech slot can not be upgraded, uninstall the tech to upgrade.\n\nMultiple research projects can occur simultaneously as long as they are started in separate regions. [[Research facility]] is the only building that has a cap, at 8 buildings per region.\n\nThe assets you can get from researching:\n*[[Blueprint]]s\n*[[Rocket]]\n*[[Galactic coordinate]]s\n\n==Rarity Table==\nBelow are the tables for each research facility count.\n  \t\t \t\n=== Base Rarity ===\n\n{| class=\"wikitable sortable\"\n! Rarity !! Chance\n|-\n|data-sort-value=\"0\" | Common || 55%\n|-\n|data-sort-value=\"1\" | Uncommon || 37%\n|-\n|data-sort-value=\"2\" | Rare || 7%\n|-\n|data-sort-value=\"3\" | Superior || 1%\n|}\n\n{| class=\"wikitable sortable\"\n|+ Detailed chances (per research facility)\n! Asset/Technology || Type of asset !! Overall chance || Chance under the rarity || Rarity\n|-\n|[[Oil mapping]] || Blueprint || 13.75% || 1/4 (25.00%) || Common\n|-\n|[[Coal detector]] || Blueprint || 13.75% || 1/4 (25.00%) || Common\n|-\n|[[Log loader]] || Blueprint || 13.75% || 1/4 (25.00%) || Common\n|-\n|[[Galactic coordinates i]] || Asset ([[Galactic coordinate]]) || 13.75% || 1/4 (25.00%) || Common\n|-\n|[[Advanced woodworking]] || Blueprint || 5.29% || 1/7 (14.29%) || Uncommon\n|-\n|[[Bauxite detector]] || Blueprint || 5.29% || 1/7 (14.29%) || Uncommon\n|-\n|[[Jet fuel refining]] || Blueprint || 5.29% || 1/7 (14.29%) || Uncommon\n|-\n|[[Gold detector]] || Blueprint || 5.29% || 1/7 (14.29%) || Uncommon\n|-\n|[[Vacuum distillation]] || Blueprint || 5.29% || 1/7 (14.29%) || Uncommon\n|-\n|[[Galactic coordinates ii]] || Asset ([[Galactic coordinate]]) || 5.29% || 1/7 (14.29%) || Uncommon\n|-\n|[[Galactic coordinates iii]] || Asset ([[Galactic coordinate]]) || 5.29% || 1/7 (14.29%) || Uncommon\n|-\n|[[Robotic automation]] || Blueprint || 1.00% || 1/7 (14.29%) || Rare\n|-\n|[[Factory specialization]] || Blueprint || 1.00% || 1/7 (14.29%) || Rare\n|-\n|[[Mining specialization]] || Blueprint || 1.00% || 1/7 (14.29%) || Rare\n|-\n|[[Oil specialization]] || Blueprint || 1.00% || 1/7 (14.29%) || Rare\n|-\n|[[Energy specialization]] || Blueprint || 1.00% || 1/7 (14.29%) || Rare\n|-\n|[[Rocket]] || Asset || 1.00% || 1/7 (14.29%) || Rare\n|-\n|[[Galactic coordinates iv]] || Asset ([[Galactic coordinate]]) || 1.00% || 1/7 (14.29%) || Rare\n|-\n|[[Logistics expansion]] || Blueprint || 0.17% || 1/6 (16.67%) || Superior\n|-\n|[[Airport tram]] || Blueprint || 0.17% || 1/6 (16.67%) || Superior\n|-\n|[[Quality control]] || Blueprint || 0.17% || 1/6 (16.67%) || Superior\n|-\n|[[Reincorporation computer]] || Blueprint || 0.17% || 1/6 (16.67%) || Superior\n|-\n|[[Quantum stabilization]] || Blueprint || 0.17% || 1/6 (16.67%) || Superior\n|-\n|[[Galactic coordinates v]] || Asset ([[Galactic coordinate]]) || 0.17% || 1/6 (16.67%) || Superior\n|}\n\n=== Multiple Research Facilities ===\nWith multiple research facilities, the chance of your outcome containing at least once of some rarity is\n\n'''P(at least one of some rarity) = 1 - (1 - base chance for that rarity)^n'''\n\nwhere n is the number of research facilities you have. For example, the chance of having at least one Superior in your outcome with eight research facilities is\n\n'''1 - (1 - 0.01) ^ 8 = 0.0772553055720799 or 7.7%'''",
+  "links": [
+    "corporation",
+    "blueprint",
+    "energy",
+    "relic of knowledge",
+    "research facility",
+    ":Category:Asset",
+    "Research facility",
+    "Blueprint",
+    "Rocket",
+    "Galactic coordinate",
+    "Oil mapping",
+    "Coal detector",
+    "Log loader",
+    "Galactic coordinates i",
+    "Advanced woodworking",
+    "Bauxite detector",
+    "Jet fuel refining",
+    "Gold detector",
+    "Vacuum distillation",
+    "Galactic coordinates ii",
+    "Galactic coordinates iii",
+    "Robotic automation",
+    "Factory specialization",
+    "Mining specialization",
+    "Oil specialization",
+    "Energy specialization",
+    "Galactic coordinates iv",
+    "Logistics expansion",
+    "Airport tram",
+    "Quality control",
+    "Reincorporation computer",
+    "Quantum stabilization",
+    "Galactic coordinates v"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Research",
+  "html": "<div class=\"mw-parser-output\"><p>Research allows <a href=\"/index.php/Corporation\" title=\"Corporation\">corporations</a> to discover <a href=\"/index.php/Blueprint\" title=\"Blueprint\">blueprints</a> by spending 1,000,000 <a href=\"/index.php/Energy\" title=\"Energy\">energy</a> and $1,000,000, with an additional expense of 500,000 <a href=\"/index.php/Energy\" title=\"Energy\">energy</a>+ for every research facility beyond 6 in the region, which can then be instantly finished with 4x gratitude points or <a href=\"/index.php/Relic_of_knowledge\" title=\"Relic of knowledge\">relic of knowledge</a>. Corporations need to have a <a href=\"/index.php/Research_facility\" title=\"Research facility\">research facility</a> built in the region to perform research.  Blueprints can be developed into their respective <a href=\"/index.php/Category:Asset#Technology\" title=\"Category:Asset\">technologies</a> to be installed in a region. \n</p><p>3 of the same tech can be upgraded for increased power. Losing some of the original power to save 2 slots helps when you have other tech that can fit the other spots. When the tech is already u, sometimes the 3 techs are actually better off combined to uu as they give more than 3x benefit. Any non-stackable tech one wishes to keep should ALWAYS be upgraded to maximum capacity ASAP.\n</p><p>Upgraded tech becomes (tech name)u. Upgrading consumes 3 of the original tech to build the tech u. Some tech can be upgraded to another level, creating a (tech name)uu. Use the examine command to view each tech. Note: Tech installed into a region tech slot can not be upgraded, uninstall the tech to upgrade.\n</p><p>Multiple research projects can occur simultaneously as long as they are started in separate regions. <a href=\"/index.php/Research_facility\" title=\"Research facility\">Research facility</a> is the only building that has a cap, at 8 buildings per region.\n</p><p>The assets you can get from researching:\n</p>\n<ul><li><a href=\"/index.php/Blueprint\" title=\"Blueprint\">Blueprints</a></li>\n<li><a href=\"/index.php/Rocket\" title=\"Rocket\">Rocket</a></li>\n<li><a href=\"/index.php/Galactic_coordinate\" title=\"Galactic coordinate\">Galactic coordinates</a></li></ul>\n<h2><span class=\"mw-headline\" id=\"Rarity_Table\">Rarity Table</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Research&amp;action=edit&amp;section=1\" title=\"Edit section: Rarity Table\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>Below are the tables for each research facility count.\n</p>\n<h3><span class=\"mw-headline\" id=\"Base_Rarity\">Base Rarity</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Research&amp;action=edit&amp;section=2\" title=\"Edit section: Base Rarity\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Rarity</th>\n<th>Chance\n</th></tr>\n<tr>\n<td data-sort-value=\"0\">Common</td>\n<td>55%\n</td></tr>\n<tr>\n<td data-sort-value=\"1\">Uncommon</td>\n<td>37%\n</td></tr>\n<tr>\n<td data-sort-value=\"2\">Rare</td>\n<td>7%\n</td></tr>\n<tr>\n<td data-sort-value=\"3\">Superior</td>\n<td>1%\n</td></tr></tbody></table>\n<table class=\"wikitable sortable\">\n<caption>Detailed chances (per research facility)\n</caption>\n<tbody><tr>\n<th>Asset/Technology</th>\n<th>Type of asset</th>\n<th>Overall chance</th>\n<th>Chance under the rarity</th>\n<th>Rarity\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Oil_mapping\" title=\"Oil mapping\">Oil mapping</a></td>\n<td>Blueprint</td>\n<td>13.75%</td>\n<td>1/4 (25.00%)</td>\n<td>Common\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Coal_detector\" title=\"Coal detector\">Coal detector</a></td>\n<td>Blueprint</td>\n<td>13.75%</td>\n<td>1/4 (25.00%)</td>\n<td>Common\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Log_loader\" title=\"Log loader\">Log loader</a></td>\n<td>Blueprint</td>\n<td>13.75%</td>\n<td>1/4 (25.00%)</td>\n<td>Common\n</td></tr>\n<tr>\n<td><a href=\"/index.php?title=Galactic_coordinates_i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinates i (page does not exist)\">Galactic coordinates i</a></td>\n<td>Asset (<a href=\"/index.php/Galactic_coordinate\" title=\"Galactic coordinate\">Galactic coordinate</a>)</td>\n<td>13.75%</td>\n<td>1/4 (25.00%)</td>\n<td>Common\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Advanced_woodworking\" title=\"Advanced woodworking\">Advanced woodworking</a></td>\n<td>Blueprint</td>\n<td>5.29%</td>\n<td>1/7 (14.29%)</td>\n<td>Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Bauxite_detector\" title=\"Bauxite detector\">Bauxite detector</a></td>\n<td>Blueprint</td>\n<td>5.29%</td>\n<td>1/7 (14.29%)</td>\n<td>Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Jet_fuel_refining\" title=\"Jet fuel refining\">Jet fuel refining</a></td>\n<td>Blueprint</td>\n<td>5.29%</td>\n<td>1/7 (14.29%)</td>\n<td>Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Gold_detector\" title=\"Gold detector\">Gold detector</a></td>\n<td>Blueprint</td>\n<td>5.29%</td>\n<td>1/7 (14.29%)</td>\n<td>Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Vacuum_distillation\" title=\"Vacuum distillation\">Vacuum distillation</a></td>\n<td>Blueprint</td>\n<td>5.29%</td>\n<td>1/7 (14.29%)</td>\n<td>Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php?title=Galactic_coordinates_ii&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinates ii (page does not exist)\">Galactic coordinates ii</a></td>\n<td>Asset (<a href=\"/index.php/Galactic_coordinate\" title=\"Galactic coordinate\">Galactic coordinate</a>)</td>\n<td>5.29%</td>\n<td>1/7 (14.29%)</td>\n<td>Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php?title=Galactic_coordinates_iii&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinates iii (page does not exist)\">Galactic coordinates iii</a></td>\n<td>Asset (<a href=\"/index.php/Galactic_coordinate\" title=\"Galactic coordinate\">Galactic coordinate</a>)</td>\n<td>5.29%</td>\n<td>1/7 (14.29%)</td>\n<td>Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Robotic_automation\" title=\"Robotic automation\">Robotic automation</a></td>\n<td>Blueprint</td>\n<td>1.00%</td>\n<td>1/7 (14.29%)</td>\n<td>Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Factory_specialization\" title=\"Factory specialization\">Factory specialization</a></td>\n<td>Blueprint</td>\n<td>1.00%</td>\n<td>1/7 (14.29%)</td>\n<td>Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Mining_specialization\" title=\"Mining specialization\">Mining specialization</a></td>\n<td>Blueprint</td>\n<td>1.00%</td>\n<td>1/7 (14.29%)</td>\n<td>Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Oil_specialization\" title=\"Oil specialization\">Oil specialization</a></td>\n<td>Blueprint</td>\n<td>1.00%</td>\n<td>1/7 (14.29%)</td>\n<td>Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Energy_specialization\" title=\"Energy specialization\">Energy specialization</a></td>\n<td>Blueprint</td>\n<td>1.00%</td>\n<td>1/7 (14.29%)</td>\n<td>Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Rocket\" title=\"Rocket\">Rocket</a></td>\n<td>Asset</td>\n<td>1.00%</td>\n<td>1/7 (14.29%)</td>\n<td>Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php?title=Galactic_coordinates_iv&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinates iv (page does not exist)\">Galactic coordinates iv</a></td>\n<td>Asset (<a href=\"/index.php/Galactic_coordinate\" title=\"Galactic coordinate\">Galactic coordinate</a>)</td>\n<td>1.00%</td>\n<td>1/7 (14.29%)</td>\n<td>Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Logistics_expansion\" title=\"Logistics expansion\">Logistics expansion</a></td>\n<td>Blueprint</td>\n<td>0.17%</td>\n<td>1/6 (16.67%)</td>\n<td>Superior\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Airport_tram\" title=\"Airport tram\">Airport tram</a></td>\n<td>Blueprint</td>\n<td>0.17%</td>\n<td>1/6 (16.67%)</td>\n<td>Superior\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Quality_control\" title=\"Quality control\">Quality control</a></td>\n<td>Blueprint</td>\n<td>0.17%</td>\n<td>1/6 (16.67%)</td>\n<td>Superior\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Reincorporation_computer\" title=\"Reincorporation computer\">Reincorporation computer</a></td>\n<td>Blueprint</td>\n<td>0.17%</td>\n<td>1/6 (16.67%)</td>\n<td>Superior\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Quantum_stabilization\" title=\"Quantum stabilization\">Quantum stabilization</a></td>\n<td>Blueprint</td>\n<td>0.17%</td>\n<td>1/6 (16.67%)</td>\n<td>Superior\n</td></tr>\n<tr>\n<td><a href=\"/index.php?title=Galactic_coordinates_v&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinates v (page does not exist)\">Galactic coordinates v</a></td>\n<td>Asset (<a href=\"/index.php/Galactic_coordinate\" title=\"Galactic coordinate\">Galactic coordinate</a>)</td>\n<td>0.17%</td>\n<td>1/6 (16.67%)</td>\n<td>Superior\n</td></tr></tbody></table>\n<h3><span class=\"mw-headline\" id=\"Multiple_Research_Facilities\">Multiple Research Facilities</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Research&amp;action=edit&amp;section=3\" title=\"Edit section: Multiple Research Facilities\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>With multiple research facilities, the chance of your outcome containing at least once of some rarity is\n</p><p><b>P(at least one of some rarity) = 1 - (1 - base chance for that rarity)^n</b>\n</p><p>where n is the number of research facilities you have. For example, the chance of having at least one Superior in your outcome with eight research facilities is\n</p><p><b>1 - (1 - 0.01) ^ 8 = 0.0772553055720799 or 7.7%</b>\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009140629\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.022 seconds\nPreprocessor visited node count: 49/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:43-0!canonical and timestamp 20261009140629 and revision id 1715\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Advanced woodworking",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Airport tram",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Blueprint",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Corporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Factory specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinate",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Jet fuel refining",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Log loader",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics expansion",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Mining specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil mapping",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Quality control",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Quantum stabilization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Reincorporation computer",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Relic of knowledge",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research facility",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Robotic automation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Vacuum distillation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinates i",
+      "exists": false
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinates ii",
+      "exists": false
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinates iii",
+      "exists": false
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinates iv",
+      "exists": false
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinates v",
+      "exists": false
+    },
+    {
+      "ns": 14,
+      "title": "Category:Asset",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

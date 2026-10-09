@@ -1,0 +1,60 @@
+{
+  "id": 105,
+  "title": "LED factory",
+  "namespace": 0,
+  "revisionId": 1421,
+  "revisionTimestamp": "2021-06-18T22:40:15Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/LED_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $2,850, 200x [[steel]], 2,000x [[wood]], 10x [[silicon]]\n|-\n|'''Total Cost''' || $5000\n|-\n|'''Inputs''' || 2x [[silicon]]\n|-\n|'''Outputs''' || 40x [[LED]]\n|-\n|'''Production interval''' || 50 seconds\n|-\n|'''Production/Min''' || 48x [[LED]]\n|-\n|'''Profit/Min''' || $96.00\n|-\n|'''Profit/Hour''' || $5760.00\n|-\n|'''Return On Investment''' || 0.72%\n|-\n|'''Aliases'''||led factory, ledfactory, led fac\n|}\n[[Category:Facility]]\n\nThe LED factory is a facility that produces 40x [[LED]] every 50 seconds.\n\nYou need 2x [[Silicon mine]] to maintain this factory.\n\n== Related facilities ==\n'''As input'''\n*[[Lamp factory]]",
+  "links": [
+    "steel",
+    "wood",
+    "silicon",
+    "LED",
+    "Category:Facility",
+    "Silicon mine",
+    "Lamp factory"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "LED factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$2,850, 200x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 2,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 10x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$5000\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>2x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>40x <a href=\"/index.php/LED\" title=\"LED\">LED</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>50 seconds\n</td></tr>\n<tr>\n<td><b>Production/Min</b></td>\n<td>48x <a href=\"/index.php/LED\" title=\"LED\">LED</a>\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$96.00\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$5760.00\n</td></tr>\n<tr>\n<td><b>Return On Investment</b></td>\n<td>0.72%\n</td></tr>\n<tr>\n<td><b>Aliases</b></td>\n<td>led factory, ledfactory, led fac\n</td></tr></tbody></table>\n<p>The LED factory is a facility that produces 40x <a href=\"/index.php/LED\" title=\"LED\">LED</a> every 50 seconds.\n</p><p>You need 2x <a href=\"/index.php/Silicon_mine\" title=\"Silicon mine\">Silicon mine</a> to maintain this factory.\n</p>\n<h2><span class=\"mw-headline\" id=\"Related_facilities\">Related facilities</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=LED_factory&amp;action=edit&amp;section=1\" title=\"Edit section: Related facilities\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><b>As input</b>\n</p>\n<ul><li><a href=\"/index.php/Lamp_factory\" title=\"Lamp factory\">Lamp factory</a></li></ul>\n<!-- \nNewPP limit report\nCached time: 20261009055244\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 12/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:105-0!canonical and timestamp 20261009055244 and revision id 1421\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "LED",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Lamp factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

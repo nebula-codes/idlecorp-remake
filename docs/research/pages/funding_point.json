@@ -1,0 +1,33 @@
+{
+  "id": 242,
+  "title": "Funding point",
+  "namespace": 0,
+  "revisionId": 1525,
+  "revisionTimestamp": "2021-08-26T15:38:57Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Funding_point",
+  "wikitext": "Funding point is used to enable [[:Category:Policy|region policies]] to get regional modifiers<br>\nThey start with 15 Points<br>\nThe [[regional legislator]] can enable and disable the policies within the limited points",
+  "links": [
+    ":Category:Policy",
+    "regional legislator"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Funding point",
+  "html": "<div class=\"mw-parser-output\"><p>Funding point is used to enable <a href=\"/index.php/Category:Policy\" title=\"Category:Policy\">region policies</a> to get regional modifiers<br />\nThey start with 15 Points<br />\nThe <a href=\"/index.php/Regional_legislator\" title=\"Regional legislator\">regional legislator</a> can enable and disable the policies within the limited points\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145610\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.004 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:242-0!canonical and timestamp 20261009145610 and revision id 1525\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Regional legislator",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Policy",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

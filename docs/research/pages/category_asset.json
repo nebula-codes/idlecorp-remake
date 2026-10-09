@@ -1,0 +1,604 @@
+{
+  "id": 2,
+  "title": "Category:Asset",
+  "namespace": 14,
+  "revisionId": 1133,
+  "revisionTimestamp": "2021-02-05T20:05:19Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Category%3AAsset",
+  "wikitext": "Assets are both resources used for production, as well as the products [[:Category:Facility|facilities]] can produce. Most assets can be sold for [[capital]]. A corporation's asset inventory is unique to each [[region]]. Facilities that produce assets will add assets directly to the inventory in the region the facility is built in. The prices for assets are unique to each region and will change every hour. Assets can be moved between regions by [[Export|exporting]] them. Some assets will have a '+' in their name to designate that they are a special variant of their normal type. These assets are optionally used by facilities to increase their chances of producing their own '+' variant outputs. Assets that are '+' also have a 4x multiplier on their value when selling in retail stores.\n\n{| class=\"wikitable sortable\"\n!Name !! Base price !! Produced by !! Consumed by\n|-\n|[[Land]] || data-sort-value=\"0\" | Varies || N/A || N/A\n|-\n|[[Scrap]] || data-sort-value=\"0\" | N/A || <code>$$scrap</code> command || N/A\n|-\n|[[Crude oil]] || data-sort-value=\"10\" | $0.10 ($0.20 if +) || [[Oil well]] || [[Oil refinery]], [[Rubber factory]], [[Research chemical factory]]\n|-\n|[[Bauxite]] || data-sort-value=\"10\" | $0.10 ($0.20 if +) || [[Bauxite mine]] || [[Aluminum factory]]\n|-\n|[[Wood]] || data-sort-value=\"15\" | $0.15 ($0.30 if +) || [[Tree farm]] || [[Furniture factory]]\n|-\n|[[Coal]] || data-sort-value=\"20\" | $0.20 ($0.40 if +) || [[Coal mine]] || [[Steel mill]], [[Coal power plant]]\n|-\n|[[Plastic]] || data-sort-value=\"50\" | $0.50 ($1.00 if +) || [[Plastic factory]] || [[Cell phone factory]], [[Laptop factory]], [[Television factory]], [[Car factory]]\n|-\n|[[LED]] || data-sort-value=\"200\" | $2.00 ($4.00 if +) || [[LED factory]] || [[Lamp factory]]\n|-\n|[[Iron]] || data-sort-value=\"200\" | $2.00 ($4.00 if +) || [[Iron mine]] || [[Steel mill]]\n|-\n|[[Polyester]] || data-sort-value=\"200\" | $2.00 ($4.00 if +) || [[Polyester factory]] || [[Clothing factory]]\n|-\n|[[Aluminum]] || data-sort-value=\"400\" | $4.00 ($8.00 if +) || [[Aluminum factory]] || N/A\n|-\n|[[Gasoline]] || data-sort-value=\"500\" | $5.00 ($10.00 if +) || [[Oil refinery]] || [[Gas station]]\n|-\n|[[Cotton]] || data-sort-value=\"500\" | $5.00 ($10.00 if +) || [[Cotton farm]] || [[Clothing factory]]\n|-\n|[[Jet fuel]] || data-sort-value=\"500\" | $5.00 ($10.00 if +) || [[Oil refinery]] with [[Jet fuel refining]] || [[Airport]]\n|-\n|[[Rubber]] || data-sort-value=\"700\" | $7.00 ($14.00 if +) || [[Rubber factory]] || [[Bicycle factory]], [[Gasoline engine factory]], [[Car factory]]\n|-\n|[[Steel]] || data-sort-value=\"800\" | $8.00 ($16.00 if +) || [[Steel mill]] || [[Bicycle factory]], [[Gasoline engine factory]], [[Car factory]]\n|-\n|[[Energy]] || data-sort-value=\"1000\" | $10.00 ($20.00 if +) || [[Coal power plant]], [[Solar power plant]] || [[Rocket fuel factory]], [[Research facility]], [[Airport]]\n|-\n|[[Silicon]] || data-sort-value=\"2500\" | $25.00 ($50.00 if +) || [[Silicon mine]] || [[CPU factory]], [[Glass factory]]\n|-\n|[[Lamp]] || data-sort-value=\"2500\" | $25.00 ($50.00 if +) || [[Lamp factory]] || N/A\n|-\n|[[Glass]] || data-sort-value=\"3000\" | $30.00 ($60.00 if +) || [[Glass factory]] || [[Cell phone factory]], [[Laptop factory]], [[Television factory]], [[Car factory]]\n|-\n|[[Clothing]] || data-sort-value=\"3000\" | $30.00 ($60.00 if +) || [[Clothing factory]] || N/A\n|-\n|[[Furniture]] || data-sort-value=\"6000\" | $60.00 ($120.00 if +) || [[Furniture factory]] || N/A\n|-\n|[[Gold]] || data-sort-value=\"6000\" | $60.00 ($4.00 if +) || [[Gold mine]] || [[CPU factory]]\n|-\n|[[Rocket fuel]] || data-sort-value=\"10000\" | $100.00 || [[Rocket fuel factory]] || N/A\n|-\n|[[Research chemical]] || data-sort-value=\"10000\" | $100.00 ($200.00 if +) || [[Research chemical factory]] || [[Prescription drug factory]]\n|-\n|[[CPU]] || data-sort-value=\"20000\" | $200.00 ($400.00 if +) || [[CPU factory]] || [[Cell phone factory]], [[Laptop factory]], [[Television factory]], [[Car factory]]\n|-\n|[[Bicycle]] || data-sort-value=\"24000\" | $240.00 ($480.00 if +) || [[Bicycle factory]] || N/A\n|-\n|[[Prescription drug]] || data-sort-value=\"50000\" | $500.00 ($1,000.00 if +) || [[Prescription drug factory]] || N/A\n|-\n|[[CCD]] || data-sort-value=\"50000\" | $500.00 ($1,000.00 if +) || [[CCD factory]] || [[Digital camera factory]]\n|-\n|[[Cell phone]] || data-sort-value=\"80000\" | $800.00 ($1,600.00 if +) || [[Cell phone factory]] || N/A\n|-\n|[[Laptop]] || data-sort-value=\"200000\" | $2,000.00 ($4,000.00 if +) || [[Laptop factory]] || N/A\n|-\n|[[Digital camera]] || data-sort-value=\"200000\" | $2,000.00 ($4,000.00 if +) || [[Digital camera factory]] || N/A\n|-\n|[[Television]] || data-sort-value=\"400000\" | $4,000.00 ($8,000.00 if +) || [[Television factory]] || N/A\n|-\n|[[Gasoline engine]] || data-sort-value=\"500000\" | $5,000.00 ($10,000.00 if +) || [[Gasoline engine factory]] || [[Car factory]]\n|-\n|[[Car]] || data-sort-value=\"2000000\" | $20,000.00 ($40,000.00 if +) || [[Car factory]] || N/A\n|-\n|[[Rocket]] || data-sort-value=\"10000000000\" | $100,000,000.00 || N/A || N/A\n|}\n\n==Technology==\n[[Blueprint|Blueprints]] from [[research]] can be developed into these [[technology|technologies]].\n{| class=\"wikitable sortable\"\n!Name !! Affected facilities !! [[Research#Rarity Table|Rarity]]\n|-\n|[[Oil mapping]] || [[Oil well]] || data-sort-value=\"0\" | Common\n|-\n|[[Coal detector]] || [[Coal mine]] || data-sort-value=\"0\" | Common\n|-\n|[[Log loader]] || [[Tree farm]] || data-sort-value=\"0\" | Common\n|-\n|[[Advanced woodworking]] || [[Furniture factory]] || data-sort-value=\"1\" | Uncommon\n|-\n|[[Bauxite detector]] || [[Bauxite mine]] || data-sort-value=\"1\" | Uncommon\n|-\n|[[Jet fuel refining]] || [[Oil well]] || data-sort-value=\"1\" | Uncommon\n|-\n|[[Gold detector]] || [[Gold mine]] || data-sort-value=\"1\" | Uncommon\n|-\n|[[Vacuum distillation]] || [[Oil well]] || data-sort-value=\"1\" | Uncommon\n|-\n|[[Robotic automation]] || All facilities || data-sort-value=\"2\" | Rare\n|-\n|[[Factory specialization]] || All factories || data-sort-value=\"2\" | Rare\n|-\n|[[Mining specialization]] || All mines || data-sort-value=\"2\" | Rare\n|-\n|[[Oil specialization]] || [[Oil well]] || data-sort-value=\"2\" | Rare\n|-\n|[[Energy specialization]] || All energy plants || data-sort-value=\"2\" | Rare\n|-\n|[[Airport tram]] || [[Airport]] || data-sort-value=\"3\" | Superior\n|-\n|[[Logistics expansion]] || [[Logistics center]] || data-sort-value=\"3\" | Superior\n|-\n|[[Quality control]] || All facilities with levels || data-sort-value=\"3\" | Superior\n|-\n|[[Reincorporation computer]] || N/A || data-sort-value=\"3\" | Superior\n|}",
+  "links": [
+    ":Category:Facility",
+    "capital",
+    "region",
+    "Export",
+    "Land",
+    "Scrap",
+    "Crude oil",
+    "Oil well",
+    "Oil refinery",
+    "Rubber factory",
+    "Research chemical factory",
+    "Bauxite",
+    "Bauxite mine",
+    "Aluminum factory",
+    "Wood",
+    "Tree farm",
+    "Furniture factory",
+    "Coal",
+    "Coal mine",
+    "Steel mill",
+    "Coal power plant",
+    "Plastic",
+    "Plastic factory",
+    "Cell phone factory",
+    "Laptop factory",
+    "Television factory",
+    "Car factory",
+    "LED",
+    "LED factory",
+    "Lamp factory",
+    "Iron",
+    "Iron mine",
+    "Polyester",
+    "Polyester factory",
+    "Clothing factory",
+    "Aluminum",
+    "Gasoline",
+    "Gas station",
+    "Cotton",
+    "Cotton farm",
+    "Jet fuel",
+    "Jet fuel refining",
+    "Airport",
+    "Rubber",
+    "Bicycle factory",
+    "Gasoline engine factory",
+    "Steel",
+    "Energy",
+    "Solar power plant",
+    "Rocket fuel factory",
+    "Research facility",
+    "Silicon",
+    "Silicon mine",
+    "CPU factory",
+    "Glass factory",
+    "Lamp",
+    "Glass",
+    "Clothing",
+    "Furniture",
+    "Gold",
+    "Gold mine",
+    "Rocket fuel",
+    "Research chemical",
+    "Prescription drug factory",
+    "CPU",
+    "Bicycle",
+    "Prescription drug",
+    "CCD",
+    "CCD factory",
+    "Digital camera factory",
+    "Cell phone",
+    "Laptop",
+    "Digital camera",
+    "Television",
+    "Gasoline engine",
+    "Car",
+    "Rocket",
+    "Blueprint",
+    "research",
+    "technology",
+    "Research",
+    "Oil mapping",
+    "Coal detector",
+    "Log loader",
+    "Advanced woodworking",
+    "Bauxite detector",
+    "Gold detector",
+    "Vacuum distillation",
+    "Robotic automation",
+    "Factory specialization",
+    "Mining specialization",
+    "Oil specialization",
+    "Energy specialization",
+    "Airport tram",
+    "Logistics expansion",
+    "Logistics center",
+    "Quality control",
+    "Reincorporation computer"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Category:Asset",
+  "html": "<div class=\"mw-parser-output\"><p>Assets are both resources used for production, as well as the products <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facilities</a> can produce. Most assets can be sold for <a href=\"/index.php/Capital\" title=\"Capital\">capital</a>. A corporation's asset inventory is unique to each <a href=\"/index.php/Region\" title=\"Region\">region</a>. Facilities that produce assets will add assets directly to the inventory in the region the facility is built in. The prices for assets are unique to each region and will change every hour. Assets can be moved between regions by <a href=\"/index.php/Export\" title=\"Export\">exporting</a> them. Some assets will have a '+' in their name to designate that they are a special variant of their normal type. These assets are optionally used by facilities to increase their chances of producing their own '+' variant outputs. Assets that are '+' also have a 4x multiplier on their value when selling in retail stores.\n</p>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Base price</th>\n<th>Produced by</th>\n<th>Consumed by\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Land\" title=\"Land\">Land</a></td>\n<td data-sort-value=\"0\">Varies</td>\n<td>N/A</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Scrap\" title=\"Scrap\">Scrap</a></td>\n<td data-sort-value=\"0\">N/A</td>\n<td><code>$$scrap</code> command</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Crude_oil\" title=\"Crude oil\">Crude oil</a></td>\n<td data-sort-value=\"10\">$0.10 ($0.20 if +)</td>\n<td><a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a></td>\n<td><a href=\"/index.php/Oil_refinery\" title=\"Oil refinery\">Oil refinery</a>, <a href=\"/index.php/Rubber_factory\" title=\"Rubber factory\">Rubber factory</a>, <a href=\"/index.php/Research_chemical_factory\" title=\"Research chemical factory\">Research chemical factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Bauxite\" title=\"Bauxite\">Bauxite</a></td>\n<td data-sort-value=\"10\">$0.10 ($0.20 if +)</td>\n<td><a href=\"/index.php/Bauxite_mine\" title=\"Bauxite mine\">Bauxite mine</a></td>\n<td><a href=\"/index.php/Aluminum_factory\" title=\"Aluminum factory\">Aluminum factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Wood\" title=\"Wood\">Wood</a></td>\n<td data-sort-value=\"15\">$0.15 ($0.30 if +)</td>\n<td><a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farm</a></td>\n<td><a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">Furniture factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Coal\" title=\"Coal\">Coal</a></td>\n<td data-sort-value=\"20\">$0.20 ($0.40 if +)</td>\n<td><a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a></td>\n<td><a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a>, <a href=\"/index.php/Coal_power_plant\" title=\"Coal power plant\">Coal power plant</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Plastic\" title=\"Plastic\">Plastic</a></td>\n<td data-sort-value=\"50\">$0.50 ($1.00 if +)</td>\n<td><a href=\"/index.php/Plastic_factory\" title=\"Plastic factory\">Plastic factory</a></td>\n<td><a href=\"/index.php/Cell_phone_factory\" title=\"Cell phone factory\">Cell phone factory</a>, <a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\">Laptop factory</a>, <a href=\"/index.php/Television_factory\" title=\"Television factory\">Television factory</a>, <a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/LED\" title=\"LED\">LED</a></td>\n<td data-sort-value=\"200\">$2.00 ($4.00 if +)</td>\n<td><a href=\"/index.php/LED_factory\" title=\"LED factory\">LED factory</a></td>\n<td><a href=\"/index.php/Lamp_factory\" title=\"Lamp factory\">Lamp factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Iron\" title=\"Iron\">Iron</a></td>\n<td data-sort-value=\"200\">$2.00 ($4.00 if +)</td>\n<td><a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a></td>\n<td><a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Polyester\" title=\"Polyester\">Polyester</a></td>\n<td data-sort-value=\"200\">$2.00 ($4.00 if +)</td>\n<td><a href=\"/index.php/Polyester_factory\" title=\"Polyester factory\">Polyester factory</a></td>\n<td><a href=\"/index.php/Clothing_factory\" title=\"Clothing factory\">Clothing factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a></td>\n<td data-sort-value=\"400\">$4.00 ($8.00 if +)</td>\n<td><a href=\"/index.php/Aluminum_factory\" title=\"Aluminum factory\">Aluminum factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Gasoline\" title=\"Gasoline\">Gasoline</a></td>\n<td data-sort-value=\"500\">$5.00 ($10.00 if +)</td>\n<td><a href=\"/index.php/Oil_refinery\" title=\"Oil refinery\">Oil refinery</a></td>\n<td><a href=\"/index.php/Gas_station\" title=\"Gas station\">Gas station</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Cotton\" title=\"Cotton\">Cotton</a></td>\n<td data-sort-value=\"500\">$5.00 ($10.00 if +)</td>\n<td><a href=\"/index.php/Cotton_farm\" title=\"Cotton farm\">Cotton farm</a></td>\n<td><a href=\"/index.php/Clothing_factory\" title=\"Clothing factory\">Clothing factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Jet_fuel\" title=\"Jet fuel\">Jet fuel</a></td>\n<td data-sort-value=\"500\">$5.00 ($10.00 if +)</td>\n<td><a href=\"/index.php/Oil_refinery\" title=\"Oil refinery\">Oil refinery</a> with <a href=\"/index.php/Jet_fuel_refining\" title=\"Jet fuel refining\">Jet fuel refining</a></td>\n<td><a href=\"/index.php/Airport\" title=\"Airport\">Airport</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a></td>\n<td data-sort-value=\"700\">$7.00 ($14.00 if +)</td>\n<td><a href=\"/index.php/Rubber_factory\" title=\"Rubber factory\">Rubber factory</a></td>\n<td><a href=\"/index.php/Bicycle_factory\" title=\"Bicycle factory\">Bicycle factory</a>, <a href=\"/index.php/Gasoline_engine_factory\" title=\"Gasoline engine factory\">Gasoline engine factory</a>, <a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Steel\" title=\"Steel\">Steel</a></td>\n<td data-sort-value=\"800\">$8.00 ($16.00 if +)</td>\n<td><a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a></td>\n<td><a href=\"/index.php/Bicycle_factory\" title=\"Bicycle factory\">Bicycle factory</a>, <a href=\"/index.php/Gasoline_engine_factory\" title=\"Gasoline engine factory\">Gasoline engine factory</a>, <a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Energy\" title=\"Energy\">Energy</a></td>\n<td data-sort-value=\"1000\">$10.00 ($20.00 if +)</td>\n<td><a href=\"/index.php/Coal_power_plant\" title=\"Coal power plant\">Coal power plant</a>, <a href=\"/index.php/Solar_power_plant\" title=\"Solar power plant\">Solar power plant</a></td>\n<td><a href=\"/index.php/Rocket_fuel_factory\" title=\"Rocket fuel factory\">Rocket fuel factory</a>, <a href=\"/index.php/Research_facility\" title=\"Research facility\">Research facility</a>, <a href=\"/index.php/Airport\" title=\"Airport\">Airport</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Silicon\" title=\"Silicon\">Silicon</a></td>\n<td data-sort-value=\"2500\">$25.00 ($50.00 if +)</td>\n<td><a href=\"/index.php/Silicon_mine\" title=\"Silicon mine\">Silicon mine</a></td>\n<td><a href=\"/index.php/CPU_factory\" title=\"CPU factory\">CPU factory</a>, <a href=\"/index.php/Glass_factory\" title=\"Glass factory\">Glass factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Lamp\" title=\"Lamp\">Lamp</a></td>\n<td data-sort-value=\"2500\">$25.00 ($50.00 if +)</td>\n<td><a href=\"/index.php/Lamp_factory\" title=\"Lamp factory\">Lamp factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Glass\" title=\"Glass\">Glass</a></td>\n<td data-sort-value=\"3000\">$30.00 ($60.00 if +)</td>\n<td><a href=\"/index.php/Glass_factory\" title=\"Glass factory\">Glass factory</a></td>\n<td><a href=\"/index.php/Cell_phone_factory\" title=\"Cell phone factory\">Cell phone factory</a>, <a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\">Laptop factory</a>, <a href=\"/index.php/Television_factory\" title=\"Television factory\">Television factory</a>, <a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Clothing\" title=\"Clothing\">Clothing</a></td>\n<td data-sort-value=\"3000\">$30.00 ($60.00 if +)</td>\n<td><a href=\"/index.php/Clothing_factory\" title=\"Clothing factory\">Clothing factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Furniture\" title=\"Furniture\">Furniture</a></td>\n<td data-sort-value=\"6000\">$60.00 ($120.00 if +)</td>\n<td><a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">Furniture factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Gold\" title=\"Gold\">Gold</a></td>\n<td data-sort-value=\"6000\">$60.00 ($4.00 if +)</td>\n<td><a href=\"/index.php/Gold_mine\" title=\"Gold mine\">Gold mine</a></td>\n<td><a href=\"/index.php/CPU_factory\" title=\"CPU factory\">CPU factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Rocket_fuel\" title=\"Rocket fuel\">Rocket fuel</a></td>\n<td data-sort-value=\"10000\">$100.00</td>\n<td><a href=\"/index.php/Rocket_fuel_factory\" title=\"Rocket fuel factory\">Rocket fuel factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Research_chemical\" title=\"Research chemical\">Research chemical</a></td>\n<td data-sort-value=\"10000\">$100.00 ($200.00 if +)</td>\n<td><a href=\"/index.php/Research_chemical_factory\" title=\"Research chemical factory\">Research chemical factory</a></td>\n<td><a href=\"/index.php/Prescription_drug_factory\" title=\"Prescription drug factory\">Prescription drug factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/CPU\" title=\"CPU\">CPU</a></td>\n<td data-sort-value=\"20000\">$200.00 ($400.00 if +)</td>\n<td><a href=\"/index.php/CPU_factory\" title=\"CPU factory\">CPU factory</a></td>\n<td><a href=\"/index.php/Cell_phone_factory\" title=\"Cell phone factory\">Cell phone factory</a>, <a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\">Laptop factory</a>, <a href=\"/index.php/Television_factory\" title=\"Television factory\">Television factory</a>, <a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Bicycle\" title=\"Bicycle\">Bicycle</a></td>\n<td data-sort-value=\"24000\">$240.00 ($480.00 if +)</td>\n<td><a href=\"/index.php/Bicycle_factory\" title=\"Bicycle factory\">Bicycle factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Prescription_drug\" title=\"Prescription drug\">Prescription drug</a></td>\n<td data-sort-value=\"50000\">$500.00 ($1,000.00 if +)</td>\n<td><a href=\"/index.php/Prescription_drug_factory\" title=\"Prescription drug factory\">Prescription drug factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/CCD\" title=\"CCD\">CCD</a></td>\n<td data-sort-value=\"50000\">$500.00 ($1,000.00 if +)</td>\n<td><a href=\"/index.php/CCD_factory\" title=\"CCD factory\">CCD factory</a></td>\n<td><a href=\"/index.php/Digital_camera_factory\" title=\"Digital camera factory\">Digital camera factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Cell_phone\" title=\"Cell phone\">Cell phone</a></td>\n<td data-sort-value=\"80000\">$800.00 ($1,600.00 if +)</td>\n<td><a href=\"/index.php/Cell_phone_factory\" title=\"Cell phone factory\">Cell phone factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Laptop\" title=\"Laptop\">Laptop</a></td>\n<td data-sort-value=\"200000\">$2,000.00 ($4,000.00 if +)</td>\n<td><a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\">Laptop factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Digital_camera\" title=\"Digital camera\">Digital camera</a></td>\n<td data-sort-value=\"200000\">$2,000.00 ($4,000.00 if +)</td>\n<td><a href=\"/index.php/Digital_camera_factory\" title=\"Digital camera factory\">Digital camera factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Television\" title=\"Television\">Television</a></td>\n<td data-sort-value=\"400000\">$4,000.00 ($8,000.00 if +)</td>\n<td><a href=\"/index.php/Television_factory\" title=\"Television factory\">Television factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Gasoline_engine\" title=\"Gasoline engine\">Gasoline engine</a></td>\n<td data-sort-value=\"500000\">$5,000.00 ($10,000.00 if +)</td>\n<td><a href=\"/index.php/Gasoline_engine_factory\" title=\"Gasoline engine factory\">Gasoline engine factory</a></td>\n<td><a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a>\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Car\" title=\"Car\">Car</a></td>\n<td data-sort-value=\"2000000\">$20,000.00 ($40,000.00 if +)</td>\n<td><a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Rocket\" title=\"Rocket\">Rocket</a></td>\n<td data-sort-value=\"10000000000\">$100,000,000.00</td>\n<td>N/A</td>\n<td>N/A\n</td></tr></tbody></table>\n<h2><span class=\"mw-headline\" id=\"Technology\">Technology</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Category:Asset&amp;action=edit&amp;section=1\" title=\"Edit section: Technology\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><a href=\"/index.php/Blueprint\" title=\"Blueprint\">Blueprints</a> from <a href=\"/index.php/Research\" title=\"Research\">research</a> can be developed into these <a href=\"/index.php/Technology\" class=\"mw-redirect\" title=\"Technology\">technologies</a>.\n</p>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Affected facilities</th>\n<th><a href=\"/index.php/Research#Rarity_Table\" title=\"Research\">Rarity</a>\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Oil_mapping\" title=\"Oil mapping\">Oil mapping</a></td>\n<td><a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a></td>\n<td data-sort-value=\"0\">Common\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Coal_detector\" title=\"Coal detector\">Coal detector</a></td>\n<td><a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a></td>\n<td data-sort-value=\"0\">Common\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Log_loader\" title=\"Log loader\">Log loader</a></td>\n<td><a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farm</a></td>\n<td data-sort-value=\"0\">Common\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Advanced_woodworking\" title=\"Advanced woodworking\">Advanced woodworking</a></td>\n<td><a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">Furniture factory</a></td>\n<td data-sort-value=\"1\">Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Bauxite_detector\" title=\"Bauxite detector\">Bauxite detector</a></td>\n<td><a href=\"/index.php/Bauxite_mine\" title=\"Bauxite mine\">Bauxite mine</a></td>\n<td data-sort-value=\"1\">Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Jet_fuel_refining\" title=\"Jet fuel refining\">Jet fuel refining</a></td>\n<td><a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a></td>\n<td data-sort-value=\"1\">Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Gold_detector\" title=\"Gold detector\">Gold detector</a></td>\n<td><a href=\"/index.php/Gold_mine\" title=\"Gold mine\">Gold mine</a></td>\n<td data-sort-value=\"1\">Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Vacuum_distillation\" title=\"Vacuum distillation\">Vacuum distillation</a></td>\n<td><a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a></td>\n<td data-sort-value=\"1\">Uncommon\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Robotic_automation\" title=\"Robotic automation\">Robotic automation</a></td>\n<td>All facilities</td>\n<td data-sort-value=\"2\">Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Factory_specialization\" title=\"Factory specialization\">Factory specialization</a></td>\n<td>All factories</td>\n<td data-sort-value=\"2\">Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Mining_specialization\" title=\"Mining specialization\">Mining specialization</a></td>\n<td>All mines</td>\n<td data-sort-value=\"2\">Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Oil_specialization\" title=\"Oil specialization\">Oil specialization</a></td>\n<td><a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a></td>\n<td data-sort-value=\"2\">Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Energy_specialization\" title=\"Energy specialization\">Energy specialization</a></td>\n<td>All energy plants</td>\n<td data-sort-value=\"2\">Rare\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Airport_tram\" title=\"Airport tram\">Airport tram</a></td>\n<td><a href=\"/index.php/Airport\" title=\"Airport\">Airport</a></td>\n<td data-sort-value=\"3\">Superior\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Logistics_expansion\" title=\"Logistics expansion\">Logistics expansion</a></td>\n<td><a href=\"/index.php/Logistics_center\" title=\"Logistics center\">Logistics center</a></td>\n<td data-sort-value=\"3\">Superior\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Quality_control\" title=\"Quality control\">Quality control</a></td>\n<td>All facilities with levels</td>\n<td data-sort-value=\"3\">Superior\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Reincorporation_computer\" title=\"Reincorporation computer\">Reincorporation computer</a></td>\n<td>N/A</td>\n<td data-sort-value=\"3\">Superior\n</td></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009082633\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.016 seconds\nReal time usage: 0.022 seconds\nPreprocessor visited node count: 118/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:2-0!canonical and timestamp 20261009082633 and revision id 1133\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Logistics center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Land",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Export",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Tree farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil well",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel mill",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil refinery",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gas station",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bicycle factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cell phone factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Solar power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket fuel factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline engine factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Car factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Television factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil mapping",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Advanced woodworking",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics expansion",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Blueprint",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research facility",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Log loader",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Crude oil",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Airport",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Capital",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "LED",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Polyester",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cotton",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Lamp",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Clothing",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket fuel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bicycle",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Prescription drug",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CCD",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cell phone",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Digital camera",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Television",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Car",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline engine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Aluminum factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "LED factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Polyester factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Lamp factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cotton farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CCD factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Clothing factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Prescription drug factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Digital camera factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Robotic automation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Jet fuel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Jet fuel refining",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Airport tram",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Factory specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Quality control",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Mining specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Vacuum distillation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Reincorporation computer",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Scrap",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Technology",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Facility",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

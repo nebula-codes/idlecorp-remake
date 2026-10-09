@@ -1,0 +1,38 @@
+{
+  "id": 83,
+  "title": "Furniture",
+  "namespace": 0,
+  "revisionId": 536,
+  "revisionTimestamp": "2020-07-26T06:17:36Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Furniture",
+  "wikitext": "[[Category:Asset]]\nFurniture is an asset manufactured in the [[Furniture factory | Furniture factories]] and is a product that can be sold for capital. Furniture refers to movable objects intended to support various human activities such as seating (e.g., chairs, stools, and sofas), eating (tables), and sleeping (e.g., beds).\n\n== Furniture Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Furniture factory]] || $2,000 || 10x [[wood]] || 1x [[furniture]] || $14.63~ || 4:00\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Furniture factory ",
+    "Furniture factory",
+    "wood",
+    "furniture"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Furniture",
+  "html": "<div class=\"mw-parser-output\"><p>Furniture is an asset manufactured in the <a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\"> Furniture factories</a> and is a product that can be sold for capital. Furniture refers to movable objects intended to support various human activities such as seating (e.g., chairs, stools, and sofas), eating (tables), and sleeping (e.g., beds).\n</p>\n<h2><span class=\"mw-headline\" id=\"Furniture_Production\">Furniture Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Furniture&amp;action=edit&amp;section=1\" title=\"Edit section: Furniture Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">Furniture factory</a></td>\n<td>$2,000</td>\n<td>10x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>1x <a class=\"mw-selflink selflink\">furniture</a></td>\n<td>$14.63~</td>\n<td>4:00\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009145601\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.007 seconds\nPreprocessor visited node count: 4/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:83-0!canonical and timestamp 20261009145601 and revision id 536\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Furniture factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

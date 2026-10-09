@@ -1,0 +1,116 @@
+{
+  "id": 81,
+  "title": "Glass",
+  "namespace": 0,
+  "revisionId": 531,
+  "revisionTimestamp": "2020-07-25T07:15:24Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Glass",
+  "wikitext": "[[Category:Asset]]\nGlass is an asset that can be produced using [[Glass factory | Glass factories]], and used to build several other asset's or can be sold. Glass is most often formed by rapid cooling (quenching) of the molten form. The most familiar, and historically the oldest, types of manufactured glass are \"silicate glasses\" based on the chemical compound silica (silicon dioxide), the primary constituent of sand. Soda-lime glass, containing around 70% silica, accounts for around 90% of manufactured glass.\n\n== Glass Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Glass factory]] || $80,000 || 2x [[silicon]] || 8x [[glass]] || $325.71~ || 0:35\n|-\n|}\n\n== Facilities that use Glass ==\n{|class=\"wikitable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Cell phone factory]] || $400,000 || 1x [[glass]], 1x [[CPU]], 5x [[plastic]] || 1x [[cell phone]] || $756.67~ || 0:45\n|-\n|[[Laptop factory]] || $800,000 || 2x [[glass]], 1x [[CPU]], 8x [[plastic]] || 1x [[laptop]] || $1,116.00 || 1:30\n|-\n|[[Television factory]] || $1,500,000 || 12x [[glass]], 1x [[CPU]], 36x [[plastic]], || 1x [[television]] || $1,140.67~ || 3:00 \n|-\n|[[Car factory]] || $10,000,000 ||  28x [[glass]], 40x [[steel]], 30x [[rubber]], 1x [[CPU]], 1x [[gasoline engine]], 1000x [[plastic]] || 1x [[car]] || $1,293.00 || 10:00\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Glass factory ",
+    "Glass factory",
+    "silicon",
+    "glass",
+    "Cell phone factory",
+    "CPU",
+    "plastic",
+    "cell phone",
+    "Laptop factory",
+    "laptop",
+    "Television factory",
+    "television",
+    "Car factory",
+    "steel",
+    "rubber",
+    "gasoline engine",
+    "car"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Glass",
+  "html": "<div class=\"mw-parser-output\"><p>Glass is an asset that can be produced using <a href=\"/index.php/Glass_factory\" title=\"Glass factory\"> Glass factories</a>, and used to build several other asset's or can be sold. Glass is most often formed by rapid cooling (quenching) of the molten form. The most familiar, and historically the oldest, types of manufactured glass are \"silicate glasses\" based on the chemical compound silica (silicon dioxide), the primary constituent of sand. Soda-lime glass, containing around 70% silica, accounts for around 90% of manufactured glass.\n</p>\n<h2><span class=\"mw-headline\" id=\"Glass_Production\">Glass Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Glass&amp;action=edit&amp;section=1\" title=\"Edit section: Glass Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Glass_factory\" title=\"Glass factory\">Glass factory</a></td>\n<td>$80,000</td>\n<td>2x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a></td>\n<td>8x <a class=\"mw-selflink selflink\">glass</a></td>\n<td>$325.71~</td>\n<td>0:35\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_Glass\">Facilities that use Glass</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Glass&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use Glass\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Cell_phone_factory\" title=\"Cell phone factory\">Cell phone factory</a></td>\n<td>$400,000</td>\n<td>1x <a class=\"mw-selflink selflink\">glass</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 5x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a></td>\n<td>1x <a href=\"/index.php/Cell_phone\" title=\"Cell phone\">cell phone</a></td>\n<td>$756.67~</td>\n<td>0:45\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\">Laptop factory</a></td>\n<td>$800,000</td>\n<td>2x <a class=\"mw-selflink selflink\">glass</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 8x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a></td>\n<td>1x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a></td>\n<td>$1,116.00</td>\n<td>1:30\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Television_factory\" title=\"Television factory\">Television factory</a></td>\n<td>$1,500,000</td>\n<td>12x <a class=\"mw-selflink selflink\">glass</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 36x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>,</td>\n<td>1x <a href=\"/index.php/Television\" title=\"Television\">television</a></td>\n<td>$1,140.67~</td>\n<td>3:00\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a></td>\n<td>$10,000,000</td>\n<td>28x <a class=\"mw-selflink selflink\">glass</a>, 40x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 30x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 1x <a href=\"/index.php/Gasoline_engine\" title=\"Gasoline engine\">gasoline engine</a>, 1000x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a></td>\n<td>1x <a href=\"/index.php/Car\" title=\"Car\">car</a></td>\n<td>$1,293.00</td>\n<td>10:00\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009090435\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.046 seconds\nPreprocessor visited node count: 10/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:81-0!canonical and timestamp 20261009090435 and revision id 531\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Car",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Car factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cell phone",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cell phone factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline engine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Television",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Television factory",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

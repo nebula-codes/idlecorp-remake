@@ -1,0 +1,49 @@
+{
+  "id": 86,
+  "title": "Research chemical",
+  "namespace": 0,
+  "revisionId": 540,
+  "revisionTimestamp": "2020-07-26T12:09:59Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Research_chemical",
+  "wikitext": "[[Category:Asset]]\nResearch chemical is an asset manufactured in a [[Research chemical factory]] and used to build other assets or can be sold. Research chemicals are chemical substances used by scientists for medical and scientific research purposes. \n\n== Research Chemical Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Research chemical factory]] || $800,000 || 10x [[crude oil]] || 4x [[research chemical]] || $798.00 || 0:30\n|-\n|}\n== Facilities that use Research Chemical ==\n{|class=\"wikitable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !!Production interval (MM:SS)\n|-\n|[[Prescription drug factory]] || $15,000,000 || 1x [[research chemical]] || 2x [[prescription drug]] || $1,080.00 || 0:50\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Research chemical factory",
+    "crude oil",
+    "research chemical",
+    "Prescription drug factory",
+    "prescription drug"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Research chemical",
+  "html": "<div class=\"mw-parser-output\"><p>Research chemical is an asset manufactured in a <a href=\"/index.php/Research_chemical_factory\" title=\"Research chemical factory\">Research chemical factory</a> and used to build other assets or can be sold. Research chemicals are chemical substances used by scientists for medical and scientific research purposes. \n</p>\n<h2><span class=\"mw-headline\" id=\"Research_Chemical_Production\">Research Chemical Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Research_chemical&amp;action=edit&amp;section=1\" title=\"Edit section: Research Chemical Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Research_chemical_factory\" title=\"Research chemical factory\">Research chemical factory</a></td>\n<td>$800,000</td>\n<td>10x <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a></td>\n<td>4x <a class=\"mw-selflink selflink\">research chemical</a></td>\n<td>$798.00</td>\n<td>0:30\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_Research_Chemical\">Facilities that use Research Chemical</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Research_chemical&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use Research Chemical\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Prescription_drug_factory\" title=\"Prescription drug factory\">Prescription drug factory</a></td>\n<td>$15,000,000</td>\n<td>1x <a class=\"mw-selflink selflink\">research chemical</a></td>\n<td>2x <a href=\"/index.php/Prescription_drug\" title=\"Prescription drug\">prescription drug</a></td>\n<td>$1,080.00</td>\n<td>0:50\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009121729\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 10/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:86-0!canonical and timestamp 20261009121729 and revision id 540\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Crude oil",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Prescription drug",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Prescription drug factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical factory",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

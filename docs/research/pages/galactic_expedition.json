@@ -1,0 +1,95 @@
+{
+  "id": 263,
+  "title": "Galactic Expedition",
+  "namespace": 0,
+  "revisionId": 1666,
+  "revisionTimestamp": "2021-11-23T10:46:33Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Galactic_Expedition",
+  "wikitext": "{{underconstruction}}\n\nThis theme have been appeared since the [[Updates log#Update 1.12|1.12 update]].\nThe Galactic Expedition update includes the [[#Facilities|facilities]], the [[#Assets|assets]] and the [[#Galactic Expedition|galactic expedition]].\n\nThere is a command (<code>$$orbit</code>) that can view your [[orbit]] status.\n\n== Facilities ==\n\nThe new and related [[facility|facilities]] include: [[space station]] and [[rocket launch pad]]. You need rocket paunch pad to construct space station.\n\n== Assets ==\n\nThe new assets include: [[space station parts]], [[rocket]] (rebuilt), [[rocket fuel]] (rebuilt). And others like [[galactic coordinate]]s and [[relic]]s.\n\n== Galactic Expedition ==\n\nYou need [[space station]] to do any galactic expeditions, galactic expeditions provide you some [[asset]]s and [[relic]]s for the reward.\n\nEvery time you do the expedition, it costs you a [[galactic coordinate]] with the relative difficulty, a [[rocket]] and a certain amount of [[rocket fuel]]. It has a chance to be succeed, the base chance and level bonus, the level bonus is based on the level of your [[space station]]. You will get a damage on failure with space station parts.\n\nEvery level of the expeditions has different values on the cost on rocket fuel, different success chances and the damage when you fail the expedition. More information about each level and difficulty, check out in [[galactic coordinate]] page.",
+  "links": [
+    "Updates log",
+    "orbit",
+    "facility",
+    "space station",
+    "rocket launch pad",
+    "space station parts",
+    "rocket",
+    "rocket fuel",
+    "galactic coordinate",
+    "relic",
+    "asset"
+  ],
+  "templates": [
+    "underconstruction"
+  ],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Galactic Expedition",
+  "html": "<div class=\"mw-parser-output\"><div style=\"margin:8px 15px; padding: 10px 15px; background-color:#f0f0f0\"><i>This page is under construction.</i></div>\n<p>This theme have been appeared since the <a href=\"/index.php/Updates_log#Update_1.12\" title=\"Updates log\">1.12 update</a>.\nThe Galactic Expedition update includes the <a href=\"#Facilities\">facilities</a>, the <a href=\"#Assets\">assets</a> and the <a href=\"#Galactic_Expedition\">galactic expedition</a>.\n</p><p>There is a command (<code>$$orbit</code>) that can view your <a href=\"/index.php/Orbit\" title=\"Orbit\">orbit</a> status.\n</p>\n<h2><span class=\"mw-headline\" id=\"Facilities\">Facilities</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Galactic_Expedition&amp;action=edit&amp;section=1\" title=\"Edit section: Facilities\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>The new and related <a href=\"/index.php/Facility\" class=\"mw-redirect\" title=\"Facility\">facilities</a> include: <a href=\"/index.php/Space_station\" title=\"Space station\">space station</a> and <a href=\"/index.php/Rocket_launch_pad\" title=\"Rocket launch pad\">rocket launch pad</a>. You need rocket paunch pad to construct space station.\n</p>\n<h2><span class=\"mw-headline\" id=\"Assets\">Assets</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Galactic_Expedition&amp;action=edit&amp;section=2\" title=\"Edit section: Assets\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>The new assets include: <a href=\"/index.php?title=Space_station_parts&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Space station parts (page does not exist)\">space station parts</a>, <a href=\"/index.php/Rocket\" title=\"Rocket\">rocket</a> (rebuilt), <a href=\"/index.php/Rocket_fuel\" title=\"Rocket fuel\">rocket fuel</a> (rebuilt). And others like <a href=\"/index.php/Galactic_coordinate\" title=\"Galactic coordinate\">galactic coordinates</a> and <a href=\"/index.php/Relic\" title=\"Relic\">relics</a>.\n</p>\n<h2><span class=\"mw-headline\" id=\"Galactic_Expedition\">Galactic Expedition</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Galactic_Expedition&amp;action=edit&amp;section=3\" title=\"Edit section: Galactic Expedition\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>You need <a href=\"/index.php/Space_station\" title=\"Space station\">space station</a> to do any galactic expeditions, galactic expeditions provide you some <a href=\"/index.php/Asset\" class=\"mw-redirect\" title=\"Asset\">assets</a> and <a href=\"/index.php/Relic\" title=\"Relic\">relics</a> for the reward.\n</p><p>Every time you do the expedition, it costs you a <a href=\"/index.php/Galactic_coordinate\" title=\"Galactic coordinate\">galactic coordinate</a> with the relative difficulty, a <a href=\"/index.php/Rocket\" title=\"Rocket\">rocket</a> and a certain amount of <a href=\"/index.php/Rocket_fuel\" title=\"Rocket fuel\">rocket fuel</a>. It has a chance to be succeed, the base chance and level bonus, the level bonus is based on the level of your <a href=\"/index.php/Space_station\" title=\"Space station\">space station</a>. You will get a damage on failure with space station parts.\n</p><p>Every level of the expeditions has different values on the cost on rocket fuel, different success chances and the damage when you fail the expedition. More information about each level and difficulty, check out in <a href=\"/index.php/Galactic_coordinate\" title=\"Galactic coordinate\">galactic coordinate</a> page.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008174457\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.017 seconds\nPreprocessor visited node count: 26/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 120/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    3.075      1 Template:Underconstruction\n100.00%    3.075      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:263-0!canonical and timestamp 20261008174457 and revision id 1666\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Asset",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Facility",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinate",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Orbit",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Relic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket fuel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket launch pad",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Space station",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Updates log",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Space station parts",
+      "exists": false
+    }
+  ],
+  "images": [],
+  "expandedTemplates": [
+    {
+      "ns": 10,
+      "title": "Template:Underconstruction",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 224,
+  "title": "Season",
+  "namespace": 0,
+  "revisionId": 1339,
+  "revisionTimestamp": "2021-05-11T10:43:16Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Season",
+  "wikitext": "Throughout the course of the season, you’ll be able to earn XP for your [[season pass]] to level it up and earn bonuses that last the entire season! Reincorporating will not reset your Pass XP or your [[Season pass|Pass Level]]. In fact, each token you would normally get from reincorporating will now also give you 1,000 Pass XP! In addition to reincorporating, there will also be new daily challenges to help you level up your season pass. \n\nFor those competitive corporations, there is now a leaderboard of the corporations with the highest Pass XP for this season. Check it out with <code>$$lb server season</code> or <code>$$lb global season</code>.\n\nSeason 1 started at 30 December, 2020 and is currently under progress.\n\n== Ways to earn Pass XP == \n\n=== Daily Challenges ===\nThere are a total of 6 daily challenges you can complete during the season. However only 3 challenges are available to non-premium members. Plus members can do 4 challenges, Gold members can do 5 challenges, and only Platinum members can do all 6 challenges. Check your daily challenges and progress with <code>$$daily(or $$spd)</code>.\n\nEach challenge grants 100 Pass XP (except for the Platinum challenge that grants 150 Pass XP). Examples of challenges include buying or selling [[asset]]s and building [[facility|facilities]].\n\n=== [[Voting]] ===\nEach vote now grants 200 Pass XP.\n\n=== [[Reincorporation]] ===\n1,000 Pass XP will be rewarded for every billion dollars of net worth up to 10,000 Pass XP at reincorporation. Premium members get a bonus of the amount of Pass XP they receive, i.e. IdleCorp+ can get 15,000 Pass XP max, IdleCorp Gold can get 20,000 Pass XP max, and IdleCorp Platinum can get 25,000 Pass XP max.",
+  "links": [
+    "season pass",
+    "Season pass",
+    "asset",
+    "facility",
+    "Voting",
+    "Reincorporation"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Season",
+  "html": "<div class=\"mw-parser-output\"><p>Throughout the course of the season, you’ll be able to earn XP for your <a href=\"/index.php/Season_pass\" title=\"Season pass\">season pass</a> to level it up and earn bonuses that last the entire season! Reincorporating will not reset your Pass XP or your <a href=\"/index.php/Season_pass\" title=\"Season pass\">Pass Level</a>. In fact, each token you would normally get from reincorporating will now also give you 1,000 Pass XP! In addition to reincorporating, there will also be new daily challenges to help you level up your season pass. \n</p><p>For those competitive corporations, there is now a leaderboard of the corporations with the highest Pass XP for this season. Check it out with <code>$$lb server season</code> or <code>$$lb global season</code>.\n</p><p>Season 1 started at 30 December, 2020 and is currently under progress.\n</p>\n<div id=\"toc\" class=\"toc\"><input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\" /><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2>Contents</h2><span class=\"toctogglespan\"><label class=\"toctogglelabel\" for=\"toctogglecheckbox\"></label></span></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#Ways_to_earn_Pass_XP\"><span class=\"tocnumber\">1</span> <span class=\"toctext\">Ways to earn Pass XP</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-2\"><a href=\"#Daily_Challenges\"><span class=\"tocnumber\">1.1</span> <span class=\"toctext\">Daily Challenges</span></a></li>\n<li class=\"toclevel-2 tocsection-3\"><a href=\"#Voting\"><span class=\"tocnumber\">1.2</span> <span class=\"toctext\">Voting</span></a></li>\n<li class=\"toclevel-2 tocsection-4\"><a href=\"#Reincorporation\"><span class=\"tocnumber\">1.3</span> <span class=\"toctext\">Reincorporation</span></a></li>\n</ul>\n</li>\n</ul>\n</div>\n\n<h2><span class=\"mw-headline\" id=\"Ways_to_earn_Pass_XP\">Ways to earn Pass XP</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Season&amp;action=edit&amp;section=1\" title=\"Edit section: Ways to earn Pass XP\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"Daily_Challenges\">Daily Challenges</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Season&amp;action=edit&amp;section=2\" title=\"Edit section: Daily Challenges\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>There are a total of 6 daily challenges you can complete during the season. However only 3 challenges are available to non-premium members. Plus members can do 4 challenges, Gold members can do 5 challenges, and only Platinum members can do all 6 challenges. Check your daily challenges and progress with <code>$$daily(or $$spd)</code>.\n</p><p>Each challenge grants 100 Pass XP (except for the Platinum challenge that grants 150 Pass XP). Examples of challenges include buying or selling <a href=\"/index.php/Asset\" class=\"mw-redirect\" title=\"Asset\">assets</a> and building <a href=\"/index.php/Facility\" class=\"mw-redirect\" title=\"Facility\">facilities</a>.\n</p>\n<h3><span class=\"mw-headline\" id=\"Voting\"><a href=\"/index.php/Voting\" title=\"Voting\">Voting</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Season&amp;action=edit&amp;section=3\" title=\"Edit section: Voting\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>Each vote now grants 200 Pass XP.\n</p>\n<h3><span class=\"mw-headline\" id=\"Reincorporation\"><a href=\"/index.php/Reincorporation\" title=\"Reincorporation\">Reincorporation</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Season&amp;action=edit&amp;section=4\" title=\"Edit section: Reincorporation\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>1,000 Pass XP will be rewarded for every billion dollars of net worth up to 10,000 Pass XP at reincorporation. Premium members get a bonus of the amount of Pass XP they receive, i.e. IdleCorp+ can get 15,000 Pass XP max, IdleCorp Gold can get 20,000 Pass XP max, and IdleCorp Platinum can get 25,000 Pass XP max.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008204017\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.022 seconds\nPreprocessor visited node count: 16/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:224-0!canonical and timestamp 20261008204017 and revision id 1339\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Asset",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Facility",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Reincorporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Season pass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Voting",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

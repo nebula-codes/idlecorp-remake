@@ -1,0 +1,45 @@
+{
+  "id": 270,
+  "title": "Template:Facility information table",
+  "namespace": 10,
+  "revisionId": 1657,
+  "revisionTimestamp": "2021-11-19T16:01:39Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3AFacility_information_table",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|+ <small>[[Legend|Need help with the table?]]</small>\n|-\n!colspan=\"2\"| [[Help:IdleCorp Profit#Cost|Cost]]\n|-\n|'''[[Help:IdleCorp Profit#Cost_2|Cost]]''' || {{{1}}}\n|-\n|'''[[Help:IdleCorp Profit#Total Cost|Total Cost]]''' || {{{2}}}\n|-\n!colspan=\"2\"| [[Help:IdleCorp Profit#Production|Production]]\n|-\n|'''[[Help:IdleCorp Profit#Consumes_.28Inputs.29|Inputs]]''' || {{{3}}}\n|-\n|'''[[Help:IdleCorp Profit#Produces_.28Outputs.29|Outputs]]''' || {{{4}}}\n|-\n|'''[[Help:IdleCorp Profit#Production_interval|Production interval]]''' || {{{5}}}\n|-\n|'''[[Help:IdleCorp_Profit#Production.2FMin|Production/Min]]''' || {{{6}}}\n|-\n!colspan=\"2\"| [[Help:IdleCorp Profit#Profit|Profit]]\n|-\n|'''[[Help:IdleCorp_Profit#Profit_per|Profit/Min]]''' || {{{7}}}\n|-\n|'''[[Help:IdleCorp_Profit#Profit_per|Profit/Hour]]''' || {{{8}}}\n|-\n|'''[[Help:IdleCorp_Profit#Return_On_Investment|Return On Investment]]''' || {{{9}}}\n|-\n!colspan=\"2\"| Aliases\n|-\n|colspan=\"2\"| {{{10}}}\n|}\n<noinclude>This page convenience the editors when they are editing or adding the facility information table.</noinclude>",
+  "links": [
+    "Legend",
+    "Help:IdleCorp Profit",
+    "Help:IdleCorp_Profit"
+  ],
+  "templates": [
+    "{1",
+    "{2",
+    "{3",
+    "{4",
+    "{5",
+    "{6",
+    "{7",
+    "{8",
+    "{9",
+    "{10"
+  ],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Template:Facility information table",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<caption><small><a href=\"/index.php/Legend\" title=\"Legend\">Need help with the table?</a></small>\n</caption>\n<tbody><tr>\n<th colspan=\"2\"><a href=\"/index.php/Help:IdleCorp_Profit#Cost\" title=\"Help:IdleCorp Profit\">Cost</a>\n</th></tr>\n<tr>\n<td><b><a href=\"/index.php/Help:IdleCorp_Profit#Cost_2\" title=\"Help:IdleCorp Profit\">Cost</a></b></td>\n<td>{{{1}}}\n</td></tr>\n<tr>\n<td><b><a href=\"/index.php/Help:IdleCorp_Profit#Total_Cost\" title=\"Help:IdleCorp Profit\">Total Cost</a></b></td>\n<td>{{{2}}}\n</td></tr>\n<tr>\n<th colspan=\"2\"><a href=\"/index.php/Help:IdleCorp_Profit#Production\" title=\"Help:IdleCorp Profit\">Production</a>\n</th></tr>\n<tr>\n<td><b><a href=\"/index.php/Help:IdleCorp_Profit#Consumes_.28Inputs.29\" title=\"Help:IdleCorp Profit\">Inputs</a></b></td>\n<td>{{{3}}}\n</td></tr>\n<tr>\n<td><b><a href=\"/index.php/Help:IdleCorp_Profit#Produces_.28Outputs.29\" title=\"Help:IdleCorp Profit\">Outputs</a></b></td>\n<td>{{{4}}}\n</td></tr>\n<tr>\n<td><b><a href=\"/index.php/Help:IdleCorp_Profit#Production_interval\" title=\"Help:IdleCorp Profit\">Production interval</a></b></td>\n<td>{{{5}}}\n</td></tr>\n<tr>\n<td><b><a href=\"/index.php/Help:IdleCorp_Profit#Production.2FMin\" title=\"Help:IdleCorp Profit\">Production/Min</a></b></td>\n<td>{{{6}}}\n</td></tr>\n<tr>\n<th colspan=\"2\"><a href=\"/index.php/Help:IdleCorp_Profit#Profit\" title=\"Help:IdleCorp Profit\">Profit</a>\n</th></tr>\n<tr>\n<td><b><a href=\"/index.php/Help:IdleCorp_Profit#Profit_per\" title=\"Help:IdleCorp Profit\">Profit/Min</a></b></td>\n<td>{{{7}}}\n</td></tr>\n<tr>\n<td><b><a href=\"/index.php/Help:IdleCorp_Profit#Profit_per\" title=\"Help:IdleCorp Profit\">Profit/Hour</a></b></td>\n<td>{{{8}}}\n</td></tr>\n<tr>\n<td><b><a href=\"/index.php/Help:IdleCorp_Profit#Return_On_Investment\" title=\"Help:IdleCorp Profit\">Return On Investment</a></b></td>\n<td>{{{9}}}\n</td></tr>\n<tr>\n<th colspan=\"2\">Aliases\n</th></tr>\n<tr>\n<td colspan=\"2\">{{{10}}}\n</td></tr></tbody></table>\n<p>This page convenience the editors when they are editing or adding the facility information table.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008180939\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.004 seconds\nPreprocessor visited node count: 11/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:270-0!canonical and timestamp 20261008180939 and revision id 1657\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Legend",
+      "exists": true
+    },
+    {
+      "ns": 12,
+      "title": "Help:IdleCorp Profit",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

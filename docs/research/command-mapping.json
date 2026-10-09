@@ -1,0 +1,1561 @@
+[
+  {
+    "command": "corporation",
+    "syntax": "$$corporation [mention user]",
+    "aliases": [
+      "corporation",
+      "corp",
+      "c",
+      "profile",
+      "p"
+    ],
+    "guiScreen": "Overview",
+    "operation": "corporation/profile snapshot",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Overview inspected; no additional runtime claim; Own corporation detail is in Overview; other public corporations are summarized in Leaderboards. Discord mentions are replaced by public corporation rows."
+  },
+  {
+    "command": "rebirth",
+    "syntax": "$$rebirth",
+    "aliases": [
+      "reincorporate",
+      "rebirth"
+    ],
+    "guiScreen": "Prestige",
+    "operation": "prestige.preview + prestige.reset",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: authoritative preview and confirmed reset with positive carried score"
+  },
+  {
+    "command": "liquidate",
+    "syntax": "$$liquidate",
+    "aliases": [
+      "liquidate"
+    ],
+    "guiScreen": "Prestige",
+    "operation": "liquidation.preview + liquidation.reset",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: authoritative preview and confirmed regional liquidation"
+  },
+  {
+    "command": "usetoken",
+    "syntax": "$$usetoken [operand] [amount=1]",
+    "aliases": [
+      "usetoken"
+    ],
+    "guiScreen": "Prestige",
+    "operation": "upgrade.buy",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: land acquisition discount purchased and persistent upgrade level asserted; other upgrade choices server-tested separately"
+  },
+  {
+    "command": "capital",
+    "syntax": "$$capital",
+    "aliases": [
+      "capital",
+      "cap",
+      "money",
+      "balance",
+      "bal"
+    ],
+    "guiScreen": "Overview / Prestige / Market",
+    "operation": "cash, net worth and regional hourly purchase allowance",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Overview inspected; no additional runtime claim"
+  },
+  {
+    "command": "land",
+    "syntax": "$$land",
+    "aliases": [
+      "land",
+      "l"
+    ],
+    "guiScreen": "Facilities",
+    "operation": "regional plot count",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Facilities inspected; no additional runtime claim"
+  },
+  {
+    "command": "assets",
+    "syntax": "$$assets [page=1]",
+    "aliases": [
+      "assets",
+      "asset",
+      "a",
+      "inv"
+    ],
+    "guiScreen": "Inventory",
+    "operation": "search/filter inventory",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Inventory inspected; no additional runtime claim"
+  },
+  {
+    "command": "price",
+    "syntax": "$$price [asset] [amount=1]",
+    "aliases": [
+      "price",
+      "prices",
+      "cost",
+      "value",
+      "val"
+    ],
+    "guiScreen": "Market",
+    "operation": "NPC quote and asset detail",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim"
+  },
+  {
+    "command": "buy(all)",
+    "syntax": "$$buy(all) <asset> [amount=1]",
+    "aliases": [
+      "buy",
+      "buyall",
+      "buymax"
+    ],
+    "guiScreen": "Market",
+    "operation": "npc.buy quantity control",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: purchased one wood after ordinary unboosted production and sale"
+  },
+  {
+    "command": "sell(all)",
+    "syntax": "$$sell(all) <asset> [amount=1]",
+    "aliases": [
+      "sell",
+      "sellall",
+      "sellmax"
+    ],
+    "guiScreen": "Market",
+    "operation": "npc.sell quantity control",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: one-asset lock/unlock/sale exercised; multi-asset variants are UI adaptations"
+  },
+  {
+    "command": "examine",
+    "syntax": "$$examine <name>",
+    "aliases": [
+      "examine",
+      "e"
+    ],
+    "guiScreen": "Facilities / Inventory / Research / Production chains",
+    "operation": "entity detail cards, requirements, recipes, quotes and effects",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Facilities, Inventory, Chains and Research inspected; no additional runtime claim"
+  },
+  {
+    "command": "lockasset(all)",
+    "syntax": "$$lockasset(all) <asset>",
+    "aliases": [
+      "lockasset",
+      "la"
+    ],
+    "guiScreen": "Inventory",
+    "operation": "inventory.lock",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: one-asset lock/unlock/sale exercised; multi-asset variants are UI adaptations"
+  },
+  {
+    "command": "unlockasset(all)",
+    "syntax": "$$unlockasset(all) <asset>",
+    "aliases": [
+      "unlockasset",
+      "ula"
+    ],
+    "guiScreen": "Inventory",
+    "operation": "inventory.lock toggle",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: one-asset lock/unlock/sale exercised; multi-asset variants are UI adaptations"
+  },
+  {
+    "command": "scrap(all)",
+    "syntax": "$$scrap(all) <asset>",
+    "aliases": [
+      "scrap",
+      "scrapall",
+      "scrapmax"
+    ],
+    "guiScreen": "Inventory",
+    "operation": "inventory.scrap quantity control",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: actual inventory-to-scrap conversion, XP spend, plus preference and demolition cash refund; bulk-all variants use explicit entity/quantity controls"
+  },
+  {
+    "command": "facility",
+    "syntax": "$$facility [page=1]",
+    "aliases": [
+      "facility",
+      "facilities",
+      "fac",
+      "facs",
+      "f"
+    ],
+    "guiScreen": "Facilities",
+    "operation": "current facilities and rates",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Facilities inspected; no additional runtime claim"
+  },
+  {
+    "command": "facilitylist",
+    "syntax": "$$facilitylist",
+    "aliases": [
+      "facilitylist",
+      "faclist"
+    ],
+    "guiScreen": "Facilities",
+    "operation": "build catalog",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Facilities inspected; no additional runtime claim"
+  },
+  {
+    "command": "build",
+    "syntax": "$$build <facility> [amount=1]",
+    "aliases": [
+      "build",
+      "buy"
+    ],
+    "guiScreen": "Facilities",
+    "operation": "facility.build",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: requirements modal, keyboard containment, Escape and acknowledged construction"
+  },
+  {
+    "command": "demolish(all)",
+    "syntax": "$$demolish(all) <facility> [amount=1]",
+    "aliases": [
+      "demolish",
+      "demo",
+      "demolishall",
+      "demoall"
+    ],
+    "guiScreen": "Facilities",
+    "operation": "facility.demolish",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: actual inventory-to-scrap conversion, XP spend, plus preference and demolition cash refund; bulk-all variants use explicit entity/quantity controls"
+  },
+  {
+    "command": "addxp",
+    "syntax": "$$addxp <facility> <amount>",
+    "aliases": [
+      "addxp"
+    ],
+    "guiScreen": "Facilities",
+    "operation": "facility.addxp",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: actual inventory-to-scrap conversion, XP spend, plus preference and demolition cash refund; bulk-all variants use explicit entity/quantity controls"
+  },
+  {
+    "command": "setconsumeplus",
+    "syntax": "$$setconsumeplus <facility>",
+    "aliases": [
+      "setconsumeplus",
+      "scp"
+    ],
+    "guiScreen": "Facilities",
+    "operation": "facility.plus enabled",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: actual inventory-to-scrap conversion, XP spend, plus preference and demolition cash refund; bulk-all variants use explicit entity/quantity controls"
+  },
+  {
+    "command": "unsetconsumeplus",
+    "syntax": "$$unsetconsumeplus <facility>",
+    "aliases": [
+      "unsetconsumeplus",
+      "ucp"
+    ],
+    "guiScreen": "Facilities",
+    "operation": "facility.plus disabled",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Facilities inspected; no additional runtime claim"
+  },
+  {
+    "command": "region",
+    "syntax": "$$region",
+    "aliases": [
+      "region",
+      "r"
+    ],
+    "guiScreen": "Region",
+    "operation": "shared modifiers/population/services",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+  },
+  {
+    "command": "regioncode",
+    "syntax": "$$regioncode",
+    "aliases": [
+      "regioncode",
+      "rc",
+      "serverid",
+      "sid"
+    ],
+    "guiScreen": "Region",
+    "operation": "persistent server region ID",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+  },
+  {
+    "command": "donateservice",
+    "syntax": "$$donateservice <service> <capital>",
+    "aliases": [
+      "donateservice",
+      "contribservice",
+      "ds"
+    ],
+    "guiScreen": "Region",
+    "operation": "service.fund",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: funded the office, paid candidacy and voted through visible controls"
+  },
+  {
+    "command": "joinballot",
+    "syntax": "$$joinballot",
+    "aliases": [
+      "joinballot"
+    ],
+    "guiScreen": "Region",
+    "operation": "election.run",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: funded the office, paid candidacy and voted through visible controls"
+  },
+  {
+    "command": "ballot",
+    "syntax": "$$ballot",
+    "aliases": [
+      "ballot"
+    ],
+    "guiScreen": "Region",
+    "operation": "weekly ballot view",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+  },
+  {
+    "command": "voteballot",
+    "syntax": "$$voteballot <mention user>",
+    "aliases": [
+      "voteballot"
+    ],
+    "guiScreen": "Region",
+    "operation": "election.vote",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: funded the office, paid candidacy and voted through visible controls"
+  },
+  {
+    "command": "addpolicy",
+    "syntax": "$$addpolicy <policy>",
+    "aliases": [
+      "addpolicy",
+      "enablepolicy",
+      "ap"
+    ],
+    "guiScreen": "Region",
+    "operation": "policy.vote enable",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: elected legislator enabled solar subsidies within funding budget; disable path remains separately untested in GUI"
+  },
+  {
+    "command": "removepolicy",
+    "syntax": "$$removepolicy <policy>",
+    "aliases": [
+      "removepolicy",
+      "disablepolicy",
+      "rp"
+    ],
+    "guiScreen": "Region",
+    "operation": "policy.vote disable",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+  },
+  {
+    "command": "policies",
+    "syntax": "$$policies",
+    "aliases": [
+      "policies",
+      "pol"
+    ],
+    "guiScreen": "Region",
+    "operation": "policy cards/status/funding",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+  },
+  {
+    "command": "research",
+    "syntax": "$$research",
+    "aliases": [
+      "research",
+      "res"
+    ],
+    "guiScreen": "Research",
+    "operation": "research.start / research.claim / research.finish",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: start, instant finish and reward claim"
+  },
+  {
+    "command": "blueprint",
+    "syntax": "$$blueprint <blueprint name>",
+    "aliases": [
+      "blueprint",
+      "bp"
+    ],
+    "guiScreen": "Research",
+    "operation": "blueprint/material requirement cards",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Research inspected; no additional runtime claim"
+  },
+  {
+    "command": "develop",
+    "syntax": "$$develop <blueprint name>",
+    "aliases": [
+      "develop",
+      "dev"
+    ],
+    "guiScreen": "Research",
+    "operation": "technology.develop",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: real action confirmations and state assertions"
+  },
+  {
+    "command": "install",
+    "syntax": "$$install <technology name>",
+    "aliases": [
+      "install",
+      "in"
+    ],
+    "guiScreen": "Research",
+    "operation": "technology.install regional",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: real action confirmations and state assertions"
+  },
+  {
+    "command": "uninstall",
+    "syntax": "$$uninstall <technology name>",
+    "aliases": [
+      "uninstall",
+      "unin",
+      "un"
+    ],
+    "guiScreen": "Research",
+    "operation": "technology.uninstall",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: real action confirmations and state assertions"
+  },
+  {
+    "command": "upgrade",
+    "syntax": "$$upgrade <technology>",
+    "aliases": [
+      "upgrade",
+      "up"
+    ],
+    "guiScreen": "Research",
+    "operation": "technology.upgrade",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: real action confirmations and state assertions"
+  },
+  {
+    "command": "retail",
+    "syntax": "$$retail",
+    "aliases": [
+      "retail",
+      "ret"
+    ],
+    "guiScreen": "Retail",
+    "operation": "product/demand/support view",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Retail inspected; no additional runtime claim"
+  },
+  {
+    "command": "addretailproduct",
+    "syntax": "$$addretailproduct <product> <price>",
+    "aliases": [
+      "addretailproduct",
+      "addproduct",
+      "arp"
+    ],
+    "guiScreen": "Retail",
+    "operation": "retail.configure",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: configured lamp listing, price, storefront and product names"
+  },
+  {
+    "command": "removeretailproduct",
+    "syntax": "$$removeretailproduct <product>",
+    "aliases": [
+      "removeretailproduct",
+      "removeproduct",
+      "rrp"
+    ],
+    "guiScreen": "Retail",
+    "operation": "retail.remove",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: removed a listing after confirmed timed sales"
+  },
+  {
+    "command": "retailproductname",
+    "syntax": "$$retailproductname <product> <new name>",
+    "aliases": [
+      "retailproductname",
+      "productname",
+      "rpn"
+    ],
+    "guiScreen": "Retail",
+    "operation": "retail.name assetId + name",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: configured lamp listing, price, storefront and product names"
+  },
+  {
+    "command": "retailproductprice",
+    "syntax": "$$retailproductprice <product> <price>",
+    "aliases": [
+      "retailproductprice",
+      "productprice",
+      "rpp"
+    ],
+    "guiScreen": "Retail",
+    "operation": "retail.configure price",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: configured lamp listing, price, storefront and product names"
+  },
+  {
+    "command": "retailname",
+    "syntax": "$$retailname <name>",
+    "aliases": [
+      "retailname"
+    ],
+    "guiScreen": "Retail",
+    "operation": "retail.name name",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: configured lamp listing, price, storefront and product names"
+  },
+  {
+    "command": "export(all)",
+    "syntax": "$$export(all) <region code> <asset> [amount=1]",
+    "aliases": [
+      "export",
+      "exportall",
+      "exportmax"
+    ],
+    "guiScreen": "Logistics",
+    "operation": "export.dispatch",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: one-asset wood export dispatched and claimed; bulk-all variant is a quantity-control adaptation"
+  },
+  {
+    "command": "claim",
+    "syntax": "$$claim <'arrivals'|'inbox'>",
+    "aliases": [
+      "claim"
+    ],
+    "guiScreen": "Logistics",
+    "operation": "export.claim / logistics.claim",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: GUI sell order and cash-inbox claim after second-account API fill"
+  },
+  {
+    "command": "logistics",
+    "syntax": "$$logistics",
+    "aliases": [
+      "logistics",
+      "log"
+    ],
+    "guiScreen": "Logistics",
+    "operation": "arrivals/trucks/inboxes",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Logistics inspected; no additional runtime claim"
+  },
+  {
+    "command": "give",
+    "syntax": "$$give <mention user> <asset> [amount=1]",
+    "aliases": [
+      "give",
+      "giveall",
+      "givemax"
+    ],
+    "guiScreen": "Logistics",
+    "operation": "gift",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: private recipient selected by ID, wood gift confirmed in recipient inbox"
+  },
+  {
+    "command": "galacticexpedition",
+    "syntax": "$$galacticexpedition <difficulty(1-5)>",
+    "aliases": [
+      "galacticexpedition",
+      "gex"
+    ],
+    "guiScreen": "Space",
+    "operation": "space.expedition difficulty1\u20135",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: GUI dispatch; all outcome paths separately exercised in source-parity tests"
+  },
+  {
+    "command": "orbit",
+    "syntax": "$$orbit",
+    "aliases": [
+      "orbit"
+    ],
+    "guiScreen": "Space",
+    "operation": "orbital status/station launch/build/upgrade/repair",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: launch, station construction, result claim, hull repair and XP-based station upgrade"
+  },
+  {
+    "command": "vault",
+    "syntax": "$$vault",
+    "aliases": [
+      "vault"
+    ],
+    "guiScreen": "Space",
+    "operation": "vault inventory",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Space inspected; no additional runtime claim"
+  },
+  {
+    "command": "vaultadd",
+    "syntax": "$$vaultadd <asset> [amount=1]",
+    "aliases": [
+      "vaultadd",
+      "va"
+    ],
+    "guiScreen": "Space",
+    "operation": "space.vault",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: deposited five wood, then withdrew the same five"
+  },
+  {
+    "command": "vaultremove",
+    "syntax": "$$vaultremove <asset> [amount=1]",
+    "aliases": [
+      "vaultremove",
+      "vr"
+    ],
+    "guiScreen": "Space",
+    "operation": "space.vault withdraw=true",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: deposited five wood, then withdrew the same five"
+  },
+  {
+    "command": "userelic",
+    "syntax": "$$userelic <relic>",
+    "aliases": [
+      "userelic",
+      "ur"
+    ],
+    "guiScreen": "Space",
+    "operation": "space.relic",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: knowledge relic consumed, project ready and reward claim available"
+  },
+  {
+    "command": "vote",
+    "syntax": "$$vote",
+    "aliases": [
+      "vote"
+    ],
+    "guiScreen": "Season",
+    "operation": "reward.vote standalone contribution reward",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "intentional_adaptation",
+    "implementationStatus": "server-verified; GUI verification pending",
+    "verification": "tests/source-parity.test.ts tier multipliers, grants and cooldown"
+  },
+  {
+    "command": "notification",
+    "syntax": "$$notification [type] ['on'|'off']",
+    "aliases": [
+      "notification",
+      "notifications",
+      "notif"
+    ],
+    "guiScreen": "Settings",
+    "operation": "settings.update notification preferences",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: saved name, motto, public leaderboard opt-in and disabled completion notifications; inverse preferences not separately exercised"
+  },
+  {
+    "command": "seasonpassdaily",
+    "syntax": "$$seasonpassdaily",
+    "aliases": [
+      "seasonpassdaily",
+      "daily",
+      "spd"
+    ],
+    "guiScreen": "Season",
+    "operation": "daily challenge progress/claim",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: season level-one bonus unlocks weekly reward, followed by challenge claim"
+  },
+  {
+    "command": "weekly",
+    "syntax": "$$weekly",
+    "aliases": [
+      "weekly"
+    ],
+    "guiScreen": "Season",
+    "operation": "reward.weekly",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: season level-one bonus unlocks weekly reward, followed by challenge claim"
+  },
+  {
+    "command": "seasonpass",
+    "syntax": "$$seasonpass",
+    "aliases": [
+      "seasonpass",
+      "pass",
+      "season",
+      "sp"
+    ],
+    "guiScreen": "Season",
+    "operation": "passXP and bonus claims",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: season level-one bonus unlocks weekly reward, followed by challenge claim"
+  },
+  {
+    "command": "marketview",
+    "syntax": "$$marketview",
+    "aliases": [
+      "marketview",
+      "market"
+    ],
+    "guiScreen": "Market",
+    "operation": "global shared player order book replaces external MarketView",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "intentional_adaptation",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim; Internal shared player exchange replaces the external MarketView site."
+  },
+  {
+    "command": "offers",
+    "syntax": "$$offers",
+    "aliases": [
+      "offers",
+      "offer"
+    ],
+    "guiScreen": "Market",
+    "operation": "own orders",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim"
+  },
+  {
+    "command": "canceloffer",
+    "syntax": "$$canceloffer <offer slot>",
+    "aliases": [
+      "canceloffer"
+    ],
+    "guiScreen": "Market",
+    "operation": "order.cancel",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: placed a buy order into escrow, cancelled it and asserted refunded capital"
+  },
+  {
+    "command": "buyoffers",
+    "syntax": "$$buyoffers <asset name>",
+    "aliases": [
+      "buyoffers",
+      "boffers"
+    ],
+    "guiScreen": "Market",
+    "operation": "buy book",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim"
+  },
+  {
+    "command": "selloffers",
+    "syntax": "$$selloffers <asset name>",
+    "aliases": [
+      "selloffers",
+      "soffers"
+    ],
+    "guiScreen": "Market",
+    "operation": "sell book",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim"
+  },
+  {
+    "command": "marketbuy",
+    "syntax": "$$marketbuy <asset> <amount> (price)",
+    "aliases": [
+      "marketbuy",
+      "mbuy"
+    ],
+    "guiScreen": "Market",
+    "operation": "order.create buy",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: placed a buy order into escrow, cancelled it and asserted refunded capital"
+  },
+  {
+    "command": "marketsell",
+    "syntax": "$$marketsell <asset> <amount> (price)",
+    "aliases": [
+      "marketsell",
+      "msell"
+    ],
+    "guiScreen": "Market",
+    "operation": "order.create sell",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: GUI sell order and cash-inbox claim after second-account API fill"
+  },
+  {
+    "command": "leaderboards",
+    "syntax": "$$leaderboards ['server'|'global'='global']",
+    "aliases": [
+      "leaderboards",
+      "leaderboard",
+      "lb",
+      "rank"
+    ],
+    "guiScreen": "Leaderboards",
+    "operation": "regional/global/season rankings",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Leaderboard inspected; no additional runtime claim"
+  },
+  {
+    "command": "lboptin",
+    "syntax": "$$lboptin",
+    "aliases": [
+      "lboptin"
+    ],
+    "guiScreen": "Settings",
+    "operation": "settings.update privacy=false",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: saved name, motto, public leaderboard opt-in and disabled completion notifications; inverse preferences not separately exercised"
+  },
+  {
+    "command": "lboptout",
+    "syntax": "$$lboptout",
+    "aliases": [
+      "lboptout"
+    ],
+    "guiScreen": "Settings",
+    "operation": "settings.update privacy=true",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+  },
+  {
+    "command": "help",
+    "syntax": "$$help",
+    "aliases": [
+      "help",
+      "commands"
+    ],
+    "guiScreen": "Settings & help / Field guide",
+    "operation": "searchable gameplay reference",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+  },
+  {
+    "command": "tutorial",
+    "syntax": "$$tutorial",
+    "aliases": [
+      "tutorial"
+    ],
+    "guiScreen": "Overview / Help",
+    "operation": "onboarding guide",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Overview inspected; no additional runtime claim"
+  },
+  {
+    "command": "name",
+    "syntax": "$$name <name>",
+    "aliases": [
+      "name"
+    ],
+    "guiScreen": "Settings",
+    "operation": "settings.update name",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: saved name, motto, public leaderboard opt-in and disabled completion notifications; inverse preferences not separately exercised"
+  },
+  {
+    "command": "motto",
+    "syntax": "$$motto <your motto>",
+    "aliases": [
+      "motto"
+    ],
+    "guiScreen": "Settings",
+    "operation": "settings.update motto",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented; exercised GUI operation verified",
+    "verification": "artifacts/ui-workflows/report.json: saved name, motto, public leaderboard opt-in and disabled completion notifications; inverse preferences not separately exercised"
+  },
+  {
+    "command": "invite",
+    "syntax": "$$invite",
+    "aliases": [
+      "invite"
+    ],
+    "guiScreen": "Settings",
+    "operation": "share server address; no bot invite",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "intentional_adaptation",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim; The shared-server URL in Settings replaces a Discord bot invite."
+  },
+  {
+    "command": "prefix",
+    "syntax": "$$prefix <new prefix>",
+    "aliases": [
+      "prefix"
+    ],
+    "guiScreen": "Settings",
+    "operation": "omitted: no text-command parser",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "intentional_adaptation",
+    "implementationStatus": "intentionally-omitted",
+    "verification": "No Discord parser is used"
+  },
+  {
+    "command": "about",
+    "syntax": "$$about",
+    "aliases": [
+      "about"
+    ],
+    "guiScreen": "Help",
+    "operation": "ruleset/build info",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+  },
+  {
+    "command": "changelog",
+    "syntax": "$$changelog",
+    "aliases": [
+      "changelog",
+      "whatsnew",
+      "updates"
+    ],
+    "guiScreen": "Settings & help / Field guide",
+    "operation": "local versioned release notes and official update link",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+  },
+  {
+    "command": "premium",
+    "syntax": "$$premium",
+    "aliases": [
+      "premium",
+      "patreon",
+      "patron",
+      "role",
+      "roles"
+    ],
+    "guiScreen": "Settings / Help",
+    "operation": "admin-grantable tier info; no payments",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "intentional_adaptation",
+    "implementationStatus": "implemented; tier admin/server verified; help view code-reviewed",
+    "verification": "artifacts/operations-report.json: all four actual administrative tier grants and audits; tests/source-parity.test.ts: tier rewards and challenges; Settings field guide presents entitlement information"
+  },
+  {
+    "command": "wiki",
+    "syntax": "$$wiki",
+    "aliases": [
+      "wiki"
+    ],
+    "guiScreen": "Help",
+    "operation": "source reference link",
+    "evidence": {
+      "title": "Command list",
+      "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+      "revisionId": 1598,
+      "revisionTimestamp": "2021-10-06T11:47:26Z",
+      "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+    },
+    "evidenceStatus": "documented",
+    "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+    "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+  }
+]

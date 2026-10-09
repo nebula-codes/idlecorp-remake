@@ -1,0 +1,31 @@
+{
+  "id": 125,
+  "title": "Template:Stub for sections",
+  "namespace": 10,
+  "revisionId": 1542,
+  "revisionTimestamp": "2021-08-27T04:32:12Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3AStub_for_sections",
+  "wikitext": "{| id=\"Stub\" class=\"noprint stub plainlinks\"\n|-\n!''This section is a [[Wikipedia:Wikipedia:Stub|stub]]. You can help {{SITENAME}} by [{{SERVER}}{{localurl:{{FULLPAGENAME}}|action=edit}} expanding it].''\n|}<includeonly>[[Category:Stubs]]</includeonly><noinclude><!--[[Category:Template|{{PAGENAME}}]]--></noinclude>",
+  "links": [
+    "Wikipedia:Wikipedia:Stub",
+    "Category:Stubs",
+    "Category:Template"
+  ],
+  "templates": [
+    "SITENAME",
+    "SERVER",
+    "localurl:{{FULLPAGENAME",
+    "PAGENAME"
+  ],
+  "categories": [
+    "Stubs",
+    "Template"
+  ],
+  "redirect": null,
+  "renderedTitle": "Template:Stub for sections",
+  "html": "<div class=\"mw-parser-output\"><table id=\"Stub\" class=\"noprint stub plainlinks\">\n\n<tbody><tr>\n<th><i>This section is a <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Stub\" class=\"extiw\" title=\"wikipedia:Wikipedia:Stub\">stub</a>. You can help IdleCorp Wiki by <a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"//wiki.idlecorp.xyz/index.php?title=Template:Stub_for_sections&amp;action=edit\">expanding it</a>.</i>\n</th></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009145712\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 6/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 113/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 3/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:125-0!canonical and timestamp 20261009145712 and revision id 1542\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": []
+}

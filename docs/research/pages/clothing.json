@@ -1,0 +1,86 @@
+{
+  "id": 82,
+  "title": "Clothing",
+  "namespace": 0,
+  "revisionId": 1654,
+  "revisionTimestamp": "2021-11-18T16:52:45Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Clothing",
+  "wikitext": "[[Category:Asset]]\nClothing is an asset manufactured in the [[Clothing factory | Clothing factories ]] and is a product that can be sold for capital. Clothing (also known as clothes, apparel and attire) is items worn on the body. Clothing is typically made of fabrics or textiles. The wearing of clothing is mostly restricted to human beings and is a feature of all human societies. The amount and type of clothing worn depend on gender, body type, social, and geographic considerations. Clothing cannot be bought with the $$buy command.\nSustaining it requires use of 5/2 [[Cotton farm]] and 50/56 [[Polyester factory]].\nTo fully sustain it you need 5/2 [[Cotton farm]], 50/56 [[Polyester factory]] and 22/5 [[Oil well]].\n\n== Clothing Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Clothing factory]] || $160,000 || 10x [[cotton]], 20x [[polyester]] || 10x [[clothing]] || $315.00 || 0:40\n|-\n|}\n== Facilities that use Clothing ==\n{|class=\"wikitable\"\n!Name !! Cost\n|-\n|[[research facility]] || $11,000,000, 100,000 [[Steel]], 100,000 [[research chemical]], 600 [[Laptop]]\n|-\n\n|-\n\n\n|}\nClothing factory is best for scrap because of its fast production",
+  "links": [
+    "Category:Asset",
+    "Clothing factory ",
+    "Cotton farm",
+    "Polyester factory",
+    "Oil well",
+    "Clothing factory",
+    "cotton",
+    "polyester",
+    "clothing",
+    "research facility",
+    "Steel",
+    "research chemical",
+    "Laptop"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Clothing",
+  "html": "<div class=\"mw-parser-output\"><p>Clothing is an asset manufactured in the <a href=\"/index.php/Clothing_factory\" title=\"Clothing factory\"> Clothing factories </a> and is a product that can be sold for capital. Clothing (also known as clothes, apparel and attire) is items worn on the body. Clothing is typically made of fabrics or textiles. The wearing of clothing is mostly restricted to human beings and is a feature of all human societies. The amount and type of clothing worn depend on gender, body type, social, and geographic considerations. Clothing cannot be bought with the $$buy command.\nSustaining it requires use of 5/2 <a href=\"/index.php/Cotton_farm\" title=\"Cotton farm\">Cotton farm</a> and 50/56 <a href=\"/index.php/Polyester_factory\" title=\"Polyester factory\">Polyester factory</a>.\nTo fully sustain it you need 5/2 <a href=\"/index.php/Cotton_farm\" title=\"Cotton farm\">Cotton farm</a>, 50/56 <a href=\"/index.php/Polyester_factory\" title=\"Polyester factory\">Polyester factory</a> and 22/5 <a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a>.\n</p>\n<h2><span class=\"mw-headline\" id=\"Clothing_Production\">Clothing Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Clothing&amp;action=edit&amp;section=1\" title=\"Edit section: Clothing Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Clothing_factory\" title=\"Clothing factory\">Clothing factory</a></td>\n<td>$160,000</td>\n<td>10x <a href=\"/index.php/Cotton\" title=\"Cotton\">cotton</a>, 20x <a href=\"/index.php/Polyester\" title=\"Polyester\">polyester</a></td>\n<td>10x <a class=\"mw-selflink selflink\">clothing</a></td>\n<td>$315.00</td>\n<td>0:40\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_Clothing\">Facilities that use Clothing</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Clothing&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use Clothing\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Research_facility\" title=\"Research facility\">research facility</a></td>\n<td>$11,000,000, 100,000 <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 100,000 <a href=\"/index.php/Research_chemical\" title=\"Research chemical\">research chemical</a>, 600 <a href=\"/index.php/Laptop\" title=\"Laptop\">Laptop</a>\n</td></tr>\n\n\n\n\n</tbody></table>\n<p>Clothing factory is best for scrap because of its fast production\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145540\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.006 seconds\nPreprocessor visited node count: 16/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:82-0!canonical and timestamp 20261009145540 and revision id 1654\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Clothing factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cotton",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cotton farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil well",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Polyester",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Polyester factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research facility",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

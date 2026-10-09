@@ -1,0 +1,126 @@
+{
+  "id": 104,
+  "title": "Aluminum factory",
+  "namespace": 0,
+  "revisionId": 1423,
+  "revisionTimestamp": "2021-06-18T23:06:59Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Aluminum_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $450, 300x [[rubber]], 150x [[steel]]\n|-\n|'''Total Cost''' || $3,750\n|-\n|'''Inputs''' || 10x [[bauxite]]\n|-\n|'''Outputs''' || 3x [[aluminum]]\n|-\n|'''Production interval''' || 25 seconds\n|-\n|'''Production/Min''' || 7.2x [[aluminum]]\n|-\n|'''Profit/Min''' || $28.80\n|-\n|'''Profit/Hour''' || $1728.00\n|-\n|'''Return On Investment''' || 0.704%\n|-\n|'''Aliases'''||aluminum factory, aluminumfactory,<br/> aluminum fac\n|}\n[[Category:Facility]]\n\nThe aluminum factory is a facility that produces 3x [[aluminum]] every 25 seconds.\n\nYou need 1/4 of a [[Bauxite mine]] to fully sustain this.\n\n== Related facilities ==\n'''As construction material'''\n*[[Glass factory]]\n*[[CPU factory]]\n*[[Cell phone factory]]\n*[[Laptop factory]]\n*[[Research chemical factory]]\n*[[Solar power plant]]\n*[[Digital camera factory]]\n*[[Television factory]]\n*[[Logistics center]]\n*[[Prescription drug factory]]\n*[[Retail store]]\n*[[Customer support center]]",
+  "links": [
+    "rubber",
+    "steel",
+    "bauxite",
+    "aluminum",
+    "Category:Facility",
+    "Bauxite mine",
+    "Glass factory",
+    "CPU factory",
+    "Cell phone factory",
+    "Laptop factory",
+    "Research chemical factory",
+    "Solar power plant",
+    "Digital camera factory",
+    "Television factory",
+    "Logistics center",
+    "Prescription drug factory",
+    "Retail store",
+    "Customer support center"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Aluminum factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$450, 300x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 150x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$3,750\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>10x <a href=\"/index.php/Bauxite\" title=\"Bauxite\">bauxite</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>3x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>25 seconds\n</td></tr>\n<tr>\n<td><b>Production/Min</b></td>\n<td>7.2x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$28.80\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$1728.00\n</td></tr>\n<tr>\n<td><b>Return On Investment</b></td>\n<td>0.704%\n</td></tr>\n<tr>\n<td><b>Aliases</b></td>\n<td>aluminum factory, aluminumfactory,<br /> aluminum fac\n</td></tr></tbody></table>\n<p>The aluminum factory is a facility that produces 3x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a> every 25 seconds.\n</p><p>You need 1/4 of a <a href=\"/index.php/Bauxite_mine\" title=\"Bauxite mine\">Bauxite mine</a> to fully sustain this.\n</p>\n<h2><span class=\"mw-headline\" id=\"Related_facilities\">Related facilities</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Aluminum_factory&amp;action=edit&amp;section=1\" title=\"Edit section: Related facilities\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><b>As construction material</b>\n</p>\n<ul><li><a href=\"/index.php/Glass_factory\" title=\"Glass factory\">Glass factory</a></li>\n<li><a href=\"/index.php/CPU_factory\" title=\"CPU factory\">CPU factory</a></li>\n<li><a href=\"/index.php/Cell_phone_factory\" title=\"Cell phone factory\">Cell phone factory</a></li>\n<li><a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\">Laptop factory</a></li>\n<li><a href=\"/index.php/Research_chemical_factory\" title=\"Research chemical factory\">Research chemical factory</a></li>\n<li><a href=\"/index.php/Solar_power_plant\" title=\"Solar power plant\">Solar power plant</a></li>\n<li><a href=\"/index.php/Digital_camera_factory\" title=\"Digital camera factory\">Digital camera factory</a></li>\n<li><a href=\"/index.php/Television_factory\" title=\"Television factory\">Television factory</a></li>\n<li><a href=\"/index.php/Logistics_center\" title=\"Logistics center\">Logistics center</a></li>\n<li><a href=\"/index.php/Prescription_drug_factory\" title=\"Prescription drug factory\">Prescription drug factory</a></li>\n<li><a href=\"/index.php/Retail_store\" title=\"Retail store\">Retail store</a></li>\n<li><a href=\"/index.php/Customer_support_center\" title=\"Customer support center\">Customer support center</a></li></ul>\n<!-- \nNewPP limit report\nCached time: 20261009145543\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.012 seconds\nReal time usage: 0.010 seconds\nPreprocessor visited node count: 11/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:104-0!canonical and timestamp 20261009145543 and revision id 1423\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cell phone factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Customer support center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Digital camera factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Prescription drug factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Retail store",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Solar power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Television factory",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

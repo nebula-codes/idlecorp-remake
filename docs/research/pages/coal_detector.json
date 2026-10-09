@@ -1,0 +1,56 @@
+{
+  "id": 50,
+  "title": "Coal detector",
+  "namespace": 0,
+  "revisionId": 642,
+  "revisionTimestamp": "2020-08-28T01:39:01Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Coal_detector",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;\"\n!Blueprint Requirements\n|-\n|1,000,000x [[steel]], 10,000x [[coal]]\n|}\n\nImproves all [[coal mine|coal mines]] of a [[corporation]] in the [[region]] it is installed in to produce 12x [[coal]] instead of 8x.\n\nThe u version makes it produce 16x [[coal]], and the uu version produces 80x [[coal]]. It is 5x more powerful to have a uu version versus u version. If you will produce coal for coal power plants, then rushing a uu is a must!\n\n[[Category:Asset]]\n[[Category:Technology]]",
+  "links": [
+    "steel",
+    "coal",
+    "coal mine",
+    "corporation",
+    "region",
+    "Category:Asset",
+    "Category:Technology"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset",
+    "Technology"
+  ],
+  "redirect": null,
+  "renderedTitle": "Coal detector",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;\">\n<tbody><tr>\n<th>Blueprint Requirements\n</th></tr>\n<tr>\n<td>1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 10,000x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a>\n</td></tr></tbody></table>\n<p>Improves all <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">coal mines</a> of a <a href=\"/index.php/Corporation\" title=\"Corporation\">corporation</a> in the <a href=\"/index.php/Region\" title=\"Region\">region</a> it is installed in to produce 12x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a> instead of 8x.\n</p><p>The u version makes it produce 16x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a>, and the uu version produces 80x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a>. It is 5x more powerful to have a uu version versus u version. If you will produce coal for coal power plants, then rushing a uu is a must!\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009001837\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:50-0!canonical and timestamp 20261009001837 and revision id 642\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Coal",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Corporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

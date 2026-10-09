@@ -1,0 +1,60 @@
+{
+  "id": 226,
+  "title": "Air traffic control",
+  "namespace": 0,
+  "revisionId": 1178,
+  "revisionTimestamp": "2021-03-20T13:55:36Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Air_traffic_control",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;\"\n|'''Cost''' || $28,480,000, 50,000x [[steel]], 1x [[airport tram]],<br/> 200,000x [[glass]], 2,000x [[furniture]]\n|-\n|'''Inputs''' || N/A\n|-\n|'''Outputs''' || N/A\n|-\n|'''Production interval''' || N/A\n|-\n|'''Aliases'''||air traffic control, air traffic control tower,<br/> atc, atc tower, airtrafficcontrol\n|}\n[[Category:Facility]]\nThe air traffic control is a facility created in the [[Updates_log#.2875.29_0d3170e|1.9.4 Update]]. It allows for [[airport]] to be built. Only one air traffic control is needed for the entire corporation.",
+  "links": [
+    "steel",
+    "airport tram",
+    "glass",
+    "furniture",
+    "Category:Facility",
+    "Updates_log",
+    "airport"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Air traffic control",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$28,480,000, 50,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 1x <a href=\"/index.php/Airport_tram\" title=\"Airport tram\">airport tram</a>,<br /> 200,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 2,000x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a>\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Aliases</b></td>\n<td>air traffic control, air traffic control tower,<br /> atc, atc tower, airtrafficcontrol\n</td></tr></tbody></table>\n<p>The air traffic control is a facility created in the <a href=\"/index.php/Updates_log#.2875.29_0d3170e\" title=\"Updates log\">1.9.4 Update</a>. It allows for <a href=\"/index.php/Airport\" title=\"Airport\">airport</a> to be built. Only one air traffic control is needed for the entire corporation.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009135843\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.008 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:226-0!canonical and timestamp 20261009135843 and revision id 1178\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Airport",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Airport tram",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Updates log",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

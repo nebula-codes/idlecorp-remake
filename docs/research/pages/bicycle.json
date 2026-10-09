@@ -1,0 +1,44 @@
+{
+  "id": 87,
+  "title": "Bicycle",
+  "namespace": 0,
+  "revisionId": 541,
+  "revisionTimestamp": "2020-07-26T12:11:28Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Bicycle",
+  "wikitext": "[[Category:Asset]]\nBicycle is an asset manufactured in the [[Bicycle factory | Bicycle Factories]] and is a product that can be sold for capital. A bicycle, a.k.a a bike or cycle, is a human-powered, pedal-driven vehicle, having two wheels attached to a frame, one behind the other.\n\n== Crude oil Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Bicycle factory]] || $10,000 || 12x [[steel]], 8x [[rubber]] || 1x [[bicycle]] || $58.67~ || 1:30\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Bicycle factory ",
+    "Bicycle factory",
+    "steel",
+    "rubber",
+    "bicycle"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Bicycle",
+  "html": "<div class=\"mw-parser-output\"><p>Bicycle is an asset manufactured in the <a href=\"/index.php/Bicycle_factory\" title=\"Bicycle factory\"> Bicycle Factories</a> and is a product that can be sold for capital. A bicycle, a.k.a a bike or cycle, is a human-powered, pedal-driven vehicle, having two wheels attached to a frame, one behind the other.\n</p>\n<h2><span class=\"mw-headline\" id=\"Crude_oil_Production\">Crude oil Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Bicycle&amp;action=edit&amp;section=1\" title=\"Edit section: Crude oil Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Bicycle_factory\" title=\"Bicycle factory\">Bicycle factory</a></td>\n<td>$10,000</td>\n<td>12x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 8x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a></td>\n<td>1x <a class=\"mw-selflink selflink\">bicycle</a></td>\n<td>$58.67~</td>\n<td>1:30\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008224111\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 4/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:87-0!canonical and timestamp 20261008224111 and revision id 541\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Bicycle factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

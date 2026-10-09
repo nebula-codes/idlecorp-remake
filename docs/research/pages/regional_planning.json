@@ -1,0 +1,48 @@
+{
+  "id": 245,
+  "title": "Regional planning",
+  "namespace": 0,
+  "revisionId": 1533,
+  "revisionTimestamp": "2021-08-26T16:00:33Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Regional_planning",
+  "wikitext": "{| class=\"wikitable\" | style=\"float:right\"\n|-\n!colspan=\"2\"| Information\n|-\n| Effect || -25% to all [[:Category:Facility|facilities]]' build price, +5% to [[land]] price\n|-\n| Cost || 1 [[Funding point|Funding points]]\n|}\nA [[:Category:Policy|policy]] that reduce all [[:Category:Facility|facilities]]' build price\n[[Category:Policy]]",
+  "links": [
+    ":Category:Facility",
+    "land",
+    "Funding point",
+    ":Category:Policy",
+    "Category:Policy"
+  ],
+  "templates": [],
+  "categories": [
+    "Policy"
+  ],
+  "redirect": null,
+  "renderedTitle": "Regional planning",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right\">\n\n<tbody><tr>\n<th colspan=\"2\">Information\n</th></tr>\n<tr>\n<td>Effect</td>\n<td>-25% to all <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facilities</a>' build price, +5% to <a href=\"/index.php/Land\" title=\"Land\">land</a> price\n</td></tr>\n<tr>\n<td>Cost</td>\n<td>1 <a href=\"/index.php/Funding_point\" title=\"Funding point\">Funding points</a>\n</td></tr></tbody></table>\n<p>A <a href=\"/index.php/Category:Policy\" title=\"Category:Policy\">policy</a> that reduce all <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facilities</a>' build price\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145634\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:245-0!canonical and timestamp 20261009145634 and revision id 1533\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Funding point",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Land",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Facility",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Policy",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": 189,
+  "title": "Template:Progression",
+  "namespace": 10,
+  "revisionId": 861,
+  "revisionTimestamp": "2020-12-14T10:59:57Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3AProgression",
+  "wikitext": "<includeonly><templatestyles src=\"Progression/styles.css/><table role=\"presentation\" class=\"progression\" {{#if:{{{width|}}}|style=\"width: {{{width}}}\"}}>\n<tr>\n<td class=\"progression-header\">{{#if:{{{task|}}}|{{{task|}}}:&#32;}}<span>{{formatnum:{{#if:{{{1|0}}}|{{#expr:100*{{{1|0}}}/{{{2|{{{total|100}}}}}}round 1}}}}}}%</span> complete\n</td></tr>\n<tr><td><table role=\"presentation\" class=\"progression-bar\">\n<tr>{{#ifeq:{{{1|0}}}|0| |<td class=\"progression-done\" {{#ifexpr:({{#if:{{{1|0}}}|{{#expr:100*{{{1|0}}}/{{{2|{{{total|100}}}}}}}}}}<1)|style=\"width: 1%\"|{{#if:{{{1|0}}}|style=\"width: {{#expr:100*{{{1|0}}}/{{{2|{{{total|100}}}}}}round 1}}}}%\"}}></td>}}{{#ifeq:{{#if:{{{1|0}}}|{{#expr:100*{{{1|0}}}/{{{2|{{{total|100}}}}}}}}}}|100||<td class=\"progression-undone\"></td>}}\n</tr></table></td></tr></table></includeonly>",
+  "links": [],
+  "templates": [
+    "#if:{{{width",
+    "{width",
+    "#if:{{{task",
+    "{task",
+    "formatnum:{{#if:{{{1",
+    "#expr:100*{{{1",
+    "{2",
+    "{total",
+    "#ifeq:{{{1",
+    "#ifexpr:({{#if:{{{1",
+    "#if:{{{1",
+    "#ifeq:{{#if:{{{1"
+  ],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Template:Progression",
+  "html": "<div class=\"mw-parser-output\">\n<!-- \nNewPP limit report\nCached time: 20261008232950\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:189-0!canonical and timestamp 20261008232950 and revision id 861\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": []
+}

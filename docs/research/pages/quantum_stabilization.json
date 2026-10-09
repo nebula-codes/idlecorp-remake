@@ -1,0 +1,44 @@
+{
+  "id": 274,
+  "title": "Quantum stabilization",
+  "namespace": 0,
+  "revisionId": 1689,
+  "revisionTimestamp": "2021-12-19T09:35:33Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Quantum_stabilization",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;\"\n!Blueprint Requirements\n|-\n| 100,000x [[Energy]], 100x [[CPU]]\n|}\n\nIf you have installed in the region, assets in your [[quantum vault]] have a 75% chance of being kept instead.\n\nThe u version and uu version is not available at this time. \n\n[[Category:Asset]]\n[[Category:Technology]]",
+  "links": [
+    "Energy",
+    "CPU",
+    "quantum vault",
+    "Category:Asset",
+    "Category:Technology"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset",
+    "Technology"
+  ],
+  "redirect": null,
+  "renderedTitle": "Quantum stabilization",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;\">\n<tbody><tr>\n<th>Blueprint Requirements\n</th></tr>\n<tr>\n<td>100,000x <a href=\"/index.php/Energy\" title=\"Energy\">Energy</a>, 100x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>\n</td></tr></tbody></table>\n<p>If you have installed in the region, assets in your <a href=\"/index.php/Quantum_vault\" title=\"Quantum vault\">quantum vault</a> have a 75% chance of being kept instead.\n</p><p>The u version and uu version is not available at this time.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009011010\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:274-0!canonical and timestamp 20261009011010 and revision id 1689\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Quantum vault",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

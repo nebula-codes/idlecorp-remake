@@ -1,0 +1,462 @@
+{
+  "checkedAt": "2026-10-09",
+  "scope": "Independent rules, server and final UI source acceptance plus explicit assertions from nine repository integration reports. Code presence and GUI operation are recorded separately.",
+  "mechanics": {
+    "global_local": {
+      "implementationStatus": "server-verified; region-switch GUI verified",
+      "verification": "tests/source-parity.test.ts: regional technology effects and blueprint research/export ownership; artifacts/ui-workflows/report.json: regional selection and selected-region liquidation; global-local matrix remains primarily source-parity tested"
+    },
+    "land_build": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: 40% historical material valuation and free token land pricing; artifacts/e2e-report.json: land/build/production/sale/persistence, duplicate and concurrent build rejection; keyboard and layouts inspected"
+    },
+    "research": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: eight-facility season cost discount, concurrent two-region projects and original local outcomes, knowledge expedite and duplicate claims; artifacts/ui-workflows/report.json: GUI project start, gratitude completion and blueprint claim"
+    },
+    "technology": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: nine-to-one UU upgrade, inventory consumption, installation fee, regional output/speed, uninstall and net-worth retention; artifacts/ui-workflows/report.json: GUI blueprint development, installation, uninstall and upgrade combination"
+    },
+    "services": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: fully funded fiber benefits two corporations in one region; artifacts/ui-workflows/report.json: funded the region office through the contribution control; cross-account fiber effects separately covered by source-parity tests"
+    },
+    "governance": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: policy funding cost, high-tax budget, 24-hour cooldown and tied election result; artifacts/ui-workflows/report.json: office funding, candidate registration, ballot vote, actual election completion and elected policy activation"
+    },
+    "prestige": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: stacked seasonal starter bonuses, permanent upgrade/XP/gratitude persistence, source valuation and regional vault stabilization; artifacts/ui-workflows/report.json: token upgrade, authoritative reincorporation preview, confirmed reset, facilities cleared and carried score asserted"
+    },
+    "season": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: three free versus six platinum daily challenges, rewards, double-claim rejection, seasonal research and prestige bonuses; artifacts/ui-workflows/report.json: daily reward, season level-one bonus, weekly unlock/reward and daily challenge claimed; supporter vote reward is server-tested only"
+    },
+    "space": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: launch/station build/upgrade, all five difficulties under success and both rocket-return failure paths, exact fuel/coordinate costs, damage/repair, persisted outcomes and claim once; artifacts/ui-workflows/report.json: launch/station construction/dispatch, persisted result claim, damaged-station repair and XP-funded station upgrade to level two"
+    },
+    "retail": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: global HQ requirement, five-store support demand, normal/plus inventory and revenue conservation, locked goods remain untouched; artifacts/ui-workflows/report.json: configured product, price and names; actual timed sale and listing removal"
+    },
+    "rewards": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: all four entitlement tiers receive configured vote/daily/weekly rewards, season unlock and cooldown/replay rejection; artifacts/ui-workflows/report.json: daily reward, season level-one bonus, weekly unlock/reward and daily challenge claimed; supporter vote reward is server-tested only"
+    },
+    "entitlements": {
+      "implementationStatus": "implemented; server and administrative CLI verified",
+      "verification": "tests/source-parity.test.ts: four-tier weekly tokens/vote multipliers and three-versus-six daily challenges; admin CLI grant path separate; artifacts/operations-report.json: all four real CLI entitlement grants reached authoritative state and persisted audit entries; invalid tier rejected without changes; tier-specific gameplay covered in source-parity tests"
+    },
+    "relics": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "artifacts/unit-test-report.json and tests/source-parity.test.ts: knowledge consumption/claim once; vaulted haste duration reduction in both regions without reroll; efficiency doubles actual plus output into normals globally; prestige token-divisor reduction and cap, unchanged score/worth; all passive effects deactivate after withdrawal; artifacts/ui-workflows/report.json: consumed knowledge relic to finish active research and claimed its existing outcome; other three relic effects have dedicated server fixtures"
+    },
+    "vault": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "tests/source-parity.test.ts: deposit/withdraw conservation, deterministic reset rolls and local stabilization; artifacts/ui-workflows/report.json: wood deposit and withdrawal each confirmed with actual vault quantities"
+    },
+    "icons": {
+      "implementationStatus": "complete",
+      "verification": "packages/rules/src/content.test.ts validates 200 mappings; docs/research/icon-preview.png and artifacts/screenshots/icon-audit.png visually inspected; icon-discovery.json audits all196pages"
+    },
+    "accounts": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "artifacts/e2e-report.json: two accounts, two sessions on one account, login/logout and unboosted onboarding"
+    },
+    "production": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "artifacts/e2e-report.json: land/build/production/sale/persistence, duplicate and concurrent build rejection; keyboard and layouts inspected"
+    },
+    "npc": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "artifacts/e2e-report.json: land/build/production/sale/persistence, duplicate and concurrent build rejection; keyboard and layouts inspected; artifacts/ui-workflows/report.json: GUI lock rejection, unlock, NPC sale and NPC buy with real funds and stock"
+    },
+    "market": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "artifacts/e2e-report.json: real two-player price-priority partial fill, cancellation/fill race, escrow and fee conservation, cash/asset inbox claims"
+    },
+    "offline_restart": {
+      "implementationStatus": "implemented; API/restart verified",
+      "verification": "artifacts/e2e-report.json: actual server restart preserves sessions/state and advances offline production; backup/restore round trip"
+    },
+    "inventory": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "artifacts/ui-workflows/report.json: GUI inventory lock, blocked sale, unlock and confirmed NPC cash; other inventory controls remain separately tested"
+    },
+    "gifts": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "artifacts/ui-workflows/report.json: sent wood to private corporation ID and asserted pending recipient inbox; cash-gift variant not exercised here"
+    },
+    "exports": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "artifacts/ui-workflows/report.json: wood dispatch to another region, persisted deadline advanced in isolated fixture, arrival and cargo claim"
+    },
+    "liquidation": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "artifacts/ui-workflows/report.json: switched region, requested authoritative preview, confirmed twice, asserted selected region land reset"
+    },
+    "levels_quality": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "apps/server/test/engine.test.ts: scrap consumption, manual XP leveling, plus-input preference and starvation; packages/rules/src/content.test.ts: quality formula and level limits; artifacts/ui-workflows/report.json: scrapped one lamp, spent 100 scrap on a tree farm, enabled steel-mill plus inputs and confirmed demolition/refund; probabilistic plus output is server-tested"
+    },
+    "regions": {
+      "implementationStatus": "implemented; server and core regional GUI verified",
+      "verification": "tests/source-parity.test.ts: regional technology isolation and shared fiber benefit; 72-hour modifier boundary equivalence; artifacts/ui-workflows/report.json: region selection, services, elections and policy activation"
+    },
+    "social_history": {
+      "implementationStatus": "implemented; API and core GUI verified",
+      "verification": "docs/research/ui-control-audit.json: Leaderboard global/regional/season selectors and Settings privacy/notification controls inspected; E2E confirms persisted economic audit entries, not all preference controls; artifacts/ui-workflows/report.json: name/motto change charged exactly three gratitude; privacy opt-in and completion notification preference persisted; leaderboard sort selectors remain code-reviewed only"
+    },
+    "help": {
+      "implementationStatus": "implemented view; code-reviewed, interaction verification pending",
+      "verification": "docs/research/ui-control-audit.json: searchable field guide, source links, versioned release notes and onboarding controls inspected"
+    }
+  },
+  "commands": {
+    "usetoken": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: land acquisition discount purchased and persistent upgrade level asserted; other upgrade choices server-tested separately"
+    },
+    "research": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: start, instant finish and reward claim"
+    },
+    "upgrade": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: real action confirmations and state assertions"
+    },
+    "install": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: real action confirmations and state assertions"
+    },
+    "uninstall": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: real action confirmations and state assertions"
+    },
+    "donateservice": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: funded the office, paid candidacy and voted through visible controls"
+    },
+    "addpolicy": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: elected legislator enabled solar subsidies within funding budget; disable path remains separately untested in GUI"
+    },
+    "rebirth": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: authoritative preview and confirmed reset with positive carried score"
+    },
+    "seasonpassdaily": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: season level-one bonus unlocks weekly reward, followed by challenge claim"
+    },
+    "galacticexpedition": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: GUI dispatch; all outcome paths separately exercised in source-parity tests"
+    },
+    "vaultadd": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: deposited five wood, then withdrew the same five"
+    },
+    "vaultremove": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: deposited five wood, then withdrew the same five"
+    },
+    "userelic": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: knowledge relic consumed, project ready and reward claim available"
+    },
+    "export(all)": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: one-asset wood export dispatched and claimed; bulk-all variant is a quantity-control adaptation"
+    },
+    "name": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: saved name, motto, public leaderboard opt-in and disabled completion notifications; inverse preferences not separately exercised"
+    },
+    "motto": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: saved name, motto, public leaderboard opt-in and disabled completion notifications; inverse preferences not separately exercised"
+    },
+    "vote": {
+      "implementationStatus": "server-verified; GUI verification pending",
+      "verification": "tests/source-parity.test.ts tier multipliers, grants and cooldown"
+    },
+    "weekly": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: season level-one bonus unlocks weekly reward, followed by challenge claim"
+    },
+    "addretailproduct": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: configured lamp listing, price, storefront and product names"
+    },
+    "retailproductprice": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: configured lamp listing, price, storefront and product names"
+    },
+    "build": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: requirements modal, keyboard containment, Escape and acknowledged construction"
+    },
+    "lockasset(all)": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: one-asset lock/unlock/sale exercised; multi-asset variants are UI adaptations"
+    },
+    "unlockasset(all)": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: one-asset lock/unlock/sale exercised; multi-asset variants are UI adaptations"
+    },
+    "sell(all)": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: one-asset lock/unlock/sale exercised; multi-asset variants are UI adaptations"
+    },
+    "marketsell": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: GUI sell order and cash-inbox claim after second-account API fill"
+    },
+    "claim": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: GUI sell order and cash-inbox claim after second-account API fill"
+    },
+    "develop": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: real action confirmations and state assertions"
+    },
+    "retailname": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: configured lamp listing, price, storefront and product names"
+    },
+    "retailproductname": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: configured lamp listing, price, storefront and product names"
+    },
+    "removeretailproduct": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: removed a listing after confirmed timed sales"
+    },
+    "joinballot": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: funded the office, paid candidacy and voted through visible controls"
+    },
+    "voteballot": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: funded the office, paid candidacy and voted through visible controls"
+    },
+    "seasonpass": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: season level-one bonus unlocks weekly reward, followed by challenge claim"
+    },
+    "give": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: private recipient selected by ID, wood gift confirmed in recipient inbox"
+    },
+    "orbit": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: launch, station construction, result claim, hull repair and XP-based station upgrade"
+    },
+    "liquidate": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: authoritative preview and confirmed regional liquidation"
+    },
+    "corporation": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Overview inspected; no additional runtime claim; Own corporation detail is in Overview; other public corporations are summarized in Leaderboards. Discord mentions are replaced by public corporation rows."
+    },
+    "capital": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Overview inspected; no additional runtime claim"
+    },
+    "land": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Facilities inspected; no additional runtime claim"
+    },
+    "assets": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Inventory inspected; no additional runtime claim"
+    },
+    "price": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim"
+    },
+    "buy(all)": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: purchased one wood after ordinary unboosted production and sale"
+    },
+    "examine": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Facilities, Inventory, Chains and Research inspected; no additional runtime claim"
+    },
+    "scrap(all)": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: actual inventory-to-scrap conversion, XP spend, plus preference and demolition cash refund; bulk-all variants use explicit entity/quantity controls"
+    },
+    "facility": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Facilities inspected; no additional runtime claim"
+    },
+    "facilitylist": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Facilities inspected; no additional runtime claim"
+    },
+    "demolish(all)": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: actual inventory-to-scrap conversion, XP spend, plus preference and demolition cash refund; bulk-all variants use explicit entity/quantity controls"
+    },
+    "addxp": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: actual inventory-to-scrap conversion, XP spend, plus preference and demolition cash refund; bulk-all variants use explicit entity/quantity controls"
+    },
+    "setconsumeplus": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: actual inventory-to-scrap conversion, XP spend, plus preference and demolition cash refund; bulk-all variants use explicit entity/quantity controls"
+    },
+    "unsetconsumeplus": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Facilities inspected; no additional runtime claim"
+    },
+    "region": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+    },
+    "regioncode": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+    },
+    "ballot": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+    },
+    "removepolicy": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+    },
+    "policies": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Region inspected; no additional runtime claim"
+    },
+    "blueprint": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Research inspected; no additional runtime claim"
+    },
+    "retail": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Retail inspected; no additional runtime claim"
+    },
+    "logistics": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Logistics inspected; no additional runtime claim"
+    },
+    "vault": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Space inspected; no additional runtime claim"
+    },
+    "notification": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: saved name, motto, public leaderboard opt-in and disabled completion notifications; inverse preferences not separately exercised"
+    },
+    "marketview": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim; Internal shared player exchange replaces the external MarketView site."
+    },
+    "offers": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim"
+    },
+    "canceloffer": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: placed a buy order into escrow, cancelled it and asserted refunded capital"
+    },
+    "buyoffers": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim"
+    },
+    "selloffers": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Market inspected; no additional runtime claim"
+    },
+    "marketbuy": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: placed a buy order into escrow, cancelled it and asserted refunded capital"
+    },
+    "leaderboards": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Leaderboard inspected; no additional runtime claim"
+    },
+    "lboptin": {
+      "implementationStatus": "implemented; exercised GUI operation verified",
+      "verification": "artifacts/ui-workflows/report.json: saved name, motto, public leaderboard opt-in and disabled completion notifications; inverse preferences not separately exercised"
+    },
+    "lboptout": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+    },
+    "help": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+    },
+    "tutorial": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Overview inspected; no additional runtime claim"
+    },
+    "invite": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim; The shared-server URL in Settings replaces a Discord bot invite."
+    },
+    "about": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+    },
+    "changelog": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+    },
+    "premium": {
+      "implementationStatus": "implemented; tier admin/server verified; help view code-reviewed",
+      "verification": "artifacts/operations-report.json: all four actual administrative tier grants and audits; tests/source-parity.test.ts: tier rewards and challenges; Settings field guide presents entitlement information"
+    },
+    "wiki": {
+      "implementationStatus": "implemented view/control; code-reviewed, workflow verification pending",
+      "verification": "docs/research/ui-control-audit.json: App.tsx Settings inspected; no additional runtime claim"
+    }
+  },
+  "integrationReports": {
+    "e2e-report.json": {
+      "path": "artifacts/e2e-report.json",
+      "date": "2026-10-09T15:30:02.461Z"
+    },
+    "ui-workflows/report.json": {
+      "path": "artifacts/ui-workflows/report.json",
+      "date": "2026-10-09T15:37:03.520Z"
+    },
+    "desktop-report.json": {
+      "path": "artifacts/desktop-report.json",
+      "date": "2026-10-09T15:37:34.870Z"
+    },
+    "portable-report.json": {
+      "path": "artifacts/portable-report.json",
+      "date": "2026-10-09T15:37:51.106Z"
+    },
+    "clean-install-report.json": {
+      "path": "artifacts/clean-install-report.json",
+      "date": "2026-10-09T15:30:02.861Z"
+    },
+    "load-report.json": {
+      "path": "artifacts/load-report.json",
+      "date": "2026-10-09T15:30:48.759Z"
+    },
+    "unit-test-report.json": {
+      "path": "artifacts/unit-test-report.json",
+      "date": "2026-10-09T15:36:38.008000+00:00"
+    },
+    "operations-report.json": {
+      "path": "artifacts/operations-report.json",
+      "date": "2026-10-09T15:36:43.061Z"
+    },
+    "package-report.json": {
+      "path": "artifacts/package-report.json",
+      "date": "2026-10-09T15:37:32.619Z"
+    }
+  }
+}

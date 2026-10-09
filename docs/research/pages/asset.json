@@ -1,0 +1,27 @@
+{
+  "id": 260,
+  "title": "Asset+",
+  "namespace": 0,
+  "revisionId": 1636,
+  "revisionTimestamp": "2021-11-11T15:04:38Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Asset%2B",
+  "wikitext": "Some assets will have a '+' in their name to designate that they are a special variant of their normal type. These assets are optionally used by facilities to increase their chances of producing their own '+' variant outputs. Assets that are '+' also have a 4x multiplier on their value when selling in retail stores. \n\nUsing <code>$$scp (facility)</code>, you can increase your asset+ produce chance by double your current asset+ chance.<br>\nAsset+ also [[scrap]] for twice as much scrap as a regular asset.",
+  "links": [
+    "scrap"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Asset+",
+  "html": "<div class=\"mw-parser-output\"><p>Some assets will have a '+' in their name to designate that they are a special variant of their normal type. These assets are optionally used by facilities to increase their chances of producing their own '+' variant outputs. Assets that are '+' also have a 4x multiplier on their value when selling in retail stores. \n</p><p>Using <code>$$scp (facility)</code>, you can increase your asset+ produce chance by double your current asset+ chance.<br />\nAsset+ also <a href=\"/index.php/Scrap\" title=\"Scrap\">scrap</a> for twice as much scrap as a regular asset.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145550\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:260-0!canonical and timestamp 20261009145550 and revision id 1636\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Scrap",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

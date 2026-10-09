@@ -1,0 +1,55 @@
+{
+  "id": 70,
+  "title": "LED",
+  "namespace": 0,
+  "revisionId": 462,
+  "revisionTimestamp": "2020-07-08T09:46:56Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/LED",
+  "wikitext": "[[Category:Asset]]\nLED is an asset manufactured in a [[LED factory]] and used to build other assets or can be sold. A light-emitting diode (LED) is a semiconductor light source that emits light when current flows through it.\n\n== LED Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[LED factory]] || $5,000 || 2x [[silicon]] || 40x [[LED]] || $36.00 || 0:50\n|-\n|}\n\n== Facilities that use LED ==\n{|class=\"wikitable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !!Production interval (MM:SS)\n|-\n|[[Lamp factory]] || $28,000 || 12x [[LED]], 6x [[plastic]] || 2x [[lamp]] || $132.00 || 0:15\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "LED factory",
+    "silicon",
+    "LED",
+    "Lamp factory",
+    "plastic",
+    "lamp"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "LED",
+  "html": "<div class=\"mw-parser-output\"><p>LED is an asset manufactured in a <a href=\"/index.php/LED_factory\" title=\"LED factory\">LED factory</a> and used to build other assets or can be sold. A light-emitting diode (LED) is a semiconductor light source that emits light when current flows through it.\n</p>\n<h2><span class=\"mw-headline\" id=\"LED_Production\">LED Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=LED&amp;action=edit&amp;section=1\" title=\"Edit section: LED Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/LED_factory\" title=\"LED factory\">LED factory</a></td>\n<td>$5,000</td>\n<td>2x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a></td>\n<td>40x <a class=\"mw-selflink selflink\">LED</a></td>\n<td>$36.00</td>\n<td>0:50\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_LED\">Facilities that use LED</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=LED&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use LED\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Lamp_factory\" title=\"Lamp factory\">Lamp factory</a></td>\n<td>$28,000</td>\n<td>12x <a class=\"mw-selflink selflink\">LED</a>, 6x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a></td>\n<td>2x <a href=\"/index.php/Lamp\" title=\"Lamp\">lamp</a></td>\n<td>$132.00</td>\n<td>0:15\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009111747\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.004 seconds\nPreprocessor visited node count: 10/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:70-0!canonical and timestamp 20261009111747 and revision id 462\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "LED factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Lamp",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Lamp factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

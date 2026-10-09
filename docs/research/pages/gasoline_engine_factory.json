@@ -1,0 +1,72 @@
+{
+  "id": 31,
+  "title": "Gasoline engine factory",
+  "namespace": 0,
+  "revisionId": 1446,
+  "revisionTimestamp": "2021-06-19T01:36:16Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Gasoline_engine_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $500,000, 100,000x [[steel]], 100,000x [[rubber]]\n|-\n|'''Cost''' || $2,000,000\n|-\n|'''Inputs''' || 15x [[steel]], 6x [[rubber]]\n|-\n|'''Outputs''' || 1x [[gasoline engine]]\n|-\n|'''Production interval''' || 4m 20s\n|-\n|'''Production/Hour''' || ~13x [[gasoline engine]]\n|-\n|'''Profit/Min''' || $1,153.85\n|-\n|'''Profit/Hour''' || $69,230.77\n|-\n|'''Return On Investment/Min''' || 0.056%\n|-\n|'''Time to ROI''' || 1,791.37 Minute<br/>(~1 day and 6 Hours)\n|-\n|'''aliases''' || gasoline engine factory, <br/>gasolineenginefactory, <br/>gas engine factory, <br/>gas engine fac\n|}\n[[Category:Facility]]\n\nThe Gasoline engine factory is a facility that creates 1x [[gasoline engine]] every 4 minutes and 20 seconds.\n\nIt costs 105/52 [[Steel mill]]s and 12/13 [[Rubber factory|Rubber factories]] to sustain this.\n\nTo sustain the entire process, you need 105/52 [[Steel mill]]s, 107/364 [[Coal mine]]s, 35/26 [[Iron mine]]s,12/65 [[Oil well]]s, and 12/13 [[Rubber factory|Rubber factories]].",
+  "links": [
+    "steel",
+    "rubber",
+    "gasoline engine",
+    "Category:Facility",
+    "Steel mill",
+    "Rubber factory",
+    "Coal mine",
+    "Iron mine",
+    "Oil well"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Gasoline engine factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$500,000, 100,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 100,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>\n</td></tr>\n<tr>\n<td><b>Cost</b></td>\n<td>$2,000,000\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>15x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 6x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>1x <a href=\"/index.php/Gasoline_engine\" title=\"Gasoline engine\">gasoline engine</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>4m 20s\n</td></tr>\n<tr>\n<td><b>Production/Hour</b></td>\n<td>~13x <a href=\"/index.php/Gasoline_engine\" title=\"Gasoline engine\">gasoline engine</a>\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$1,153.85\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$69,230.77\n</td></tr>\n<tr>\n<td><b>Return On Investment/Min</b></td>\n<td>0.056%\n</td></tr>\n<tr>\n<td><b>Time to ROI</b></td>\n<td>1,791.37 Minute<br />(~1 day and 6 Hours)\n</td></tr>\n<tr>\n<td><b>aliases</b></td>\n<td>gasoline engine factory, <br />gasolineenginefactory, <br />gas engine factory, <br />gas engine fac\n</td></tr></tbody></table>\n<p>The Gasoline engine factory is a facility that creates 1x <a href=\"/index.php/Gasoline_engine\" title=\"Gasoline engine\">gasoline engine</a> every 4 minutes and 20 seconds.\n</p><p>It costs 105/52 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mills</a> and 12/13 <a href=\"/index.php/Rubber_factory\" title=\"Rubber factory\">Rubber factories</a> to sustain this.\n</p><p>To sustain the entire process, you need 105/52 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mills</a>, 107/364 <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mines</a>, 35/26 <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mines</a>,12/65 <a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil wells</a>, and 12/13 <a href=\"/index.php/Rubber_factory\" title=\"Rubber factory\">Rubber factories</a>.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008224515\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.018 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:31-0!canonical and timestamp 20261008224515 and revision id 1446\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline engine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil well",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel mill",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": 126,
+  "title": "Low income tax",
+  "namespace": 0,
+  "revisionId": 1536,
+  "revisionTimestamp": "2021-08-26T16:21:47Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Low_income_tax",
+  "wikitext": "{| class=\"wikitable\" | style=\"float:right\"\n|-\n!colspan=\"2\"| Information\n|-\n| Effect || +2 Happiness in a [[region]]\n|-\n| Cost || 4 [[Funding point|Funding points]]\n|}\nA [[:Category:Policy|policy]] that increase happiness. At full happiness, it is as if you gave everyone about 4/5 of a [[robotic automation]]\n[[Category:Policy]]",
+  "links": [
+    "region",
+    "Funding point",
+    ":Category:Policy",
+    "robotic automation",
+    "Category:Policy"
+  ],
+  "templates": [],
+  "categories": [
+    "Policy"
+  ],
+  "redirect": null,
+  "renderedTitle": "Low income tax",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right\">\n\n<tbody><tr>\n<th colspan=\"2\">Information\n</th></tr>\n<tr>\n<td>Effect</td>\n<td>+2 Happiness in a <a href=\"/index.php/Region\" title=\"Region\">region</a>\n</td></tr>\n<tr>\n<td>Cost</td>\n<td>4 <a href=\"/index.php/Funding_point\" title=\"Funding point\">Funding points</a>\n</td></tr></tbody></table>\n<p>A <a href=\"/index.php/Category:Policy\" title=\"Category:Policy\">policy</a> that increase happiness. At full happiness, it is as if you gave everyone about 4/5 of a <a href=\"/index.php/Robotic_automation\" title=\"Robotic automation\">robotic automation</a>\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008233317\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:126-0!canonical and timestamp 20261008233317 and revision id 1536\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Funding point",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Robotic automation",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Policy",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

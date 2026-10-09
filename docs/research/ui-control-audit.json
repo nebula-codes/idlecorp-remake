@@ -1,0 +1,699 @@
+{
+  "checkedAt": "2026-10-09",
+  "scope": "Final independent UI source audit after expanded browser workflow report. Read-only inspection; no claim all command variants were clicked.",
+  "commands": [
+    {
+      "command": "corporation",
+      "component": "Overview",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Own corporation detail is in Overview; other public corporations are summarized in Leaderboards. Discord mentions are replaced by public corporation rows.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "rebirth",
+      "component": "Prestige",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "liquidate",
+      "component": "Prestige",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "usetoken",
+      "component": "Prestige",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "capital",
+      "component": "Overview",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "land",
+      "component": "Facilities",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "assets",
+      "component": "Inventory",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "price",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "buy(all)",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Original all/bulk aliases are adapted to explicit resource/facility and quantity controls; there is no literal Discord alias parser or cross-entity select-all control.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "sell(all)",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Original all/bulk aliases are adapted to explicit resource/facility and quantity controls; there is no literal Discord alias parser or cross-entity select-all control.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "examine",
+      "component": "Facilities, Inventory, Chains and Research",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "lockasset(all)",
+      "component": "Inventory",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Original all/bulk aliases are adapted to explicit resource/facility and quantity controls; there is no literal Discord alias parser or cross-entity select-all control.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "unlockasset(all)",
+      "component": "Inventory",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Original all/bulk aliases are adapted to explicit resource/facility and quantity controls; there is no literal Discord alias parser or cross-entity select-all control.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "scrap(all)",
+      "component": "Inventory",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Original all/bulk aliases are adapted to explicit resource/facility and quantity controls; there is no literal Discord alias parser or cross-entity select-all control.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "facility",
+      "component": "Facilities",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "facilitylist",
+      "component": "Facilities",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "build",
+      "component": "Facilities",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "demolish(all)",
+      "component": "Facilities",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Original all/bulk aliases are adapted to explicit resource/facility and quantity controls; there is no literal Discord alias parser or cross-entity select-all control.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "addxp",
+      "component": "Facilities",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "setconsumeplus",
+      "component": "Facilities",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "unsetconsumeplus",
+      "component": "Facilities",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "region",
+      "component": "Region",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "regioncode",
+      "component": "Region",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "donateservice",
+      "component": "Region",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "joinballot",
+      "component": "Region",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "ballot",
+      "component": "Region",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "voteballot",
+      "component": "Region",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "addpolicy",
+      "component": "Region",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "removepolicy",
+      "component": "Region",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "policies",
+      "component": "Region",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "research",
+      "component": "Research",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "blueprint",
+      "component": "Research",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "develop",
+      "component": "Research",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "install",
+      "component": "Research",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "uninstall",
+      "component": "Research",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "upgrade",
+      "component": "Research",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "retail",
+      "component": "Retail",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "addretailproduct",
+      "component": "Retail",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "removeretailproduct",
+      "component": "Retail",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "retailproductname",
+      "component": "Retail",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "retailproductprice",
+      "component": "Retail",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "retailname",
+      "component": "Retail",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "export(all)",
+      "component": "Logistics",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Original all/bulk aliases are adapted to explicit resource/facility and quantity controls; there is no literal Discord alias parser or cross-entity select-all control.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "claim",
+      "component": "Logistics",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "logistics",
+      "component": "Logistics",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "give",
+      "component": "Logistics",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "galacticexpedition",
+      "component": "Space",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "orbit",
+      "component": "Space",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "vault",
+      "component": "Space",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "vaultadd",
+      "component": "Space",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "vaultremove",
+      "component": "Space",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "userelic",
+      "component": "Space",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "vote",
+      "component": "Season",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "A standalone supporter reward replaces external voting.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "notification",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "A single completion-notification preference replaces the Discord per-event command switches.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "seasonpassdaily",
+      "component": "Season",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "weekly",
+      "component": "Season",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "seasonpass",
+      "component": "Season",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "marketview",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Internal shared player exchange replaces the external MarketView site.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "offers",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "canceloffer",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "buyoffers",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "selloffers",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "marketbuy",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "marketsell",
+      "component": "Market",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "leaderboards",
+      "component": "Leaderboard",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "lboptin",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "lboptout",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "help",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "tutorial",
+      "component": "Overview",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "name",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "motto",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "invite",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "The shared-server URL in Settings replaces a Discord bot invite.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "prefix",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "intentionally-omitted",
+      "adaptationOrLimit": "Intentionally omitted because the GUI does not have a text-command parser.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "about",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "changelog",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "premium",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "Admin-granted entitlement tiers replace subscriptions and payment processing.",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    },
+    {
+      "command": "wiki",
+      "component": "Settings",
+      "source": "apps/web/src/App.tsx",
+      "sourceSha256": "ed3be9e9cd901d72ee73f60e840813c420681fae47209c1be1aae55ffc39b968",
+      "inspectionStatus": "control-or-view-present; code reviewed",
+      "adaptationOrLimit": "",
+      "browserVerification": "Separate in verification-state.json; source inspection does not prove browser operation"
+    }
+  ]
+}

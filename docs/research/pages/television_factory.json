@@ -1,0 +1,84 @@
+{
+  "id": 37,
+  "title": "Television factory",
+  "namespace": 0,
+  "revisionId": 1445,
+  "revisionTimestamp": "2021-06-19T01:35:23Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Television_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n!colspan=\"2\"| Cost\n|-\n|'''Cost''' || $450,000, 10,000x [[rubber]], <br/>10,000x [[steel]], <br/>150,000x [[aluminum]], <br/>10,000x [[glass]]\n|-\n|'''Total Cost''' || $1,500,000\n|-\n!colspan=\"2\"| Production\n|-\n|'''Inputs''' || 12x [[glass]], 36x [[plastic]], <br/> 1x [[CPU]]\n|-\n|'''Outputs''' || 1x [[television]]\n|-\n|'''Production interval''' || 3 minutes\n|-\n|'''Production/Hour''' || 20x [[television]]\n|-\n!colspan=\"2\"| Profit\n|-\n|'''Profit/Min''' || $1,333.33\n|-\n|'''Profit/Hour''' || $80,000.00\n|-\n|'''Return On Investment/Min''' || 0.076%\n|-\n|'''Time to ROI''' || 1,315.02 Minutes </br> (~21 Hours)\n|-\n!colspan=\"2\"| Aliases\n|-\n|colspan=\"2\"| television factory, televisionfactory, tv factory, tv fac\n|}\n[[Category:Facility]]\nSustaining is required use of 1/40 [[Plastic factory]], 2/15 [[CPU factory]], 7/24 [[Glass factory]]",
+  "links": [
+    "rubber",
+    "steel",
+    "aluminum",
+    "glass",
+    "plastic",
+    "CPU",
+    "television",
+    "Category:Facility",
+    "Plastic factory",
+    "CPU factory",
+    "Glass factory"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Television factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<th colspan=\"2\">Cost\n</th></tr>\n<tr>\n<td><b>Cost</b></td>\n<td>$450,000, 10,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, <br />10,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, <br />150,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, <br />10,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$1,500,000\n</td></tr>\n<tr>\n<th colspan=\"2\">Production\n</th></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>12x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 36x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, <br /> 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>1x <a href=\"/index.php/Television\" title=\"Television\">television</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>3 minutes\n</td></tr>\n<tr>\n<td><b>Production/Hour</b></td>\n<td>20x <a href=\"/index.php/Television\" title=\"Television\">television</a>\n</td></tr>\n<tr>\n<th colspan=\"2\">Profit\n</th></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$1,333.33\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$80,000.00\n</td></tr>\n<tr>\n<td><b>Return On Investment/Min</b></td>\n<td>0.076%\n</td></tr>\n<tr>\n<td><b>Time to ROI</b></td>\n<td>1,315.02 Minutes <br /> (~21 Hours)\n</td></tr>\n<tr>\n<th colspan=\"2\">Aliases\n</th></tr>\n<tr>\n<td colspan=\"2\">television factory, televisionfactory, tv factory, tv fac\n</td></tr></tbody></table>\n<p>Sustaining is required use of 1/40 <a href=\"/index.php/Plastic_factory\" title=\"Plastic factory\">Plastic factory</a>, 2/15 <a href=\"/index.php/CPU_factory\" title=\"CPU factory\">CPU factory</a>, 7/24 <a href=\"/index.php/Glass_factory\" title=\"Glass factory\">Glass factory</a>\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008224720\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.009 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:37-0!canonical and timestamp 20261008224720 and revision id 1445\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Television",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

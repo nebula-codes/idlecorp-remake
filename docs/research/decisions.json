@@ -1,0 +1,842 @@
+[
+  {
+    "id": "research_rarity",
+    "evidenceStatus": "conflict",
+    "evidence": [
+      {
+        "title": "Research",
+        "url": "https://wiki.idlecorp.xyz/index.php/Research",
+        "revisionId": 1715,
+        "revisionTimestamp": "2021-12-19T14:11:52Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Research facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_facility",
+        "revisionId": 1069,
+        "revisionTimestamp": "2021-01-17T13:54:13Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Use fixed Common55%, Uncommon37%, Rare7%, Superior1%, rolling once per research facility. The v1.12 change explicitly replaces facility-count-dependent distributions; an old three-facility table does not even total100%.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.research",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "research_duration",
+    "evidenceStatus": "conflict",
+    "evidence": [
+      {
+        "title": "Research facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_facility",
+        "revisionId": 1069,
+        "revisionTimestamp": "2021-01-17T13:54:13Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Newcomer guide",
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "revisionTimestamp": "2021-11-08T02:38:58Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Use a persisted2\u20133hour random duration: update explicitly changes2\u20134hours to2\u20133hours. Modifiers and instant completion apply without rerolling.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.research.minimumSeconds",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "hq_cost",
+    "evidenceStatus": "conflict",
+    "evidence": [
+      {
+        "title": "HQ",
+        "url": "https://wiki.idlecorp.xyz/index.php/HQ",
+        "revisionId": 1409,
+        "revisionTimestamp": "2021-05-21T03:30:12Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Use detailed HQ bill:$17.6M+1 logistics expansion+100k glass+2k televisions+100k steel+10k furniture+20k laptops. Summary says$32.6M. Updates confirm developed logistics expansion replaces blueprint; unresolved cash discrepancy favors specific detail, not edit date alone.",
+    "implementationLocation": "packages/rules/src/content.json :: facilities.hq",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "logistics_limit",
+    "evidenceStatus": "conflict",
+    "evidence": [
+      {
+        "title": "Logistics center",
+        "url": "https://wiki.idlecorp.xyz/index.php/Logistics_center",
+        "revisionId": 1343,
+        "revisionTimestamp": "2021-05-11T12:20:25Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Newcomer guide",
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "revisionTimestamp": "2021-11-08T02:38:58Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Base hourly NPC purchase budget$1M; each logistics center adds$2M. Update explicitly increases$1M to$2M per center; expansion replaces per-center increment with$4M or$5M.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.logisticsHourlyBuyLimit",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "regional_clocks",
+    "evidenceStatus": "conflict",
+    "evidence": [
+      {
+        "title": "Region",
+        "url": "https://wiki.idlecorp.xyz/index.php/Region",
+        "revisionId": 1545,
+        "revisionTimestamp": "2021-08-27T05:02:07Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Category:Asset",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AAsset",
+        "revisionId": 1133,
+        "revisionTimestamp": "2021-02-05T20:05:19Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Newcomer guide",
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "revisionTimestamp": "2021-11-08T02:38:58Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Production modifiers change every48h per explicit update; use hourly asset price refresh from Asset rather than uncertain daily note. Exact original price and modifier random distributions unavailable; deterministic seeded bounded remake variation.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.priceRefreshSeconds",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "land",
+    "evidenceStatus": "estimate",
+    "evidence": [
+      {
+        "title": "Land",
+        "url": "https://wiki.idlecorp.xyz/index.php/Land",
+        "revisionId": 1606,
+        "revisionTimestamp": "2021-10-26T14:35:54Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "FAQ",
+        "url": "https://wiki.idlecorp.xyz/index.php/FAQ",
+        "revisionId": 1595,
+        "revisionTimestamp": "2021-10-06T10:36:15Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Use$600*1.0961757^purchased land, rounded to cents. Free starter/token/season land does not advance paid-land exponent. Formula is explicitly approximate in wiki. Keep actual paid costs for refunds.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.landBaseCost",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "population",
+    "evidenceStatus": "estimate",
+    "evidence": [
+      {
+        "title": "Population",
+        "url": "https://wiki.idlecorp.xyz/index.php/Population",
+        "revisionId": 482,
+        "revisionTimestamp": "2020-07-18T05:11:28Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Regional population is25,000 per regional plot; exact original formula unavailable (wiki estimate\u00b13%). Recompute across corporations.",
+    "implementationLocation": "packages/rules/src/content.json :: regions.population",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "retail_demand",
+    "evidenceStatus": "estimate",
+    "evidence": [
+      {
+        "title": "Retail",
+        "url": "https://wiki.idlecorp.xyz/index.php/Retail",
+        "revisionId": 724,
+        "revisionTimestamp": "2020-10-07T11:54:07Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Population",
+        "url": "https://wiki.idlecorp.xyz/index.php/Population",
+        "revisionId": 482,
+        "revisionTimestamp": "2020-07-18T05:11:28Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Customer support center",
+        "url": "https://wiki.idlecorp.xyz/index.php/Customer_support_center",
+        "revisionId": 1408,
+        "revisionTimestamp": "2021-05-21T03:29:40Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Use observed25% price rise halves demand; ten baseline sales/store/cycle at reference price, square-root population scaling, support factor floor0.1 and ceiling1. Quantities are configurable remake values, not recovered algorithm.",
+    "implementationLocation": "packages/rules/src/content.json :: retailDemand",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "export_fuel",
+    "evidenceStatus": "estimate",
+    "evidence": [
+      {
+        "title": "Export",
+        "url": "https://wiki.idlecorp.xyz/index.php/Export",
+        "revisionId": 1514,
+        "revisionTimestamp": "2021-08-24T13:12:16Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Truck",
+        "url": "https://wiki.idlecorp.xyz/index.php/Truck",
+        "revisionId": 1122,
+        "revisionTimestamp": "2021-02-04T04:02:42Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Newcomer guide",
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "revisionTimestamp": "2021-11-08T02:38:58Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Truck dispatch takes30min, plus15min,3 concurrent origins, logistics at both ends. Fuel value equals20% of cargo value, rounded up; plus trucks consume gasoline+. Historical3.5% destination-value fee predates truck logistics overhaul; selected ruleset uses fuel only.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.export",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "price_table",
+    "evidenceStatus": "conflict",
+    "evidence": [
+      {
+        "title": "Category:Asset",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AAsset",
+        "revisionId": 1133,
+        "revisionTimestamp": "2021-02-05T20:05:19Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Gold",
+        "url": "https://wiki.idlecorp.xyz/index.php/Gold",
+        "revisionId": 537,
+        "revisionTimestamp": "2020-07-26T06:18:51Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Base prices come from NPC asset table, not historical suggested player prices. Gold+ table typo$4 is rejected in favor of consistent double-normal NPC quality price.",
+    "implementationLocation": "packages/rules/src/content.json :: assets",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "quality",
+    "evidenceStatus": "documented",
+    "evidence": [
+      {
+        "title": "Asset+",
+        "url": "https://wiki.idlecorp.xyz/index.php/Asset%2B",
+        "revisionId": 1636,
+        "revisionTimestamp": "2021-11-11T15:04:38Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Scrap",
+        "url": "https://wiki.idlecorp.xyz/index.php/Scrap",
+        "revisionId": 1655,
+        "revisionTimestamp": "2021-11-18T16:56:50Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Facilities gain1XP per completed cycle;100kXP/level to50; plus chance0.5%/level. All-plus inputs double that chance. Mixed-input fraction linearly interpolates (adaptation). Plus retail reference4x normal; plus scrap2x.",
+    "implementationLocation": "packages/rules/src/content.json :: qualityChance",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "npc_eligibility",
+    "evidenceStatus": "intentional_adaptation",
+    "evidence": [
+      {
+        "title": "Market",
+        "url": "https://wiki.idlecorp.xyz/index.php/Market",
+        "revisionId": 1647,
+        "revisionTimestamp": "2021-11-18T14:58:52Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Newcomer guide",
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "revisionTimestamp": "2021-11-08T02:38:58Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Category:Asset",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AAsset",
+        "revisionId": 1133,
+        "revisionTimestamp": "2021-02-05T20:05:19Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "NPC buy is available for normal intermediate/raw resources; consumer retail goods, trucks, space goods, technology and all plus variants require production/player trading. Wiki icons unavailable, so eligibility is inferred from documented product classes.",
+    "implementationLocation": "packages/rules/src/content.json :: assets.npcBuy",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "space_missing",
+    "evidenceStatus": "estimate",
+    "evidence": [
+      {
+        "title": "Space station",
+        "url": "https://wiki.idlecorp.xyz/index.php/Space_station",
+        "revisionId": 1693,
+        "revisionTimestamp": "2021-12-19T09:53:40Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Space station parts factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Space_station_parts_factory",
+        "revisionId": 1646,
+        "revisionTimestamp": "2021-11-18T14:48:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Galactic coordinate",
+        "url": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+        "revisionId": 1668,
+        "revisionTimestamp": "2021-11-23T15:25:59Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Orbit",
+        "url": "https://wiki.idlecorp.xyz/index.php/Orbit",
+        "revisionId": 1662,
+        "revisionTimestamp": "2021-11-23T10:26:25Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Station requires10k parts inferred from833-hour factory example;1k launch construction fuel is configurable. Station hull, upgrade cost/XP, duration, repair ratio, reward quantities and station-level chance coefficient are remake values because documentation is incomplete. Difficulty base chances80/60/40/20/0%, fuel100\u2013500 and failure damage100\u2013500 are documented.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.space",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "relics",
+    "evidenceStatus": "estimate",
+    "evidence": [
+      {
+        "title": "Relic of haste",
+        "url": "https://wiki.idlecorp.xyz/index.php/Relic_of_haste",
+        "revisionId": 1719,
+        "revisionTimestamp": "2022-05-26T20:01:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Relic of prestige",
+        "url": "https://wiki.idlecorp.xyz/index.php/Relic_of_prestige",
+        "revisionId": 1721,
+        "revisionTimestamp": "2022-05-26T20:06:51Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Relic of efficiency",
+        "url": "https://wiki.idlecorp.xyz/index.php/Relic_of_efficiency",
+        "revisionId": 1720,
+        "revisionTimestamp": "2022-05-26T20:04:40Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Relic of knowledge",
+        "url": "https://wiki.idlecorp.xyz/index.php/Relic_of_knowledge",
+        "revisionId": 1722,
+        "revisionTimestamp": "2022-05-26T20:09:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Vaulted haste subtracts30sec each from research; efficiency converts each plus output to2 normal; knowledge is consumed to finish research. Prestige divisor reduction exists but magnitude is undocumented; choose0.1%/relic capped50%.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.remake",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "vault",
+    "evidenceStatus": "documented",
+    "evidence": [
+      {
+        "title": "Quantum vault",
+        "url": "https://wiki.idlecorp.xyz/index.php/Quantum_vault",
+        "revisionId": 1694,
+        "revisionTimestamp": "2021-12-19T10:00:29Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Quantum stabilization",
+        "url": "https://wiki.idlecorp.xyz/index.php/Quantum_stabilization",
+        "revisionId": 1689,
+        "revisionTimestamp": "2021-12-19T09:35:33Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Each vaulted item independently survives prestige50%, or75% with quantum stabilization installed in reset region. Retention rolls are server-persisted. Capacity10k is remake operational limit, not documented original limit.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.space.vaultRetention",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "region_identity",
+    "evidenceStatus": "intentional_adaptation",
+    "evidence": [
+      {
+        "title": "Region",
+        "url": "https://wiki.idlecorp.xyz/index.php/Region",
+        "revisionId": 1545,
+        "revisionTimestamp": "2021-08-27T05:02:07Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Help:How to play",
+        "url": "https://wiki.idlecorp.xyz/index.php/Help%3AHow_to_play",
+        "revisionId": 1560,
+        "revisionTimestamp": "2021-08-28T21:54:06Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Three persistent server-managed seed regions replace Discord server identity; accounts and clients share one world. Region IDs/names and seed modifiers are original remake content.",
+    "implementationLocation": "packages/rules/src/content.json :: regions",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "seasons",
+    "evidenceStatus": "intentional_adaptation",
+    "evidence": [
+      {
+        "title": "Season",
+        "url": "https://wiki.idlecorp.xyz/index.php/Season",
+        "revisionId": 1339,
+        "revisionTimestamp": "2021-05-11T10:43:16Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Season pass",
+        "url": "https://wiki.idlecorp.xyz/index.php/Season_pass",
+        "revisionId": 1325,
+        "revisionTimestamp": "2021-05-11T10:01:06Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Historical Season1 dates are not live status. Local Founders season configured2026-10-01\u20132027-01-01; ten threshold/reward levels retained. Daily challenge target quantities are configurable as original quantities are not enumerated.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.season",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "standalone_vote",
+    "evidenceStatus": "intentional_adaptation",
+    "evidence": [
+      {
+        "title": "Voting",
+        "url": "https://wiki.idlecorp.xyz/index.php/Voting",
+        "revisionId": 1516,
+        "revisionTimestamp": "2021-08-26T08:38:02Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Premium",
+        "url": "https://wiki.idlecorp.xyz/index.php/Premium",
+        "revisionId": 1619,
+        "revisionTimestamp": "2021-11-08T03:11:54Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Server eligibility and12h cooldown replace external Top.gg action. Preserve cash$1000, gratitude1, passXP200,25% boon speed and10% purchase bonus, multiplied by tier. Exact cooldown/boon lifetime is a declared local rule. No paid subscription processing.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.vote",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "market_ordering",
+    "evidenceStatus": "intentional_adaptation",
+    "evidence": [
+      {
+        "title": "Market",
+        "url": "https://wiki.idlecorp.xyz/index.php/Market",
+        "revisionId": 1647,
+        "revisionTimestamp": "2021-11-18T14:58:52Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Command list",
+        "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+        "revisionId": 1598,
+        "revisionTimestamp": "2021-10-06T11:47:26Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Premium",
+        "url": "https://wiki.idlecorp.xyz/index.php/Premium",
+        "revisionId": 1619,
+        "revisionTimestamp": "2021-11-08T03:11:54Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Price/time priority with escrow and partial fills; original priority algorithm undisclosed. Fee1.5% from explicit update, assigned to seller on fills. Free3 slots; tiers4/6/8. Claimed proceeds handled through logistics.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.remake.marketFee",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "startup",
+    "evidenceStatus": "intentional_adaptation",
+    "evidence": [
+      {
+        "title": "Land",
+        "url": "https://wiki.idlecorp.xyz/index.php/Land",
+        "revisionId": 1606,
+        "revisionTimestamp": "2021-10-26T14:35:54Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Help:How to play",
+        "url": "https://wiki.idlecorp.xyz/index.php/Help%3AHow_to_play",
+        "revisionId": 1560,
+        "revisionTimestamp": "2021-08-28T21:54:06Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Start with10 free land and$1000. Land is documented; starting cash amount is a configurable onboarding choice because tutorial omits it.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.starterCash",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "technology_tiers",
+    "evidenceStatus": "conflict",
+    "evidence": [
+      {
+        "title": "Blueprint",
+        "url": "https://wiki.idlecorp.xyz/index.php/Blueprint",
+        "revisionId": 1692,
+        "revisionTimestamp": "2021-12-19T09:51:27Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Log loader",
+        "url": "https://wiki.idlecorp.xyz/index.php/Log_loader",
+        "revisionId": 220,
+        "revisionTimestamp": "2019-12-12T09:17:06Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Use Blueprint upgrade table for18 technologies and3-to-1 recipe. Up to6 total regional install slots. Log loader UU field is ambiguous4; interpret as4seconds cycle reduction, giving1second base cycle. Slots are regional, effects apply to all matching regional facilities.",
+    "implementationLocation": "packages/rules/src/content.json :: technologies",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "scrap_value",
+    "evidenceStatus": "conflict",
+    "evidence": [
+      {
+        "title": "Scrap",
+        "url": "https://wiki.idlecorp.xyz/index.php/Scrap",
+        "revisionId": 1655,
+        "revisionTimestamp": "2021-11-18T16:56:50Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Asset+",
+        "url": "https://wiki.idlecorp.xyz/index.php/Asset%2B",
+        "revisionId": 1636,
+        "revisionTimestamp": "2021-11-11T15:04:38Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Scrap page says1 item:1scrap:1XP while update says each product/technology has its own unspecified value. Freeze1 per ordinary eligible product and2 per plus item; technology gives1 per item. This is a documented approximation.",
+    "implementationLocation": "packages/rules/src/content.json :: assets.scrappable",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "refunds",
+    "evidenceStatus": "documented",
+    "evidence": [
+      {
+        "title": "Liquidation",
+        "url": "https://wiki.idlecorp.xyz/index.php/Liquidation",
+        "revisionId": 1330,
+        "revisionTimestamp": "2021-05-11T10:09:00Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Land",
+        "url": "https://wiki.idlecorp.xyz/index.php/Land",
+        "revisionId": 1606,
+        "revisionTimestamp": "2021-10-26T14:35:54Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "FAQ",
+        "url": "https://wiki.idlecorp.xyz/index.php/FAQ",
+        "revisionId": 1595,
+        "revisionTimestamp": "2021-10-06T10:36:15Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Land/facility refunds40% historical paid cost, inventories current NPC sell valuation. Net worth counts capital, assets, developed tech and depreciated historical property value. Demolition returns40% property value per Liquidation page.",
+    "implementationLocation": "packages/rules/src/content.json :: prestige / liquidation",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "prestige",
+    "evidenceStatus": "documented",
+    "evidence": [
+      {
+        "title": "Reincorporation",
+        "url": "https://wiki.idlecorp.xyz/index.php/Reincorporation",
+        "revisionId": 1153,
+        "revisionTimestamp": "2021-02-08T05:40:48Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Reincorporation computer",
+        "url": "https://wiki.idlecorp.xyz/index.php/Reincorporation_computer",
+        "revisionId": 1096,
+        "revisionTimestamp": "2021-01-25T07:33:02Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Score floor(net worth/$1B), tokens capped10/15/20/25 by tier;1000 passXP/token.24h cooldown reduced to2h with regional computer and>=4 installed technologies. Discount2%/token max80%,4land/token,4tokens/slot,12tokens/wildcard blueprint.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.prestige",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "governance",
+    "evidenceStatus": "documented",
+    "evidence": [
+      {
+        "title": "Funding point",
+        "url": "https://wiki.idlecorp.xyz/index.php/Funding_point",
+        "revisionId": 1525,
+        "revisionTimestamp": "2021-08-26T15:38:57Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Regional legislator",
+        "url": "https://wiki.idlecorp.xyz/index.php/Regional_legislator",
+        "revisionId": 1569,
+        "revisionTimestamp": "2021-08-29T08:21:07Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Category:Policy",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3APolicy",
+        "revisionId": 1523,
+        "revisionTimestamp": "2021-08-26T15:28:59Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "FAQ",
+        "url": "https://wiki.idlecorp.xyz/index.php/FAQ",
+        "revisionId": 1595,
+        "revisionTimestamp": "2021-10-06T10:36:15Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Shared service funding; region office enables elections.15 base funding points, policy costs from detail pages,24h per-policy toggle cooldown. Candidate fee$10M, weekly term, boon required to stand/vote, ties elect nobody.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.governance",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "safety_bounds",
+    "evidenceStatus": "intentional_adaptation",
+    "evidence": [
+      {
+        "title": "FAQ",
+        "url": "https://wiki.idlecorp.xyz/index.php/FAQ",
+        "revisionId": 1595,
+        "revisionTimestamp": "2021-10-06T10:36:15Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "No arbitrary offline time cap.2000 facilities/region, safe-integer balances and finite vault are explicit implementation bounds. Event processing must preserve chronological resource consumption across downtime. Wiki itself documents unlimited inventory capacity.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.remake.maxFacilitiesPerRegion",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "standalone_extra_rewards",
+    "evidenceStatus": "intentional_adaptation",
+    "evidence": [
+      {
+        "title": "Season",
+        "url": "https://wiki.idlecorp.xyz/index.php/Season",
+        "revisionId": 1339,
+        "revisionTimestamp": "2021-05-11T10:43:16Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Season pass",
+        "url": "https://wiki.idlecorp.xyz/index.php/Season_pass",
+        "revisionId": 1325,
+        "revisionTimestamp": "2021-05-11T10:01:06Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Premium",
+        "url": "https://wiki.idlecorp.xyz/index.php/Premium",
+        "revisionId": 1619,
+        "revisionTimestamp": "2021-11-08T03:11:54Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Voting",
+        "url": "https://wiki.idlecorp.xyz/index.php/Voting",
+        "revisionId": 1516,
+        "revisionTimestamp": "2021-08-26T08:38:02Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Standalone daily reward grants$500,1gratitude and50XP; weekly reward adds$5000,1gratitude and200XP plus the documented entitlement tokens; each pass-level claim adds$1000*level alongside its documented modifier; each completed daily challenge grants$1000 alongside documented100/150XP. These extra liquid rewards are configurable remake convenience sources, not original wiki rewards. The undocumented gratitude cash/blueprint/coordinate shop was removed.",
+    "implementationLocation": "packages/rules/src/content.json :: rules.remake",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  },
+  {
+    "id": "blueprint_regional_assets",
+    "evidenceStatus": "documented",
+    "evidence": [
+      {
+        "title": "Blueprint",
+        "url": "https://wiki.idlecorp.xyz/index.php/Blueprint",
+        "revisionId": 1692,
+        "revisionTimestamp": "2021-12-19T09:51:27Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Newcomer guide",
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "revisionTimestamp": "2021-11-08T02:38:58Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "selectedInterpretation": "Blueprints are held in each region and represented by blueprint_<technology> inventory assets, synchronized with the region research view. Research, token wildcard awards, export arrivals, gifts, NPC sale and development must update one inventory-backed quantity. They can be exported and sold to NPC at a$4M base quote but are excluded from player orders.",
+    "implementationLocation": "packages/rules/src/content.json :: assets.blueprint_*; holdings.blueprints",
+    "implementationStatus": "content-implemented",
+    "verification": "packages/rules/src/content.test.ts validates content structure; corresponding gameplay requires server/integration acceptance"
+  }
+]

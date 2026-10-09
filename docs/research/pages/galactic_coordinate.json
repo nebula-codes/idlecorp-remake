@@ -1,0 +1,81 @@
+{
+  "id": 268,
+  "title": "Galactic coordinate",
+  "namespace": 0,
+  "revisionId": 1668,
+  "revisionTimestamp": "2021-11-23T15:25:59Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+  "wikitext": "Galactic coordinate includes few ranks: [[galactic coordinate i|I]], [[galactic coordinate ii|II]], [[galactic coordinate iii|III]], [[galactic coordinate iv|IV]] and [[galactic coordinate v|V]].\n\nYou cost this when you go on [[Galactic Expedition|galactic expedition]]s. This can be collected by [[research]]ing.\n\nDifferent difficulty on the galactic expeditions has different value, all shown in the table below.\n{|class=\"wikitable\"\n! Difficulty\n! Galactic Coordinate\n! [[Rocket fuel]]\n! Success chance -- Base value\n! Damage on Failure ([[Space station parts]])\n|-\n| I (1) || [[galactic coordinate i|Galactic Coordinate I]] || 100 || 80% || 100\n|-\n| II (2) || [[galactic coordinate ii|Galactic Coordinate II]] || 200 || 60% || 200\n|-\n| III (3) || [[galactic coordinate iii|Galactic Coordinate III]] || 300 || 40% || 300\n|-\n| IV (4) || [[galactic coordinate iv|Galactic Coordinate IV]] || 400 || 20% || 400\n|-\n| V (5) || [[galactic coordinate v|Galactic Coordinate V]] || 500 || 0% || 500\n|}\n\nEvery level of expeditions all cost same value of coordinate (1) and [[rocket]] (1).\n\nFailure may either give you the rocket back or the rocket having a chance to be destroyed.",
+  "links": [
+    "galactic coordinate i",
+    "galactic coordinate ii",
+    "galactic coordinate iii",
+    "galactic coordinate iv",
+    "galactic coordinate v",
+    "Galactic Expedition",
+    "research",
+    "Rocket fuel",
+    "Space station parts",
+    "rocket"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Galactic coordinate",
+  "html": "<div class=\"mw-parser-output\"><p>Galactic coordinate includes few ranks: <a href=\"/index.php?title=Galactic_coordinate_i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate i (page does not exist)\">I</a>, <a href=\"/index.php?title=Galactic_coordinate_ii&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate ii (page does not exist)\">II</a>, <a href=\"/index.php?title=Galactic_coordinate_iii&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate iii (page does not exist)\">III</a>, <a href=\"/index.php?title=Galactic_coordinate_iv&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate iv (page does not exist)\">IV</a> and <a href=\"/index.php?title=Galactic_coordinate_v&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate v (page does not exist)\">V</a>.\n</p><p>You cost this when you go on <a href=\"/index.php/Galactic_Expedition\" title=\"Galactic Expedition\">galactic expeditions</a>. This can be collected by <a href=\"/index.php/Research\" title=\"Research\">researching</a>.\n</p><p>Different difficulty on the galactic expeditions has different value, all shown in the table below.\n</p>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Difficulty\n</th>\n<th>Galactic Coordinate\n</th>\n<th><a href=\"/index.php/Rocket_fuel\" title=\"Rocket fuel\">Rocket fuel</a>\n</th>\n<th>Success chance -- Base value\n</th>\n<th>Damage on Failure (<a href=\"/index.php?title=Space_station_parts&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Space station parts (page does not exist)\">Space station parts</a>)\n</th></tr>\n<tr>\n<td>I (1)</td>\n<td><a href=\"/index.php?title=Galactic_coordinate_i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate i (page does not exist)\">Galactic Coordinate I</a></td>\n<td>100</td>\n<td>80%</td>\n<td>100\n</td></tr>\n<tr>\n<td>II (2)</td>\n<td><a href=\"/index.php?title=Galactic_coordinate_ii&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate ii (page does not exist)\">Galactic Coordinate II</a></td>\n<td>200</td>\n<td>60%</td>\n<td>200\n</td></tr>\n<tr>\n<td>III (3)</td>\n<td><a href=\"/index.php?title=Galactic_coordinate_iii&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate iii (page does not exist)\">Galactic Coordinate III</a></td>\n<td>300</td>\n<td>40%</td>\n<td>300\n</td></tr>\n<tr>\n<td>IV (4)</td>\n<td><a href=\"/index.php?title=Galactic_coordinate_iv&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate iv (page does not exist)\">Galactic Coordinate IV</a></td>\n<td>400</td>\n<td>20%</td>\n<td>400\n</td></tr>\n<tr>\n<td>V (5)</td>\n<td><a href=\"/index.php?title=Galactic_coordinate_v&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Galactic coordinate v (page does not exist)\">Galactic Coordinate V</a></td>\n<td>500</td>\n<td>0%</td>\n<td>500\n</td></tr></tbody></table>\n<p>Every level of expeditions all cost same value of coordinate (1) and <a href=\"/index.php/Rocket\" title=\"Rocket\">rocket</a> (1).\n</p><p>Failure may either give you the rocket back or the rocket having a chance to be destroyed.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145614\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.012 seconds\nReal time usage: 0.012 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:268-0!canonical and timestamp 20261009145614 and revision id 1668\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Galactic Expedition",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket fuel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinate i",
+      "exists": false
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinate ii",
+      "exists": false
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinate iii",
+      "exists": false
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinate iv",
+      "exists": false
+    },
+    {
+      "ns": 0,
+      "title": "Galactic coordinate v",
+      "exists": false
+    },
+    {
+      "ns": 0,
+      "title": "Space station parts",
+      "exists": false
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": 236,
+  "title": "Land management office",
+  "namespace": 0,
+  "revisionId": 1509,
+  "revisionTimestamp": "2021-08-23T10:58:42Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Land_management_office",
+  "wikitext": "{| class=\"wikitable\" | style=\"float:right\"\n|-\n!colspan=\"2\"| Information\n|-\n| Effect || -5.0% land price\n|-\n| Cost || $500,000,000.00\n|}\nA service that reduces land price\n[[Category:Service]]",
+  "links": [
+    "Category:Service"
+  ],
+  "templates": [],
+  "categories": [
+    "Service"
+  ],
+  "redirect": null,
+  "renderedTitle": "Land management office",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right\">\n\n<tbody><tr>\n<th colspan=\"2\">Information\n</th></tr>\n<tr>\n<td>Effect</td>\n<td>-5.0% land price\n</td></tr>\n<tr>\n<td>Cost</td>\n<td>$500,000,000.00\n</td></tr></tbody></table>\n<p>A service that reduces land price\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008212437\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:236-0!canonical and timestamp 20261008212437 and revision id 1509\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": []
+}

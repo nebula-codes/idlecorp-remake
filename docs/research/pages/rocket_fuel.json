@@ -1,0 +1,44 @@
+{
+  "id": 85,
+  "title": "Rocket fuel",
+  "namespace": 0,
+  "revisionId": 539,
+  "revisionTimestamp": "2020-07-26T06:21:25Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Rocket_fuel",
+  "wikitext": "[[Category:Asset]]\n\nNote: This page is kept for archival reasons. \n\nRocket fuel is an asset manufactured using [[Rocket fuel factory | Rocket fuel factories ]] and can be sold.\n\n*Note: This asset is a remaining item from an old version. Rocket fuel was used to fuel [[Rocket]]s.\n\n== Rocket fuel Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Rocket fuel factory]] || $1,000,000 || 10x [[energy]] || 1x [[rocket fuel]] || $0.00 || 15:00\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Rocket fuel factory ",
+    "Rocket",
+    "Rocket fuel factory",
+    "energy",
+    "rocket fuel"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Rocket fuel",
+  "html": "<div class=\"mw-parser-output\"><p><br />\nNote: This page is kept for archival reasons. \n</p><p>Rocket fuel is an asset manufactured using <a href=\"/index.php/Rocket_fuel_factory\" title=\"Rocket fuel factory\"> Rocket fuel factories </a> and can be sold.\n</p>\n<ul><li>Note: This asset is a remaining item from an old version. Rocket fuel was used to fuel <a href=\"/index.php/Rocket\" title=\"Rocket\">Rockets</a>.</li></ul>\n<h2><span class=\"mw-headline\" id=\"Rocket_fuel_Production\">Rocket fuel Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Rocket_fuel&amp;action=edit&amp;section=1\" title=\"Edit section: Rocket fuel Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Rocket_fuel_factory\" title=\"Rocket fuel factory\">Rocket fuel factory</a></td>\n<td>$1,000,000</td>\n<td>10x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a></td>\n<td>1x <a class=\"mw-selflink selflink\">rocket fuel</a></td>\n<td>$0.00</td>\n<td>15:00\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008202125\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 5/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:85-0!canonical and timestamp 20261008202125 and revision id 539\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket fuel factory",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

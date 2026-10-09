@@ -1,0 +1,21 @@
+{
+  "id": 205,
+  "title": "Template:GGSICP RS Link Box",
+  "namespace": 10,
+  "revisionId": 1172,
+  "revisionTimestamp": "2021-02-20T14:23:47Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3AGGSICP_RS_Link_Box",
+  "wikitext": "{| style=\"float:right; border:2px solid #bbb; background-color:#ccc; font-size: 85%; width:30%; height:{{{1}}}\"\n|- style=\"height:20px\"\n| If you want to go to the GGS site, <wbr/>you can click here, <wbr>link: https://sites.google.com/view/idlecorpprofit\n|- style=\"height: auto\"\n|\n|- style=\"font-size: 70%; text-align: center; height:20px\"\n| <b style=\"font-size:78%\">Note:</b><br><b>It is an external link, please remind it</b>\n|}",
+  "links": [],
+  "templates": [
+    "{1"
+  ],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Template:GGSICP RS Link Box",
+  "html": "<div class=\"mw-parser-output\"><table style=\"float:right; border:2px solid #bbb; background-color:#ccc; font-size: 85%; width:30%; height:&#123;&#123;&#123;1&#125;&#125;&#125;\">\n\n<tbody><tr style=\"height:20px\">\n<td>If you want to go to the GGS site, <wbr />you can click here, <wbr />link: <a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external free\" href=\"https://sites.google.com/view/idlecorpprofit\">https://sites.google.com/view/idlecorpprofit</a>\n</td></tr>\n<tr style=\"height: auto\">\n<td>\n</td></tr>\n<tr style=\"font-size: 70%; text-align: center; height:20px\">\n<td><b style=\"font-size:78%\">Note:</b><br /><b>It is an external link, please remind it</b>\n</td></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008220848\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.001 seconds\nPreprocessor visited node count: 3/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:205-0!canonical and timestamp 20261008220848 and revision id 1172\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": 191,
+  "title": "Template:Hidden",
+  "namespace": 10,
+  "revisionId": 869,
+  "revisionTimestamp": "2020-12-15T07:37:36Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3AHidden",
+  "wikitext": "{{hidden begin|toggle={{{showhide|}}}{{{toggle|}}}|expanded={{{expand|{{{expanded|}}}}}}|class={{{class|}}}|border={{{border|none}}}|style={{{style|{{{css|}}}}}}\n|bg1={{{bg1|transparent}}}|ta1={{{ta1|center}}}|titlestyle={{#if:{{{multiline|{{{multi-line|}}}}}}|height:auto;}}{{#ifeq:{{{fw1|bold}}}|bold||font-weight:{{{fw1|bold}}};}}{{{headercss|{{{headerstyle|{{{titlestyle|}}}}}}}}}\n|title={{#if:{{{multiline|{{{multi-line|}}}}}}|<div style=\"margin-right:4em;line-height:125%;height:auto;\">{{{title|{{{header|{{{1}}}}}}}}}</div>|{{{title|{{{header|{{{1}}}}}}}}}}}\n|bg2={{{bg2|transparent}}}|ta2={{{ta2|left}}}|contentstyle={{#ifeq:{{{fw2|normal}}}|normal||font-weight:{{{fw2|normal}}};}}{{{contentcss|{{{contentstyle|}}}}}} }}\n{{{content|{{{contents|{{{text|{{{2}}}}}}}}}}}}{{hidden end}}{{#if:{{{bg1|}}}{{{bg2|}}}{{{ta1|}}}{{{ta2|}}}{{{fw1|}}}{{{fw2|}}}|[[Category:Hidden templates using styles|{{NAMESPACE}}{{PAGENAME}}]]}}",
+  "links": [
+    "Category:Hidden templates using styles"
+  ],
+  "templates": [
+    "hidden begin",
+    "{showhide",
+    "{toggle",
+    "{expand",
+    "{expanded",
+    "{class",
+    "{border",
+    "{style",
+    "{css",
+    "{bg1",
+    "{ta1",
+    "#if:{{{multiline",
+    "{multi-line",
+    "#ifeq:{{{fw1",
+    "{fw1",
+    "{headercss",
+    "{headerstyle",
+    "{titlestyle",
+    "{title",
+    "{header",
+    "{1",
+    "{bg2",
+    "{ta2",
+    "#ifeq:{{{fw2",
+    "{fw2",
+    "{contentcss",
+    "{contentstyle",
+    "{content",
+    "{contents",
+    "{text",
+    "{2",
+    "hidden end",
+    "#if:{{{bg1",
+    "NAMESPACE",
+    "PAGENAME"
+  ],
+  "categories": [
+    "Hidden templates using styles"
+  ],
+  "redirect": null,
+  "renderedTitle": "Template:Hidden",
+  "html": "<div class=\"mw-parser-output\"><div class=\"mw-collapsible mw-collapsed\" style=\"box-sizing:border-box;width:100%;font-size:95%;padding:4px;border:none;\"><div style=\"font-size:100%;line-height:1.6;font-weight:bold;background:transparent;text-align:center;;\">{{{1}}}</div><div class=\"mw-collapsible-content\" style=\"background:transparent;text-align:left;;\">\n{{{2}}}</div></div>\n<!-- \nNewPP limit report\nCached time: 20261009145715\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.017 seconds\nPreprocessor visited node count: 99/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 356/2097152 bytes\nTemplate argument size: 43/2097152 bytes\nHighest expansion depth: 5/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   13.222      1 -total\n 77.40%   10.234      1 Template:Hidden_begin\n 20.57%    2.720      1 Template:Hidden_end\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:191-0!canonical and timestamp 20261009145715 and revision id 869\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": [
+    {
+      "ns": 10,
+      "title": "Template:Hidden begin",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Hidden end",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 29,
+  "title": "Solar power plant",
+  "namespace": 0,
+  "revisionId": 1429,
+  "revisionTimestamp": "2021-06-19T01:12:55Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Solar_power_plant",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $110,000, 5,000x [[steel]], <br/>25,000x [[aluminum]], 25,000x [[glass]]\n|-\n|'''Total Cost''' || $1,000,000\n|-\n|'''Inputs''' || N/A\n|-\n|'''Outputs''' || 60x [[energy]]\n|-\n|'''Production interval''' || 1 minute and 30 seconds\n|-\n|'''Production/Hour''' || 2.400x [[energy]]\n|-\n|'''Profit/Sec''' || $6.67\n|-\n|'''Profit/Min''' || $400.00\n|-\n|'''Profit/Hour''' || $24,000.00\n|-\n|'''Return On Investment/Min''' || 0.04%\n|-\n|'''Time to ROI''' || 2,500,3 Minutes <br/>(~1Day and 17 Hours)\n|-\n|'''aliases''' || solar power plant, solar plant, <br/>solarplant\n|}\n[[Category:Facility]]\n\nThe solar power plant is a facility that creates 60x [[energy]] every 1 minute and 30 seconds.\n\n== Coal v Solar: The debate ==\n\nThere is also [[Coal power plant| another]] facility that creates energy! Coal power plants also exist, and there can be issues on picking which one you might want if you are a newbie. The question is: Which one do you pick? On one hand, you have the coal mine requirement for a coal power plant but it gets 45x more energy every 90s. On the other hand, solar has no inputs but it has less output than that of a coal power plant.\n\nCoal is better if you have a supplier of coal OR if you have the coal detector uu, as it's more efficient. However, not everyone can just buy coal, nor have uu tech, so solar is the best option for full idle, people who have no market connections or people who don't have uu.",
+  "links": [
+    "steel",
+    "aluminum",
+    "glass",
+    "energy",
+    "Category:Facility",
+    "Coal power plant"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Solar power plant",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$110,000, 5,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, <br />25,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 25,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$1,000,000\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>60x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>1 minute and 30 seconds\n</td></tr>\n<tr>\n<td><b>Production/Hour</b></td>\n<td>2.400x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a>\n</td></tr>\n<tr>\n<td><b>Profit/Sec</b></td>\n<td>$6.67\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$400.00\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$24,000.00\n</td></tr>\n<tr>\n<td><b>Return On Investment/Min</b></td>\n<td>0.04%\n</td></tr>\n<tr>\n<td><b>Time to ROI</b></td>\n<td>2,500,3 Minutes <br />(~1Day and 17 Hours)\n</td></tr>\n<tr>\n<td><b>aliases</b></td>\n<td>solar power plant, solar plant, <br />solarplant\n</td></tr></tbody></table>\n<p>The solar power plant is a facility that creates 60x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a> every 1 minute and 30 seconds.\n</p>\n<h2><span class=\"mw-headline\" id=\"Coal_v_Solar:_The_debate\">Coal v Solar: The debate</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Solar_power_plant&amp;action=edit&amp;section=1\" title=\"Edit section: Coal v Solar: The debate\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>There is also <a href=\"/index.php/Coal_power_plant\" title=\"Coal power plant\"> another</a> facility that creates energy! Coal power plants also exist, and there can be issues on picking which one you might want if you are a newbie. The question is: Which one do you pick? On one hand, you have the coal mine requirement for a coal power plant but it gets 45x more energy every 90s. On the other hand, solar has no inputs but it has less output than that of a coal power plant.\n</p><p>Coal is better if you have a supplier of coal OR if you have the coal detector uu, as it's more efficient. However, not everyone can just buy coal, nor have uu tech, so solar is the best option for full idle, people who have no market connections or people who don't have uu.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008153854\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.012 seconds\nReal time usage: 0.122 seconds\nPreprocessor visited node count: 10/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:29-0!canonical and timestamp 20261008153854 and revision id 1429\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

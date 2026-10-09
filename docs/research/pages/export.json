@@ -1,0 +1,45 @@
+{
+  "id": 10,
+  "title": "Export",
+  "namespace": 0,
+  "revisionId": 1514,
+  "revisionTimestamp": "2021-08-24T13:12:16Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Export",
+  "wikitext": "Exporting is the process of moving [[:Category:Asset|assets]] between [[Region|regions]]. In order to export assets, your corporation will need to have a [[logistics center]] built in both the regions you wish to export from and the region you wish to export to. Exporting uses about 1/5 worth gasoline of the total value of assets being exported, if the export is using truck+ to export, then it uses gasoline+ in consumption. Each region can hold maximum of 3 exports of departing, and if they are using [[truck]], they takes 30 minutes to export, if they are using truck+, then takes 15 minutes to export.\n\n== Discord Command ==\n=== Syntax ===\n<code>$$export(all) [type=truck] <region code> <asset> [amount=1]</code>\n=== Example ===\nThis example exports 1,000 coal from the current region to the region with code <code>4KU-GZC-BYX-T6O</code> and using truck:\n\n<code>$$export 4KU-GZC-BYX-T6O coal 1000</code>\n\nThis example exports all laptops from the current region to region with code <code>4KU-GZC-BYX-T6O</code> and using truck:\n\n<code>$$exportall 4KU-GZC-BYX-T6O laptop</code>\n\nThis example exports 1,000 coal from the current region to the region with code <code>4KU-GZC-BYX-T6O</code> and using truck+:\n\n<code>$$export truck+ 4KU-GZC-BYX-T6O coal 1000</code>\n\n== Trivia ==\nThe IdleCorp HQ server (the official server owned by the dev himself, teemaw) has <code>HQ</code> is its region code.",
+  "links": [
+    ":Category:Asset",
+    "Region",
+    "logistics center",
+    "truck"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Export",
+  "html": "<div class=\"mw-parser-output\"><p>Exporting is the process of moving <a href=\"/index.php/Category:Asset\" title=\"Category:Asset\">assets</a> between <a href=\"/index.php/Region\" title=\"Region\">regions</a>. In order to export assets, your corporation will need to have a <a href=\"/index.php/Logistics_center\" title=\"Logistics center\">logistics center</a> built in both the regions you wish to export from and the region you wish to export to. Exporting uses about 1/5 worth gasoline of the total value of assets being exported, if the export is using truck+ to export, then it uses gasoline+ in consumption. Each region can hold maximum of 3 exports of departing, and if they are using <a href=\"/index.php/Truck\" title=\"Truck\">truck</a>, they takes 30 minutes to export, if they are using truck+, then takes 15 minutes to export.\n</p>\n<div id=\"toc\" class=\"toc\"><input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\" /><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2>Contents</h2><span class=\"toctogglespan\"><label class=\"toctogglelabel\" for=\"toctogglecheckbox\"></label></span></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#Discord_Command\"><span class=\"tocnumber\">1</span> <span class=\"toctext\">Discord Command</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-2\"><a href=\"#Syntax\"><span class=\"tocnumber\">1.1</span> <span class=\"toctext\">Syntax</span></a></li>\n<li class=\"toclevel-2 tocsection-3\"><a href=\"#Example\"><span class=\"tocnumber\">1.2</span> <span class=\"toctext\">Example</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-4\"><a href=\"#Trivia\"><span class=\"tocnumber\">2</span> <span class=\"toctext\">Trivia</span></a></li>\n</ul>\n</div>\n\n<h2><span class=\"mw-headline\" id=\"Discord_Command\">Discord Command</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Export&amp;action=edit&amp;section=1\" title=\"Edit section: Discord Command\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"Syntax\">Syntax</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Export&amp;action=edit&amp;section=2\" title=\"Edit section: Syntax\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p><code>$$export(all) [type=truck] &lt;region code&gt; &lt;asset&gt; [amount=1]</code>\n</p>\n<h3><span class=\"mw-headline\" id=\"Example\">Example</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Export&amp;action=edit&amp;section=3\" title=\"Edit section: Example\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>This example exports 1,000 coal from the current region to the region with code <code>4KU-GZC-BYX-T6O</code> and using truck:\n</p><p><code>$$export 4KU-GZC-BYX-T6O coal 1000</code>\n</p><p>This example exports all laptops from the current region to region with code <code>4KU-GZC-BYX-T6O</code> and using truck:\n</p><p><code>$$exportall 4KU-GZC-BYX-T6O laptop</code>\n</p><p>This example exports 1,000 coal from the current region to the region with code <code>4KU-GZC-BYX-T6O</code> and using truck+:\n</p><p><code>$$export truck+ 4KU-GZC-BYX-T6O coal 1000</code>\n</p>\n<h2><span class=\"mw-headline\" id=\"Trivia\">Trivia</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Export&amp;action=edit&amp;section=4\" title=\"Edit section: Trivia\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>The IdleCorp HQ server (the official server owned by the dev himself, teemaw) has <code>HQ</code> is its region code.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008180248\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.008 seconds\nPreprocessor visited node count: 16/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:10-0!canonical and timestamp 20261008180248 and revision id 1514\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Logistics center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Truck",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Asset",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

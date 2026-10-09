@@ -1,0 +1,31 @@
+{
+  "id": 122,
+  "title": "Template:Stub",
+  "namespace": 10,
+  "revisionId": 1543,
+  "revisionTimestamp": "2021-08-27T04:33:22Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3AStub",
+  "wikitext": "{| id=\"Stub\" class=\"noprint stub plainlinks\"\n|-\n!''This article is a [[Wikipedia:Wikipedia:Stub|stub]]. You can help {{SITENAME}} by [{{SERVER}}{{localurl:{{FULLPAGENAME}}|action=edit}} expanding it].''\n|}<includeonly>[[Category:Stubs]]</includeonly><!--<noinclude>[[Category:templates|{{PAGENAME}}]]</noinclude>-->",
+  "links": [
+    "Wikipedia:Wikipedia:Stub",
+    "Category:Stubs",
+    "Category:templates"
+  ],
+  "templates": [
+    "SITENAME",
+    "SERVER",
+    "localurl:{{FULLPAGENAME",
+    "PAGENAME"
+  ],
+  "categories": [
+    "Stubs",
+    "templates"
+  ],
+  "redirect": null,
+  "renderedTitle": "Template:Stub",
+  "html": "<div class=\"mw-parser-output\"><table id=\"Stub\" class=\"noprint stub plainlinks\">\n\n<tbody><tr>\n<th><i>This article is a <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Stub\" class=\"extiw\" title=\"wikipedia:Wikipedia:Stub\">stub</a>. You can help IdleCorp Wiki by <a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"//wiki.idlecorp.xyz/index.php?title=Template:Stub&amp;action=edit\">expanding it</a>.</i>\n</th></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008170900\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 6/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 87/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 3/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:122-0!canonical and timestamp 20261008170900 and revision id 1543\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": []
+}

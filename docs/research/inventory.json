@@ -1,0 +1,1516 @@
+{
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "namespaces": [
+    0,
+    10,
+    12,
+    14
+  ],
+  "pages": [
+    {
+      "pageid": 45,
+      "ns": 0,
+      "title": "Advanced woodworking",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 226,
+      "ns": 0,
+      "title": "Air traffic control",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 58,
+      "ns": 0,
+      "title": "Airport",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 134,
+      "ns": 0,
+      "title": "Airport tram",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 73,
+      "ns": 0,
+      "title": "Aluminum",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 104,
+      "ns": 0,
+      "title": "Aluminum factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 9,
+      "ns": 0,
+      "title": "Asset",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 260,
+      "ns": 0,
+      "title": "Asset+",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 289,
+      "ns": 0,
+      "title": "Bali Holydays",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 55,
+      "ns": 0,
+      "title": "Bauxite",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 52,
+      "ns": 0,
+      "title": "Bauxite detector",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 56,
+      "ns": 0,
+      "title": "Bauxite mine",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 87,
+      "ns": 0,
+      "title": "Bicycle",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 21,
+      "ns": 0,
+      "title": "Bicycle factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 48,
+      "ns": 0,
+      "title": "Blueprint",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 164,
+      "ns": 0,
+      "title": "Builds",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 89,
+      "ns": 0,
+      "title": "CCD",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 109,
+      "ns": 0,
+      "title": "CCD factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 59,
+      "ns": 0,
+      "title": "CPU",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 25,
+      "ns": 0,
+      "title": "CPU factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 68,
+      "ns": 0,
+      "title": "Capital",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 94,
+      "ns": 0,
+      "title": "Car",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 32,
+      "ns": 0,
+      "title": "Car factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 90,
+      "ns": 0,
+      "title": "Cell phone",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 23,
+      "ns": 0,
+      "title": "Cell phone factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 82,
+      "ns": 0,
+      "title": "Clothing",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 110,
+      "ns": 0,
+      "title": "Clothing factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 67,
+      "ns": 0,
+      "title": "Coal",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 50,
+      "ns": 0,
+      "title": "Coal detector",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 14,
+      "ns": 0,
+      "title": "Coal mine",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 28,
+      "ns": 0,
+      "title": "Coal power plant",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 120,
+      "ns": 0,
+      "title": "Command list",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 57,
+      "ns": 0,
+      "title": "Corporation",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 75,
+      "ns": 0,
+      "title": "Cotton",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 108,
+      "ns": 0,
+      "title": "Cotton farm",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 214,
+      "ns": 0,
+      "title": "Cpu",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 53,
+      "ns": 0,
+      "title": "Crude oil",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 213,
+      "ns": 0,
+      "title": "Csc",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 131,
+      "ns": 0,
+      "title": "Customer support center",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 92,
+      "ns": 0,
+      "title": "Digital camera",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 113,
+      "ns": 0,
+      "title": "Digital camera factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 248,
+      "ns": 0,
+      "title": "End product",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 78,
+      "ns": 0,
+      "title": "Energy",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 208,
+      "ns": 0,
+      "title": "Energy specialization",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 10,
+      "ns": 0,
+      "title": "Export",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 139,
+      "ns": 0,
+      "title": "FAQ",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 38,
+      "ns": 0,
+      "title": "Facility",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 195,
+      "ns": 0,
+      "title": "Factory specialization",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 239,
+      "ns": 0,
+      "title": "Fiber infrastructure",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 249,
+      "ns": 0,
+      "title": "Final product",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 242,
+      "ns": 0,
+      "title": "Funding point",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 83,
+      "ns": 0,
+      "title": "Furniture",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 13,
+      "ns": 0,
+      "title": "Furniture factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 263,
+      "ns": 0,
+      "title": "Galactic Expedition",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 268,
+      "ns": 0,
+      "title": "Galactic coordinate",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 307,
+      "ns": 0,
+      "title": "Garage door repair in Mechanicsburg841",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 20,
+      "ns": 0,
+      "title": "Gas station",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 74,
+      "ns": 0,
+      "title": "Gasoline",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 95,
+      "ns": 0,
+      "title": "Gasoline engine",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 31,
+      "ns": 0,
+      "title": "Gasoline engine factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 257,
+      "ns": 0,
+      "title": "Give",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 81,
+      "ns": 0,
+      "title": "Glass",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 22,
+      "ns": 0,
+      "title": "Glass factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 84,
+      "ns": 0,
+      "title": "Gold",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 46,
+      "ns": 0,
+      "title": "Gold detector",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 36,
+      "ns": 0,
+      "title": "Gold mine",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 132,
+      "ns": 0,
+      "title": "HQ",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 212,
+      "ns": 0,
+      "title": "Headquarters",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 254,
+      "ns": 0,
+      "title": "High income tax",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 258,
+      "ns": 0,
+      "title": "History Timestamps",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 272,
+      "ns": 0,
+      "title": "IdleCorp Guide",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 230,
+      "ns": 0,
+      "title": "IdleCorp Profit",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 185,
+      "ns": 0,
+      "title": "IdleCorp Profit/About",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 201,
+      "ns": 0,
+      "title": "IdleCorp Profit/Copyright Notice",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 200,
+      "ns": 0,
+      "title": "IdleCorp Profit/Download",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 190,
+      "ns": 0,
+      "title": "IdleCorp Profit/Home",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 194,
+      "ns": 0,
+      "title": "IdleCorp Profit/Profit",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 277,
+      "ns": 0,
+      "title": "IdleCorp Profit:About",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 278,
+      "ns": 0,
+      "title": "IdleCorp Profit:Copyright Notice",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 279,
+      "ns": 0,
+      "title": "IdleCorp Profit:Download",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 276,
+      "ns": 0,
+      "title": "IdleCorp Profit:Home",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 228,
+      "ns": 0,
+      "title": "IdleCorp Profit:Other",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 280,
+      "ns": 0,
+      "title": "IdleCorp Profit:Profit",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 186,
+      "ns": 0,
+      "title": "IdleCorp Profit:Progress",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 203,
+      "ns": 0,
+      "title": "IdleCorp Profit:Updates",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 259,
+      "ns": 0,
+      "title": "Interesting History Timestamps",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 71,
+      "ns": 0,
+      "title": "Iron",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 15,
+      "ns": 0,
+      "title": "Iron mine",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 115,
+      "ns": 0,
+      "title": "Jet fuel",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 133,
+      "ns": 0,
+      "title": "Jet fuel refining",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 70,
+      "ns": 0,
+      "title": "LED",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 105,
+      "ns": 0,
+      "title": "LED factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 80,
+      "ns": 0,
+      "title": "Lamp",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 107,
+      "ns": 0,
+      "title": "Lamp factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 6,
+      "ns": 0,
+      "title": "Land",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 255,
+      "ns": 0,
+      "title": "Land grant",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 236,
+      "ns": 0,
+      "title": "Land management office",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 91,
+      "ns": 0,
+      "title": "Laptop",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 27,
+      "ns": 0,
+      "title": "Laptop factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 235,
+      "ns": 0,
+      "title": "Large park",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 130,
+      "ns": 0,
+      "title": "Legend",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 34,
+      "ns": 0,
+      "title": "Liquidation",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 51,
+      "ns": 0,
+      "title": "Log loader",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 261,
+      "ns": 0,
+      "title": "Logistics",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 3,
+      "ns": 0,
+      "title": "Logistics center",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 47,
+      "ns": 0,
+      "title": "Logistics expansion",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 210,
+      "ns": 0,
+      "title": "Logistics expansion blueprint",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 126,
+      "ns": 0,
+      "title": "Low income tax",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 1,
+      "ns": 0,
+      "title": "Main Page",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 121,
+      "ns": 0,
+      "title": "Market",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 232,
+      "ns": 0,
+      "title": "Medium park",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 206,
+      "ns": 0,
+      "title": "Mining specialization",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 256,
+      "ns": 0,
+      "title": "Newcomer guide",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 44,
+      "ns": 0,
+      "title": "Oil mapping",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 18,
+      "ns": 0,
+      "title": "Oil refinery",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 207,
+      "ns": 0,
+      "title": "Oil specialization",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 16,
+      "ns": 0,
+      "title": "Oil well",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 265,
+      "ns": 0,
+      "title": "Orbit",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 253,
+      "ns": 0,
+      "title": "Organic farming",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 69,
+      "ns": 0,
+      "title": "Plastic",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 26,
+      "ns": 0,
+      "title": "Plastic factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 240,
+      "ns": 0,
+      "title": "Policies",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 72,
+      "ns": 0,
+      "title": "Polyester",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 106,
+      "ns": 0,
+      "title": "Polyester factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 117,
+      "ns": 0,
+      "title": "Population",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 209,
+      "ns": 0,
+      "title": "Premium",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 88,
+      "ns": 0,
+      "title": "Prescription drug",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 112,
+      "ns": 0,
+      "title": "Prescription drug factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 247,
+      "ns": 0,
+      "title": "Product",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 244,
+      "ns": 0,
+      "title": "Public logistics access",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 196,
+      "ns": 0,
+      "title": "Quality control",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 274,
+      "ns": 0,
+      "title": "Quantum stabilization",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 275,
+      "ns": 0,
+      "title": "Quantum vault",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 332,
+      "ns": 0,
+      "title": "Razorsharkcasinode",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 11,
+      "ns": 0,
+      "title": "Region",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 234,
+      "ns": 0,
+      "title": "Region office",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 243,
+      "ns": 0,
+      "title": "Regional legislator",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 245,
+      "ns": 0,
+      "title": "Regional planning",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 33,
+      "ns": 0,
+      "title": "Reincorporation",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 219,
+      "ns": 0,
+      "title": "Reincorporation Computer",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 216,
+      "ns": 0,
+      "title": "Reincorporation computer",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 267,
+      "ns": 0,
+      "title": "Relic",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 282,
+      "ns": 0,
+      "title": "Relic of efficiency",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 281,
+      "ns": 0,
+      "title": "Relic of haste",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 284,
+      "ns": 0,
+      "title": "Relic of knowledge",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 283,
+      "ns": 0,
+      "title": "Relic of prestige",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 43,
+      "ns": 0,
+      "title": "Research",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 86,
+      "ns": 0,
+      "title": "Research chemical",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 111,
+      "ns": 0,
+      "title": "Research chemical factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 49,
+      "ns": 0,
+      "title": "Research facility",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 252,
+      "ns": 0,
+      "title": "Research grant",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 119,
+      "ns": 0,
+      "title": "Retail",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 118,
+      "ns": 0,
+      "title": "Retail store",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 114,
+      "ns": 0,
+      "title": "Robotic automation",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 96,
+      "ns": 0,
+      "title": "Rocket",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 85,
+      "ns": 0,
+      "title": "Rocket fuel",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 30,
+      "ns": 0,
+      "title": "Rocket fuel factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 285,
+      "ns": 0,
+      "title": "Rocket launch pad",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 76,
+      "ns": 0,
+      "title": "Rubber",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 19,
+      "ns": 0,
+      "title": "Rubber factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 218,
+      "ns": 0,
+      "title": "Scrap",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 224,
+      "ns": 0,
+      "title": "Season",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 225,
+      "ns": 0,
+      "title": "Season pass",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 79,
+      "ns": 0,
+      "title": "Silicon",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 24,
+      "ns": 0,
+      "title": "Silicon mine",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 238,
+      "ns": 0,
+      "title": "Small park",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 29,
+      "ns": 0,
+      "title": "Solar power plant",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 241,
+      "ns": 0,
+      "title": "Solar subsidies",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 266,
+      "ns": 0,
+      "title": "Space station",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 269,
+      "ns": 0,
+      "title": "Space station parts factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 77,
+      "ns": 0,
+      "title": "Steel",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 17,
+      "ns": 0,
+      "title": "Steel mill",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 223,
+      "ns": 0,
+      "title": "Technologies",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 233,
+      "ns": 0,
+      "title": "Technology",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 93,
+      "ns": 0,
+      "title": "Television",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 37,
+      "ns": 0,
+      "title": "Television factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 246,
+      "ns": 0,
+      "title": "Tourism campaign",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 12,
+      "ns": 0,
+      "title": "Tree farm",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 221,
+      "ns": 0,
+      "title": "Truck",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 222,
+      "ns": 0,
+      "title": "Truck factory",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 237,
+      "ns": 0,
+      "title": "University",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 211,
+      "ns": 0,
+      "title": "Updates",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 116,
+      "ns": 0,
+      "title": "Updates log",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 215,
+      "ns": 0,
+      "title": "Vacuum distillation",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 35,
+      "ns": 0,
+      "title": "Voting",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 66,
+      "ns": 0,
+      "title": "Wood",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 331,
+      "ns": 0,
+      "title": "如何登录WhatsApp网页版",
+      "included": false,
+      "reason": "unrelated spam, third-party utility, or community chronology outside game rules"
+    },
+    {
+      "pageid": 197,
+      "ns": 10,
+      "title": "Template:Clickable button",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 199,
+      "ns": 10,
+      "title": "Template:Composition bar",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 229,
+      "ns": 10,
+      "title": "Template:Fac Ratio",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 270,
+      "ns": 10,
+      "title": "Template:Facility information table",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 205,
+      "ns": 10,
+      "title": "Template:GGSICP RS Link Box",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 271,
+      "ns": 10,
+      "title": "Template:Guess",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 191,
+      "ns": 10,
+      "title": "Template:Hidden",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 192,
+      "ns": 10,
+      "title": "Template:Hidden begin",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 193,
+      "ns": 10,
+      "title": "Template:Hidden end",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 204,
+      "ns": 10,
+      "title": "Template:IdleCorp Profit Page Footer",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 129,
+      "ns": 10,
+      "title": "Template:Legend",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 202,
+      "ns": 10,
+      "title": "Template:Percentage",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 187,
+      "ns": 10,
+      "title": "Template:Progress bar",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 189,
+      "ns": 10,
+      "title": "Template:Progression",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 188,
+      "ns": 10,
+      "title": "Template:Progressions",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 198,
+      "ns": 10,
+      "title": "Template:Spaces",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 122,
+      "ns": 10,
+      "title": "Template:Stub",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 125,
+      "ns": 10,
+      "title": "Template:Stub for sections",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 264,
+      "ns": 10,
+      "title": "Template:Underconstruction",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 251,
+      "ns": 12,
+      "title": "Help:How to play",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 231,
+      "ns": 12,
+      "title": "Help:IdleCorp Profit",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 2,
+      "ns": 14,
+      "title": "Category:Asset",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 4,
+      "ns": 14,
+      "title": "Category:Facility",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 262,
+      "ns": 14,
+      "title": "Category:Farm",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 124,
+      "ns": 14,
+      "title": "Category:Policy",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 65,
+      "ns": 14,
+      "title": "Category:Service",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 250,
+      "ns": 14,
+      "title": "Category:Stubs",
+      "included": true,
+      "reason": "game documentation namespace"
+    },
+    {
+      "pageid": 220,
+      "ns": 14,
+      "title": "Category:Technology",
+      "included": true,
+      "reason": "game documentation namespace"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": 55,
+  "title": "Bauxite",
+  "namespace": 0,
+  "revisionId": 1141,
+  "revisionTimestamp": "2021-02-08T04:51:47Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Bauxite",
+  "wikitext": "[[Category:Asset]]\nBauxite is a sedimentary rock with a relatively high aluminum content. It is the world's main source of aluminum. Bauxite can be mined using a [[Bauxite mine]].\n\n== Bauxite Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Bauxite mine]] || $150, 5,000x [[wood]], 50x [[steel]] || N/A || 40x [[bauxite]] || $9.60 || 0:25\n|-\n|}\n\n== Facilities that use Bauxite ==\n{|class=\"wikitable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !!Production interval (MM:SS)\n|-\n|[[Aluminum factory]] || $3,750 || 10x [[bauxite]] || 3x [[aluminum]] || $26.40 || 0:25 \n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Bauxite mine",
+    "wood",
+    "steel",
+    "bauxite",
+    "Aluminum factory",
+    "aluminum"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Bauxite",
+  "html": "<div class=\"mw-parser-output\"><p>Bauxite is a sedimentary rock with a relatively high aluminum content. It is the world's main source of aluminum. Bauxite can be mined using a <a href=\"/index.php/Bauxite_mine\" title=\"Bauxite mine\">Bauxite mine</a>.\n</p>\n<h2><span class=\"mw-headline\" id=\"Bauxite_Production\">Bauxite Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Bauxite&amp;action=edit&amp;section=1\" title=\"Edit section: Bauxite Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Bauxite_mine\" title=\"Bauxite mine\">Bauxite mine</a></td>\n<td>$150, 5,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 50x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>N/A</td>\n<td>40x <a class=\"mw-selflink selflink\">bauxite</a></td>\n<td>$9.60</td>\n<td>0:25\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_Bauxite\">Facilities that use Bauxite</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Bauxite&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use Bauxite\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Aluminum_factory\" title=\"Aluminum factory\">Aluminum factory</a></td>\n<td>$3,750</td>\n<td>10x <a class=\"mw-selflink selflink\">bauxite</a></td>\n<td>3x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a></td>\n<td>$26.40</td>\n<td>0:25\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009001855\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.004 seconds\nPreprocessor visited node count: 11/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:55-0!canonical and timestamp 20261009001855 and revision id 1141\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Aluminum factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

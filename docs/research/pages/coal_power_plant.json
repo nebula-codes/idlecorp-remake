@@ -1,0 +1,73 @@
+{
+  "id": 28,
+  "title": "Coal power plant",
+  "namespace": 0,
+  "revisionId": 1428,
+  "revisionTimestamp": "2021-06-19T01:11:55Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Coal_power_plant",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || \t$70,000, 200,000x [[wood]], <br/>50,000x [[steel]]\n|-\n|'''Total Cost''' || $500,000\n|-\n|'''Inputs''' || 50x [[coal]]\n|-\n|'''Outputs''' || 35x [[energy]]\n|-\n|'''Production interval''' || 30 seconds\n|-\n|'''Production/Min''' || 70x [[energy]]\n|-\n|'''Production/Hour''' || 4200x [[energy]]\n|-\n|'''Profit/Sec''' || $11.66\n|-\n|'''Profit/Min''' || $700.00\n|-\n|'''Profit/Hour''' || $42,000.00\n|-\n|'''Return On Investment''' || 0.136%\n|-\n|'''Time to ROI''' || 735.3 Minute (~12 Hours)\n|-\n|'''Aliases'''||coal power plant, <br/>coal plant, coalplant\n|}\n[[Category:Facility]]\n\nThe coal power plant is a facility that produces 35x [[energy]] every 30 seconds.\n\nYou need 25/12x [[Coal mine]]s to fully sustain the power plant.\n\n== Related facilities ==\n'''As input'''\n*[[Airport]]\n*[[Research facility]]\n\n== Coal v Solar: The debate ==\n\nThere is also [[Solar power plant| another]] facility that creates energy! [[Solar power plant]]s also exist, and there can be issues on picking which one you might want if you are a newbie. The question is: Which one do you pick? On one hand, you need to have the [[coal mine]] requirement for a coal power plant but it gets 45x more energy every 90s. On the other hand, solar has no inputs but it has less output than that of coal power plant.\n\nCoal is better if you have a supplier of coal OR if you have the coal detector uu, as it's more efficient. However, not everyone can just buy coal, nor have uu tech, so solar is the best option for full idle, people who have no market connections or people who don't have uu.",
+  "links": [
+    "wood",
+    "steel",
+    "coal",
+    "energy",
+    "Category:Facility",
+    "Coal mine",
+    "Airport",
+    "Research facility",
+    "Solar power plant",
+    "coal mine"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Coal power plant",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$70,000, 200,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, <br />50,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$500,000\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>50x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>35x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>30 seconds\n</td></tr>\n<tr>\n<td><b>Production/Min</b></td>\n<td>70x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a>\n</td></tr>\n<tr>\n<td><b>Production/Hour</b></td>\n<td>4200x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a>\n</td></tr>\n<tr>\n<td><b>Profit/Sec</b></td>\n<td>$11.66\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$700.00\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$42,000.00\n</td></tr>\n<tr>\n<td><b>Return On Investment</b></td>\n<td>0.136%\n</td></tr>\n<tr>\n<td><b>Time to ROI</b></td>\n<td>735.3 Minute (~12 Hours)\n</td></tr>\n<tr>\n<td><b>Aliases</b></td>\n<td>coal power plant, <br />coal plant, coalplant\n</td></tr></tbody></table>\n<p>The coal power plant is a facility that produces 35x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a> every 30 seconds.\n</p><p>You need 25/12x <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mines</a> to fully sustain the power plant.\n</p>\n<h2><span class=\"mw-headline\" id=\"Related_facilities\">Related facilities</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Coal_power_plant&amp;action=edit&amp;section=1\" title=\"Edit section: Related facilities\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><b>As input</b>\n</p>\n<ul><li><a href=\"/index.php/Airport\" title=\"Airport\">Airport</a></li>\n<li><a href=\"/index.php/Research_facility\" title=\"Research facility\">Research facility</a></li></ul>\n<h2><span class=\"mw-headline\" id=\"Coal_v_Solar:_The_debate\">Coal v Solar: The debate</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Coal_power_plant&amp;action=edit&amp;section=2\" title=\"Edit section: Coal v Solar: The debate\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>There is also <a href=\"/index.php/Solar_power_plant\" title=\"Solar power plant\"> another</a> facility that creates energy! <a href=\"/index.php/Solar_power_plant\" title=\"Solar power plant\">Solar power plants</a> also exist, and there can be issues on picking which one you might want if you are a newbie. The question is: Which one do you pick? On one hand, you need to have the <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">coal mine</a> requirement for a coal power plant but it gets 45x more energy every 90s. On the other hand, solar has no inputs but it has less output than that of coal power plant.\n</p><p>Coal is better if you have a supplier of coal OR if you have the coal detector uu, as it's more efficient. However, not everyone can just buy coal, nor have uu tech, so solar is the best option for full idle, people who have no market connections or people who don't have uu.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009133235\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.011 seconds\nPreprocessor visited node count: 17/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:28-0!canonical and timestamp 20261009133235 and revision id 1428\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Airport",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research facility",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Solar power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

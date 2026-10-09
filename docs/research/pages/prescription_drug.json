@@ -1,0 +1,37 @@
+{
+  "id": 88,
+  "title": "Prescription drug",
+  "namespace": 0,
+  "revisionId": 637,
+  "revisionTimestamp": "2020-08-25T14:13:11Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Prescription_drug",
+  "wikitext": "[[Category:Asset]]\nThe prescription drug is an asset manufactured in a [[Prescription drug factory]] and is a product that can be sold for capital. A prescription drug (also prescription medication or prescription medicine) is a pharmaceutical drug that legally requires a medical prescription to be dispensed.\n\n== Prescription drug Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Prescription drug factory]] || $500 || 1x [[research chemical]] || 2x [[prescription drug]] || $1,080.00 || 0:50\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Prescription drug factory",
+    "research chemical",
+    "prescription drug"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Prescription drug",
+  "html": "<div class=\"mw-parser-output\"><p>The prescription drug is an asset manufactured in a <a href=\"/index.php/Prescription_drug_factory\" title=\"Prescription drug factory\">Prescription drug factory</a> and is a product that can be sold for capital. A prescription drug (also prescription medication or prescription medicine) is a pharmaceutical drug that legally requires a medical prescription to be dispensed.\n</p>\n<h2><span class=\"mw-headline\" id=\"Prescription_drug_Production\">Prescription drug Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Prescription_drug&amp;action=edit&amp;section=1\" title=\"Edit section: Prescription drug Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Prescription_drug_factory\" title=\"Prescription drug factory\">Prescription drug factory</a></td>\n<td>$500</td>\n<td>1x <a href=\"/index.php/Research_chemical\" title=\"Research chemical\">research chemical</a></td>\n<td>2x <a class=\"mw-selflink selflink\">prescription drug</a></td>\n<td>$1,080.00</td>\n<td>0:50\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009011607\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 4/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:88-0!canonical and timestamp 20261009011607 and revision id 637\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Prescription drug factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

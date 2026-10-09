@@ -1,0 +1,44 @@
+{
+  "id": 96,
+  "title": "Rocket",
+  "namespace": 0,
+  "revisionId": 1630,
+  "revisionTimestamp": "2021-11-11T14:45:36Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Rocket",
+  "wikitext": "[[Category:Asset]]\n{{Underconstruction}}\n\nRocket is an [[asset]] that can be collected by doing [[research]]es, with rare rarity.\n\n<!--Before 1.12\nRocket is an asset in the market and is a product that can be sold for capital.\n\n*Note: This asset is a remaining item from an old version. Rocket's are not currently buildable.-->",
+  "links": [
+    "Category:Asset",
+    "asset",
+    "research"
+  ],
+  "templates": [
+    "Underconstruction"
+  ],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Rocket",
+  "html": "<div class=\"mw-parser-output\"><div style=\"margin:8px 15px; padding: 10px 15px; background-color:#f0f0f0\"><i>This page is under construction.</i></div>\n<p>Rocket is an <a href=\"/index.php/Asset\" class=\"mw-redirect\" title=\"Asset\">asset</a> that can be collected by doing <a href=\"/index.php/Research\" title=\"Research\">researches</a>, with rare rarity.\n</p><p><br />\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145648\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 4/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 120/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    2.509      1 Template:Underconstruction\n100.00%    2.509      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:96-0!canonical and timestamp 20261009145648 and revision id 1630\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Asset",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": [
+    {
+      "ns": 10,
+      "title": "Template:Underconstruction",
+      "exists": true
+    }
+  ]
+}

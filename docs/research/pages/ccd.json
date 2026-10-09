@@ -1,0 +1,55 @@
+{
+  "id": 89,
+  "title": "CCD",
+  "namespace": 0,
+  "revisionId": 730,
+  "revisionTimestamp": "2020-10-18T04:09:55Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/CCD",
+  "wikitext": "[[Category:Asset]]\nCCD is an asset manufactured in a [[CCD factory]] and used to build other assets or can be sold. A charge-coupled device (CCD) is a device for the movement of electrical charge, usually from within the device to an area where the charge can be manipulated, such as conversion into a digital value. CCD is a major technology for digital imaging.\n\n== CCD Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[CCD factory]] || $69,000 || 6x [[silicon]] || 1x [[CCD]] || $323.08~ || 1:05\n|-\n|}\n== Facilities that use CCD ==\n{|class=\"wikitable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !!Production interval (MM:SS)\n|-\n|[[Digital camera factory]] || $1,400,000 || 100x [[plastic]], 1x [[CCD]] || 1x [[digital camera]] || $1087.50 || 1:20\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "CCD factory",
+    "silicon",
+    "CCD",
+    "Digital camera factory",
+    "plastic",
+    "digital camera"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "CCD",
+  "html": "<div class=\"mw-parser-output\"><p>CCD is an asset manufactured in a <a href=\"/index.php/CCD_factory\" title=\"CCD factory\">CCD factory</a> and used to build other assets or can be sold. A charge-coupled device (CCD) is a device for the movement of electrical charge, usually from within the device to an area where the charge can be manipulated, such as conversion into a digital value. CCD is a major technology for digital imaging.\n</p>\n<h2><span class=\"mw-headline\" id=\"CCD_Production\">CCD Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=CCD&amp;action=edit&amp;section=1\" title=\"Edit section: CCD Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/CCD_factory\" title=\"CCD factory\">CCD factory</a></td>\n<td>$69,000</td>\n<td>6x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a></td>\n<td>1x <a class=\"mw-selflink selflink\">CCD</a></td>\n<td>$323.08~</td>\n<td>1:05\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_CCD\">Facilities that use CCD</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=CCD&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use CCD\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Digital_camera_factory\" title=\"Digital camera factory\">Digital camera factory</a></td>\n<td>$1,400,000</td>\n<td>100x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, 1x <a class=\"mw-selflink selflink\">CCD</a></td>\n<td>1x <a href=\"/index.php/Digital_camera\" title=\"Digital camera\">digital camera</a></td>\n<td>$1087.50</td>\n<td>1:20\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009062856\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.007 seconds\nPreprocessor visited node count: 10/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:89-0!canonical and timestamp 20261009062856 and revision id 730\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "CCD factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Digital camera",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Digital camera factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

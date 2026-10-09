@@ -1,0 +1,40 @@
+services:
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: idlecorp
+      POSTGRES_USER: idlecorp
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-idlecorp}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - idlecorp-db:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U idlecorp -d idlecorp"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  server:
+    build: .
+    restart: unless-stopped
+    profiles: ["full"]
+    environment:
+      DATABASE_URL: postgres://idlecorp:${POSTGRES_PASSWORD:-idlecorp}@db:5432/idlecorp
+      NODE_ENV: production
+      PORT: 3001
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-http://localhost:3001}
+      BACKUP_ENABLED: ${BACKUP_ENABLED:-true}
+      BACKUP_DIR: /app/.runtime/backups
+      BACKUP_INTERVAL_HOURS: ${BACKUP_INTERVAL_HOURS:-24}
+      BACKUP_RETENTION: ${BACKUP_RETENTION:-7}
+    volumes:
+      - idlecorp-backups:/app/.runtime/backups
+    ports:
+      - "3001:3001"
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  idlecorp-db:
+  idlecorp-backups:

@@ -1,0 +1,273 @@
+{
+  "id": 48,
+  "title": "Blueprint",
+  "namespace": 0,
+  "revisionId": 1692,
+  "revisionTimestamp": "2021-12-19T09:51:27Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Blueprint",
+  "wikitext": "Blueprints are acquired through [[research]] and can be developed into [[Technologies]]. Blueprints are consumed when they are developed.\n\n==Commands==\nYou can check what assets are required to develop a blueprint with the following command.\n\n<code>$$blueprint <blueprint name></code>\n\nExample to view required assets for the oil mapping blueprint:\n\n<code>$$blueprint oil mapping</code>\n\nBlueprints can be developed with the following command.\n\n<code>$$develop <blueprint name></code>\n\n==Blueprint types==\n\n{|class=\"wikitable\"\n!Name !! Rarity !! Affected Facility/Value !! Development cost !! Installment boost !! Tech u boost!! Tech uu boost\n|-\n|[[Oil mapping]] || Common || [[Oil well]] || 1,000x [[CPU]], 10,000x [[Steel]] || 14 || 18|| 100 \n|-\n|[[Coal detector]] || Common || [[Coal mine]] || 10,000x [[Coal]], 1,000,000x [[Steel]] || 12 || 16 || 80\n|-\n|[[Log loader]] || Common || [[Tree farm]] || 100,000x [[Rubber]], 1,000,000x [[Steel]] || -1 Sec || -2 Sec || 4\n|-\n|[[Advanced woodworking]] || Uncommon || [[Furniture factory]] || 50,000x [[Steel]], 50,000x [[Plastic]] || -40 Sec || -1:20 Sec || -3:30 Sec\n|-\n|[[Bauxite detector]] || Uncommon || [[Bauxite mine]] || 800,000x [[Aluminum]], 1,000,000x [[Steel]], 50,000 [[Bauxite]] || 50 || 60 || N/A\n|-\n|[[Jet fuel refining]] || Uncommon || [[Oil refinery]] || 100,000x [[Aluminum]], 1,000,000x [[Steel]], 100,000 [[Rubber]] || [[Jet fuel]] || -22 Sec || N/A\n|-\n|[[Gold detector]] || Uncommon || [[Gold mine]] || 50,000x [[Gold]], 100,000x [[Steel]] || 6 || 8 || 10\n|-\n|[[Vacuum distillation]] || Uncommon || [[Oil refinery]] || 1,000,000x [[Steel]], 800x [[Rubber]], 800,000x [[Aluminum]], || -15sec || -22sec || N/A\n|-\n|[[Robotic automation]] || Rare || All Facilities || 1,000,000x [[Aluminum]], 10,000x [[CPU]], 1,000,000x [[Steel]], 500,000 [[Rubber]], 5,000,000x [[Plastic]] || 2.5% || 4% || 6%\n|-\n|[[Factory specialization]] || Rare || All Factories || 1,000,000x [[Aluminum]], 1,000,000x [[Steel]], 500,000 [[Rubber]] || +4 levels || N/A || N/A\n|-\n|[[Mining specialization]] || Rare || All Mines || 1,000,000x [[Aluminum]], 1,000,000x [[Steel]], 500,000 [[Rubber]] || +4 levels || N/A || N/A\n|-\n|[[Oil specialization]] || Rare || [[Oil well]] || 1,000,000x [[Aluminum]], 1,000,000x [[Steel]], 500,000 [[Rubber]] || +4 levels || N/A || N/A\n|-\n|[[Energy specialization]] || Rare || All Energy Plants || 1,000,000x [[Aluminum]], 1,000,000x [[Steel]], 500,000 [[Rubber]] || +4 levels || N/A || N/A\n|-\n|[[Logistics expansion]] || Superior ||[[Logistics center]] || 100,000x [[Gold]], 10,000x [[CPU]], 400,000x [[Steel]], 1,000,000 [[Plastic]] || 2x || 2.5x || N/A\n|-\n|[[Airport tram]] || Superior || [[Airport]] || 1,000,000x [[Aluminum]], 1,000,000x [[Steel]], 500,000 [[Rubber]] || -4 Sec || -8 Sec || N/A\n|-\n|[[Quality control]] || Superior || All Facilities || 1,000,000x [[Aluminum]], 1,000,000x [[Steel]], 200,000 [[Silicon]] || +2 levels || +4 levels|| N/A\n|-\n|[[Reincorporation computer]] || Superior || Reincorporation cooldown || 100,000x [[Scrap]], 10,000x [[CPU]] || Decreased to 2 hours || N/A || N/A\n|-\n|[[Quantum stabilization]] || Superior || [[Quantum vault]] assets keeping chance || 100,000x [[Energy]], 100x [[CPU]] || Increased to 75% || N/A || N/A\n|}",
+  "links": [
+    "research",
+    "Technologies",
+    "Oil mapping",
+    "Oil well",
+    "CPU",
+    "Steel",
+    "Coal detector",
+    "Coal mine",
+    "Coal",
+    "Log loader",
+    "Tree farm",
+    "Rubber",
+    "Advanced woodworking",
+    "Furniture factory",
+    "Plastic",
+    "Bauxite detector",
+    "Bauxite mine",
+    "Aluminum",
+    "Bauxite",
+    "Jet fuel refining",
+    "Oil refinery",
+    "Jet fuel",
+    "Gold detector",
+    "Gold mine",
+    "Gold",
+    "Vacuum distillation",
+    "Robotic automation",
+    "Factory specialization",
+    "Mining specialization",
+    "Oil specialization",
+    "Energy specialization",
+    "Logistics expansion",
+    "Logistics center",
+    "Airport tram",
+    "Airport",
+    "Quality control",
+    "Silicon",
+    "Reincorporation computer",
+    "Scrap",
+    "Quantum stabilization",
+    "Quantum vault",
+    "Energy"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Blueprint",
+  "html": "<div class=\"mw-parser-output\"><p>Blueprints are acquired through <a href=\"/index.php/Research\" title=\"Research\">research</a> and can be developed into <a href=\"/index.php/Technologies\" class=\"mw-redirect\" title=\"Technologies\">Technologies</a>. Blueprints are consumed when they are developed.\n</p>\n<h2><span class=\"mw-headline\" id=\"Commands\">Commands</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Blueprint&amp;action=edit&amp;section=1\" title=\"Edit section: Commands\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>You can check what assets are required to develop a blueprint with the following command.\n</p><p><code>$$blueprint &lt;blueprint name&gt;</code>\n</p><p>Example to view required assets for the oil mapping blueprint:\n</p><p><code>$$blueprint oil mapping</code>\n</p><p>Blueprints can be developed with the following command.\n</p><p><code>$$develop &lt;blueprint name&gt;</code>\n</p>\n<h2><span class=\"mw-headline\" id=\"Blueprint_types\">Blueprint types</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Blueprint&amp;action=edit&amp;section=2\" title=\"Edit section: Blueprint types\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Rarity</th>\n<th>Affected Facility/Value</th>\n<th>Development cost</th>\n<th>Installment boost</th>\n<th>Tech u boost</th>\n<th>Tech uu boost\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Oil_mapping\" title=\"Oil mapping\">Oil mapping</a></td>\n<td>Common</td>\n<td><a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a></td>\n<td>1,000x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 10,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a></td>\n<td>14</td>\n<td>18</td>\n<td>100\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Coal_detector\" title=\"Coal detector\">Coal detector</a></td>\n<td>Common</td>\n<td><a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a></td>\n<td>10,000x <a href=\"/index.php/Coal\" title=\"Coal\">Coal</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a></td>\n<td>12</td>\n<td>16</td>\n<td>80\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Log_loader\" title=\"Log loader\">Log loader</a></td>\n<td>Common</td>\n<td><a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farm</a></td>\n<td>100,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a></td>\n<td>-1 Sec</td>\n<td>-2 Sec</td>\n<td>4\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Advanced_woodworking\" title=\"Advanced woodworking\">Advanced woodworking</a></td>\n<td>Uncommon</td>\n<td><a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">Furniture factory</a></td>\n<td>50,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 50,000x <a href=\"/index.php/Plastic\" title=\"Plastic\">Plastic</a></td>\n<td>-40 Sec</td>\n<td>-1:20 Sec</td>\n<td>-3:30 Sec\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Bauxite_detector\" title=\"Bauxite detector\">Bauxite detector</a></td>\n<td>Uncommon</td>\n<td><a href=\"/index.php/Bauxite_mine\" title=\"Bauxite mine\">Bauxite mine</a></td>\n<td>800,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 50,000 <a href=\"/index.php/Bauxite\" title=\"Bauxite\">Bauxite</a></td>\n<td>50</td>\n<td>60</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Jet_fuel_refining\" title=\"Jet fuel refining\">Jet fuel refining</a></td>\n<td>Uncommon</td>\n<td><a href=\"/index.php/Oil_refinery\" title=\"Oil refinery\">Oil refinery</a></td>\n<td>100,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 100,000 <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a></td>\n<td><a href=\"/index.php/Jet_fuel\" title=\"Jet fuel\">Jet fuel</a></td>\n<td>-22 Sec</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Gold_detector\" title=\"Gold detector\">Gold detector</a></td>\n<td>Uncommon</td>\n<td><a href=\"/index.php/Gold_mine\" title=\"Gold mine\">Gold mine</a></td>\n<td>50,000x <a href=\"/index.php/Gold\" title=\"Gold\">Gold</a>, 100,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a></td>\n<td>6</td>\n<td>8</td>\n<td>10\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Vacuum_distillation\" title=\"Vacuum distillation\">Vacuum distillation</a></td>\n<td>Uncommon</td>\n<td><a href=\"/index.php/Oil_refinery\" title=\"Oil refinery\">Oil refinery</a></td>\n<td>1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 800x <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a>, 800,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>,</td>\n<td>-15sec</td>\n<td>-22sec</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Robotic_automation\" title=\"Robotic automation\">Robotic automation</a></td>\n<td>Rare</td>\n<td>All Facilities</td>\n<td>1,000,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 10,000x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 500,000 <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a>, 5,000,000x <a href=\"/index.php/Plastic\" title=\"Plastic\">Plastic</a></td>\n<td>2.5%</td>\n<td>4%</td>\n<td>6%\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Factory_specialization\" title=\"Factory specialization\">Factory specialization</a></td>\n<td>Rare</td>\n<td>All Factories</td>\n<td>1,000,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 500,000 <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a></td>\n<td>+4 levels</td>\n<td>N/A</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Mining_specialization\" title=\"Mining specialization\">Mining specialization</a></td>\n<td>Rare</td>\n<td>All Mines</td>\n<td>1,000,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 500,000 <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a></td>\n<td>+4 levels</td>\n<td>N/A</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Oil_specialization\" title=\"Oil specialization\">Oil specialization</a></td>\n<td>Rare</td>\n<td><a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a></td>\n<td>1,000,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 500,000 <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a></td>\n<td>+4 levels</td>\n<td>N/A</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Energy_specialization\" title=\"Energy specialization\">Energy specialization</a></td>\n<td>Rare</td>\n<td>All Energy Plants</td>\n<td>1,000,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 500,000 <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a></td>\n<td>+4 levels</td>\n<td>N/A</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Logistics_expansion\" title=\"Logistics expansion\">Logistics expansion</a></td>\n<td>Superior</td>\n<td><a href=\"/index.php/Logistics_center\" title=\"Logistics center\">Logistics center</a></td>\n<td>100,000x <a href=\"/index.php/Gold\" title=\"Gold\">Gold</a>, 10,000x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 400,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 1,000,000 <a href=\"/index.php/Plastic\" title=\"Plastic\">Plastic</a></td>\n<td>2x</td>\n<td>2.5x</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Airport_tram\" title=\"Airport tram\">Airport tram</a></td>\n<td>Superior</td>\n<td><a href=\"/index.php/Airport\" title=\"Airport\">Airport</a></td>\n<td>1,000,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 500,000 <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a></td>\n<td>-4 Sec</td>\n<td>-8 Sec</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Quality_control\" title=\"Quality control\">Quality control</a></td>\n<td>Superior</td>\n<td>All Facilities</td>\n<td>1,000,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 200,000 <a href=\"/index.php/Silicon\" title=\"Silicon\">Silicon</a></td>\n<td>+2 levels</td>\n<td>+4 levels</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Reincorporation_computer\" title=\"Reincorporation computer\">Reincorporation computer</a></td>\n<td>Superior</td>\n<td>Reincorporation cooldown</td>\n<td>100,000x <a href=\"/index.php/Scrap\" title=\"Scrap\">Scrap</a>, 10,000x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a></td>\n<td>Decreased to 2 hours</td>\n<td>N/A</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Quantum_stabilization\" title=\"Quantum stabilization\">Quantum stabilization</a></td>\n<td>Superior</td>\n<td><a href=\"/index.php/Quantum_vault\" title=\"Quantum vault\">Quantum vault</a> assets keeping chance</td>\n<td>100,000x <a href=\"/index.php/Energy\" title=\"Energy\">Energy</a>, 100x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a></td>\n<td>Increased to 75%</td>\n<td>N/A</td>\n<td>N/A\n</td></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261009015819\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.012 seconds\nReal time usage: 0.068 seconds\nPreprocessor visited node count: 8/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:48-0!canonical and timestamp 20261009015818 and revision id 1692\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Advanced woodworking",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Airport",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Airport tram",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Factory specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Jet fuel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Jet fuel refining",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Log loader",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics expansion",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Mining specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil mapping",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil refinery",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil well",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Quality control",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Quantum stabilization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Quantum vault",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Reincorporation computer",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Robotic automation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Scrap",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Technologies",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Tree farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Vacuum distillation",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

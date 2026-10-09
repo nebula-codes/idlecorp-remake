@@ -1,0 +1,57 @@
+{
+  "id": 164,
+  "title": "Builds",
+  "namespace": 0,
+  "revisionId": 794,
+  "revisionTimestamp": "2020-11-29T10:47:54Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Builds",
+  "wikitext": "Builds, also called production lines, are sets of building which produce a particular asset(s).\n\n== Drug build ==\n\n\n==== Full Production Set ==== \n 144x [[Prescription drug factory|Drug factories]]\n  15x [[Research chemical factory|Chem factories]]\n   2x [[Oil well]]s\n Profit (raw): $10,368,000/h\n\nCan be perfectly duplicated.\n\n==== 111 Land set ====\n 96x Drug factories\n 10x Chem factories\n  2x Oil well\n  1x [[HQ]]\n  1x [[Retail store|Retail]]\n  1x [[Logistics center]]\n Profit: approx. $8,500,000/h",
+  "links": [
+    "Prescription drug factory",
+    "Research chemical factory",
+    "Oil well",
+    "HQ",
+    "Retail store",
+    "Logistics center"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Builds",
+  "html": "<div class=\"mw-parser-output\"><p>Builds, also called production lines, are sets of building which produce a particular asset(s).\n</p>\n<h2><span class=\"mw-headline\" id=\"Drug_build\">Drug build</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Builds&amp;action=edit&amp;section=1\" title=\"Edit section: Drug build\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h4><span class=\"mw-headline\" id=\"Full_Production_Set\">Full Production Set</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Builds&amp;action=edit&amp;section=2\" title=\"Edit section: Full Production Set\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<pre>144x <a href=\"/index.php/Prescription_drug_factory\" title=\"Prescription drug factory\">Drug factories</a>\n 15x <a href=\"/index.php/Research_chemical_factory\" title=\"Research chemical factory\">Chem factories</a>\n  2x <a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil wells</a>\nProfit (raw): $10,368,000/h\n</pre>\n<p>Can be perfectly duplicated.\n</p>\n<h4><span class=\"mw-headline\" id=\"111_Land_set\">111 Land set</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Builds&amp;action=edit&amp;section=3\" title=\"Edit section: 111 Land set\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<pre>96x Drug factories\n10x Chem factories\n 2x Oil well\n 1x <a href=\"/index.php/HQ\" title=\"HQ\">HQ</a>\n 1x <a href=\"/index.php/Retail_store\" title=\"Retail store\">Retail</a>\n 1x <a href=\"/index.php/Logistics_center\" title=\"Logistics center\">Logistics center</a>\nProfit: approx. $8,500,000/h\n</pre>\n<!-- \nNewPP limit report\nCached time: 20261008232943\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 12/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:164-0!canonical and timestamp 20261008232943 and revision id 794\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "HQ",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil well",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Prescription drug factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Retail store",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

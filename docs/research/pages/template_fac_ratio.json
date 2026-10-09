@@ -1,0 +1,73 @@
+{
+  "id": 229,
+  "title": "Template:Fac Ratio",
+  "namespace": 10,
+  "revisionId": 1461,
+  "revisionTimestamp": "2021-07-04T02:13:00Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3AFac_Ratio",
+  "wikitext": "<onlyinclude><includeonly>\nYou need {{#if: {{{3|}}}|{{{2}}} of 1 [[{{{3}}}]]|'''Empty'''}}{{#if: {{{5|}}}|, {{{4}}} of 1 [[{{{5}}}]]}}{{#if: {{{7|}}}|, {{{6}}} of 1 [[{{{7}}}]]}}{{#if: {{{9|}}}|, {{{8}}} of 1 [[{{{9}}}]]}}{{#if: {{{11|}}}|, {{{10}}} of 1 [[{{{11}}}]]}} to maintain this factory.<br>To become fewer remains and a perfect production, you will need {{{fully}}} for {{{fullynum}}} [[{{{1}}}]] but remember it may vary..\n\nMinimum: \n{{{ratio}}}\n\n'''Disclaimer: The ratio above is only for calculation only. The real value may vary.'''\n</includeonly></onlyinclude>\nSyntax: <nowiki>{{Fac Ratio|fac|1stnum|1stfac|2ndnum|2ndfac|3rdnum|3rdfac|4thnum|4thfac|5thfac|5thfac|ratio={Ratios}|fully={facs}|fullynum={facnum}}}</nowiki><br>\nExample: <code><nowiki>{{</nowiki>Fac Ratio|Steel mill|4/7|Coal mine|1/7|Iron mine|ratio=<br>\n1 [[Iron mine]] : 1 [[Coal mine]] : 1 [[Steel mill]]<br>\n1 [[Iron mine]] : 1.75 [[Steel mill]]<br>\n1 [[Coal mine]] : 7 [[Steel mill]]<br>\n|fully=4 [[Coal mine]] and 1 [[Iron mine]]|fullynum=7<nowiki>}}</nowiki></code>\n<br>gives<br>\n:{{Fac Ratio|Steel mill|4/7|Coal mine|1/7|Iron mine|ratio=1 [[Iron mine]] : 1 [[Coal mine]] : 1 [[Steel mill]]<br>\n1 [[Iron mine]] : 1.75 [[Steel mill]]<br>\n1 [[Coal mine]] : 7 [[Steel mill]]<br>\n|fully=4 [[Coal mine]] and 1 [[Iron mine]]|fullynum=7}}",
+  "links": [
+    "{{{3}}}",
+    "{{{5}}}",
+    "{{{7}}}",
+    "{{{9}}}",
+    "{{{11}}}",
+    "{{{1}}}",
+    "Iron mine",
+    "Coal mine",
+    "Steel mill"
+  ],
+  "templates": [
+    "#if: {{{3",
+    "{2",
+    "{3",
+    "#if: {{{5",
+    "{4",
+    "{5",
+    "#if: {{{7",
+    "{6",
+    "{7",
+    "#if: {{{9",
+    "{8",
+    "{9",
+    "#if: {{{11",
+    "{10",
+    "{11",
+    "{fully",
+    "{fullynum",
+    "{1",
+    "{ratio",
+    "Fac Ratio",
+    "</nowiki>Fac Ratio"
+  ],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Template:Fac Ratio",
+  "html": "<div class=\"mw-parser-output\"><p>Syntax: {{Fac Ratio|fac|1stnum|1stfac|2ndnum|2ndfac|3rdnum|3rdfac|4thnum|4thfac|5thfac|5thfac|ratio={Ratios}|fully={facs}|fullynum={facnum}}}<br />\nExample: <code>{{Fac Ratio|Steel mill|4/7|Coal mine|1/7|Iron mine|ratio=<br />\n1 <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a>&#160;: 1 <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a>&#160;: 1 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a><br />\n1 <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a>&#160;: 1.75 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a><br />\n1 <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a>&#160;: 7 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a><br />\n|fully=4 <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a> and 1 <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a>|fullynum=7}}</code>\n<br />gives<br />\n</p>\n<dl><dd></dd></dl>\n<p>You need 4/7 of 1 <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a>, 1/7 of 1 <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a> to maintain this factory.<br />To become fewer remains and a perfect production, you will need 4 <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a> and 1 <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a> for 7 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a> but remember it may vary..\n</p><p>Minimum: \n1 <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a>&#160;: 1 <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a>&#160;: 1 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a><br />\n1 <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a>&#160;: 1.75 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a><br />\n1 <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a>&#160;: 7 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a><br />\n</p><p><b>Disclaimer: The ratio above is only for calculation only. The real value may vary.</b>\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009060143\nCache expiry: 86400\nDynamic content: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.004 seconds\nReal time usage: 0.009 seconds\nPreprocessor visited node count: 43/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 519/2097152 bytes\nTemplate argument size: 225/2097152 bytes\nHighest expansion depth: 4/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 137/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.954      1 Template:Fac_Ratio\n100.00%    0.954      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:229-0!canonical and timestamp 20261009060143 and revision id 1461\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel mill",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": [
+    {
+      "ns": 10,
+      "title": "Template:Fac Ratio",
+      "exists": true
+    }
+  ]
+}

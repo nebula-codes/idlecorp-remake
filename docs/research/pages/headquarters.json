@@ -1,0 +1,62 @@
+{
+  "id": 212,
+  "title": "Headquarters",
+  "namespace": 0,
+  "revisionId": 1035,
+  "revisionTimestamp": "2021-01-17T11:40:33Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Headquarters",
+  "wikitext": "#REDIRECT [[HQ]]",
+  "links": [
+    "HQ"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": "HQ",
+  "renderedTitle": "HQ",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$17,600,000, 1x <a href=\"/index.php/Logistics_expansion\" title=\"Logistics expansion\">logistics expansion</a>,100,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 2,000x <a href=\"/index.php/Television\" title=\"Television\">television</a>, 100,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 10,000x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a>, 20,000x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a>\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Aliases</b></td>\n<td>hq, headquarters, head quarters\n</td></tr></tbody></table>\n<p>Headquarters (commonly referred to as HQ) denotes the location where most, if not all, of the important functions of an organization are coordinated. In the United States, the corporate headquarters represents the entity at the center or the top of a corporation taking full responsibility for managing all business activities. In the United Kingdom, the term head office is most commonly used for the headquarters of large corporations.\n</p>\n<h2><span class=\"mw-headline\" id=\"Function\">Function</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=HQ&amp;action=edit&amp;section=1\" title=\"Edit section: Function\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>The HQ or retail headquarters is a facility created in the <a href=\"/index.php/Updates_log#.2858.29_a1c9fce:_Retail\" title=\"Updates log\">1.7.0 Update</a>. It is a support facility for your retail store(s). Only one of this building type is required to manage retail stores, no matter what region the retail stores are in. It provides the ability to use commands that work with your retail stores.\n</p>\n<h4><span class=\"mw-headline\" id=\"Commands\">Commands</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=HQ&amp;action=edit&amp;section=2\" title=\"Edit section: Commands\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<p>Add Retail Product\n<br /> <code>$$addretailproduct &lt;product&gt; &lt;price&gt;</code>\n<br /> aliases: [<code>addretailproduct</code>, <code>addproduct</code>, <code>arp</code>]\n</p><p>Remove Retail Product\n<br /> <code>$$removeretailproduct &lt;product&gt;</code>\n<br /> aliases: [<code>retailproductname</code>, <code>productname</code>, <code>rpn</code>]\n</p><p>Change Product Price\n<br /> <code>$$retailproductname &lt;product&gt; &lt;new name&gt;</code>\naliases: [<code>retailproductname</code>, <code>productname</code>, <code>rpn</code>]\n</p><p>For more info on retail facilities, please see the <a href=\"/index.php/Retail\" title=\"Retail\">Retail</a> page.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009144711\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.030 seconds\nPreprocessor visited node count: 14/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:132-0!canonical and timestamp 20261009144711 and revision id 1409\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Furniture",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics expansion",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Retail",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Television",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Updates log",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

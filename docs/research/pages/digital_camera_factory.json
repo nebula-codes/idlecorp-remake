@@ -1,0 +1,72 @@
+{
+  "id": 113,
+  "title": "Digital camera factory",
+  "namespace": 0,
+  "revisionId": 1444,
+  "revisionTimestamp": "2021-06-19T01:34:19Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Digital_camera_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $320,000, 10,000x [[steel]], <br/>100,000x [[aluminum]], 20,000x [[glass]]\n|-\n|'''Total Cost''' || $1,400,000\n|-\n|'''Inputs''' || 1x [[CCD]], 100x [[plastic]]\n|-\n|'''Outputs''' || 1x [[digital camera]]\n|-\n|'''Production interval''' || 1 minute and 20 seconds\n|-\n|'''Production/Hour''' || 45x [[digital camera]]\n|-\n|'''Profit/sec''' || $25.00\n|-\n|'''Profit/Min''' || $1,500.00\n|-\n|'''Profit/Hour''' || $90,000.00\n|-\n|'''Return On Investment''' || 0.078%\n|-\n|'''Time to ROI''' || 1,287.36 Minute<br/>(~21 Hours)\n|-\n|'''aliases''' || digital camera factory, <br/>digitalcamerafactory, <br/>digital camera fac, <br/>camera factory, camera fac\n|}\n[[Category:Facility]]\nSustaining it requires use of 13/16 [[CCD factory]] and 5/32 [[Plastic factory]]",
+  "links": [
+    "steel",
+    "aluminum",
+    "glass",
+    "CCD",
+    "plastic",
+    "digital camera",
+    "Category:Facility",
+    "CCD factory",
+    "Plastic factory"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Digital camera factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$320,000, 10,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, <br />100,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 20,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$1,400,000\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>1x <a href=\"/index.php/CCD\" title=\"CCD\">CCD</a>, 100x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>1x <a href=\"/index.php/Digital_camera\" title=\"Digital camera\">digital camera</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>1 minute and 20 seconds\n</td></tr>\n<tr>\n<td><b>Production/Hour</b></td>\n<td>45x <a href=\"/index.php/Digital_camera\" title=\"Digital camera\">digital camera</a>\n</td></tr>\n<tr>\n<td><b>Profit/sec</b></td>\n<td>$25.00\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$1,500.00\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$90,000.00\n</td></tr>\n<tr>\n<td><b>Return On Investment</b></td>\n<td>0.078%\n</td></tr>\n<tr>\n<td><b>Time to ROI</b></td>\n<td>1,287.36 Minute<br />(~21 Hours)\n</td></tr>\n<tr>\n<td><b>aliases</b></td>\n<td>digital camera factory, <br />digitalcamerafactory, <br />digital camera fac, <br />camera factory, camera fac\n</td></tr></tbody></table>\n<p>Sustaining it requires use of 13/16 <a href=\"/index.php/CCD_factory\" title=\"CCD factory\">CCD factory</a> and 5/32 <a href=\"/index.php/Plastic_factory\" title=\"Plastic factory\">Plastic factory</a>\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145604\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.006 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:113-0!canonical and timestamp 20261009145604 and revision id 1444\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CCD",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CCD factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Digital camera",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

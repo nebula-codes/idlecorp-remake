@@ -1,0 +1,86 @@
+{
+  "id": 221,
+  "title": "Truck",
+  "namespace": 0,
+  "revisionId": 1122,
+  "revisionTimestamp": "2021-02-04T04:02:42Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Truck",
+  "wikitext": "[[Category:Asset]]\nTruck is an asset produced by [[truck factory]]. Truck is a heavy vehicle for transporting assets. It is used during [[export]] between regions.\n\n== Truck Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Production <br/>interval (MM:SS)\n|-\n|[[Truck factory]] || 1,000,000x [[Steel]], 100,000x [[Rubber]], 3,000x [[Furniture]], 2,000x [[Laptop]], $36,720,000 || 1,000x [[Steel]], 1,000x [[Rubber]], 100x [[Glass]], 10x [[CPU]], 8,000x [[Plastic]], 1x [[Gasoline engine]] || 1x [[Truck]] || 30:00\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "truck factory",
+    "export",
+    "Truck factory",
+    "Steel",
+    "Rubber",
+    "Furniture",
+    "Laptop",
+    "Glass",
+    "CPU",
+    "Plastic",
+    "Gasoline engine",
+    "Truck"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Truck",
+  "html": "<div class=\"mw-parser-output\"><p>Truck is an asset produced by <a href=\"/index.php/Truck_factory\" title=\"Truck factory\">truck factory</a>. Truck is a heavy vehicle for transporting assets. It is used during <a href=\"/index.php/Export\" title=\"Export\">export</a> between regions.\n</p>\n<h2><span class=\"mw-headline\" id=\"Truck_Production\">Truck Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Truck&amp;action=edit&amp;section=1\" title=\"Edit section: Truck Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Truck_factory\" title=\"Truck factory\">Truck factory</a></td>\n<td>1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 100,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a>, 3,000x <a href=\"/index.php/Furniture\" title=\"Furniture\">Furniture</a>, 2,000x <a href=\"/index.php/Laptop\" title=\"Laptop\">Laptop</a>, $36,720,000</td>\n<td>1,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 1,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a>, 100x <a href=\"/index.php/Glass\" title=\"Glass\">Glass</a>, 10x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 8,000x <a href=\"/index.php/Plastic\" title=\"Plastic\">Plastic</a>, 1x <a href=\"/index.php/Gasoline_engine\" title=\"Gasoline engine\">Gasoline engine</a></td>\n<td>1x <a class=\"mw-selflink selflink\">Truck</a></td>\n<td>30:00\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008224929\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.006 seconds\nPreprocessor visited node count: 5/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:221-0!canonical and timestamp 20261008224929 and revision id 1122\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Export",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline engine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Truck factory",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

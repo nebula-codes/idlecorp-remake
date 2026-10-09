@@ -1,0 +1,98 @@
+{
+  "name": "idlecorp-remake",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A self-hostable multiplayer industrial management game",
+  "engines": {
+    "node": ">=24"
+  },
+  "main": "apps/desktop/main.cjs",
+  "scripts": {
+    "dev": "concurrently -k -n server,web \"npm run dev:server\" \"npm run dev:web\"",
+    "dev:server": "tsx watch apps/server/src/index.ts",
+    "dev:web": "vite --config apps/web/vite.config.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build --config apps/web/vite.config.ts",
+    "start": "tsx apps/server/src/index.ts",
+    "db:migrate": "tsx apps/server/src/migrate.ts",
+    "test": "vitest run",
+    "test:e2e": "node scripts/test-e2e.mjs",
+    "test:load": "node scripts/test-load.mjs",
+    "lint": "eslint apps packages scripts --ignore-pattern public --ignore-pattern dist",
+    "desktop": "electron .",
+    "desktop:build": "npm run build && electron-builder --win portable --x64",
+    "research": "python scripts/collect-wiki.py",
+    "research:content": "python scripts/collect-content.py",
+    "research:icons": "python scripts/collect-icons.py",
+    "research:ledger": "python scripts/collect-research-ledger.py",
+    "db:local": "node scripts/local-db.mjs",
+    "db:backup": "node scripts/backup.mjs",
+    "test:desktop": "node scripts/test-desktop.mjs",
+    "db:restore": "node scripts/restore.mjs",
+    "dev:fixture": "tsx scripts/dev-fixture.ts",
+    "admin": "tsx apps/server/src/admin.ts",
+    "test:clean": "node scripts/test-clean-install.mjs",
+    "test:portable": "node scripts/test-portable.mjs",
+    "test:ui": "node apps/web/verify-ui.mjs",
+    "test:operations": "node scripts/test-operations.mjs",
+    "test:package": "node scripts/test-package.mjs",
+    "test:accounts": "node scripts/test-account-operations.mjs",
+    "test:enhancements": "node scripts/test-enhancements.mjs",
+    "test:ui-enhancements": "node apps/web/verify-enhancements.mjs",
+    "test:upgrade": "node scripts/test-upgrade.mjs",
+    "test:container": "node scripts/test-container.mjs"
+  },
+  "build": {
+    "appId": "org.idlecorp.remake",
+    "productName": "IdleCorp",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "apps/desktop/**",
+      "apps/web/dist/**",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "apps/desktop/icon.ico",
+      "signExecutable": false
+    },
+    "portable": {
+      "artifactName": "IdleCorp-${version}-Windows-x64.exe"
+    },
+    "asar": true
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.1.3",
+    "@fastify/cors": "^11.3.1",
+    "@fastify/rate-limit": "^11.2.1",
+    "@fastify/static": "^10.1.5",
+    "fastify": "^5.12.5",
+    "lucide-react": "^1.54.0",
+    "pg": "^8.23.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.4",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^10.0.6",
+    "electron": "^44.7.0",
+    "electron-builder": "^26.15.3",
+    "embedded-postgres": "^18.4.0-beta.17",
+    "eslint": "^10.12.0",
+    "playwright": "^1.64.0",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.1",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
+  },
+  "author": "IdleCorp Remake Contributors"
+}

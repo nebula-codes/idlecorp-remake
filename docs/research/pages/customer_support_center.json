@@ -1,0 +1,66 @@
+{
+  "id": 131,
+  "title": "Customer support center",
+  "namespace": 0,
+  "revisionId": 1408,
+  "revisionTimestamp": "2021-05-21T03:29:40Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Customer_support_center",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $43,300,000, 100,000x [[glass]], 100,000x [[aluminum]],100,000x [[steel]], 5,000x [[furniture]], 1,000x [[laptop]]\n|-\n|'''Inputs''' || N/A\n|-\n|'''Outputs''' || N/A\n|-\n|'''Production interval''' || N/A\n|}\n[[Category:Facility]]\n\nThe Customer Support Center (commonly called csc for short) is a facility created in the 1.7.0 [[Updates | Update]]. It is a support facility for your retail store(s). It directly affects your retail reputation, which affects your retail demand per hour. \n\nCustomer support centers provide a range of customer services to assist customers in making cost-effective and correct use of a product. It includes assistance in planning, installation, training, troubleshooting, maintenance, upgrading, and disposal of a product.\n\nFor more info on retail facilities, please see the [[Retail]] page.",
+  "links": [
+    "glass",
+    "aluminum",
+    "steel",
+    "furniture",
+    "laptop",
+    "Category:Facility",
+    "Updates ",
+    "Retail"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Customer support center",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$43,300,000, 100,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 100,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>,100,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 5,000x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a>, 1,000x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a>\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>N/A\n</td></tr></tbody></table>\n<p>The Customer Support Center (commonly called csc for short) is a facility created in the 1.7.0 <a href=\"/index.php/Updates\" class=\"mw-redirect\" title=\"Updates\"> Update</a>. It is a support facility for your retail store(s). It directly affects your retail reputation, which affects your retail demand per hour. \n</p><p>Customer support centers provide a range of customer services to assist customers in making cost-effective and correct use of a product. It includes assistance in planning, installation, training, troubleshooting, maintenance, upgrading, and disposal of a product.\n</p><p>For more info on retail facilities, please see the <a href=\"/index.php/Retail\" title=\"Retail\">Retail</a> page.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009100621\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:131-0!canonical and timestamp 20261009100621 and revision id 1408\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Retail",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Updates",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

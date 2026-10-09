@@ -1,0 +1,506 @@
+[
+  {
+    "id": "accounts",
+    "scope": "account auth, corp creation/name/motto/privacy",
+    "evidence": [
+      {
+        "title": "Corporation",
+        "url": "https://wiki.idlecorp.xyz/index.php/Corporation",
+        "revisionId": 233,
+        "revisionTimestamp": "2019-12-23T21:35:28Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "intentional_adaptation",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "auth routes; settings.update",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "artifacts/e2e-report.json: two accounts, two sessions on one account, login/logout and unboosted onboarding"
+  },
+  {
+    "id": "global_local",
+    "scope": "global money/progression versus local land/inventory",
+    "evidence": [
+      {
+        "title": "Help:How to play",
+        "url": "https://wiki.idlecorp.xyz/index.php/Help%3AHow_to_play",
+        "revisionId": 1560,
+        "revisionTimestamp": "2021-08-28T21:54:06Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "state holdings",
+    "implementationStatus": "server-verified; region-switch GUI verified",
+    "verification": "tests/source-parity.test.ts: regional technology effects and blueprint research/export ownership; artifacts/ui-workflows/report.json: regional selection and selected-region liquidation; global-local matrix remains primarily source-parity tested"
+  },
+  {
+    "id": "land_build",
+    "scope": "land escalation/construction/capacity/refunds",
+    "evidence": [
+      {
+        "title": "Land",
+        "url": "https://wiki.idlecorp.xyz/index.php/Land",
+        "revisionId": 1606,
+        "revisionTimestamp": "2021-10-26T14:35:54Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "land.buy; facility.build; facility.demolish",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: 40% historical material valuation and free token land pricing; artifacts/e2e-report.json: land/build/production/sale/persistence, duplicate and concurrent build rejection; keyboard and layouts inspected"
+  },
+  {
+    "id": "production",
+    "scope": "all44 facilities and chronological catch-up",
+    "evidence": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "engine.advance",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "artifacts/e2e-report.json: land/build/production/sale/persistence, duplicate and concurrent build rejection; keyboard and layouts inspected"
+  },
+  {
+    "id": "levels_quality",
+    "scope": "XP, plus inputs, starvation, levels",
+    "evidence": [
+      {
+        "title": "Asset+",
+        "url": "https://wiki.idlecorp.xyz/index.php/Asset%2B",
+        "revisionId": 1636,
+        "revisionTimestamp": "2021-11-11T15:04:38Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "facility.plus; facility.addxp; qualityChance",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "apps/server/test/engine.test.ts: scrap consumption, manual XP leveling, plus-input preference and starvation; packages/rules/src/content.test.ts: quality formula and level limits; artifacts/ui-workflows/report.json: scrapped one lamp, spent 100 scrap on a tree farm, enabled steel-mill plus inputs and confirmed demolition/refund; probabilistic plus output is server-tested"
+  },
+  {
+    "id": "inventory",
+    "scope": "locks, scrap, rates, bottlenecks",
+    "evidence": [
+      {
+        "title": "Command list",
+        "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+        "revisionId": 1598,
+        "revisionTimestamp": "2021-10-06T11:47:26Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "inventory.lock; inventory.scrap; snapshots",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "artifacts/ui-workflows/report.json: GUI inventory lock, blocked sale, unlock and confirmed NPC cash; other inventory controls remain separately tested"
+  },
+  {
+    "id": "npc",
+    "scope": "regional NPC price/limit/eligibility",
+    "evidence": [
+      {
+        "title": "Market",
+        "url": "https://wiki.idlecorp.xyz/index.php/Market",
+        "revisionId": 1647,
+        "revisionTimestamp": "2021-11-18T14:58:52Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "npc.buy; npc.sell",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "artifacts/e2e-report.json: land/build/production/sale/persistence, duplicate and concurrent build rejection; keyboard and layouts inspected; artifacts/ui-workflows/report.json: GUI lock rejection, unlock, NPC sale and NPC buy with real funds and stock"
+  },
+  {
+    "id": "market",
+    "scope": "shared orders/escrow/partial fills/cancellation/fees",
+    "evidence": [
+      {
+        "title": "Market",
+        "url": "https://wiki.idlecorp.xyz/index.php/Market",
+        "revisionId": 1647,
+        "revisionTimestamp": "2021-11-18T14:58:52Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "order.create; order.cancel; logistics.claim",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "artifacts/e2e-report.json: real two-player price-priority partial fill, cancellation/fill race, escrow and fee conservation, cash/asset inbox claims"
+  },
+  {
+    "id": "exports",
+    "scope": "trucks/fuel/dispatch/arrival/claim",
+    "evidence": [
+      {
+        "title": "Export",
+        "url": "https://wiki.idlecorp.xyz/index.php/Export",
+        "revisionId": 1514,
+        "revisionTimestamp": "2021-08-24T13:12:16Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "export.dispatch; export.claim",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "artifacts/ui-workflows/report.json: wood dispatch to another region, persisted deadline advanced in isolated fixture, arrival and cargo claim"
+  },
+  {
+    "id": "gifts",
+    "scope": "premium gifting/cash transfers",
+    "evidence": [
+      {
+        "title": "Give",
+        "url": "https://wiki.idlecorp.xyz/index.php/Give",
+        "revisionId": 1590,
+        "revisionTimestamp": "2021-09-04T15:54:51Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "gift",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "artifacts/ui-workflows/report.json: sent wood to private corporation ID and asserted pending recipient inbox; cash-gift variant not exercised here"
+  },
+  {
+    "id": "retail",
+    "scope": "products/price/names/demand/HQ/support",
+    "evidence": [
+      {
+        "title": "Retail",
+        "url": "https://wiki.idlecorp.xyz/index.php/Retail",
+        "revisionId": 724,
+        "revisionTimestamp": "2020-10-07T11:54:07Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "retail.configure; retail.remove; retail.name",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: global HQ requirement, five-store support demand, normal/plus inventory and revenue conservation, locked goods remain untouched; artifacts/ui-workflows/report.json: configured product, price and names; actual timed sale and listing removal"
+  },
+  {
+    "id": "research",
+    "scope": "cost/timers/independent reward pools/expedite",
+    "evidence": [
+      {
+        "title": "Research",
+        "url": "https://wiki.idlecorp.xyz/index.php/Research",
+        "revisionId": 1715,
+        "revisionTimestamp": "2021-12-19T14:11:52Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "research.start; research.claim; research.finish",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: eight-facility season cost discount, concurrent two-region projects and original local outcomes, knowledge expedite and duplicate claims; artifacts/ui-workflows/report.json: GUI project start, gratitude completion and blueprint claim"
+  },
+  {
+    "id": "technology",
+    "scope": "blueprint/development/install/uninstall/upgrade",
+    "evidence": [
+      {
+        "title": "Blueprint",
+        "url": "https://wiki.idlecorp.xyz/index.php/Blueprint",
+        "revisionId": 1692,
+        "revisionTimestamp": "2021-12-19T09:51:27Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "technology.develop; technology.install; technology.uninstall; technology.upgrade",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: nine-to-one UU upgrade, inventory consumption, installation fee, regional output/speed, uninstall and net-worth retention; artifacts/ui-workflows/report.json: GUI blueprint development, installation, uninstall and upgrade combination"
+  },
+  {
+    "id": "regions",
+    "scope": "shared population/modifiers and discovery",
+    "evidence": [
+      {
+        "title": "Region",
+        "url": "https://wiki.idlecorp.xyz/index.php/Region",
+        "revisionId": 1545,
+        "revisionTimestamp": "2021-08-27T05:02:07Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "state regions; region selector",
+    "implementationStatus": "implemented; server and core regional GUI verified",
+    "verification": "tests/source-parity.test.ts: regional technology isolation and shared fiber benefit; 72-hour modifier boundary equivalence; artifacts/ui-workflows/report.json: region selection, services, elections and policy activation"
+  },
+  {
+    "id": "services",
+    "scope": "all7 collaborative regional service projects",
+    "evidence": [
+      {
+        "title": "Category:Service",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AService",
+        "revisionId": 261,
+        "revisionTimestamp": "2020-05-10T09:20:40Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "service.fund",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: fully funded fiber benefits two corporations in one region; artifacts/ui-workflows/report.json: funded the region office through the contribution control; cross-account fiber effects separately covered by source-parity tests"
+  },
+  {
+    "id": "governance",
+    "scope": "all9 policies/costs/elections/eligibility",
+    "evidence": [
+      {
+        "title": "Category:Policy",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3APolicy",
+        "revisionId": 1523,
+        "revisionTimestamp": "2021-08-26T15:28:59Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "policy.vote; election.run; election.vote",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: policy funding cost, high-tax budget, 24-hour cooldown and tied election result; artifacts/ui-workflows/report.json: office funding, candidate registration, ballot vote, actual election completion and elected policy activation"
+  },
+  {
+    "id": "prestige",
+    "scope": "transactional preview/reset/persistence/tokens",
+    "evidence": [
+      {
+        "title": "Reincorporation",
+        "url": "https://wiki.idlecorp.xyz/index.php/Reincorporation",
+        "revisionId": 1153,
+        "revisionTimestamp": "2021-02-08T05:40:48Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "prestige.preview; prestige.reset; upgrade.buy",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: stacked seasonal starter bonuses, permanent upgrade/XP/gratitude persistence, source valuation and regional vault stabilization; artifacts/ui-workflows/report.json: token upgrade, authoritative reincorporation preview, confirmed reset, facilities cleared and carried score asserted"
+  },
+  {
+    "id": "liquidation",
+    "scope": "regional reset/historical refunds/pending actions",
+    "evidence": [
+      {
+        "title": "Liquidation",
+        "url": "https://wiki.idlecorp.xyz/index.php/Liquidation",
+        "revisionId": 1330,
+        "revisionTimestamp": "2021-05-11T10:09:00Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "liquidation.preview; liquidation.reset",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "artifacts/ui-workflows/report.json: switched region, requested authoritative preview, confirmed twice, asserted selected region land reset"
+  },
+  {
+    "id": "season",
+    "scope": "dates/challenges/XP/ten pass bonuses",
+    "evidence": [
+      {
+        "title": "Season pass",
+        "url": "https://wiki.idlecorp.xyz/index.php/Season_pass",
+        "revisionId": 1325,
+        "revisionTimestamp": "2021-05-11T10:01:06Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "reward.daily; season.claim",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: three free versus six platinum daily challenges, rewards, double-claim rejection, seasonal research and prestige bonuses; artifacts/ui-workflows/report.json: daily reward, season level-one bonus, weekly unlock/reward and daily challenge claimed; supporter vote reward is server-tested only"
+  },
+  {
+    "id": "rewards",
+    "scope": "standalone voting/gratitude/boon/weekly/tier",
+    "evidence": [
+      {
+        "title": "Voting",
+        "url": "https://wiki.idlecorp.xyz/index.php/Voting",
+        "revisionId": 1516,
+        "revisionTimestamp": "2021-08-26T08:38:02Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "reward.vote; reward.weekly",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: all four entitlement tiers receive configured vote/daily/weekly rewards, season unlock and cooldown/replay rejection; artifacts/ui-workflows/report.json: daily reward, season level-one bonus, weekly unlock/reward and daily challenge claimed; supporter vote reward is server-tested only"
+  },
+  {
+    "id": "entitlements",
+    "scope": "admin-granted free/plus/gold/platinum gameplay",
+    "evidence": [
+      {
+        "title": "Premium",
+        "url": "https://wiki.idlecorp.xyz/index.php/Premium",
+        "revisionId": 1619,
+        "revisionTimestamp": "2021-11-08T03:11:54Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "admin CLI; entitlement config",
+    "implementationStatus": "implemented; server and administrative CLI verified",
+    "verification": "tests/source-parity.test.ts: four-tier weekly tokens/vote multipliers and three-versus-six daily challenges; admin CLI grant path separate; artifacts/operations-report.json: all four real CLI entitlement grants reached authoritative state and persisted audit entries; invalid tier rejected without changes; tier-specific gameplay covered in source-parity tests"
+  },
+  {
+    "id": "space",
+    "scope": "launch/station/upgrade/repair/five difficulties",
+    "evidence": [
+      {
+        "title": "Galactic Expedition",
+        "url": "https://wiki.idlecorp.xyz/index.php/Galactic_Expedition",
+        "revisionId": 1666,
+        "revisionTimestamp": "2021-11-23T10:46:33Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "space.launch; space.station.*; space.expedition; space.claim",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: launch/station build/upgrade, all five difficulties under success and both rocket-return failure paths, exact fuel/coordinate costs, damage/repair, persisted outcomes and claim once; artifacts/ui-workflows/report.json: launch/station construction/dispatch, persisted result claim, damaged-station repair and XP-funded station upgrade to level two"
+  },
+  {
+    "id": "relics",
+    "scope": "four relic types and global vaulted effects",
+    "evidence": [
+      {
+        "title": "Relic",
+        "url": "https://wiki.idlecorp.xyz/index.php/Relic",
+        "revisionId": 1638,
+        "revisionTimestamp": "2021-11-12T14:55:58Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "space.relic; engine modifiers",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "artifacts/unit-test-report.json and tests/source-parity.test.ts: knowledge consumption/claim once; vaulted haste duration reduction in both regions without reroll; efficiency doubles actual plus output into normals globally; prestige token-divisor reduction and cap, unchanged score/worth; all passive effects deactivate after withdrawal; artifacts/ui-workflows/report.json: consumed knowledge relic to finish active research and claimed its existing outcome; other three relic effects have dedicated server fixtures"
+  },
+  {
+    "id": "vault",
+    "scope": "deposit/withdraw/retention on prestige",
+    "evidence": [
+      {
+        "title": "Quantum vault",
+        "url": "https://wiki.idlecorp.xyz/index.php/Quantum_vault",
+        "revisionId": 1694,
+        "revisionTimestamp": "2021-12-19T10:00:29Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "space.vault withdraw flag; prestige.reset",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "tests/source-parity.test.ts: deposit/withdraw conservation, deterministic reset rolls and local stabilization; artifacts/ui-workflows/report.json: wood deposit and withdrawal each confirmed with actual vault quantities"
+  },
+  {
+    "id": "social_history",
+    "scope": "leaderboards/privacy/activity/notifications",
+    "evidence": [
+      {
+        "title": "Command list",
+        "url": "https://wiki.idlecorp.xyz/index.php/Command_list",
+        "revisionId": 1598,
+        "revisionTimestamp": "2021-10-06T11:47:26Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "snapshots; settings.update",
+    "implementationStatus": "implemented; API and core GUI verified",
+    "verification": "docs/research/ui-control-audit.json: Leaderboard global/regional/season selectors and Settings privacy/notification controls inspected; E2E confirms persisted economic audit entries, not all preference controls; artifacts/ui-workflows/report.json: name/motto change charged exactly three gratitude; privacy opt-in and completion notification preference persisted; leaderboard sort selectors remain code-reviewed only"
+  },
+  {
+    "id": "help",
+    "scope": "searchable source-backed in-game reference/onboarding",
+    "evidence": [
+      {
+        "title": "Help:How to play",
+        "url": "https://wiki.idlecorp.xyz/index.php/Help%3AHow_to_play",
+        "revisionId": 1560,
+        "revisionTimestamp": "2021-08-28T21:54:06Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "documented",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "Help UI; source links",
+    "implementationStatus": "implemented view; code-reviewed, interaction verification pending",
+    "verification": "docs/research/ui-control-audit.json: searchable field guide, source links, versioned release notes and onboarding controls inspected"
+  },
+  {
+    "id": "offline_restart",
+    "scope": "server authoritative deterministic chronological advancement",
+    "evidence": [
+      {
+        "title": "Updates log",
+        "url": "https://wiki.idlecorp.xyz/index.php/Updates_log",
+        "revisionId": 1573,
+        "revisionTimestamp": "2021-08-30T14:26:53Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "intentional_adaptation",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "engine.advance; transaction boundaries",
+    "implementationStatus": "implemented; API/restart verified",
+    "verification": "artifacts/e2e-report.json: actual server restart preserves sessions/state and advances offline production; backup/restore round trip"
+  },
+  {
+    "id": "icons",
+    "scope": "discover originals and complete local replacements",
+    "evidence": [
+      {
+        "title": "Main Page",
+        "url": "https://wiki.idlecorp.xyz/index.php/Main_Page",
+        "revisionId": 1724,
+        "revisionTimestamp": "2022-12-22T10:10:16Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ],
+    "evidenceStatus": "intentional_adaptation",
+    "selectedInterpretation": "Frozen ruleset2026.10-remake.1; see decisions.json for uncertainty and adaptation.",
+    "implementationLocation": "scripts/collect-icons.py",
+    "implementationStatus": "complete",
+    "verification": "packages/rules/src/content.test.ts validates 200 mappings; docs/research/icon-preview.png and artifacts/screenshots/icon-audit.png visually inspected; icon-discovery.json audits all196pages"
+  }
+]

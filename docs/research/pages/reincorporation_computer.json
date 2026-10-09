@@ -1,0 +1,51 @@
+{
+  "id": 219,
+  "title": "Reincorporation Computer",
+  "namespace": 0,
+  "revisionId": 1107,
+  "revisionTimestamp": "2021-01-28T05:11:06Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Reincorporation_Computer",
+  "wikitext": "If you have 4 or more [[Technologies]] installed in a Region your [[Reincorporation]] cool-down will be reduced to 2 hours. \n\nIt can be sold on the [[Market]] but, not to the NPC or [[Retail]]. As well it scraps for 3,000 [[Scrap]]. \n\n*Aliases: reincorporationcomputer, ri computer, ri comp, ric",
+  "links": [
+    "Technologies",
+    "Reincorporation",
+    "Market",
+    "Retail",
+    "Scrap"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Reincorporation Computer",
+  "html": "<div class=\"mw-parser-output\"><p>If you have 4 or more <a href=\"/index.php/Technologies\" class=\"mw-redirect\" title=\"Technologies\">Technologies</a> installed in a Region your <a href=\"/index.php/Reincorporation\" title=\"Reincorporation\">Reincorporation</a> cool-down will be reduced to 2 hours. \n</p><p>It can be sold on the <a href=\"/index.php/Market\" title=\"Market\">Market</a> but, not to the NPC or <a href=\"/index.php/Retail\" title=\"Retail\">Retail</a>. As well it scraps for 3,000 <a href=\"/index.php/Scrap\" title=\"Scrap\">Scrap</a>. \n</p>\n<ul><li>Aliases: reincorporationcomputer, ri computer, ri comp, ric</li></ul>\n<!-- \nNewPP limit report\nCached time: 20261009145653\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:219-0!canonical and timestamp 20261009145653 and revision id 1107\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Market",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Reincorporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Retail",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Scrap",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Technologies",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

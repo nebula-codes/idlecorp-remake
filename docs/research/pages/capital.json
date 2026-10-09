@@ -1,0 +1,27 @@
+{
+  "id": 68,
+  "title": "Capital",
+  "namespace": 0,
+  "revisionId": 1648,
+  "revisionTimestamp": "2021-11-18T15:05:42Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Capital",
+  "wikitext": "{{Stub}}\n\nCapital aka Money",
+  "links": [],
+  "templates": [
+    "Stub"
+  ],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Capital",
+  "html": "<div class=\"mw-parser-output\"><table id=\"Stub\" class=\"noprint stub plainlinks\">\n\n<tbody><tr>\n<th><i>This article is a <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Stub\" class=\"extiw\" title=\"wikipedia:Wikipedia:Stub\">stub</a>. You can help IdleCorp Wiki by <a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"//icwiki.teemaw.dev/index.php?title=Capital&amp;action=edit\">expanding it</a>.</i>\n</th></tr></tbody></table>\n<p>Capital aka Money\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008224536\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.007 seconds\nPreprocessor visited node count: 8/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 304/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 4/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    2.799      1 Template:Stub\n100.00%    2.799      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:68-0!canonical and timestamp 20261008224536 and revision id 1648\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": [
+    {
+      "ns": 10,
+      "title": "Template:Stub",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": 112,
+  "title": "Prescription drug factory",
+  "namespace": 0,
+  "revisionId": 1439,
+  "revisionTimestamp": "2021-06-19T01:29:29Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Prescription_drug_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $13,000,000, 100,000x [[rubber]], 250,000x [[steel]], 10,000x [[glass]]\n|-\n|'''Total Cost''' || $15,000,000\n|-\n|'''Inputs''' || 1x [[research chemical]]\n|-\n|'''Outputs''' || 2x [[prescription drug]]\n|-\n|'''Production interval''' || 50 seconds\n|-\n|'''Production/Hour''' || 144x [[prescription drug]]\n|-\n|'''Profit/Min''' || $1,200.00\n|-\n|'''Profit/Hour''' || $72,000.00\n|-\n|'''Return On Investment/Min''' || 0.007%\n|-\n|'''Time to ROI''' || 13,888.89 Minute <br/>( ~9 Days and 15 Hours)\n|-\n|'''aliases''' || prescription drug factory, <br/>prescriptiondrugfactory, <br/>prescription drug fac, <br/>drug factory, drug fac\n|}\n[[Category:Facility]]\nSustaining it requires use of ~1/6 [[Research chemical factory]]\nFull sustaining requires use of ~1/6 [[Research chemical factory]] and ~1/18 [[Oil well]]\n\nThis factory is highest profit but also lowest ROI due to very expensive building cost.",
+  "links": [
+    "rubber",
+    "steel",
+    "glass",
+    "research chemical",
+    "prescription drug",
+    "Category:Facility",
+    "Research chemical factory",
+    "Oil well"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Prescription drug factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$13,000,000, 100,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 250,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 10,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$15,000,000\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>1x <a href=\"/index.php/Research_chemical\" title=\"Research chemical\">research chemical</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>2x <a href=\"/index.php/Prescription_drug\" title=\"Prescription drug\">prescription drug</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>50 seconds\n</td></tr>\n<tr>\n<td><b>Production/Hour</b></td>\n<td>144x <a href=\"/index.php/Prescription_drug\" title=\"Prescription drug\">prescription drug</a>\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$1,200.00\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$72,000.00\n</td></tr>\n<tr>\n<td><b>Return On Investment/Min</b></td>\n<td>0.007%\n</td></tr>\n<tr>\n<td><b>Time to ROI</b></td>\n<td>13,888.89 Minute <br />( ~9 Days and 15 Hours)\n</td></tr>\n<tr>\n<td><b>aliases</b></td>\n<td>prescription drug factory, <br />prescriptiondrugfactory, <br />prescription drug fac, <br />drug factory, drug fac\n</td></tr></tbody></table>\n<p>Sustaining it requires use of ~1/6 <a href=\"/index.php/Research_chemical_factory\" title=\"Research chemical factory\">Research chemical factory</a>\nFull sustaining requires use of ~1/6 <a href=\"/index.php/Research_chemical_factory\" title=\"Research chemical factory\">Research chemical factory</a> and ~1/18 <a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a>\n</p><p>This factory is highest profit but also lowest ROI due to very expensive building cost.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009064214\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:112-0!canonical and timestamp 20261009064214 and revision id 1439\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil well",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Prescription drug",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

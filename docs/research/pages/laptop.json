@@ -1,0 +1,50 @@
+{
+  "id": 91,
+  "title": "Laptop",
+  "namespace": 0,
+  "revisionId": 552,
+  "revisionTimestamp": "2020-07-26T12:21:52Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Laptop",
+  "wikitext": "[[Category:Asset]]\nLaptop is an asset manufactured in the [[Laptop factory | Laptop factories]] and is a product that can be sold for capital. \nA laptop computer is a small, portable personal computer (PC) with a \"clamshell\" form factor, typically having a thin LCD or LED computer screen mounted on the inside of the upper lid of the clamshell and an alphanumeric keyboard on the inside of the lower lid. Its name comes from lap, as it was deemed to be placed on a person's lap when being used.\n\n== Laptop Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Laptop factory]] || $800,000 || 2x [[glass]], 8x [[plastic]], 1x [[CPU]] || 1x [[laptop]] || $1,116.00 || 1:30\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Laptop factory ",
+    "Laptop factory",
+    "glass",
+    "plastic",
+    "CPU",
+    "laptop"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Laptop",
+  "html": "<div class=\"mw-parser-output\"><p>Laptop is an asset manufactured in the <a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\"> Laptop factories</a> and is a product that can be sold for capital. \nA laptop computer is a small, portable personal computer (PC) with a \"clamshell\" form factor, typically having a thin LCD or LED computer screen mounted on the inside of the upper lid of the clamshell and an alphanumeric keyboard on the inside of the lower lid. Its name comes from lap, as it was deemed to be placed on a person's lap when being used.\n</p>\n<h2><span class=\"mw-headline\" id=\"Laptop_Production\">Laptop Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Laptop&amp;action=edit&amp;section=1\" title=\"Edit section: Laptop Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\">Laptop factory</a></td>\n<td>$800,000</td>\n<td>2x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 8x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a></td>\n<td>1x <a class=\"mw-selflink selflink\">laptop</a></td>\n<td>$1,116.00</td>\n<td>1:30\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008233149\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.030 seconds\nPreprocessor visited node count: 4/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:91-0!canonical and timestamp 20261008233149 and revision id 552\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

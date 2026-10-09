@@ -1,0 +1,51 @@
+{
+  "id": 225,
+  "title": "Season pass",
+  "namespace": 0,
+  "revisionId": 1325,
+  "revisionTimestamp": "2021-05-11T10:01:06Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Season_pass",
+  "wikitext": "Season pass shows the bonuses of each level and also your progress during the season. It can be shown by <code>$$pass(or $$sp)</code>. Earn [[Season|Pass XP]] to level up and unlock more bonuses.\n\n== Season 1 ==\n'''Level 1 (250 XP):''' Unlock weekly rewards with <code>$$weekly</code>\n\n'''Level 2 (500 XP):''' -0:30:00 research time\n\n'''Level 3 (1,000 XP):''' +$10,000.00 starting capital\n\n'''Level 4 (2,500 XP):''' +5 starting land ''(doesn't affect land price)''\n\n'''Level 5 (5,000 XP):''' +$50,000.00 starting capital ''(stacks with other starting capital)''\n\n'''Level 6 (10,000 XP):''' +20 starting land ''(stacks with other starting land)''\n\n'''Level 7 (25,000 XP):''' -20% all required research materials and costs\n\n'''Level 8 (50,000 XP):''' Start with a [[logistics center]] when [[Reincorporation|reincorporating]] with at least $1B\n\n'''Level 9 (100,000 XP):''' Start with a [[air traffic control]] when [[Reincorporation|reincorporating]] with at least $1B\n\n'''Level 10 (250,000 XP):''' Start with a [[HQ]] when [[Reincorporation|reincorporating]] with at least $1B",
+  "links": [
+    "Season",
+    "logistics center",
+    "Reincorporation",
+    "air traffic control",
+    "HQ"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Season pass",
+  "html": "<div class=\"mw-parser-output\"><p>Season pass shows the bonuses of each level and also your progress during the season. It can be shown by <code>$$pass(or $$sp)</code>. Earn <a href=\"/index.php/Season\" title=\"Season\">Pass XP</a> to level up and unlock more bonuses.\n</p>\n<h2><span class=\"mw-headline\" id=\"Season_1\">Season 1</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Season_pass&amp;action=edit&amp;section=1\" title=\"Edit section: Season 1\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><b>Level 1 (250 XP):</b> Unlock weekly rewards with <code>$$weekly</code>\n</p><p><b>Level 2 (500 XP):</b> -0:30:00 research time\n</p><p><b>Level 3 (1,000 XP):</b> +$10,000.00 starting capital\n</p><p><b>Level 4 (2,500 XP):</b> +5 starting land <i>(doesn't affect land price)</i>\n</p><p><b>Level 5 (5,000 XP):</b> +$50,000.00 starting capital <i>(stacks with other starting capital)</i>\n</p><p><b>Level 6 (10,000 XP):</b> +20 starting land <i>(stacks with other starting land)</i>\n</p><p><b>Level 7 (25,000 XP):</b> -20% all required research materials and costs\n</p><p><b>Level 8 (50,000 XP):</b> Start with a <a href=\"/index.php/Logistics_center\" title=\"Logistics center\">logistics center</a> when <a href=\"/index.php/Reincorporation\" title=\"Reincorporation\">reincorporating</a> with at least $1B\n</p><p><b>Level 9 (100,000 XP):</b> Start with a <a href=\"/index.php/Air_traffic_control\" title=\"Air traffic control\">air traffic control</a> when <a href=\"/index.php/Reincorporation\" title=\"Reincorporation\">reincorporating</a> with at least $1B\n</p><p><b>Level 10 (250,000 XP):</b> Start with a <a href=\"/index.php/HQ\" title=\"HQ\">HQ</a> when <a href=\"/index.php/Reincorporation\" title=\"Reincorporation\">reincorporating</a> with at least $1B\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009022606\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.014 seconds\nPreprocessor visited node count: 4/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:225-0!canonical and timestamp 20261009022606 and revision id 1325\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Air traffic control",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "HQ",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Reincorporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Season",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

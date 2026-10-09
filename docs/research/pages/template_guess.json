@@ -1,0 +1,26 @@
+{
+  "id": 271,
+  "title": "Template:Guess",
+  "namespace": 10,
+  "revisionId": 1663,
+  "revisionTimestamp": "2021-11-23T10:33:31Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3AGuess",
+  "wikitext": "<noinclude>When you see this, that means the writer does not ensure the information that the writer has written.\n\n''Information that is a guess (always guessed by the writer)''</noinclude><sup>[[Template:Guess|{{{1|Guess/Not sure}}}]]</sup><includeonly>[[Category:Guess]]<includeonly>",
+  "links": [
+    "Template:Guess",
+    "Category:Guess"
+  ],
+  "templates": [
+    "{1"
+  ],
+  "categories": [
+    "Guess"
+  ],
+  "redirect": null,
+  "renderedTitle": "Template:Guess",
+  "html": "<div class=\"mw-parser-output\"><p>When you see this, that means the writer does not ensure the information that the writer has written.\n</p><p><i>Information that is a guess (always guessed by the writer)</i><sup><a class=\"mw-selflink selflink\">Guess/Not sure</a></sup>\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009010732\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.001 seconds\nPreprocessor visited node count: 2/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:271-0!canonical and timestamp 20261009010732 and revision id 1663\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": []
+}

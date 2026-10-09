@@ -1,0 +1,91 @@
+{
+  "id": 13,
+  "title": "Furniture factory",
+  "namespace": 0,
+  "revisionId": 1434,
+  "revisionTimestamp": "2021-06-19T01:22:24Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Furniture_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n!colspan=\"2\"| Cost\n|-\n|'''Cost''' || $450, 5,000x [[wood]], </br> 100x [[steel]]\n|-\n|'''Total Cost''' || $2,000\n|-\n!colspan=\"2\"| Production\n|-\n|'''Inputs''' || 10x [[wood]]\n|-\n|'''Outputs''' || 1x [[furniture]]\n|-\n|'''Production interval''' || 4 minutes\n|-\n|'''Production/Hour''' || 15x [[furniture]]\n|-\n!colspan=\"2\"| Profit\n|-\n|'''Profit/Min''' || $15.00\n|-\n|'''Profit/Hour''' || $900.00\n|-\n|'''Return On Investment''' || 0.731%\n|-\n!colspan=\"2\"| Aliases\n|-\n|colspan=\"2\"| furniture factory, furniturefactory, furni fac<br/> furniture fac, furni factory, \n|}\n[[Category:Facility]]\n\nThe furniture factory is a facility that produces 1x [[furniture]] every 4 minutes.\n\nYou need 5/36 of a [[Tree farm]] to sustain this. In other words, 5 [[Tree farm]] can fuel 36 Furniture factory.\n \n==== Logistics Center ====\nThis factory is considered by many players to be a key factory. You NEED this factory to progress to getting a [[logistics center]], which is where you can generally get aided by other players for resources. Want to get a good retail set-up? You need others to give you the resources. Want to be an end-product wholesaler? You need [[CPU]]s and other penultimate tier resources. The fact that a [[logistics center]] is pretty much necessary makes furniture factories also necessary. \n\n==== Reincorporation ====\n\nLater on, when mass reincorporating without the free [[logistics center]] from the season pass, the speed one can get the 250 furniture requirement to build the [[logistics center]] can make or break your tokens attained in a certain timeframe by a large margin.\n\n== Related facilities ==\n'''As construction material'''\n*[[Car factory]]\n*[[Logistics center]]\n*[[Retail store]]\n*[[Customer support center]]\n*[[HQ]]\n\n== Related Blueprints ==\n*[[Advanced woodworking]]",
+  "links": [
+    "wood",
+    "steel",
+    "furniture",
+    "Category:Facility",
+    "Tree farm",
+    "logistics center",
+    "CPU",
+    "Car factory",
+    "Logistics center",
+    "Retail store",
+    "Customer support center",
+    "HQ",
+    "Advanced woodworking"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Furniture factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<th colspan=\"2\">Cost\n</th></tr>\n<tr>\n<td><b>Cost</b></td>\n<td>$450, 5,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, <br /> 100x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$2,000\n</td></tr>\n<tr>\n<th colspan=\"2\">Production\n</th></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>10x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>1x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>4 minutes\n</td></tr>\n<tr>\n<td><b>Production/Hour</b></td>\n<td>15x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a>\n</td></tr>\n<tr>\n<th colspan=\"2\">Profit\n</th></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$15.00\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$900.00\n</td></tr>\n<tr>\n<td><b>Return On Investment</b></td>\n<td>0.731%\n</td></tr>\n<tr>\n<th colspan=\"2\">Aliases\n</th></tr>\n<tr>\n<td colspan=\"2\">furniture factory, furniturefactory, furni fac<br /> furniture fac, furni factory,\n</td></tr></tbody></table>\n<p>The furniture factory is a facility that produces 1x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a> every 4 minutes.\n</p><p>You need 5/36 of a <a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farm</a> to sustain this. In other words, 5 <a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farm</a> can fuel 36 Furniture factory.\n</p>\n<div id=\"toc\" class=\"toc\"><input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\" /><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2>Contents</h2><span class=\"toctogglespan\"><label class=\"toctogglelabel\" for=\"toctogglecheckbox\"></label></span></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#Logistics_Center\"><span class=\"tocnumber\">1</span> <span class=\"toctext\">Logistics Center</span></a></li>\n<li class=\"toclevel-1 tocsection-2\"><a href=\"#Reincorporation\"><span class=\"tocnumber\">2</span> <span class=\"toctext\">Reincorporation</span></a></li>\n<li class=\"toclevel-1 tocsection-3\"><a href=\"#Related_facilities\"><span class=\"tocnumber\">3</span> <span class=\"toctext\">Related facilities</span></a></li>\n<li class=\"toclevel-1 tocsection-4\"><a href=\"#Related_Blueprints\"><span class=\"tocnumber\">4</span> <span class=\"toctext\">Related Blueprints</span></a></li>\n</ul>\n</div>\n\n<h4><span class=\"mw-headline\" id=\"Logistics_Center\">Logistics Center</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Furniture_factory&amp;action=edit&amp;section=1\" title=\"Edit section: Logistics Center\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<p>This factory is considered by many players to be a key factory. You NEED this factory to progress to getting a <a href=\"/index.php/Logistics_center\" title=\"Logistics center\">logistics center</a>, which is where you can generally get aided by other players for resources. Want to get a good retail set-up? You need others to give you the resources. Want to be an end-product wholesaler? You need <a href=\"/index.php/CPU\" title=\"CPU\">CPUs</a> and other penultimate tier resources. The fact that a <a href=\"/index.php/Logistics_center\" title=\"Logistics center\">logistics center</a> is pretty much necessary makes furniture factories also necessary. \n</p>\n<h4><span class=\"mw-headline\" id=\"Reincorporation\">Reincorporation</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Furniture_factory&amp;action=edit&amp;section=2\" title=\"Edit section: Reincorporation\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<p>Later on, when mass reincorporating without the free <a href=\"/index.php/Logistics_center\" title=\"Logistics center\">logistics center</a> from the season pass, the speed one can get the 250 furniture requirement to build the <a href=\"/index.php/Logistics_center\" title=\"Logistics center\">logistics center</a> can make or break your tokens attained in a certain timeframe by a large margin.\n</p>\n<h2><span class=\"mw-headline\" id=\"Related_facilities\">Related facilities</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Furniture_factory&amp;action=edit&amp;section=3\" title=\"Edit section: Related facilities\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><b>As construction material</b>\n</p>\n<ul><li><a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a></li>\n<li><a href=\"/index.php/Logistics_center\" title=\"Logistics center\">Logistics center</a></li>\n<li><a href=\"/index.php/Retail_store\" title=\"Retail store\">Retail store</a></li>\n<li><a href=\"/index.php/Customer_support_center\" title=\"Customer support center\">Customer support center</a></li>\n<li><a href=\"/index.php/HQ\" title=\"HQ\">HQ</a></li></ul>\n<h2><span class=\"mw-headline\" id=\"Related_Blueprints\">Related Blueprints</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Furniture_factory&amp;action=edit&amp;section=4\" title=\"Edit section: Related Blueprints\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<ul><li><a href=\"/index.php/Advanced_woodworking\" title=\"Advanced woodworking\">Advanced woodworking</a></li></ul>\n<!-- \nNewPP limit report\nCached time: 20261009072150\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 31/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:13-0!canonical and timestamp 20261009072150 and revision id 1434\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Advanced woodworking",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Car factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Customer support center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "HQ",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Retail store",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Tree farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

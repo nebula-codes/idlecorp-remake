@@ -1,0 +1,67 @@
+{
+  "id": 240,
+  "title": "Policies",
+  "namespace": 0,
+  "revisionId": 1522,
+  "revisionTimestamp": "2021-08-26T15:27:37Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Policies",
+  "wikitext": "#REDIRECT [[:Category:Policy]]",
+  "links": [
+    ":Category:Policy"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": ":Category:Policy",
+  "renderedTitle": "Category:Policy",
+  "html": "<div class=\"mw-parser-output\"><p>Policies are a way to change the region's functionality, whether that be through speeding up research times, new grants, or making items cheaper.\n</p><p>To add a policy, type in: \n$$addpolicy &lt;policy&gt;\n</p><p>To remove it, type in: \n$$removepolicy &lt;policy&gt;\n</p><p>A policy can't have it's added/removed state changed more than once a day.\n</p><p><br />\n</p><p>Here is the list of policies:\n</p><p><a href=\"/index.php/Solar_subsidies\" title=\"Solar subsidies\">Solar subsidies</a>\n-10% solar power plant build price, -10% energy price\n</p><p><a href=\"/index.php/Public_logistics_access\" title=\"Public logistics access\">Public logistics access</a>\nAll corporations can export and buy assets as if they had an additional logistics center in this region (this does not affect market access), +10% to all facilities' build price\n</p><p><a href=\"/index.php/Regional_planning\" title=\"Regional planning\">Regional planning</a>\n-25% to all facilities' build price, +5% to land price\n</p><p><a href=\"/index.php/Tourism_campaign\" title=\"Tourism campaign\">Tourism campaign</a>\n-4s to airport production time (but never less than 0:30), airports require an additional 4x of jet fuel\n</p><p><a href=\"/index.php/Low_income_tax\" title=\"Low income tax\">Low income tax</a>\n+2 Happiness in a region\n</p><p><a href=\"/index.php/Research_grant\" title=\"Research grant\">Research grant</a>\n-10:00 research time, +10% energy price\n</p><p><a href=\"/index.php/Organic_farming\" title=\"Organic farming\">Organic farming</a>\n+10% to Soil health, +10% to all farms' build price\n</p><p><a href=\"/index.php/High_income_tax\" title=\"High income tax\">High income tax</a>\n-5 Happiness in a region, +5 Funding points\n</p><p><a href=\"/index.php/Land_grant\" title=\"Land grant\">Land grant</a>\n-5% to land price, +25% to all facilities' build price\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008220652\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.007 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:124-0!canonical and timestamp 20261008220652 and revision id 1523\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "High income tax",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Land grant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Low income tax",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Organic farming",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Public logistics access",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Regional planning",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research grant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Solar subsidies",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Tourism campaign",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

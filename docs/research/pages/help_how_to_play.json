@@ -1,0 +1,131 @@
+{
+  "id": 251,
+  "title": "Help:How to play",
+  "namespace": 12,
+  "revisionId": 1560,
+  "revisionTimestamp": "2021-08-28T21:54:06Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Help%3AHow_to_play",
+  "wikitext": "'''''This page is a clone of the bot command <code>$$tutorial</code>. If you'd like more detailed information and tips on \"How to Play\", check out the [[FAQ]]'''''<br><br>\nThanks for trying out IdleCorp! If you need help from our community or want to trade with other players, join our Discord server at https://discordapp.com/invite/N9CH9wV\n== Building a [[:Category:Facility|facility]] ==\nFacilities will produce assets which you can sell for money!<br>\n- You can build new facilities with the <code>$$build</code> command. Try building a [[tree farm]] with<br>\n<code>$$build tree farm</code><br>\n- You can build multiple at a time like this:<br>\n<code>$$build tree farm 5</code><br>\n- Eventually, you'll have enough [[wood]] to build an [[iron mine]]<br>\n- You can see a list of '''your facilities''' with <code>$$f</code><br>\n- You can see a list of '''all''' facilities you can build with <code>$$faclist</code>\n== Managing your [[:Category:Asset|assets]] ==\nAssets are used by some facilities to manufacture new assets, or can be sold either to [[Market#NPC_market|NPCs]] or to [[Market#Player_market|other players]].<br>\n- You can check your current assets with <code>$$a</code><br>\n- If you want to sell all of your [[wood]], you can use<br>\n<code>$$sa wood</code><br>\n- If you want to buy some asset, [[iron]] for example, you can use<br>\n<code>$$buy iron</code><br>\n- Once you've sold some assets, you can check your [[capital]] and other stats with<br>\n<code>$$c</code><br>\n- You can check the current price of an asset like [[crude oil]] with<br>\n<code>$$price oil</code><br>\n- You can get a list of the current prices of '''all''' assets with <code>$$price</code>\n== Regions ==\nEach Discord Server is its own IdleCorp '''[[region]]''' where your corporation stores [[:Category:Asset|assets]] and builds [[:Category:Facility|facilities]].<br>\n- Assets that are produced in one region can only be accessed in that region (until you '''[[export]]''' them)<br>\n- However, your [[corporation]]'s money or '''capital is shared''' between all regions.<br>\n- Each region also has its own '''[[Region#Modifiers_(Facilities)|production modifiers]]''', '''[[:Category:Service|services]]''', and '''[[:Category:Policy|policies]]'''.<br>\nYou can check these with <code>$$r</code>\n== There's more! ==\nThere's a ton more to IdleCorp that will take too long to explain now!<br>\n- There's a '''[[research]]''' system with random [[Blueprint|blueprints]] to be discovered,<br>\n- A purely player-driven '''[[market]]''' that you can trade in,<br>\n- '''Daily challenges''' to complete for your '''[[Season pass|Season Pass]]''',<br>\n- Regional [[:Category:Policy|policies]] and legislation that you can participate in,<br>\nand so much more!<br>\n- Check out '''all''' commands with <code>$$commands</code>",
+  "links": [
+    "FAQ",
+    ":Category:Facility",
+    "tree farm",
+    "wood",
+    "iron mine",
+    ":Category:Asset",
+    "Market",
+    "iron",
+    "capital",
+    "crude oil",
+    "region",
+    "export",
+    "corporation",
+    "Region",
+    ":Category:Service",
+    ":Category:Policy",
+    "research",
+    "Blueprint",
+    "market",
+    "Season pass"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Help:How to play",
+  "html": "<div class=\"mw-parser-output\"><p><i><b>This page is a clone of the bot command <code>$$tutorial</code>. If you'd like more detailed information and tips on \"How to Play\", check out the <a href=\"/index.php/FAQ\" title=\"FAQ\">FAQ</a></b></i><br /><br />\nThanks for trying out IdleCorp! If you need help from our community or want to trade with other players, join our Discord server at <a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external free\" href=\"https://discordapp.com/invite/N9CH9wV\">https://discordapp.com/invite/N9CH9wV</a>\n</p>\n<div id=\"toc\" class=\"toc\"><input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\" /><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2>Contents</h2><span class=\"toctogglespan\"><label class=\"toctogglelabel\" for=\"toctogglecheckbox\"></label></span></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#Building_a_facility\"><span class=\"tocnumber\">1</span> <span class=\"toctext\">Building a facility</span></a></li>\n<li class=\"toclevel-1 tocsection-2\"><a href=\"#Managing_your_assets\"><span class=\"tocnumber\">2</span> <span class=\"toctext\">Managing your assets</span></a></li>\n<li class=\"toclevel-1 tocsection-3\"><a href=\"#Regions\"><span class=\"tocnumber\">3</span> <span class=\"toctext\">Regions</span></a></li>\n<li class=\"toclevel-1 tocsection-4\"><a href=\"#There.27s_more.21\"><span class=\"tocnumber\">4</span> <span class=\"toctext\">There's more!</span></a></li>\n</ul>\n</div>\n\n<h2><span class=\"mw-headline\" id=\"Building_a_facility\">Building a <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facility</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Help:How_to_play&amp;action=edit&amp;section=1\" title=\"Edit section: Building a facility\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>Facilities will produce assets which you can sell for money!<br />\n- You can build new facilities with the <code>$$build</code> command. Try building a <a href=\"/index.php/Tree_farm\" title=\"Tree farm\">tree farm</a> with<br />\n<code>$$build tree farm</code><br />\n- You can build multiple at a time like this:<br />\n<code>$$build tree farm 5</code><br />\n- Eventually, you'll have enough <a href=\"/index.php/Wood\" title=\"Wood\">wood</a> to build an <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">iron mine</a><br />\n- You can see a list of <b>your facilities</b> with <code>$$f</code><br />\n- You can see a list of <b>all</b> facilities you can build with <code>$$faclist</code>\n</p>\n<h2><span class=\"mw-headline\" id=\"Managing_your_assets\">Managing your <a href=\"/index.php/Category:Asset\" title=\"Category:Asset\">assets</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Help:How_to_play&amp;action=edit&amp;section=2\" title=\"Edit section: Managing your assets\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>Assets are used by some facilities to manufacture new assets, or can be sold either to <a href=\"/index.php/Market#NPC_market\" title=\"Market\">NPCs</a> or to <a href=\"/index.php/Market#Player_market\" title=\"Market\">other players</a>.<br />\n- You can check your current assets with <code>$$a</code><br />\n- If you want to sell all of your <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, you can use<br />\n<code>$$sa wood</code><br />\n- If you want to buy some asset, <a href=\"/index.php/Iron\" title=\"Iron\">iron</a> for example, you can use<br />\n<code>$$buy iron</code><br />\n- Once you've sold some assets, you can check your <a href=\"/index.php/Capital\" title=\"Capital\">capital</a> and other stats with<br />\n<code>$$c</code><br />\n- You can check the current price of an asset like <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a> with<br />\n<code>$$price oil</code><br />\n- You can get a list of the current prices of <b>all</b> assets with <code>$$price</code>\n</p>\n<h2><span class=\"mw-headline\" id=\"Regions\">Regions</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Help:How_to_play&amp;action=edit&amp;section=3\" title=\"Edit section: Regions\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>Each Discord Server is its own IdleCorp <b><a href=\"/index.php/Region\" title=\"Region\">region</a></b> where your corporation stores <a href=\"/index.php/Category:Asset\" title=\"Category:Asset\">assets</a> and builds <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facilities</a>.<br />\n- Assets that are produced in one region can only be accessed in that region (until you <b><a href=\"/index.php/Export\" title=\"Export\">export</a></b> them)<br />\n- However, your <a href=\"/index.php/Corporation\" title=\"Corporation\">corporation</a>'s money or <b>capital is shared</b> between all regions.<br />\n- Each region also has its own <b><a href=\"/index.php/Region#Modifiers_.28Facilities.29\" title=\"Region\">production modifiers</a></b>, <b><a href=\"/index.php/Category:Service\" title=\"Category:Service\">services</a></b>, and <b><a href=\"/index.php/Category:Policy\" title=\"Category:Policy\">policies</a></b>.<br />\nYou can check these with <code>$$r</code>\n</p>\n<h2><span id=\"There's_more!\"></span><span class=\"mw-headline\" id=\"There.27s_more.21\">There's more!</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Help:How_to_play&amp;action=edit&amp;section=4\" title=\"Edit section: There&#039;s more!\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>There's a ton more to IdleCorp that will take too long to explain now!<br />\n- There's a <b><a href=\"/index.php/Research\" title=\"Research\">research</a></b> system with random <a href=\"/index.php/Blueprint\" title=\"Blueprint\">blueprints</a> to be discovered,<br />\n- A purely player-driven <b><a href=\"/index.php/Market\" title=\"Market\">market</a></b> that you can trade in,<br />\n- <b>Daily challenges</b> to complete for your <b><a href=\"/index.php/Season_pass\" title=\"Season pass\">Season Pass</a></b>,<br />\n- Regional <a href=\"/index.php/Category:Policy\" title=\"Category:Policy\">policies</a> and legislation that you can participate in,<br />\nand so much more!<br />\n- Check out <b>all</b> commands with <code>$$commands</code>\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008184603\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.023 seconds\nPreprocessor visited node count: 30/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:251-0!canonical and timestamp 20261008184603 and revision id 1560\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Blueprint",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Capital",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Corporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Crude oil",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Export",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "FAQ",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Market",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Season pass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Tree farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Asset",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Facility",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Policy",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Service",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

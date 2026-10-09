@@ -1,0 +1,112 @@
+{
+  "retrievedAt": "2026-10-09T15:13:54.456273+00:00",
+  "apiAllimages": [],
+  "siteStatistics": {
+    "batchcomplete": true,
+    "query": {
+      "statistics": {
+        "pages": 237,
+        "articles": 150,
+        "edits": 1855,
+        "images": 0,
+        "users": 104,
+        "activeusers": 0,
+        "admins": 1,
+        "jobs": 0
+      }
+    }
+  },
+  "pageImageTitles": [],
+  "imageinfo": [],
+  "renderedPagesChecked": 196,
+  "cssUrlsChecked": [
+    "https://wiki.idlecorp.xyz/index.php?title=MediaWiki:Common.css&action=raw&ctype=text/css",
+    "https://wiki.idlecorp.xyz/load.php?lang=en&modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cskins.vector.styles&only=styles&skin=vector"
+  ],
+  "downloaded": [],
+  "excludedSiteGraphics": [
+    {
+      "url": "https://wiki.idlecorp.xyz/resources/src/mediawiki.legacy/images/ajax-loader.gif?57f34",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/resources/src/mediawiki.legacy/images/spinner.gif?ca65b",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/resources/src/mediawiki.skinning/images/magnify-clip-ltr.png?4f704",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/resources/src/mediawiki.skinning/images/magnify-clip-ltr.png?4f704",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/resources/src/mediawiki.skinning/images/magnify-clip-rtl.png?a9fb3",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://bruhh.wtf/escePrvxsb.png",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/user-avatar.png?59494",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/search.png?39f97",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/tab-normal-fade.png?1cc52",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/tab-current-fade.png?22887",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/arrow-down.png?42edd",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/tab-separator.png?09d4b",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/unwatch-icon.png?fccbe",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/watch-icon.png?e1b42",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/unwatch-icon-hl.png?c4723",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/watch-icon-hl.png?f4c7e",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/watch-icon-loading.svg?a3739",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/portal-separator.png?4ab04",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    },
+    {
+      "url": "https://wiki.idlecorp.xyz/skins/Vector/images/external-link-ltr-icon.png?325de",
+      "reason": "MediaWiki site/skin styling, not game entity artwork"
+    }
+  ],
+  "counts": {
+    "entities": 200,
+    "discovered": 0,
+    "downloaded": 0,
+    "missingOriginal": 200,
+    "replaced": 200
+  }
+}

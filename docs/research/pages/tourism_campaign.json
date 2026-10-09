@@ -1,0 +1,48 @@
+{
+  "id": 246,
+  "title": "Tourism campaign",
+  "namespace": 0,
+  "revisionId": 1561,
+  "revisionTimestamp": "2021-08-28T22:00:19Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Tourism_campaign",
+  "wikitext": "{| class=\"wikitable\" | style=\"float:right\"\n|-\n!colspan=\"2\"| Information\n|-\n| Effect || -4s to [[airport]] production time (cannot go lower than 0:30), airports require an additional 4x of [[jet fuel]]\n|-\n| Cost || 5 [[Funding point|Funding points]]\n|}\nA [[:Category:Policy|policy]] that reduces [[airport]] production time.\n[[Category:Policy]]",
+  "links": [
+    "airport",
+    "jet fuel",
+    "Funding point",
+    ":Category:Policy",
+    "Category:Policy"
+  ],
+  "templates": [],
+  "categories": [
+    "Policy"
+  ],
+  "redirect": null,
+  "renderedTitle": "Tourism campaign",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right\">\n\n<tbody><tr>\n<th colspan=\"2\">Information\n</th></tr>\n<tr>\n<td>Effect</td>\n<td>-4s to <a href=\"/index.php/Airport\" title=\"Airport\">airport</a> production time (cannot go lower than 0:30), airports require an additional 4x of <a href=\"/index.php/Jet_fuel\" title=\"Jet fuel\">jet fuel</a>\n</td></tr>\n<tr>\n<td>Cost</td>\n<td>5 <a href=\"/index.php/Funding_point\" title=\"Funding point\">Funding points</a>\n</td></tr></tbody></table>\n<p>A <a href=\"/index.php/Category:Policy\" title=\"Category:Policy\">policy</a> that reduces <a href=\"/index.php/Airport\" title=\"Airport\">airport</a> production time.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145659\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.004 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:246-0!canonical and timestamp 20261009145659 and revision id 1561\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Airport",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Funding point",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Jet fuel",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Policy",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

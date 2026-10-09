@@ -1,0 +1,78 @@
+{
+  "id": 27,
+  "title": "Laptop factory",
+  "namespace": 0,
+  "revisionId": 1442,
+  "revisionTimestamp": "2021-06-19T01:32:31Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Laptop_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n!colspan=\"2\"| Cost\n|-\n|'''Cost''' || $365,000, 10,000x [[steel]], <br/>100,000x [[wood]], <br/>10,000x [[aluminum]], <br/>10,000x [[glass]]\n|-\n|'''Total Cost''' || $800,000\n|-\n!colspan=\"2\"| Production\n|-\n|'''Inputs''' || 1x [[CPU]], 8x [[plastic]], 2x [[glass]]\n|-\n|'''Outputs''' || 1x [[laptop]]\n|-\n|'''Production interval''' || 1 minute and 30 seconds\n|-\n|'''Production/Hour''' || 40x [[laptop]]\n|-\n!colspan=\"2\"| Production\n|-\n|'''Profit/Min''' || $1,333.33\n|-\n|'''Profit/Hour''' || $80,000.00\n|-\n|'''Return On Investment/Min''' || 0.145%\n|-\n|'''Time to ROI''' || 691.24 Minute (~12 Hours)\n|-\n!colspan=\"2\"| Aliases\n|-\n|colspan=\"2\"| laptop factory, laptopfactory, laptop fac\n|}\n[[Category:Facility]]\nSustaining it requires ~1/90 [[Plastic factory]] ~100/375 [[CPU factory]] and ~~1/10 glass fac",
+  "links": [
+    "steel",
+    "wood",
+    "aluminum",
+    "glass",
+    "CPU",
+    "plastic",
+    "laptop",
+    "Category:Facility",
+    "Plastic factory",
+    "CPU factory"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Laptop factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<th colspan=\"2\">Cost\n</th></tr>\n<tr>\n<td><b>Cost</b></td>\n<td>$365,000, 10,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, <br />100,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, <br />10,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, <br />10,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$800,000\n</td></tr>\n<tr>\n<th colspan=\"2\">Production\n</th></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 8x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, 2x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>1x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>1 minute and 30 seconds\n</td></tr>\n<tr>\n<td><b>Production/Hour</b></td>\n<td>40x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a>\n</td></tr>\n<tr>\n<th colspan=\"2\">Production\n</th></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$1,333.33\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$80,000.00\n</td></tr>\n<tr>\n<td><b>Return On Investment/Min</b></td>\n<td>0.145%\n</td></tr>\n<tr>\n<td><b>Time to ROI</b></td>\n<td>691.24 Minute (~12 Hours)\n</td></tr>\n<tr>\n<th colspan=\"2\">Aliases\n</th></tr>\n<tr>\n<td colspan=\"2\">laptop factory, laptopfactory, laptop fac\n</td></tr></tbody></table>\n<p>Sustaining it requires ~1/90 <a href=\"/index.php/Plastic_factory\" title=\"Plastic factory\">Plastic factory</a> ~100/375 <a href=\"/index.php/CPU_factory\" title=\"CPU factory\">CPU factory</a> and ~~1/10 glass fac\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008224629\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.006 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:27-0!canonical and timestamp 20261008224629 and revision id 1442\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

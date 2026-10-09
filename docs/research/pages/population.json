@@ -1,0 +1,27 @@
+{
+  "id": 117,
+  "title": "Population",
+  "namespace": 0,
+  "revisionId": 482,
+  "revisionTimestamp": "2020-07-18T05:11:28Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Population",
+  "wikitext": "Population is a mechanic introduced in Update 1.6.0 and is a way of determining the development of the region.\n\n\n== Population Calculation ==\n\nThere is no current formula, however based on several tests, the best-known formula is Population=land*25,000, with a 3% margin. This helps large regions grow more, but only if everyone contributes the maximum land to the region.\n\n== Population Uses ==\n\nIt seems to be tied to the [[Retail store| Retail store's]] demand calculation, however, there is no info on the exact calculation.",
+  "links": [
+    "Retail store"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Population",
+  "html": "<div class=\"mw-parser-output\"><p>Population is a mechanic introduced in Update 1.6.0 and is a way of determining the development of the region.\n</p><p><br />\n</p>\n<h2><span class=\"mw-headline\" id=\"Population_Calculation\">Population Calculation</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Population&amp;action=edit&amp;section=1\" title=\"Edit section: Population Calculation\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>There is no current formula, however based on several tests, the best-known formula is Population=land*25,000, with a 3% margin. This helps large regions grow more, but only if everyone contributes the maximum land to the region.\n</p>\n<h2><span class=\"mw-headline\" id=\"Population_Uses\">Population Uses</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Population&amp;action=edit&amp;section=2\" title=\"Edit section: Population Uses\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>It seems to be tied to the <a href=\"/index.php/Retail_store\" title=\"Retail store\"> Retail store's</a> demand calculation, however, there is no info on the exact calculation.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008185319\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 6/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:117-0!canonical and timestamp 20261008185319 and revision id 482\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Retail store",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

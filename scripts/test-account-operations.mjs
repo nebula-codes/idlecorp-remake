@@ -1,0 +1,65 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import { spawn, spawnSync } from 'node:child_process';
+import { testServer, client } from './test-support.mjs';
+
+const directory=path.resolve('.runtime',`account-backups-${Date.now()}`);
+process.env.BACKUP_DIR=directory;process.env.BACKUP_ENABLED='false';process.env.BACKUP_RETENTION='2';
+const server=await testServer('account_operations',3018),passed=[];
+const check=name=>{passed.push(name);console.log('PASS '+name);};
+const pw='Original-password-42!',next='Recovered-password-42!',last='Changed-password-42!';
+const a=client(server.origin),a2=client(server.origin),b=client(server.origin);
+function command(args,extra={}){const result=spawnSync(process.execPath,args,{encoding:'utf8',windowsHide:true,env:{...process.env,NODE_ENV:'test',DATABASE_URL:server.databaseUrl,...extra}});assert.equal(result.status,0,result.stdout+result.stderr);return result.stdout;}
+function concurrentCommand(args,extra={}){return new Promise((resolve,reject)=>{let output='';const child=spawn(process.execPath,args,{windowsHide:true,env:{...process.env,NODE_ENV:'test',DATABASE_URL:server.databaseUrl,...extra}});child.stdout.on('data',data=>{output+=data;});child.stderr.on('data',data=>{output+=data;});child.on('error',reject);child.on('exit',code=>code===0?resolve(output):reject(new Error(output)));});}
+try{
+ assert.equal((await a.request('/api/auth/register',{username:'account_alpha',password:pw,name:'Alpha'})).status,200);
+ assert.equal((await b.request('/api/auth/register',{username:'account_beta',password:pw,name:'Beta'})).status,200);
+ assert.equal((await a2.request('/api/auth/login',{username:'account_alpha',password:pw})).status,200);
+ const security=(await a.request('/api/account/security')).data;assert.equal(security.sessions.length,2);assert.equal(security.sessions.filter(s=>s.current).length,1);assert.ok(security.sessions.every(s=>!s.token_hash));
+ assert.equal((await b.request('/api/account/sessions/revoke',{id:security.sessions[0].id})).status,404);
+ assert.equal((await b.request('/api/admin/status')).status,403);assert.equal((await b.request('/api/admin/backup',{password:pw})).status,403);
+ check('Session inventory identifies current client, hides tokens, and rejects cross-account revocation and non-admin operations');
+ assert.equal((await a.request('/api/account/recovery-codes',{password:'wrong'})).status,403);
+ const old=(await a.request('/api/account/recovery-codes',{password:pw})).data.codes;assert.equal(old.length,8);
+ const codes=(await a.request('/api/account/recovery-codes',{password:pw})).data.codes;assert.equal(codes.length,8);assert.equal(new Set(codes).size,8);
+ const stored=await server.query('SELECT code_hash FROM recovery_codes');assert.equal(stored.rows.length,8);assert.ok(stored.rows.every(row=>/^[a-f0-9]{64}$/.test(row.code_hash)&&!codes.includes(row.code_hash)));
+ assert.equal((await b.request('/api/auth/recover',{username:'account_alpha',code:old[0],password:next})).status,403);
+ const raced=await Promise.all([a.request('/api/auth/recover',{username:'account_alpha',code:codes[0],password:next}),a2.request('/api/auth/recover',{username:'account_alpha',code:codes[0],password:next})]);
+ assert.deepEqual(raced.map(r=>r.status).sort(),[200,403]);assert.equal((await a.request('/api/state')).status,401);assert.equal((await a2.request('/api/state')).status,401);assert.equal((await b.request('/api/state')).status,200);
+ assert.equal((await a.request('/api/auth/login',{username:'account_alpha',password:pw})).status,401);assert.equal((await a.request('/api/auth/login',{username:'account_alpha',password:next})).status,200);
+ assert.equal((await a.request('/api/account/security')).data.recoveryCodesRemaining,7);
+ check('Recovery codes are hashed, rotation invalidates old codes, simultaneous reuse succeeds once, and password recovery revokes every old session');
+ assert.equal((await a2.request('/api/auth/login',{username:'account_alpha',password:next})).status,200);
+ assert.equal((await a.request('/api/account/password',{currentPassword:'wrong',newPassword:last})).status,403);
+ assert.equal((await a.request('/api/account/password',{currentPassword:next,newPassword:last})).status,200);assert.equal((await a2.request('/api/state')).status,401);assert.equal((await a.request('/api/state')).status,200);
+ assert.equal((await a2.request('/api/auth/login',{username:'account_alpha',password:last})).status,200);
+ assert.equal((await a.request('/api/account/sessions/revoke',{others:true})).status,200);assert.equal((await a2.request('/api/state')).status,401);
+ check('Password changes and revoke-other-sessions preserve the current client while invalidating the others');
+ await server.query("CREATE FUNCTION slow_session_insert() RETURNS trigger LANGUAGE plpgsql AS $$ BEGIN PERFORM pg_sleep(0.2); RETURN NEW; END $$");
+ await server.query('CREATE TRIGGER delayed_session BEFORE INSERT ON sessions FOR EACH ROW EXECUTE FUNCTION slow_session_insert()');
+ const staleLogin=client(server.origin),race=await Promise.all([staleLogin.request('/api/auth/login',{username:'account_alpha',password:last}),a.request('/api/account/password',{currentPassword:last,newPassword:'Race-proof-password-42!'})]);
+ assert.equal(race[1].status,200);assert.ok([200,401].includes(race[0].status));assert.equal((await staleLogin.request('/api/state')).status,401);assert.equal((await a.request('/api/state')).status,200);
+ await server.query('DROP TRIGGER delayed_session ON sessions');await server.query('DROP FUNCTION slow_session_insert()');
+ check('A delayed old-password login racing password change cannot create a surviving session after revocation');
+ command(['--import','tsx','apps/server/src/admin.ts','role','account_beta','admin']);
+ const status=await b.request('/api/admin/status');assert.equal(status.status,200);assert.equal(status.data.accounts,2);assert.equal(status.data.database.schemaVersion,2);
+ assert.equal((await b.request('/api/admin/expansion',{enabled:true,password:'wrong'})).status,403);
+ assert.equal((await b.request('/api/admin/expansion',{enabled:true,password:pw})).status,200);assert.equal((await b.request('/api/admin/status')).data.world.expansionEnabled,true);
+ for(let i=0;i<2;i++)assert.equal((await b.request('/api/admin/backup',{password:pw})).status,200);
+ command(['--import','tsx','apps/server/src/admin.ts','backup']);
+ const backup=(await b.request('/api/admin/status')).data.backup;assert.equal(backup.files.length,2);assert.ok(backup.lastSuccess);assert.equal(backup.running,false);
+ const saved=JSON.parse(fs.readFileSync(path.join(directory,backup.files[0].name),'utf8'));assert.equal(saved.version,2);assert.equal(saved.tables.recovery_codes.length,7);assert.ok(saved.tables.accounts.some(x=>x.is_admin));
+ check('Administrator dashboard reflects live counts; authenticated expansion control and consistent backups preserve roles/recovery state with bounded retention');
+ const manifest=JSON.parse(fs.readFileSync(path.join(directory,'status.json'),'utf8'));manifest.lastSuccess=Date.now()-49*3600000;manifest.lastAttempt=manifest.lastSuccess;fs.writeFileSync(path.join(directory,'status.json'),JSON.stringify(manifest));
+ const scheduleArgs=['--import','tsx','--input-type=module','-e',"import { runScheduledBackup } from './apps/server/src/operations.ts'; import { pool } from './apps/server/src/database.ts'; console.log(JSON.stringify(await runScheduledBackup())); await pool.end();"];
+ const scheduled=await Promise.all([concurrentCommand(scheduleArgs,{BACKUP_ENABLED:'true'}),concurrentCommand(scheduleArgs,{BACKUP_ENABLED:'true'})]);assert.deepEqual(scheduled.map(text=>text.trim()).sort(),['false','true']);
+ await Promise.all([concurrentCommand(['--import','tsx','apps/server/src/admin.ts','backup']),concurrentCommand(['--import','tsx','apps/server/src/admin.ts','backup'])]);
+ const currentManifest=JSON.parse(fs.readFileSync(path.join(directory,'status.json'),'utf8'));assert.ok(fs.existsSync(path.join(directory,currentManifest.name)));assert.equal(fs.readdirSync(directory).filter(n=>n.startsWith('idlecorp-')&&n.endsWith('.json')).length,2);
+ check('Daily scheduling and simultaneous CLI backups coordinate across processes, keep a valid manifest, and enforce retention');
+ await server.stop();const latest=fs.readdirSync(directory).filter(n=>n.startsWith('idlecorp-')).sort().at(-1);command(['scripts/restore.mjs',path.join(directory,latest),'--replace-world']);await server.start();
+ assert.equal((await a.request('/api/account/security')).data.recoveryCodesRemaining,7);assert.equal((await b.request('/api/admin/status')).status,200);
+ const own=(await a.request('/api/account/security')).data.sessions.find(s=>s.current);assert.equal((await a.request('/api/account/sessions/revoke',{id:own.id})).data.currentRevoked,true);assert.equal((await a.request('/api/state')).status,401);
+ check('Version-two restore retains recovery codes, roles and sessions; current-session revocation signs the client out');
+ fs.mkdirSync('artifacts',{recursive:true});fs.writeFileSync('artifacts/account-operations-report.json',JSON.stringify({date:new Date().toISOString(),passed,scope:'Isolated PostgreSQL database and unique backup directory; no live account or save modified.'},null,2));
+}finally{await server.close();}

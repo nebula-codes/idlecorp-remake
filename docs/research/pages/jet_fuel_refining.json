@@ -1,0 +1,74 @@
+{
+  "id": 133,
+  "title": "Jet fuel refining",
+  "namespace": 0,
+  "revisionId": 803,
+  "revisionTimestamp": "2020-11-29T23:11:45Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Jet_fuel_refining",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;\"\n!Blueprint Requirements\n|-\n| 100,000x [[Aluminum]], 1,000,000x [[steel]], 100,000x [[Rubber]]\n|}\n\nImproves all [[Oil refinery|Oil refineries]] of a [[corporation]] in the [[region]] it is installed in to produce 1x [[Jet fuel]] instead of 1x [[Gasoline]] every 30 seconds. This is the only way to produce [[Jet fuel]].\n\nThe u version makes it produce 1x [[Jet fuel]] in 8 seconds instead of 30 seconds.\n\n[[Category:Asset]]\n[[Category:Technology]]",
+  "links": [
+    "Aluminum",
+    "steel",
+    "Rubber",
+    "Oil refinery",
+    "corporation",
+    "region",
+    "Jet fuel",
+    "Gasoline",
+    "Category:Asset",
+    "Category:Technology"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset",
+    "Technology"
+  ],
+  "redirect": null,
+  "renderedTitle": "Jet fuel refining",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;\">\n<tbody><tr>\n<th>Blueprint Requirements\n</th></tr>\n<tr>\n<td>100,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 100,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a>\n</td></tr></tbody></table>\n<p>Improves all <a href=\"/index.php/Oil_refinery\" title=\"Oil refinery\">Oil refineries</a> of a <a href=\"/index.php/Corporation\" title=\"Corporation\">corporation</a> in the <a href=\"/index.php/Region\" title=\"Region\">region</a> it is installed in to produce 1x <a href=\"/index.php/Jet_fuel\" title=\"Jet fuel\">Jet fuel</a> instead of 1x <a href=\"/index.php/Gasoline\" title=\"Gasoline\">Gasoline</a> every 30 seconds. This is the only way to produce <a href=\"/index.php/Jet_fuel\" title=\"Jet fuel\">Jet fuel</a>.\n</p><p>The u version makes it produce 1x <a href=\"/index.php/Jet_fuel\" title=\"Jet fuel\">Jet fuel</a> in 8 seconds instead of 30 seconds.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145605\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.004 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:133-0!canonical and timestamp 20261009145605 and revision id 803\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Corporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Jet fuel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil refinery",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

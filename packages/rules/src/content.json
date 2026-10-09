@@ -1,0 +1,5092 @@
+{
+  "assets": [
+    {
+      "id": "crude_oil",
+      "name": "Crude oil",
+      "category": "material",
+      "price": 10,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/crude_oil.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Crude_oil",
+        "revisionId": 1132,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "bauxite",
+      "name": "Bauxite",
+      "category": "material",
+      "price": 10,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/bauxite.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Bauxite",
+        "revisionId": 1141,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "wood",
+      "name": "Wood",
+      "category": "material",
+      "price": 15,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/wood.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Wood",
+        "revisionId": 460,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "coal",
+      "name": "Coal",
+      "category": "material",
+      "price": 20,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/coal.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Coal",
+        "revisionId": 461,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "plastic",
+      "name": "Plastic",
+      "category": "material",
+      "price": 50,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/plastic.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Plastic",
+        "revisionId": 451,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "led",
+      "name": "LED",
+      "category": "material",
+      "price": 200,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/led.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/LED",
+        "revisionId": 462,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "category": "material",
+      "price": 200,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/iron.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Iron",
+        "revisionId": 464,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "polyester",
+      "name": "Polyester",
+      "category": "material",
+      "price": 200,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/polyester.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Polyester",
+        "revisionId": 513,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "aluminum",
+      "name": "Aluminum",
+      "category": "material",
+      "price": 400,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/aluminum.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Aluminum",
+        "revisionId": 514,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "gasoline",
+      "name": "Gasoline",
+      "category": "material",
+      "price": 500,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/gasoline.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gasoline",
+        "revisionId": 1118,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "cotton",
+      "name": "Cotton",
+      "category": "material",
+      "price": 500,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/cotton.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Cotton",
+        "revisionId": 517,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "jet_fuel",
+      "name": "Jet fuel",
+      "category": "material",
+      "price": 500,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/jet_fuel.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Jet_fuel",
+        "revisionId": 1425,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "rubber",
+      "name": "Rubber",
+      "category": "material",
+      "price": 700,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/rubber.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Rubber",
+        "revisionId": 519,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "steel",
+      "name": "Steel",
+      "category": "material",
+      "price": 800,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/steel.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Steel",
+        "revisionId": 520,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "energy",
+      "name": "Energy",
+      "category": "material",
+      "price": 1000,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/energy.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Energy",
+        "revisionId": 524,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "silicon",
+      "name": "Silicon",
+      "category": "material",
+      "price": 2500,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/silicon.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Silicon",
+        "revisionId": 526,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "lamp",
+      "name": "Lamp",
+      "category": "product",
+      "price": 2500,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/lamp.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Lamp",
+        "revisionId": 528,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "glass",
+      "name": "Glass",
+      "category": "material",
+      "price": 3000,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/glass.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Glass",
+        "revisionId": 531,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "category": "product",
+      "price": 3000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/clothing.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Clothing",
+        "revisionId": 1654,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "furniture",
+      "name": "Furniture",
+      "category": "product",
+      "price": 6000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/furniture.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Furniture",
+        "revisionId": 536,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "category": "material",
+      "price": 6000,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/gold.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gold",
+        "revisionId": 537,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "rocket_fuel",
+      "name": "Rocket fuel",
+      "category": "space",
+      "price": 10000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/rocket_fuel.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Rocket_fuel",
+        "revisionId": 539,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "research_chemical",
+      "name": "Research chemical",
+      "category": "material",
+      "price": 10000,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/research_chemical.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_chemical",
+        "revisionId": 540,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "cpu",
+      "name": "CPU",
+      "category": "material",
+      "price": 20000,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/cpu.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Cpu",
+        "revisionId": 1076,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "bicycle",
+      "name": "Bicycle",
+      "category": "product",
+      "price": 24000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/bicycle.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Bicycle",
+        "revisionId": 541,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "prescription_drug",
+      "name": "Prescription drug",
+      "category": "product",
+      "price": 50000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/prescription_drug.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Prescription_drug",
+        "revisionId": 637,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "ccd",
+      "name": "CCD",
+      "category": "material",
+      "price": 50000,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/ccd.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/CCD",
+        "revisionId": 730,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "cell_phone",
+      "name": "Cell phone",
+      "category": "product",
+      "price": 80000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/cell_phone.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Cell_phone",
+        "revisionId": 543,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "laptop",
+      "name": "Laptop",
+      "category": "product",
+      "price": 200000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/laptop.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Laptop",
+        "revisionId": 552,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "digital_camera",
+      "name": "Digital camera",
+      "category": "product",
+      "price": 200000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/digital_camera.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Digital_camera",
+        "revisionId": 554,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "television",
+      "name": "Television",
+      "category": "product",
+      "price": 400000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/television.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Television",
+        "revisionId": 551,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "gasoline_engine",
+      "name": "Gasoline engine",
+      "category": "material",
+      "price": 500000,
+      "npcBuy": true,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/gasoline_engine.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gasoline_engine",
+        "revisionId": 553,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "car",
+      "name": "Car",
+      "category": "product",
+      "price": 2000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": true,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/car.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Car",
+        "revisionId": 1417,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "rocket",
+      "name": "Rocket",
+      "category": "space",
+      "price": 10000000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/rocket.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Rocket",
+        "revisionId": 1630,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "scrap",
+      "name": "Scrap",
+      "category": "progression",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/scrap.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Scrap",
+        "revisionId": 1655,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "truck",
+      "name": "Truck",
+      "category": "logistics",
+      "price": 2900000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": true,
+      "icon": "/icons/truck.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Truck",
+        "revisionId": 1122,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "estimate"
+    },
+    {
+      "id": "space_station_parts",
+      "name": "Space Station Parts",
+      "category": "space",
+      "price": 12000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": true,
+      "icon": "/icons/space_station_parts.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Galactic_Expedition",
+        "revisionId": 1666,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "estimate"
+    },
+    {
+      "id": "galactic_coordinate_i",
+      "name": "Galactic Coordinate I",
+      "category": "space",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/galactic_coordinate_i.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+        "revisionId": 1668,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "galactic_coordinate_ii",
+      "name": "Galactic Coordinate Ii",
+      "category": "space",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/galactic_coordinate_ii.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+        "revisionId": 1668,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "galactic_coordinate_iii",
+      "name": "Galactic Coordinate Iii",
+      "category": "space",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/galactic_coordinate_iii.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+        "revisionId": 1668,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "galactic_coordinate_iv",
+      "name": "Galactic Coordinate Iv",
+      "category": "space",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/galactic_coordinate_iv.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+        "revisionId": 1668,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "galactic_coordinate_v",
+      "name": "Galactic Coordinate V",
+      "category": "space",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/galactic_coordinate_v.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+        "revisionId": 1668,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "relic_of_haste",
+      "name": "Relic Of Haste",
+      "category": "relic",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/relic_of_haste.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Relic_of_haste",
+        "revisionId": 1719,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "relic_of_efficiency",
+      "name": "Relic Of Efficiency",
+      "category": "relic",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/relic_of_efficiency.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Relic_of_efficiency",
+        "revisionId": 1720,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "relic_of_knowledge",
+      "name": "Relic Of Knowledge",
+      "category": "relic",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/relic_of_knowledge.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Relic_of_knowledge",
+        "revisionId": 1722,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "relic_of_prestige",
+      "name": "Relic Of Prestige",
+      "category": "relic",
+      "price": 0,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/relic_of_prestige.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Relic_of_prestige",
+        "revisionId": 1721,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "documented"
+    },
+    {
+      "id": "oil_mapping",
+      "name": "Oil mapping",
+      "category": "technology",
+      "price": 28000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "oil_mapping",
+      "tier": 1,
+      "icon": "/icons/oil_mapping.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Oil_mapping",
+        "revisionId": 204,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 14; upgraded: 18; second upgrade: 100."
+    },
+    {
+      "id": "oil_mapping_u",
+      "name": "Oil mapping u",
+      "category": "technology",
+      "price": 84000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "oil_mapping",
+      "tier": 2,
+      "icon": "/icons/oil_mapping_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Oil_mapping",
+        "revisionId": 204,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 14; upgraded: 18; second upgrade: 100."
+    },
+    {
+      "id": "oil_mapping_uu",
+      "name": "Oil mapping uu",
+      "category": "technology",
+      "price": 252000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "oil_mapping",
+      "tier": 3,
+      "icon": "/icons/oil_mapping_uu.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Oil_mapping",
+        "revisionId": 204,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 14; upgraded: 18; second upgrade: 100."
+    },
+    {
+      "id": "coal_detector",
+      "name": "Coal detector",
+      "category": "technology",
+      "price": 800200000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "coal_detector",
+      "tier": 1,
+      "icon": "/icons/coal_detector.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Coal_detector",
+        "revisionId": 642,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 12; upgraded: 16; second upgrade: 80."
+    },
+    {
+      "id": "coal_detector_u",
+      "name": "Coal detector u",
+      "category": "technology",
+      "price": 2400600000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "coal_detector",
+      "tier": 2,
+      "icon": "/icons/coal_detector_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Coal_detector",
+        "revisionId": 642,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 12; upgraded: 16; second upgrade: 80."
+    },
+    {
+      "id": "coal_detector_uu",
+      "name": "Coal detector uu",
+      "category": "technology",
+      "price": 7201800000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "coal_detector",
+      "tier": 3,
+      "icon": "/icons/coal_detector_uu.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Coal_detector",
+        "revisionId": 642,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 12; upgraded: 16; second upgrade: 80."
+    },
+    {
+      "id": "log_loader",
+      "name": "Log loader",
+      "category": "technology",
+      "price": 870000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "log_loader",
+      "tier": 1,
+      "icon": "/icons/log_loader.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Log_loader",
+        "revisionId": 220,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -1 Sec; upgraded: -2 Sec; second upgrade: 4."
+    },
+    {
+      "id": "log_loader_u",
+      "name": "Log loader u",
+      "category": "technology",
+      "price": 2610000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "log_loader",
+      "tier": 2,
+      "icon": "/icons/log_loader_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Log_loader",
+        "revisionId": 220,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -1 Sec; upgraded: -2 Sec; second upgrade: 4."
+    },
+    {
+      "id": "log_loader_uu",
+      "name": "Log loader uu",
+      "category": "technology",
+      "price": 7830000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "log_loader",
+      "tier": 3,
+      "icon": "/icons/log_loader_uu.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Log_loader",
+        "revisionId": 220,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -1 Sec; upgraded: -2 Sec; second upgrade: 4."
+    },
+    {
+      "id": "advanced_woodworking",
+      "name": "Advanced woodworking",
+      "category": "technology",
+      "price": 42500000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "advanced_woodworking",
+      "tier": 1,
+      "icon": "/icons/advanced_woodworking.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Advanced_woodworking",
+        "revisionId": 203,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -40 Sec; upgraded: -1:20 Sec; second upgrade: -3:30 Sec."
+    },
+    {
+      "id": "advanced_woodworking_u",
+      "name": "Advanced woodworking u",
+      "category": "technology",
+      "price": 127500000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "advanced_woodworking",
+      "tier": 2,
+      "icon": "/icons/advanced_woodworking_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Advanced_woodworking",
+        "revisionId": 203,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -40 Sec; upgraded: -1:20 Sec; second upgrade: -3:30 Sec."
+    },
+    {
+      "id": "advanced_woodworking_uu",
+      "name": "Advanced woodworking uu",
+      "category": "technology",
+      "price": 382500000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "advanced_woodworking",
+      "tier": 3,
+      "icon": "/icons/advanced_woodworking_uu.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Advanced_woodworking",
+        "revisionId": 203,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -40 Sec; upgraded: -1:20 Sec; second upgrade: -3:30 Sec."
+    },
+    {
+      "id": "bauxite_detector",
+      "name": "Bauxite detector",
+      "category": "technology",
+      "price": 1120500000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "bauxite_detector",
+      "tier": 1,
+      "icon": "/icons/bauxite_detector.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Bauxite_detector",
+        "revisionId": 222,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 50; upgraded: 60; second upgrade: N/A."
+    },
+    {
+      "id": "bauxite_detector_u",
+      "name": "Bauxite detector u",
+      "category": "technology",
+      "price": 3361500000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "bauxite_detector",
+      "tier": 2,
+      "icon": "/icons/bauxite_detector_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Bauxite_detector",
+        "revisionId": 222,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 50; upgraded: 60; second upgrade: N/A."
+    },
+    {
+      "id": "jet_fuel_refining",
+      "name": "Jet fuel refining",
+      "category": "technology",
+      "price": 910000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "jet_fuel_refining",
+      "tier": 1,
+      "icon": "/icons/jet_fuel_refining.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Jet_fuel_refining",
+        "revisionId": 803,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: Jet fuel; upgraded: -22 Sec; second upgrade: N/A."
+    },
+    {
+      "id": "jet_fuel_refining_u",
+      "name": "Jet fuel refining u",
+      "category": "technology",
+      "price": 2730000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "jet_fuel_refining",
+      "tier": 2,
+      "icon": "/icons/jet_fuel_refining_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Jet_fuel_refining",
+        "revisionId": 803,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: Jet fuel; upgraded: -22 Sec; second upgrade: N/A."
+    },
+    {
+      "id": "gold_detector",
+      "name": "Gold detector",
+      "category": "technology",
+      "price": 380000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "gold_detector",
+      "tier": 1,
+      "icon": "/icons/gold_detector.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gold_detector",
+        "revisionId": 205,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 6; upgraded: 8; second upgrade: 10."
+    },
+    {
+      "id": "gold_detector_u",
+      "name": "Gold detector u",
+      "category": "technology",
+      "price": 1140000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "gold_detector",
+      "tier": 2,
+      "icon": "/icons/gold_detector_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gold_detector",
+        "revisionId": 205,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 6; upgraded: 8; second upgrade: 10."
+    },
+    {
+      "id": "gold_detector_uu",
+      "name": "Gold detector uu",
+      "category": "technology",
+      "price": 3420000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "gold_detector",
+      "tier": 3,
+      "icon": "/icons/gold_detector_uu.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gold_detector",
+        "revisionId": 205,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 6; upgraded: 8; second upgrade: 10."
+    },
+    {
+      "id": "vacuum_distillation",
+      "name": "Vacuum distillation",
+      "category": "technology",
+      "price": 1120560000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "vacuum_distillation",
+      "tier": 1,
+      "icon": "/icons/vacuum_distillation.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Vacuum_distillation",
+        "revisionId": 1137,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -15sec; upgraded: -22sec; second upgrade: N/A."
+    },
+    {
+      "id": "vacuum_distillation_u",
+      "name": "Vacuum distillation u",
+      "category": "technology",
+      "price": 3361680000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "vacuum_distillation",
+      "tier": 2,
+      "icon": "/icons/vacuum_distillation_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Vacuum_distillation",
+        "revisionId": 1137,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -15sec; upgraded: -22sec; second upgrade: N/A."
+    },
+    {
+      "id": "robotic_automation",
+      "name": "Robotic automation",
+      "category": "technology",
+      "price": 2000000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "robotic_automation",
+      "tier": 1,
+      "icon": "/icons/robotic_automation.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Robotic_automation",
+        "revisionId": 434,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 2.5%; upgraded: 4%; second upgrade: 6%."
+    },
+    {
+      "id": "robotic_automation_u",
+      "name": "Robotic automation u",
+      "category": "technology",
+      "price": 6000000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "robotic_automation",
+      "tier": 2,
+      "icon": "/icons/robotic_automation_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Robotic_automation",
+        "revisionId": 434,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 2.5%; upgraded: 4%; second upgrade: 6%."
+    },
+    {
+      "id": "robotic_automation_uu",
+      "name": "Robotic automation uu",
+      "category": "technology",
+      "price": 18000000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "robotic_automation",
+      "tier": 3,
+      "icon": "/icons/robotic_automation_uu.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Robotic_automation",
+        "revisionId": 434,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 2.5%; upgraded: 4%; second upgrade: 6%."
+    },
+    {
+      "id": "factory_specialization",
+      "name": "Factory specialization",
+      "category": "technology",
+      "price": 1550000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "factory_specialization",
+      "tier": 1,
+      "icon": "/icons/factory_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Factory_specialization",
+        "revisionId": 906,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: +4 levels; upgraded: N/A; second upgrade: N/A."
+    },
+    {
+      "id": "mining_specialization",
+      "name": "Mining specialization",
+      "category": "technology",
+      "price": 1550000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "mining_specialization",
+      "tier": 1,
+      "icon": "/icons/mining_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Mining_specialization",
+        "revisionId": 980,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: +4 levels; upgraded: N/A; second upgrade: N/A."
+    },
+    {
+      "id": "oil_specialization",
+      "name": "Oil specialization",
+      "category": "technology",
+      "price": 1550000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "oil_specialization",
+      "tier": 1,
+      "icon": "/icons/oil_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Oil_specialization",
+        "revisionId": 981,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: +4 levels; upgraded: N/A; second upgrade: N/A."
+    },
+    {
+      "id": "energy_specialization",
+      "name": "Energy specialization",
+      "category": "technology",
+      "price": 1550000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "energy_specialization",
+      "tier": 1,
+      "icon": "/icons/energy_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Energy_specialization",
+        "revisionId": 982,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: +4 levels; upgraded: N/A; second upgrade: N/A."
+    },
+    {
+      "id": "logistics_expansion",
+      "name": "Logistics expansion",
+      "category": "technology",
+      "price": 1170000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "logistics_expansion",
+      "tier": 1,
+      "icon": "/icons/logistics_expansion.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Logistics_expansion",
+        "revisionId": 1322,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 2x; upgraded: 2.5x; second upgrade: N/A."
+    },
+    {
+      "id": "logistics_expansion_u",
+      "name": "Logistics expansion u",
+      "category": "technology",
+      "price": 3510000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "logistics_expansion",
+      "tier": 2,
+      "icon": "/icons/logistics_expansion_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Logistics_expansion",
+        "revisionId": 1322,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: 2x; upgraded: 2.5x; second upgrade: N/A."
+    },
+    {
+      "id": "airport_tram",
+      "name": "Airport tram",
+      "category": "technology",
+      "price": 1550000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "airport_tram",
+      "tier": 1,
+      "icon": "/icons/airport_tram.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Airport_tram",
+        "revisionId": 691,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -4 Sec; upgraded: -8 Sec; second upgrade: N/A."
+    },
+    {
+      "id": "airport_tram_u",
+      "name": "Airport tram u",
+      "category": "technology",
+      "price": 4650000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "airport_tram",
+      "tier": 2,
+      "icon": "/icons/airport_tram_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Airport_tram",
+        "revisionId": 691,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: -4 Sec; upgraded: -8 Sec; second upgrade: N/A."
+    },
+    {
+      "id": "quality_control",
+      "name": "Quality control",
+      "category": "technology",
+      "price": 1700000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "quality_control",
+      "tier": 1,
+      "icon": "/icons/quality_control.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Quality_control",
+        "revisionId": 904,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: +2 levels; upgraded: +4 levels; second upgrade: N/A."
+    },
+    {
+      "id": "quality_control_u",
+      "name": "Quality control u",
+      "category": "technology",
+      "price": 5100000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "quality_control",
+      "tier": 2,
+      "icon": "/icons/quality_control_u.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Quality_control",
+        "revisionId": 904,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: +2 levels; upgraded: +4 levels; second upgrade: N/A."
+    },
+    {
+      "id": "reincorporation_computer",
+      "name": "Reincorporation computer",
+      "category": "technology",
+      "price": 200000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "reincorporation_computer",
+      "tier": 1,
+      "icon": "/icons/reincorporation_computer.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Reincorporation_Computer",
+        "revisionId": 1107,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: Decreased to 2 hours; upgraded: N/A; second upgrade: N/A."
+    },
+    {
+      "id": "quantum_stabilization",
+      "name": "Quantum stabilization",
+      "category": "technology",
+      "price": 102000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "technologyId": "quantum_stabilization",
+      "tier": 1,
+      "icon": "/icons/quantum_stabilization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Quantum_stabilization",
+        "revisionId": 1689,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Base: Increased to 75%; upgraded: N/A; second upgrade: N/A."
+    },
+    {
+      "id": "crude_oil_plus",
+      "name": "Crude oil+",
+      "category": "material",
+      "price": 20,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/crude_oil_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Crude_oil",
+        "revisionId": 1132,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "crude_oil",
+      "quality": true
+    },
+    {
+      "id": "bauxite_plus",
+      "name": "Bauxite+",
+      "category": "material",
+      "price": 20,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/bauxite_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Bauxite",
+        "revisionId": 1141,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "bauxite",
+      "quality": true
+    },
+    {
+      "id": "wood_plus",
+      "name": "Wood+",
+      "category": "material",
+      "price": 30,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/wood_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Wood",
+        "revisionId": 460,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "wood",
+      "quality": true
+    },
+    {
+      "id": "coal_plus",
+      "name": "Coal+",
+      "category": "material",
+      "price": 40,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/coal_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Coal",
+        "revisionId": 461,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "coal",
+      "quality": true
+    },
+    {
+      "id": "plastic_plus",
+      "name": "Plastic+",
+      "category": "material",
+      "price": 100,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/plastic_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Plastic",
+        "revisionId": 451,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "plastic",
+      "quality": true
+    },
+    {
+      "id": "led_plus",
+      "name": "LED+",
+      "category": "material",
+      "price": 400,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/led_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/LED",
+        "revisionId": 462,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "led",
+      "quality": true
+    },
+    {
+      "id": "iron_plus",
+      "name": "Iron+",
+      "category": "material",
+      "price": 400,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/iron_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Iron",
+        "revisionId": 464,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "iron",
+      "quality": true
+    },
+    {
+      "id": "polyester_plus",
+      "name": "Polyester+",
+      "category": "material",
+      "price": 400,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/polyester_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Polyester",
+        "revisionId": 513,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "polyester",
+      "quality": true
+    },
+    {
+      "id": "aluminum_plus",
+      "name": "Aluminum+",
+      "category": "material",
+      "price": 800,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/aluminum_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Aluminum",
+        "revisionId": 514,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "aluminum",
+      "quality": true
+    },
+    {
+      "id": "gasoline_plus",
+      "name": "Gasoline+",
+      "category": "material",
+      "price": 1000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/gasoline_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gasoline",
+        "revisionId": 1118,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "gasoline",
+      "quality": true
+    },
+    {
+      "id": "cotton_plus",
+      "name": "Cotton+",
+      "category": "material",
+      "price": 1000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/cotton_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Cotton",
+        "revisionId": 517,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "cotton",
+      "quality": true
+    },
+    {
+      "id": "jet_fuel_plus",
+      "name": "Jet fuel+",
+      "category": "material",
+      "price": 1000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/jet_fuel_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Jet_fuel",
+        "revisionId": 1425,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "jet_fuel",
+      "quality": true
+    },
+    {
+      "id": "rubber_plus",
+      "name": "Rubber+",
+      "category": "material",
+      "price": 1400,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/rubber_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Rubber",
+        "revisionId": 519,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "rubber",
+      "quality": true
+    },
+    {
+      "id": "steel_plus",
+      "name": "Steel+",
+      "category": "material",
+      "price": 1600,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/steel_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Steel",
+        "revisionId": 520,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "steel",
+      "quality": true
+    },
+    {
+      "id": "energy_plus",
+      "name": "Energy+",
+      "category": "material",
+      "price": 2000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/energy_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Energy",
+        "revisionId": 524,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "energy",
+      "quality": true
+    },
+    {
+      "id": "silicon_plus",
+      "name": "Silicon+",
+      "category": "material",
+      "price": 5000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/silicon_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Silicon",
+        "revisionId": 526,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "silicon",
+      "quality": true
+    },
+    {
+      "id": "lamp_plus",
+      "name": "Lamp+",
+      "category": "product",
+      "price": 5000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/lamp_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Lamp",
+        "revisionId": 528,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "lamp",
+      "quality": true
+    },
+    {
+      "id": "glass_plus",
+      "name": "Glass+",
+      "category": "material",
+      "price": 6000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/glass_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Glass",
+        "revisionId": 531,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "glass",
+      "quality": true
+    },
+    {
+      "id": "clothing_plus",
+      "name": "Clothing+",
+      "category": "product",
+      "price": 6000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/clothing_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Clothing",
+        "revisionId": 1654,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "clothing",
+      "quality": true
+    },
+    {
+      "id": "furniture_plus",
+      "name": "Furniture+",
+      "category": "product",
+      "price": 12000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/furniture_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Furniture",
+        "revisionId": 536,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "furniture",
+      "quality": true
+    },
+    {
+      "id": "gold_plus",
+      "name": "Gold+",
+      "category": "material",
+      "price": 12000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/gold_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gold",
+        "revisionId": 537,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "gold",
+      "quality": true
+    },
+    {
+      "id": "research_chemical_plus",
+      "name": "Research chemical+",
+      "category": "material",
+      "price": 20000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/research_chemical_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_chemical",
+        "revisionId": 540,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "research_chemical",
+      "quality": true
+    },
+    {
+      "id": "cpu_plus",
+      "name": "CPU+",
+      "category": "material",
+      "price": 40000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/cpu_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Cpu",
+        "revisionId": 1076,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "cpu",
+      "quality": true
+    },
+    {
+      "id": "bicycle_plus",
+      "name": "Bicycle+",
+      "category": "product",
+      "price": 48000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/bicycle_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Bicycle",
+        "revisionId": 541,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "bicycle",
+      "quality": true
+    },
+    {
+      "id": "prescription_drug_plus",
+      "name": "Prescription drug+",
+      "category": "product",
+      "price": 100000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/prescription_drug_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Prescription_drug",
+        "revisionId": 637,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "prescription_drug",
+      "quality": true
+    },
+    {
+      "id": "ccd_plus",
+      "name": "CCD+",
+      "category": "material",
+      "price": 100000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/ccd_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/CCD",
+        "revisionId": 730,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "ccd",
+      "quality": true
+    },
+    {
+      "id": "cell_phone_plus",
+      "name": "Cell phone+",
+      "category": "product",
+      "price": 160000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/cell_phone_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Cell_phone",
+        "revisionId": 543,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "cell_phone",
+      "quality": true
+    },
+    {
+      "id": "laptop_plus",
+      "name": "Laptop+",
+      "category": "product",
+      "price": 400000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/laptop_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Laptop",
+        "revisionId": 552,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "laptop",
+      "quality": true
+    },
+    {
+      "id": "digital_camera_plus",
+      "name": "Digital camera+",
+      "category": "product",
+      "price": 400000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/digital_camera_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Digital_camera",
+        "revisionId": 554,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "digital_camera",
+      "quality": true
+    },
+    {
+      "id": "television_plus",
+      "name": "Television+",
+      "category": "product",
+      "price": 800000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/television_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Television",
+        "revisionId": 551,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "television",
+      "quality": true
+    },
+    {
+      "id": "gasoline_engine_plus",
+      "name": "Gasoline engine+",
+      "category": "material",
+      "price": 1000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "description": "Production resource used in the regional economy.",
+      "icon": "/icons/gasoline_engine_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gasoline_engine",
+        "revisionId": 553,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "gasoline_engine",
+      "quality": true
+    },
+    {
+      "id": "car_plus",
+      "name": "Car+",
+      "category": "product",
+      "price": 4000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "retail": true,
+      "scrappable": true,
+      "qualityEligible": false,
+      "description": "Consumer product used in the regional economy.",
+      "icon": "/icons/car_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Car",
+        "revisionId": 1417,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "baseAsset": "car",
+      "quality": true
+    },
+    {
+      "id": "truck_plus",
+      "name": "Truck+",
+      "category": "logistics",
+      "price": 5800000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": true,
+      "qualityEligible": false,
+      "icon": "/icons/truck_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Truck",
+        "revisionId": 1122,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "estimate",
+      "baseAsset": "truck",
+      "quality": true
+    },
+    {
+      "id": "space_station_parts_plus",
+      "name": "Space Station Parts+",
+      "category": "space",
+      "price": 24000000,
+      "npcBuy": false,
+      "npcSell": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/space_station_parts_plus.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Galactic_Expedition",
+        "revisionId": 1666,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Special progression resource.",
+      "evidenceStatus": "estimate",
+      "baseAsset": "space_station_parts",
+      "quality": true
+    },
+    {
+      "id": "blueprint_oil_mapping",
+      "name": "Oil mapping blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "oil_mapping",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_oil_mapping.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_coal_detector",
+      "name": "Coal detector blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "coal_detector",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_coal_detector.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_log_loader",
+      "name": "Log loader blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "log_loader",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_log_loader.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_advanced_woodworking",
+      "name": "Advanced woodworking blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "advanced_woodworking",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_advanced_woodworking.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_bauxite_detector",
+      "name": "Bauxite detector blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "bauxite_detector",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_bauxite_detector.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_jet_fuel_refining",
+      "name": "Jet fuel refining blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "jet_fuel_refining",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_jet_fuel_refining.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_gold_detector",
+      "name": "Gold detector blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "gold_detector",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_gold_detector.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_vacuum_distillation",
+      "name": "Vacuum distillation blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "vacuum_distillation",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_vacuum_distillation.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_robotic_automation",
+      "name": "Robotic automation blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "robotic_automation",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_robotic_automation.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_factory_specialization",
+      "name": "Factory specialization blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "factory_specialization",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_factory_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_mining_specialization",
+      "name": "Mining specialization blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "mining_specialization",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_mining_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_oil_specialization",
+      "name": "Oil specialization blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "oil_specialization",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_oil_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_energy_specialization",
+      "name": "Energy specialization blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "energy_specialization",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_energy_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_logistics_expansion",
+      "name": "Logistics expansion blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "logistics_expansion",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_logistics_expansion.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_airport_tram",
+      "name": "Airport tram blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "airport_tram",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_airport_tram.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_quality_control",
+      "name": "Quality control blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "quality_control",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_quality_control.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_reincorporation_computer",
+      "name": "Reincorporation computer blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "reincorporation_computer",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_reincorporation_computer.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    },
+    {
+      "id": "blueprint_quantum_stabilization",
+      "name": "Quantum stabilization blueprint",
+      "category": "blueprint",
+      "blueprintTechnologyId": "quantum_stabilization",
+      "price": 400000000,
+      "npcBuy": false,
+      "npcSell": true,
+      "tradeable": false,
+      "retail": false,
+      "scrappable": false,
+      "qualityEligible": false,
+      "icon": "/icons/blueprint_quantum_stabilization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+        "revisionId": 1610,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "description": "Regional research blueprint. Can be developed, exported, or sold to the NPC for its regional quote; cannot be traded on the player exchange."
+    }
+  ],
+  "facilities": [
+    {
+      "id": "tree_farm",
+      "name": "Tree farm",
+      "category": "agriculture",
+      "cost": 10000,
+      "materials": {},
+      "inputs": {},
+      "outputs": {
+        "wood": 2
+      },
+      "cycleSeconds": 5,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "N/A → 2x wood",
+      "icon": "/icons/tree_farm.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Tree_farm",
+        "revisionId": 1608,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "oil_well",
+      "name": "Oil well",
+      "category": "manufacturing",
+      "cost": 10000,
+      "materials": {
+        "iron": 100
+      },
+      "inputs": {},
+      "outputs": {
+        "crude_oil": 10
+      },
+      "cycleSeconds": 10,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "N/A → 10x crude oil",
+      "icon": "/icons/oil_well.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Oil_well",
+        "revisionId": 1410,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "coal_mine",
+      "name": "Coal mine",
+      "category": "extraction",
+      "cost": 25000,
+      "materials": {
+        "wood": 1000
+      },
+      "inputs": {},
+      "outputs": {
+        "coal": 8
+      },
+      "cycleSeconds": 10,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "N/A → 8x coal",
+      "icon": "/icons/coal_mine.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Coal_mine",
+        "revisionId": 1448,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "iron_mine",
+      "name": "Iron mine",
+      "category": "extraction",
+      "cost": 25000,
+      "materials": {
+        "wood": 2000
+      },
+      "inputs": {},
+      "outputs": {
+        "iron": 1
+      },
+      "cycleSeconds": 20,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "N/A → 1x iron",
+      "icon": "/icons/iron_mine.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Iron_mine",
+        "revisionId": 1375,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "oil_refinery",
+      "name": "Oil refinery",
+      "category": "manufacturing",
+      "cost": 24000,
+      "materials": {
+        "iron": 200,
+        "crude_oil": 100,
+        "steel": 50
+      },
+      "inputs": {
+        "crude_oil": 5
+      },
+      "outputs": {
+        "gasoline": 1
+      },
+      "cycleSeconds": 30,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "5x crude oil → 1x gasoline",
+      "icon": "/icons/oil_refinery.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Oil_refinery",
+        "revisionId": 1450,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "steel_mill",
+      "name": "Steel mill",
+      "category": "manufacturing",
+      "cost": 15000,
+      "materials": {
+        "coal": 250,
+        "iron": 500
+      },
+      "inputs": {
+        "iron": 1,
+        "coal": 4
+      },
+      "outputs": {
+        "steel": 1
+      },
+      "cycleSeconds": 35,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "1x iron, 4x coal → 1x steel",
+      "icon": "/icons/steel_mill.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Steel_mill",
+        "revisionId": 1653,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "bauxite_mine",
+      "name": "Bauxite mine",
+      "category": "extraction",
+      "cost": 15000,
+      "materials": {
+        "wood": 5000,
+        "steel": 50
+      },
+      "inputs": {},
+      "outputs": {
+        "bauxite": 40
+      },
+      "cycleSeconds": 25,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "N/A → 40x bauxite",
+      "icon": "/icons/bauxite_mine.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Bauxite_mine",
+        "revisionId": 1378,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "rubber_factory",
+      "name": "Rubber factory",
+      "category": "manufacturing",
+      "cost": 32500,
+      "materials": {
+        "wood": 2500,
+        "steel": 100
+      },
+      "inputs": {
+        "crude_oil": 8
+      },
+      "outputs": {
+        "rubber": 1
+      },
+      "cycleSeconds": 40,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "8x crude oil → 1x rubber",
+      "icon": "/icons/rubber_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Rubber_factory",
+        "revisionId": 1426,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "gas_station",
+      "name": "Gas station",
+      "category": "manufacturing",
+      "cost": 30000,
+      "materials": {
+        "rubber": 100,
+        "steel": 100
+      },
+      "inputs": {
+        "gasoline": 2
+      },
+      "outputs": {
+        "cash": 1500
+      },
+      "cycleSeconds": 15,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "2x gasoline → $15",
+      "icon": "/icons/gas_station.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gas_station",
+        "revisionId": 1380,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "furniture_factory",
+      "name": "Furniture factory",
+      "category": "manufacturing",
+      "cost": 45000,
+      "materials": {
+        "wood": 5000,
+        "steel": 100
+      },
+      "inputs": {
+        "wood": 10
+      },
+      "outputs": {
+        "furniture": 1
+      },
+      "cycleSeconds": 240,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "10x wood → 1x furniture",
+      "icon": "/icons/furniture_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Furniture_factory",
+        "revisionId": 1434,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "aluminum_factory",
+      "name": "Aluminum factory",
+      "category": "manufacturing",
+      "cost": 45000,
+      "materials": {
+        "rubber": 300,
+        "steel": 150
+      },
+      "inputs": {
+        "bauxite": 10
+      },
+      "outputs": {
+        "aluminum": 3
+      },
+      "cycleSeconds": 25,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "10x bauxite → 3x aluminum",
+      "icon": "/icons/aluminum_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Aluminum_factory",
+        "revisionId": 1423,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "led_factory",
+      "name": "LED factory",
+      "category": "manufacturing",
+      "cost": 285000,
+      "materials": {
+        "steel": 200,
+        "wood": 2000,
+        "silicon": 10
+      },
+      "inputs": {
+        "silicon": 2
+      },
+      "outputs": {
+        "led": 40
+      },
+      "cycleSeconds": 50,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "2x silicon → 40x LED",
+      "icon": "/icons/led_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/LED_factory",
+        "revisionId": 1421,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "polyester_factory",
+      "name": "Polyester factory",
+      "category": "manufacturing",
+      "cost": 50000,
+      "materials": {
+        "steel": 500,
+        "wood": 10000
+      },
+      "inputs": {
+        "crude_oil": 110
+      },
+      "outputs": {
+        "polyester": 14
+      },
+      "cycleSeconds": 25,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "110x crude oil → 14x polyester",
+      "icon": "/icons/polyester_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Polyester_factory",
+        "revisionId": 1422,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "silicon_mine",
+      "name": "Silicon mine",
+      "category": "extraction",
+      "cost": 205000,
+      "materials": {
+        "steel": 400,
+        "wood": 25000
+      },
+      "inputs": {},
+      "outputs": {
+        "silicon": 4
+      },
+      "cycleSeconds": 200,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "N/A → 4x silicon",
+      "icon": "/icons/silicon_mine.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Silicon_mine",
+        "revisionId": 1430,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "bicycle_factory",
+      "name": "Bicycle factory",
+      "category": "manufacturing",
+      "cost": 310000,
+      "materials": {
+        "rubber": 200,
+        "wood": 10000,
+        "steel": 500
+      },
+      "inputs": {
+        "aluminum": 24,
+        "rubber": 8
+      },
+      "outputs": {
+        "bicycle": 1
+      },
+      "cycleSeconds": 90,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "24x aluminum, 8x rubber → 1x bicycle",
+      "icon": "/icons/bicycle_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Bicycle_factory",
+        "revisionId": 1438,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "gold_mine",
+      "name": "Gold mine",
+      "category": "extraction",
+      "cost": 450000,
+      "materials": {
+        "wood": 50000,
+        "steel": 1000
+      },
+      "inputs": {},
+      "outputs": {
+        "gold": 4
+      },
+      "cycleSeconds": 300,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "N/A → 4x gold",
+      "icon": "/icons/gold_mine.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gold_mine",
+        "revisionId": 1435,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "lamp_factory",
+      "name": "Lamp factory",
+      "category": "manufacturing",
+      "cost": 1025000,
+      "materials": {
+        "rubber": 2000,
+        "wood": 25000
+      },
+      "inputs": {
+        "led": 12,
+        "plastic": 6
+      },
+      "outputs": {
+        "lamp": 2
+      },
+      "cycleSeconds": 15,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "12x LED, 6x plastic → 2x lamp",
+      "icon": "/icons/lamp_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Lamp_factory",
+        "revisionId": 1431,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "cotton_farm",
+      "name": "Cotton farm",
+      "category": "agriculture",
+      "cost": 1500000,
+      "materials": {
+        "wood": 100000
+      },
+      "inputs": {},
+      "outputs": {
+        "cotton": 4
+      },
+      "cycleSeconds": 20,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "N/A → 4x cotton",
+      "icon": "/icons/cotton_farm.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Cotton_farm",
+        "revisionId": 1609,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "plastic_factory",
+      "name": "Plastic factory",
+      "category": "manufacturing",
+      "cost": 565000,
+      "materials": {
+        "rubber": 6000,
+        "steel": 200,
+        "wood": 5000
+      },
+      "inputs": {
+        "crude_oil": 20
+      },
+      "outputs": {
+        "plastic": 200
+      },
+      "cycleSeconds": 25,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "20x crude oil → 200x plastic",
+      "icon": "/icons/plastic_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Plastic_factory",
+        "revisionId": 1420,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "ccd_factory",
+      "name": "CCD factory",
+      "category": "manufacturing",
+      "cost": 1400000,
+      "materials": {
+        "glass": 500,
+        "steel": 5000
+      },
+      "inputs": {
+        "silicon": 6
+      },
+      "outputs": {
+        "ccd": 1
+      },
+      "cycleSeconds": 65,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "6x silicon → 1x CCD",
+      "icon": "/icons/ccd_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/CCD_factory",
+        "revisionId": 1440,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "glass_factory",
+      "name": "Glass factory",
+      "category": "manufacturing",
+      "cost": 3000000,
+      "materials": {
+        "aluminum": 500,
+        "steel": 6000
+      },
+      "inputs": {
+        "silicon": 2
+      },
+      "outputs": {
+        "glass": 8
+      },
+      "cycleSeconds": 35,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "2x silicon → 8x glass",
+      "icon": "/icons/glass_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Glass_factory",
+        "revisionId": 1432,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "cpu_factory",
+      "name": "CPU factory",
+      "category": "manufacturing",
+      "cost": 1500000,
+      "materials": {
+        "glass": 1000,
+        "aluminum": 10000,
+        "wood": 100000
+      },
+      "inputs": {
+        "gold": 1,
+        "silicon": 8
+      },
+      "outputs": {
+        "cpu": 5
+      },
+      "cycleSeconds": 120,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "1x gold, 8x silicon → 5x CPU",
+      "icon": "/icons/cpu_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/CPU_factory",
+        "revisionId": 1659,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "clothing_factory",
+      "name": "Clothing factory",
+      "category": "manufacturing",
+      "cost": 13700000,
+      "materials": {
+        "wood": 100000,
+        "steel": 1000
+      },
+      "inputs": {
+        "polyester": 20,
+        "cotton": 10
+      },
+      "outputs": {
+        "clothing": 10
+      },
+      "cycleSeconds": 40,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "20x polyester, 10x cotton → 10x clothing",
+      "icon": "/icons/clothing_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Clothing_factory",
+        "revisionId": 1433,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "cell_phone_factory",
+      "name": "Cell phone factory",
+      "category": "manufacturing",
+      "cost": 3250000,
+      "materials": {
+        "glass": 2000,
+        "aluminum": 50000,
+        "wood": 50000,
+        "steel": 10000,
+        "cpu": 100
+      },
+      "inputs": {
+        "cpu": 1,
+        "plastic": 5,
+        "glass": 1
+      },
+      "outputs": {
+        "cell_phone": 1
+      },
+      "cycleSeconds": 45,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "1x CPU, 5x plastic, 1x glass → 1x cell phone",
+      "icon": "/icons/cell_phone_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Cell_phone_factory",
+        "revisionId": 1441,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "coal_power_plant",
+      "name": "Coal power plant",
+      "category": "energy",
+      "cost": 7000000,
+      "materials": {
+        "wood": 200000,
+        "steel": 50000
+      },
+      "inputs": {
+        "coal": 50
+      },
+      "outputs": {
+        "energy": 35
+      },
+      "cycleSeconds": 30,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "50x coal → 35x energy",
+      "icon": "/icons/coal_power_plant.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Coal_power_plant",
+        "revisionId": 1428,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "laptop_factory",
+      "name": "Laptop factory",
+      "category": "manufacturing",
+      "cost": 36500000,
+      "materials": {
+        "steel": 10000,
+        "wood": 100000,
+        "aluminum": 10000,
+        "glass": 10000
+      },
+      "inputs": {
+        "cpu": 1,
+        "plastic": 8,
+        "glass": 2
+      },
+      "outputs": {
+        "laptop": 1
+      },
+      "cycleSeconds": 90,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "1x CPU, 8x plastic, 2x glass → 1x laptop",
+      "icon": "/icons/laptop_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Laptop_factory",
+        "revisionId": 1442,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "research_chemical_factory",
+      "name": "Research chemical factory",
+      "category": "manufacturing",
+      "cost": 33000000,
+      "materials": {
+        "steel": 10000,
+        "rubber": 50000,
+        "aluminum": 10000
+      },
+      "inputs": {
+        "crude_oil": 10
+      },
+      "outputs": {
+        "research_chemical": 4
+      },
+      "cycleSeconds": 30,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "10x crude oil → 4x research chemical",
+      "icon": "/icons/research_chemical_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_chemical_factory",
+        "revisionId": 1436,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "solar_power_plant",
+      "name": "Solar power plant",
+      "category": "energy",
+      "cost": 11000000,
+      "materials": {
+        "steel": 5000,
+        "aluminum": 25000,
+        "glass": 25000
+      },
+      "inputs": {},
+      "outputs": {
+        "energy": 60
+      },
+      "cycleSeconds": 90,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "N/A → 60x energy",
+      "icon": "/icons/solar_power_plant.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Solar_power_plant",
+        "revisionId": 1429,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "rocket_fuel_factory",
+      "name": "Rocket fuel factory",
+      "category": "manufacturing",
+      "cost": 100000000,
+      "materials": {},
+      "inputs": {
+        "energy": 10
+      },
+      "outputs": {
+        "rocket_fuel": 1
+      },
+      "cycleSeconds": 900,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "10x energy → 1x rocket fuel",
+      "icon": "/icons/rocket_fuel_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Rocket_fuel_factory",
+        "revisionId": 1400,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "digital_camera_factory",
+      "name": "Digital camera factory",
+      "category": "manufacturing",
+      "cost": 32000000,
+      "materials": {
+        "steel": 10000,
+        "aluminum": 100000,
+        "glass": 20000
+      },
+      "inputs": {
+        "ccd": 1,
+        "plastic": 100
+      },
+      "outputs": {
+        "digital_camera": 1
+      },
+      "cycleSeconds": 80,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "1x CCD, 100x plastic → 1x digital camera",
+      "icon": "/icons/digital_camera_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Digital_camera_factory",
+        "revisionId": 1444,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "television_factory",
+      "name": "Television factory",
+      "category": "manufacturing",
+      "cost": 45000000,
+      "materials": {
+        "rubber": 10000,
+        "steel": 10000,
+        "aluminum": 150000,
+        "glass": 10000
+      },
+      "inputs": {
+        "glass": 12,
+        "plastic": 36,
+        "cpu": 1
+      },
+      "outputs": {
+        "television": 1
+      },
+      "cycleSeconds": 180,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "12x glass, 36x plastic,  1x CPU → 1x television",
+      "icon": "/icons/television_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Television_factory",
+        "revisionId": 1445,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "gasoline_engine_factory",
+      "name": "Gasoline engine factory",
+      "category": "manufacturing",
+      "cost": 50000000,
+      "materials": {
+        "steel": 100000,
+        "rubber": 100000
+      },
+      "inputs": {
+        "steel": 15,
+        "rubber": 6
+      },
+      "outputs": {
+        "gasoline_engine": 1
+      },
+      "cycleSeconds": 260,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "15x steel, 6x rubber → 1x gasoline engine",
+      "icon": "/icons/gasoline_engine_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gasoline_engine_factory",
+        "revisionId": 1446,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "car_factory",
+      "name": "Car factory",
+      "category": "manufacturing",
+      "cost": 675000000,
+      "materials": {
+        "steel": 100000,
+        "rubber": 10000,
+        "furniture": 3000,
+        "laptop": 1000
+      },
+      "inputs": {
+        "cpu": 1,
+        "steel": 40,
+        "rubber": 30,
+        "plastic": 1000,
+        "glass": 28,
+        "gasoline_engine": 1
+      },
+      "outputs": {
+        "car": 1
+      },
+      "cycleSeconds": 600,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "1x CPU, 40x steel, 30x rubber, 1,000x plastic, 28x glass, 1x gasoline engine → 1x car",
+      "icon": "/icons/car_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Car_factory",
+        "revisionId": 1447,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "logistics_center",
+      "name": "Logistics center",
+      "category": "logistics",
+      "cost": 1000000000,
+      "materials": {},
+      "inputs": {},
+      "outputs": {},
+      "cycleSeconds": 0,
+      "xp": 0,
+      "land": 1,
+      "requires": [],
+      "description": "Unlocks player trading, exports, and increases hourly NPC purchases.",
+      "icon": "/icons/logistics_center.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Logistics_center",
+        "revisionId": 1343,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "prescription_drug_factory",
+      "name": "Prescription drug factory",
+      "category": "manufacturing",
+      "cost": 1300000000,
+      "materials": {
+        "rubber": 100000,
+        "steel": 250000,
+        "glass": 10000
+      },
+      "inputs": {
+        "research_chemical": 1
+      },
+      "outputs": {
+        "prescription_drug": 2
+      },
+      "cycleSeconds": 50,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "1x research chemical → 2x prescription drug",
+      "icon": "/icons/prescription_drug_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Prescription_drug_factory",
+        "revisionId": 1439,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "airport",
+      "name": "Airport",
+      "category": "logistics",
+      "cost": 2000000000,
+      "materials": {},
+      "inputs": {
+        "jet_fuel": 20,
+        "energy": 20
+      },
+      "outputs": {
+        "cash": 100000
+      },
+      "cycleSeconds": 30,
+      "xp": 1,
+      "land": 1,
+      "requires": [
+        "global:air_traffic_control"
+      ],
+      "description": "20x jet fuel, 20x energy → $1,000",
+      "icon": "/icons/airport.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Airport",
+        "revisionId": 1407,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "retail_store",
+      "name": "Retail store",
+      "category": "retail",
+      "cost": 2000000000,
+      "materials": {},
+      "inputs": {},
+      "outputs": {},
+      "cycleSeconds": 0,
+      "xp": 0,
+      "land": 1,
+      "requires": [
+        "global:hq"
+      ],
+      "description": "Sells selected consumer goods every ten minutes.",
+      "icon": "/icons/retail_store.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Retail_store",
+        "revisionId": 509,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "research_facility",
+      "name": "Research facility",
+      "category": "research",
+      "cost": 1287700000,
+      "materials": {
+        "clothing": 100,
+        "steel": 100000,
+        "research_chemical": 100000,
+        "laptop": 600
+      },
+      "inputs": {},
+      "outputs": {},
+      "cycleSeconds": 0,
+      "xp": 0,
+      "land": 1,
+      "requires": [],
+      "description": "Starts research projects; maximum eight in one region.",
+      "icon": "/icons/research_facility.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_facility",
+        "revisionId": 1069,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "customer_support_center",
+      "name": "Customer support center",
+      "category": "retail",
+      "cost": 4330000000,
+      "materials": {
+        "glass": 100000,
+        "aluminum": 100000,
+        "steel": 100000,
+        "furniture": 5000,
+        "laptop": 1000
+      },
+      "inputs": {},
+      "outputs": {},
+      "cycleSeconds": 0,
+      "xp": 0,
+      "land": 1,
+      "requires": [
+        "global:hq"
+      ],
+      "description": "Improves retail customer support.",
+      "icon": "/icons/customer_support_center.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Customer_support_center",
+        "revisionId": 1408,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "hq",
+      "name": "HQ",
+      "category": "retail",
+      "cost": 1760000000,
+      "materials": {
+        "logistics_expansion": 1,
+        "glass": 100000,
+        "television": 2000,
+        "steel": 100000,
+        "furniture": 10000,
+        "laptop": 20000
+      },
+      "inputs": {},
+      "outputs": {},
+      "cycleSeconds": 0,
+      "xp": 0,
+      "land": 1,
+      "requires": [],
+      "description": "One global headquarters unlocks retail operations.",
+      "icon": "/icons/hq.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/HQ",
+        "revisionId": 1409,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "truck_factory",
+      "name": "Truck factory",
+      "category": "logistics",
+      "cost": 3672000000,
+      "materials": {
+        "steel": 1000000,
+        "rubber": 100000,
+        "furniture": 3000,
+        "laptop": 2000
+      },
+      "inputs": {
+        "steel": 1000,
+        "rubber": 1000,
+        "glass": 100,
+        "cpu": 10,
+        "plastic": 8000,
+        "gasoline_engine": 1
+      },
+      "outputs": {
+        "truck": 1
+      },
+      "cycleSeconds": 1800,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "Category:Facility",
+      "icon": "/icons/truck_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Truck_factory",
+        "revisionId": 1124,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "air_traffic_control",
+      "name": "Air traffic control",
+      "category": "logistics",
+      "cost": 2848000000,
+      "materials": {
+        "steel": 50000,
+        "airport_tram": 1,
+        "glass": 200000,
+        "furniture": 2000
+      },
+      "inputs": {},
+      "outputs": {},
+      "cycleSeconds": 0,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "Category:Facility\nThe air traffic control is a facility created in the 1.9.4 Update. It allows for airport to be built. Only one air traffic control is needed for the entire corporation.",
+      "icon": "/icons/air_traffic_control.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Air_traffic_control",
+        "revisionId": 1178,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "space_station_parts_factory",
+      "name": "Space station parts factory",
+      "category": "space",
+      "cost": 445000000,
+      "materials": {
+        "plastic": 1000000,
+        "clothing": 10000,
+        "laptop": 1000,
+        "steel": 100000,
+        "rubber": 250000
+      },
+      "inputs": {
+        "glass": 100,
+        "plastic": 5000,
+        "aluminum": 5000,
+        "television": 2,
+        "digital_camera": 1,
+        "cpu": 10,
+        "rubber": 1000
+      },
+      "outputs": {
+        "space_station_parts": 1
+      },
+      "cycleSeconds": 300,
+      "xp": 1,
+      "land": 1,
+      "requires": [],
+      "description": "Category:Facility\nThis facility produces space station parts that is used to build a space station.It's one of the facilities that uses the most variety of Assets.If you had one space station factory at 100% eficiency it would take you 3 million seconds (about 833 hours)  to have enough space statio",
+      "icon": "/icons/space_station_parts_factory.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Space_station_parts_factory",
+        "revisionId": 1646,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "rocket_launch_pad",
+      "name": "Rocket launch pad",
+      "category": "space",
+      "cost": 2200000000,
+      "materials": {
+        "rubber": 4000000,
+        "steel": 5000000,
+        "scrap": 22000000
+      },
+      "inputs": {},
+      "outputs": {},
+      "cycleSeconds": 0,
+      "xp": 0,
+      "land": 1,
+      "requires": [],
+      "description": "Allows launch into orbit and construction of a space station.",
+      "icon": "/icons/rocket_launch_pad.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Rocket_launch_pad",
+        "revisionId": 1723,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "oil_mapping",
+      "name": "Oil mapping",
+      "rarity": "common",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "cpu": 1000,
+        "steel": 10000
+      },
+      "installCost": 50000000,
+      "maxTier": 3,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "oil_well",
+        "output": "crude_oil",
+        "outputAmounts": [
+          14,
+          18,
+          100
+        ]
+      },
+      "description": "Base: 14; upgraded: 18; second upgrade: 100.",
+      "icon": "/icons/oil_mapping.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Oil_mapping",
+        "revisionId": 204,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "coal_detector",
+      "name": "Coal detector",
+      "rarity": "common",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "coal": 10000,
+        "steel": 1000000
+      },
+      "installCost": 50000000,
+      "maxTier": 3,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "coal_mine",
+        "output": "coal",
+        "outputAmounts": [
+          12,
+          16,
+          80
+        ]
+      },
+      "description": "Base: 12; upgraded: 16; second upgrade: 80.",
+      "icon": "/icons/coal_detector.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Coal_detector",
+        "revisionId": 642,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "log_loader",
+      "name": "Log loader",
+      "rarity": "common",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "rubber": 100000,
+        "steel": 1000000
+      },
+      "installCost": 50000000,
+      "maxTier": 3,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "tree_farm",
+        "cycleReductions": [
+          1,
+          2,
+          4
+        ]
+      },
+      "description": "Base: -1 Sec; upgraded: -2 Sec; second upgrade: 4.",
+      "icon": "/icons/log_loader.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Log_loader",
+        "revisionId": 220,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "advanced_woodworking",
+      "name": "Advanced woodworking",
+      "rarity": "uncommon",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "steel": 50000,
+        "plastic": 50000
+      },
+      "installCost": 50000000,
+      "maxTier": 3,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "furniture_factory",
+        "cycleReductions": [
+          40,
+          80,
+          210
+        ]
+      },
+      "description": "Base: -40 Sec; upgraded: -1:20 Sec; second upgrade: -3:30 Sec.",
+      "icon": "/icons/advanced_woodworking.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Advanced_woodworking",
+        "revisionId": 203,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "bauxite_detector",
+      "name": "Bauxite detector",
+      "rarity": "uncommon",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "aluminum": 800000,
+        "steel": 1000000,
+        "bauxite": 50000
+      },
+      "installCost": 50000000,
+      "maxTier": 2,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "bauxite_mine",
+        "output": "bauxite",
+        "outputAmounts": [
+          50,
+          60
+        ]
+      },
+      "description": "Base: 50; upgraded: 60; second upgrade: N/A.",
+      "icon": "/icons/bauxite_detector.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Bauxite_detector",
+        "revisionId": 222,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "jet_fuel_refining",
+      "name": "Jet fuel refining",
+      "rarity": "uncommon",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "aluminum": 100000,
+        "steel": 1000000,
+        "rubber": 100000
+      },
+      "installCost": 50000000,
+      "maxTier": 2,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "oil_refinery",
+        "outputReplace": "jet_fuel",
+        "cycleReductions": [
+          0,
+          22
+        ]
+      },
+      "description": "Base: Jet fuel; upgraded: -22 Sec; second upgrade: N/A.",
+      "icon": "/icons/jet_fuel_refining.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Jet_fuel_refining",
+        "revisionId": 803,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "gold_detector",
+      "name": "Gold detector",
+      "rarity": "uncommon",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "gold": 50000,
+        "steel": 100000
+      },
+      "installCost": 50000000,
+      "maxTier": 3,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "gold_mine",
+        "output": "gold",
+        "outputAmounts": [
+          6,
+          8,
+          10
+        ]
+      },
+      "description": "Base: 6; upgraded: 8; second upgrade: 10.",
+      "icon": "/icons/gold_detector.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Gold_detector",
+        "revisionId": 205,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "vacuum_distillation",
+      "name": "Vacuum distillation",
+      "rarity": "uncommon",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "steel": 1000000,
+        "rubber": 800,
+        "aluminum": 800000
+      },
+      "installCost": 50000000,
+      "maxTier": 2,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "oil_refinery",
+        "cycleReductions": [
+          15,
+          22
+        ]
+      },
+      "description": "Base: -15sec; upgraded: -22sec; second upgrade: N/A.",
+      "icon": "/icons/vacuum_distillation.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Vacuum_distillation",
+        "revisionId": 1137,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "robotic_automation",
+      "name": "Robotic automation",
+      "rarity": "rare",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "aluminum": 1000000,
+        "cpu": 10000,
+        "steel": 1000000,
+        "rubber": 500000,
+        "plastic": 5000000
+      },
+      "installCost": 50000000,
+      "maxTier": 3,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "all",
+        "speedBonuses": [
+          0.025,
+          0.04,
+          0.06
+        ]
+      },
+      "description": "Base: 2.5%; upgraded: 4%; second upgrade: 6%.",
+      "icon": "/icons/robotic_automation.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Robotic_automation",
+        "revisionId": 434,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": true
+    },
+    {
+      "id": "factory_specialization",
+      "name": "Factory specialization",
+      "rarity": "rare",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "aluminum": 1000000,
+        "steel": 1000000,
+        "rubber": 500000
+      },
+      "installCost": 50000000,
+      "maxTier": 1,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "factory",
+        "levelBonuses": [
+          4
+        ]
+      },
+      "description": "Base: +4 levels; upgraded: N/A; second upgrade: N/A.",
+      "icon": "/icons/factory_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Factory_specialization",
+        "revisionId": 906,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "mining_specialization",
+      "name": "Mining specialization",
+      "rarity": "rare",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "aluminum": 1000000,
+        "steel": 1000000,
+        "rubber": 500000
+      },
+      "installCost": 50000000,
+      "maxTier": 1,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "mine",
+        "levelBonuses": [
+          4
+        ]
+      },
+      "description": "Base: +4 levels; upgraded: N/A; second upgrade: N/A.",
+      "icon": "/icons/mining_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Mining_specialization",
+        "revisionId": 980,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "oil_specialization",
+      "name": "Oil specialization",
+      "rarity": "rare",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "aluminum": 1000000,
+        "steel": 1000000,
+        "rubber": 500000
+      },
+      "installCost": 50000000,
+      "maxTier": 1,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "oil_well",
+        "levelBonuses": [
+          4
+        ]
+      },
+      "description": "Base: +4 levels; upgraded: N/A; second upgrade: N/A.",
+      "icon": "/icons/oil_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Oil_specialization",
+        "revisionId": 981,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "energy_specialization",
+      "name": "Energy specialization",
+      "rarity": "rare",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "aluminum": 1000000,
+        "steel": 1000000,
+        "rubber": 500000
+      },
+      "installCost": 50000000,
+      "maxTier": 1,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "power_plant",
+        "levelBonuses": [
+          4
+        ]
+      },
+      "description": "Base: +4 levels; upgraded: N/A; second upgrade: N/A.",
+      "icon": "/icons/energy_specialization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Energy_specialization",
+        "revisionId": 982,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "logistics_expansion",
+      "name": "Logistics expansion",
+      "rarity": "superior",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "gold": 100000,
+        "cpu": 10000,
+        "steel": 400000,
+        "plastic": 1000000
+      },
+      "installCost": 50000000,
+      "maxTier": 2,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "logistics_center",
+        "buyLimits": [
+          400000000,
+          500000000
+        ]
+      },
+      "description": "Base: 2x; upgraded: 2.5x; second upgrade: N/A.",
+      "icon": "/icons/logistics_expansion.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Logistics_expansion",
+        "revisionId": 1322,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "airport_tram",
+      "name": "Airport tram",
+      "rarity": "superior",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "aluminum": 1000000,
+        "steel": 1000000,
+        "rubber": 500000
+      },
+      "installCost": 50000000,
+      "maxTier": 2,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "airport",
+        "cycleReductions": [
+          4,
+          8
+        ]
+      },
+      "description": "Base: -4 Sec; upgraded: -8 Sec; second upgrade: N/A.",
+      "icon": "/icons/airport_tram.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Airport_tram",
+        "revisionId": 691,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": true
+    },
+    {
+      "id": "quality_control",
+      "name": "Quality control",
+      "rarity": "superior",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "aluminum": 1000000,
+        "steel": 1000000,
+        "silicon": 200000
+      },
+      "installCost": 50000000,
+      "maxTier": 2,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "all",
+        "levelBonuses": [
+          2,
+          4
+        ]
+      },
+      "description": "Base: +2 levels; upgraded: +4 levels; second upgrade: N/A.",
+      "icon": "/icons/quality_control.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Quality_control",
+        "revisionId": 904,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": true
+    },
+    {
+      "id": "reincorporation_computer",
+      "name": "Reincorporation computer",
+      "rarity": "superior",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "scrap": 100000,
+        "cpu": 10000
+      },
+      "installCost": 50000000,
+      "maxTier": 1,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "global",
+        "prestigeCooldownSeconds": 7200,
+        "requiresInstalled": 4
+      },
+      "description": "Base: Decreased to 2 hours; upgraded: N/A; second upgrade: N/A.",
+      "icon": "/icons/reincorporation_computer.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Reincorporation_Computer",
+        "revisionId": 1107,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    },
+    {
+      "id": "quantum_stabilization",
+      "name": "Quantum stabilization",
+      "rarity": "superior",
+      "category": "technology",
+      "cost": 0,
+      "materials": {
+        "energy": 100000,
+        "cpu": 100
+      },
+      "installCost": 50000000,
+      "maxTier": 1,
+      "upgradeCount": 3,
+      "effect": {
+        "facility": "global",
+        "vaultRetention": 0.75
+      },
+      "description": "Base: Increased to 75%; upgraded: N/A; second upgrade: N/A.",
+      "icon": "/icons/quantum_stabilization.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Quantum_stabilization",
+        "revisionId": 1689,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      },
+      "stackable": false
+    }
+  ],
+  "services": [
+    {
+      "id": "land_management_office",
+      "name": "Land management office",
+      "cost": 50000000000,
+      "description": "-5.0% land price",
+      "effect": {
+        "landDiscount": 0.05
+      },
+      "icon": "/icons/land_management_office.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Land_management_office",
+        "revisionId": 1509,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "fiber_infrastructure",
+      "name": "Fiber infrastructure",
+      "cost": 1000000000000,
+      "description": "+5 to facility levels",
+      "effect": {
+        "levels": 5
+      },
+      "icon": "/icons/fiber_infrastructure.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Fiber_infrastructure",
+        "revisionId": 1512,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "university",
+      "name": "University",
+      "cost": 20000000000,
+      "description": "-10:00 to research time",
+      "effect": {
+        "researchSeconds": -600
+      },
+      "icon": "/icons/university.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/University",
+        "revisionId": 1510,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "small_park",
+      "name": "Small park",
+      "cost": 10000000,
+      "description": "+1 Happiness",
+      "effect": {
+        "happiness": 1
+      },
+      "icon": "/icons/small_park.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Small_park",
+        "revisionId": 1511,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "medium_park",
+      "name": "Medium park",
+      "cost": 100000000,
+      "description": "+2 Happiness",
+      "effect": {
+        "happiness": 2
+      },
+      "icon": "/icons/medium_park.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Medium_park",
+        "revisionId": 1504,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "region_office",
+      "name": "Region office",
+      "cost": 10000000000,
+      "description": "Access to enable and disable regional policies.",
+      "effect": {
+        "governance": true
+      },
+      "icon": "/icons/region_office.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Region_office",
+        "revisionId": 1507,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "large_park",
+      "name": "Large park",
+      "cost": 1000000000,
+      "description": "+3 Happiness",
+      "effect": {
+        "happiness": 3
+      },
+      "icon": "/icons/large_park.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Large_park",
+        "revisionId": 1508,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    }
+  ],
+  "policies": [
+    {
+      "id": "solar_subsidies",
+      "name": "Solar subsidies",
+      "description": "-10% solar power plant build price, -10% energy price",
+      "effect": {
+        "solarBuildMultiplier": 0.9,
+        "energyPriceMultiplier": 0.9
+      },
+      "fundingCost": 3,
+      "cooldownSeconds": 86400,
+      "icon": "/icons/solar_subsidies.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Solar_subsidies",
+        "revisionId": 1535,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "public_logistics_access",
+      "name": "Public logistics access",
+      "description": "All corporations can export and buy assets as if they had an additional logistics center in this region (this does not affect market access), +10% to all facilities' build price",
+      "effect": {
+        "publicLogistics": true,
+        "buildMultiplier": 1.1
+      },
+      "fundingCost": 1,
+      "cooldownSeconds": 86400,
+      "icon": "/icons/public_logistics_access.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Public_logistics_access",
+        "revisionId": 1563,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "regional_planning",
+      "name": "Regional planning",
+      "description": "-25% to all facilities' build price, +5% to land price",
+      "effect": {
+        "buildMultiplier": 0.75,
+        "landMultiplier": 1.05
+      },
+      "fundingCost": 1,
+      "cooldownSeconds": 86400,
+      "icon": "/icons/regional_planning.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Regional_planning",
+        "revisionId": 1533,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "tourism_campaign",
+      "name": "Tourism campaign",
+      "description": "-4s to airport production time (cannot go lower than 0:30), airports require an additional 4x of jet fuel",
+      "effect": {
+        "airportSeconds": -4,
+        "airportFuel": 4
+      },
+      "fundingCost": 5,
+      "cooldownSeconds": 86400,
+      "icon": "/icons/tourism_campaign.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Tourism_campaign",
+        "revisionId": 1561,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "low_income_tax",
+      "name": "Low income tax",
+      "description": "+2 Happiness in a region",
+      "effect": {
+        "happiness": 2
+      },
+      "fundingCost": 4,
+      "cooldownSeconds": 86400,
+      "icon": "/icons/low_income_tax.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Low_income_tax",
+        "revisionId": 1536,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "research_grant",
+      "name": "Research grant",
+      "description": "-10:00 research time, +10% energy price",
+      "effect": {
+        "researchSeconds": -600,
+        "energyPriceMultiplier": 1.1
+      },
+      "fundingCost": 3,
+      "cooldownSeconds": 86400,
+      "icon": "/icons/research_grant.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_grant",
+        "revisionId": 1550,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "organic_farming",
+      "name": "Organic farming",
+      "description": "+10% to Soil health, +10% to all farms' build price",
+      "effect": {
+        "soil": 0.1,
+        "farmBuildMultiplier": 1.1
+      },
+      "fundingCost": 2,
+      "cooldownSeconds": 86400,
+      "icon": "/icons/organic_farming.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Organic_farming",
+        "revisionId": 1613,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "high_income_tax",
+      "name": "High income tax",
+      "description": "-5 Happiness in a region, +5 Funding points",
+      "effect": {
+        "happiness": -5,
+        "fundingPoints": 5
+      },
+      "fundingCost": 0,
+      "cooldownSeconds": 86400,
+      "icon": "/icons/high_income_tax.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/High_income_tax",
+        "revisionId": 1554,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    },
+    {
+      "id": "land_grant",
+      "name": "Land grant",
+      "description": "-5% to land price, +25% to all facilities' build price",
+      "effect": {
+        "landMultiplier": 0.95,
+        "buildMultiplier": 1.25
+      },
+      "fundingCost": 5,
+      "cooldownSeconds": 86400,
+      "icon": "/icons/land_grant.svg",
+      "source": {
+        "url": "https://wiki.idlecorp.xyz/index.php/Land_grant",
+        "revisionId": 1557,
+        "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "verdant",
+      "name": "Verdant Basin",
+      "description": "Fertile agricultural region with healthy soil and modest mineral yields.",
+      "modifiers": {
+        "soil": 1.2,
+        "oil": 0.95,
+        "minerals": 0.9,
+        "industry": 1,
+        "solar": 1.05
+      },
+      "population": 250000,
+      "happiness": 0,
+      "icon": "/icons/verdant.svg"
+    },
+    {
+      "id": "ironridge",
+      "name": "Ironridge",
+      "description": "A mineral rich industrial region with productive mines.",
+      "modifiers": {
+        "soil": 0.9,
+        "oil": 1,
+        "minerals": 1.25,
+        "industry": 1.1,
+        "solar": 0.95
+      },
+      "population": 0,
+      "happiness": 0,
+      "icon": "/icons/ironridge.svg"
+    },
+    {
+      "id": "suncoast",
+      "name": "Suncoast",
+      "description": "Strong solar output, oil reserves, and coastal manufacturing.",
+      "modifiers": {
+        "soil": 1,
+        "oil": 1.2,
+        "minerals": 0.95,
+        "industry": 1,
+        "solar": 1.25
+      },
+      "population": 0,
+      "happiness": 0,
+      "icon": "/icons/suncoast.svg"
+    }
+  ],
+  "rules": {
+    "version": "2026.10-remake.1",
+    "currency": "USD cents",
+    "moneyScale": 100,
+    "starterCash": 100000,
+    "starterLand": 10,
+    "maxSafeInteger": 9007199254740991,
+    "facilityXpPerLevel": 100000,
+    "maxFacilityLevel": 50,
+    "plusChancePerLevel": 0.005,
+    "plusInputChanceBonus": 1,
+    "npcBuyMultiplier": 2,
+    "baseHourlyBuyLimit": 100000000,
+    "logisticsHourlyBuyLimit": 200000000,
+    "priceRefreshSeconds": 3600,
+    "regionModifierSeconds": 172800,
+    "landBaseCost": 60000,
+    "landGrowth": 1.0961757,
+    "liquidationRefund": 0.4,
+    "technologyInstallCost": 50000000,
+    "baseTechnologySlots": 3,
+    "maxBonusTechnologySlots": 3,
+    "research": {
+      "cash": 100000000,
+      "energy": 1000000,
+      "extraPlusEnergy": 500000,
+      "extraAfter": 6,
+      "maxFacilities": 8,
+      "minimumSeconds": 7200,
+      "maximumSeconds": 10800,
+      "rarities": {
+        "common": 0.55,
+        "uncommon": 0.37,
+        "rare": 0.07,
+        "superior": 0.01
+      },
+      "rewards": {
+        "common": [
+          {
+            "kind": "blueprint",
+            "id": "oil_mapping"
+          },
+          {
+            "kind": "blueprint",
+            "id": "coal_detector"
+          },
+          {
+            "kind": "blueprint",
+            "id": "log_loader"
+          },
+          {
+            "kind": "asset",
+            "id": "galactic_coordinate_i"
+          }
+        ],
+        "uncommon": [
+          {
+            "kind": "blueprint",
+            "id": "advanced_woodworking"
+          },
+          {
+            "kind": "blueprint",
+            "id": "bauxite_detector"
+          },
+          {
+            "kind": "blueprint",
+            "id": "jet_fuel_refining"
+          },
+          {
+            "kind": "blueprint",
+            "id": "gold_detector"
+          },
+          {
+            "kind": "blueprint",
+            "id": "vacuum_distillation"
+          },
+          {
+            "kind": "asset",
+            "id": "galactic_coordinate_ii"
+          },
+          {
+            "kind": "asset",
+            "id": "galactic_coordinate_iii"
+          }
+        ],
+        "rare": [
+          {
+            "kind": "blueprint",
+            "id": "robotic_automation"
+          },
+          {
+            "kind": "blueprint",
+            "id": "factory_specialization"
+          },
+          {
+            "kind": "blueprint",
+            "id": "mining_specialization"
+          },
+          {
+            "kind": "blueprint",
+            "id": "oil_specialization"
+          },
+          {
+            "kind": "blueprint",
+            "id": "energy_specialization"
+          },
+          {
+            "kind": "asset",
+            "id": "rocket"
+          },
+          {
+            "kind": "asset",
+            "id": "galactic_coordinate_iv"
+          }
+        ],
+        "superior": [
+          {
+            "kind": "blueprint",
+            "id": "logistics_expansion"
+          },
+          {
+            "kind": "blueprint",
+            "id": "airport_tram"
+          },
+          {
+            "kind": "blueprint",
+            "id": "quality_control"
+          },
+          {
+            "kind": "blueprint",
+            "id": "reincorporation_computer"
+          },
+          {
+            "kind": "blueprint",
+            "id": "quantum_stabilization"
+          },
+          {
+            "kind": "asset",
+            "id": "galactic_coordinate_v"
+          }
+        ]
+      }
+    },
+    "export": {
+      "maxDispatches": 3,
+      "normalSeconds": 1800,
+      "plusSeconds": 900,
+      "fuelValueRatio": 0.2
+    },
+    "retail": {
+      "slots": 3,
+      "cycleSeconds": 600,
+      "supportStores": 5,
+      "plusPriceMultiplier": 4,
+      "baseDemandPerStore": 10,
+      "populationScale": 250000
+    },
+    "prestige": {
+      "scoreDivisor": 100000000000,
+      "cooldownSeconds": 86400,
+      "tokenCaps": {
+        "free": 10,
+        "plus": 15,
+        "gold": 20,
+        "platinum": 25
+      },
+      "xpPerToken": 1000,
+      "landPerToken": 4,
+      "landDiscountPerToken": 0.02,
+      "maxLandDiscountTokens": 40,
+      "techSlotTokens": 4,
+      "blueprintTokens": 12
+    },
+    "governance": {
+      "electionSeconds": 604800,
+      "candidateCost": 1000000000,
+      "baseFundingPoints": 15,
+      "policyCooldownSeconds": 86400
+    },
+    "vote": {
+      "cooldownSeconds": 43200,
+      "boonSeconds": 43200,
+      "cash": 100000,
+      "gratitude": 1,
+      "seasonXp": 200,
+      "speedBonus": 0.25,
+      "buyLimitBonus": 0.1
+    },
+    "season": {
+      "id": "founders_2026",
+      "startsAt": "2026-10-01T00:00:00Z",
+      "endsAt": "2027-01-01T00:00:00Z",
+      "xpThresholds": [
+        250,
+        500,
+        1000,
+        2500,
+        5000,
+        10000,
+        25000,
+        50000,
+        100000,
+        250000
+      ],
+      "rewards": [
+        {
+          "level": 1,
+          "weeklyUnlocked": true
+        },
+        {
+          "level": 2,
+          "researchSeconds": -1800
+        },
+        {
+          "level": 3,
+          "startingCash": 1000000
+        },
+        {
+          "level": 4,
+          "startingLand": 5
+        },
+        {
+          "level": 5,
+          "startingCash": 5000000
+        },
+        {
+          "level": 6,
+          "startingLand": 20
+        },
+        {
+          "level": 7,
+          "researchCostMultiplier": 0.8
+        },
+        {
+          "level": 8,
+          "startingFacility": "logistics_center",
+          "minimumWorth": 100000000000
+        },
+        {
+          "level": 9,
+          "startingFacility": "air_traffic_control",
+          "minimumWorth": 100000000000
+        },
+        {
+          "level": 10,
+          "startingFacility": "hq",
+          "minimumWorth": 100000000000
+        }
+      ],
+      "challenges": [
+        {
+          "id": "production",
+          "target": 100,
+          "metric": "cycles",
+          "xp": 100
+        },
+        {
+          "id": "sales",
+          "target": 100000,
+          "metric": "salesCents",
+          "xp": 100
+        },
+        {
+          "id": "construction",
+          "target": 1,
+          "metric": "builds",
+          "xp": 100
+        },
+        {
+          "id": "purchases",
+          "target": 100000,
+          "metric": "purchasesCents",
+          "xp": 100,
+          "entitlement": "plus"
+        },
+        {
+          "id": "production_expert",
+          "target": 1000,
+          "metric": "cycles",
+          "xp": 100,
+          "entitlement": "gold"
+        },
+        {
+          "id": "commerce_expert",
+          "target": 10000000,
+          "metric": "salesCents",
+          "xp": 150,
+          "entitlement": "platinum"
+        }
+      ]
+    },
+    "space": {
+      "station": {
+        "id": "space_station",
+        "name": "Space station",
+        "category": "space",
+        "cost": 0,
+        "materials": {
+          "space_station_parts": 10000,
+          "rocket_fuel": 1000
+        },
+        "requires": [
+          "rocket_launch_pad"
+        ],
+        "icon": "/icons/space_station.svg",
+        "source": {
+          "url": "https://wiki.idlecorp.xyz/index.php/Space_station",
+          "revisionId": 1693,
+          "retrievedAt": "2026-10-09T14:55:19.267457+00:00"
+        },
+        "evidenceStatus": "estimate",
+        "description": "Orbital home for expeditions and the quantum vault; exact construction amounts are a configurable remake rule."
+      },
+      "expeditions": [
+        {
+          "difficulty": 1,
+          "coordinateId": "galactic_coordinate_i",
+          "rocket": 1,
+          "fuel": 100,
+          "baseSuccess": 0.8,
+          "failureDamage": 100,
+          "durationSeconds": 3600,
+          "xp": 100
+        },
+        {
+          "difficulty": 2,
+          "coordinateId": "galactic_coordinate_ii",
+          "rocket": 1,
+          "fuel": 200,
+          "baseSuccess": 0.6,
+          "failureDamage": 200,
+          "durationSeconds": 7200,
+          "xp": 200
+        },
+        {
+          "difficulty": 3,
+          "coordinateId": "galactic_coordinate_iii",
+          "rocket": 1,
+          "fuel": 300,
+          "baseSuccess": 0.3999999999999999,
+          "failureDamage": 300,
+          "durationSeconds": 10800,
+          "xp": 300
+        },
+        {
+          "difficulty": 4,
+          "coordinateId": "galactic_coordinate_iv",
+          "rocket": 1,
+          "fuel": 400,
+          "baseSuccess": 0.19999999999999996,
+          "failureDamage": 400,
+          "durationSeconds": 14400,
+          "xp": 400
+        },
+        {
+          "difficulty": 5,
+          "coordinateId": "galactic_coordinate_v",
+          "rocket": 1,
+          "fuel": 500,
+          "baseSuccess": 0.0,
+          "failureDamage": 500,
+          "durationSeconds": 18000,
+          "xp": 500
+        }
+      ],
+      "vaultRetention": 0.5,
+      "stabilizedVaultRetention": 0.75,
+      "levelSuccessBonus": 0.05,
+      "maxStationLevel": 20,
+      "launchFuel": 100,
+      "stationParts": 10000,
+      "stationFuel": 1000
+    },
+    "remake": {
+      "npcPriceSpread": 0.1,
+      "marketFee": 0.015,
+      "orderBaseSlots": 3,
+      "orderSlotsPerLogistics": 0,
+      "orderSlots": {
+        "free": 3,
+        "plus": 4,
+        "gold": 6,
+        "platinum": 8
+      },
+      "liquidationCooldownSeconds": 0,
+      "initialStationHull": 1000,
+      "stationUpgradeXpPerLevel": 100,
+      "maxFacilitiesPerRegion": 2000,
+      "dailyRewardCash": 50000,
+      "weeklyRewardCash": 500000,
+      "dailyChallengeCycles": 100,
+      "dailyChallengeCash": 100000,
+      "dailyChallengeXp": 100,
+      "rewardEligibilitySeconds": 60,
+      "seasonRewardCashPerLevel": 100000,
+      "vaultBaseCapacity": 10000,
+      "vaultCapacityPerRelic": 1000,
+      "electionMinimumWorth": 1000000000,
+      "repairPartsPerHull": 1,
+      "prestigeRelicDivisorReduction": 0.001,
+      "prestigeRelicMaximumReduction": 0.5,
+      "researchHasteSecondsPerRelic": 30
+    },
+    "entitlements": {
+      "free": {
+        "marketSlots": 3,
+        "dailyChallenges": 3,
+        "voteMultiplier": 1,
+        "weeklyTokens": 0,
+        "permanentBoon": false,
+        "gifting": false,
+        "customRetailNames": false
+      },
+      "plus": {
+        "marketSlots": 4,
+        "dailyChallenges": 4,
+        "voteMultiplier": 2,
+        "weeklyTokens": 1,
+        "permanentBoon": true,
+        "gifting": true,
+        "customRetailNames": true
+      },
+      "gold": {
+        "marketSlots": 6,
+        "dailyChallenges": 5,
+        "voteMultiplier": 3,
+        "weeklyTokens": 2,
+        "permanentBoon": true,
+        "gifting": true,
+        "customRetailNames": true
+      },
+      "platinum": {
+        "marketSlots": 8,
+        "dailyChallenges": 6,
+        "voteMultiplier": 4,
+        "weeklyTokens": 3,
+        "permanentBoon": true,
+        "gifting": true,
+        "customRetailNames": true
+      }
+    }
+  }
+}

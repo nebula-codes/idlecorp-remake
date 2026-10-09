@@ -1,0 +1,78 @@
+{
+  "id": 21,
+  "title": "Bicycle factory",
+  "namespace": 0,
+  "revisionId": 1438,
+  "revisionTimestamp": "2021-06-19T01:28:24Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Bicycle_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $3,100, 200x [[rubber]], <br/>10,000x [[wood]], 500x [[steel]]\n|-\n|'''Inputs''' || 24x [[aluminum]], 8x [[rubber]]\n|-\n|'''Outputs''' || 1x [[bicycle]]\n|-\n|'''Production interval''' || 1 minute and 30 seconds\n|-\n|'''Profit/Min''' || $160.00\n|-\n|'''Profit/Hour''' || $9,600.00\n|-\n|'''Aliases'''||bicycle factory, bicyclefactory,<br/> bike factory, bikefactory, bike fac\n|}\n[[Category:Facility]]\n\nThe bicycle factory is a facility that produces 1x [[bicycle]] every 1 minute and 30 seconds.\n\nYou need 14/3 [[Steel mill]]s and 32/9 [[Rubber factory| Rubber factories]] to produce a bike, of which have components.\n\nTo fully automate production, you need 2/3 of a [[Coal mine]], 28/9 of a [[Iron mine]], 14/3 [[Steel mill]]s, and 32/9 [[Rubber factory| Rubber factorie]]s to fully sustain 1 bicycle factory.",
+  "links": [
+    "rubber",
+    "wood",
+    "steel",
+    "aluminum",
+    "bicycle",
+    "Category:Facility",
+    "Steel mill",
+    "Rubber factory",
+    "Coal mine",
+    "Iron mine"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Bicycle factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$3,100, 200x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, <br />10,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 500x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>24x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 8x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>1x <a href=\"/index.php/Bicycle\" title=\"Bicycle\">bicycle</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>1 minute and 30 seconds\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$160.00\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$9,600.00\n</td></tr>\n<tr>\n<td><b>Aliases</b></td>\n<td>bicycle factory, bicyclefactory,<br /> bike factory, bikefactory, bike fac\n</td></tr></tbody></table>\n<p>The bicycle factory is a facility that produces 1x <a href=\"/index.php/Bicycle\" title=\"Bicycle\">bicycle</a> every 1 minute and 30 seconds.\n</p><p>You need 14/3 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mills</a> and 32/9 <a href=\"/index.php/Rubber_factory\" title=\"Rubber factory\"> Rubber factories</a> to produce a bike, of which have components.\n</p><p>To fully automate production, you need 2/3 of a <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a>, 28/9 of a <a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a>, 14/3 <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mills</a>, and 32/9 <a href=\"/index.php/Rubber_factory\" title=\"Rubber factory\"> Rubber factories</a> to fully sustain 1 bicycle factory.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008233259\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:21-0!canonical and timestamp 20261008233259 and revision id 1438\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bicycle",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel mill",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

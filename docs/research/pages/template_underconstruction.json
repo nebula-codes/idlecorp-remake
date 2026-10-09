@@ -1,0 +1,19 @@
+{
+  "id": 264,
+  "title": "Template:Underconstruction",
+  "namespace": 10,
+  "revisionId": 1625,
+  "revisionTimestamp": "2021-11-11T09:04:11Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3AUnderconstruction",
+  "wikitext": "<div style=\"margin:8px 15px; padding: 10px 15px; background-color:#f0f0f0\"><I>This page is under construction.</I></div>",
+  "links": [],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Template:Underconstruction",
+  "html": "<div class=\"mw-parser-output\"><div style=\"margin:8px 15px; padding: 10px 15px; background-color:#f0f0f0\"><i>This page is under construction.</i></div>\n<!-- \nNewPP limit report\nCached time: 20261009145726\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 2/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:264-0!canonical and timestamp 20261009145726 and revision id 1625\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": []
+}

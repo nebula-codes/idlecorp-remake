@@ -1,0 +1,61 @@
+{
+  "id": 67,
+  "title": "Coal",
+  "namespace": 0,
+  "revisionId": 461,
+  "revisionTimestamp": "2020-07-08T09:29:25Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Coal",
+  "wikitext": "[[Category:Asset]]\nCoal is an asset extracted from the region using [[Coal mine]]s. The coal can be processed into other assets or sold. Coal is a combustible black or brownish-black sedimentary rock. Coal is mostly carbon with variable amounts of other elements. Coal is used in creating electricity and it is the most common way of producing electricity. However, coal also emits harmful chemicals in the air. People are finding alternatives to coal for energy.\n\n== Coal Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Coal mine]] || $400 || N/A || 8x [[coal]] || $9.60 || 0:10\n|-\n|}\n\n== Facilities that use Coal ==\n{|class=\"wikitable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !!Production interval (MM:SS)\n|-\n|[[Steel mill]] || $1,200 || 1x [[iron]], 4x [[coal]] || 1x [[steel]] || $8.91~ || 0:35 \n|-\n|[[Coal power plant]] || $500,000 || 50x [[coal]] || 35x [[energy]] || $680.00 || 0:30\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Coal mine",
+    "coal",
+    "Steel mill",
+    "iron",
+    "steel",
+    "Coal power plant",
+    "energy"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Coal",
+  "html": "<div class=\"mw-parser-output\"><p>Coal is an asset extracted from the region using <a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mines</a>. The coal can be processed into other assets or sold. Coal is a combustible black or brownish-black sedimentary rock. Coal is mostly carbon with variable amounts of other elements. Coal is used in creating electricity and it is the most common way of producing electricity. However, coal also emits harmful chemicals in the air. People are finding alternatives to coal for energy.\n</p>\n<h2><span class=\"mw-headline\" id=\"Coal_Production\">Coal Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Coal&amp;action=edit&amp;section=1\" title=\"Edit section: Coal Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a></td>\n<td>$400</td>\n<td>N/A</td>\n<td>8x <a class=\"mw-selflink selflink\">coal</a></td>\n<td>$9.60</td>\n<td>0:10\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_Coal\">Facilities that use Coal</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Coal&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use Coal\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a></td>\n<td>$1,200</td>\n<td>1x <a href=\"/index.php/Iron\" title=\"Iron\">iron</a>, 4x <a class=\"mw-selflink selflink\">coal</a></td>\n<td>1x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>$8.91~</td>\n<td>0:35\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Coal_power_plant\" title=\"Coal power plant\">Coal power plant</a></td>\n<td>$500,000</td>\n<td>50x <a class=\"mw-selflink selflink\">coal</a></td>\n<td>35x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a></td>\n<td>$680.00</td>\n<td>0:30\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008160948\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 9/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:67-0!canonical and timestamp 20261008160948 and revision id 461\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel mill",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

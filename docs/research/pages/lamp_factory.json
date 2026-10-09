@@ -1,0 +1,78 @@
+{
+  "id": 107,
+  "title": "Lamp factory",
+  "namespace": 0,
+  "revisionId": 1431,
+  "revisionTimestamp": "2021-06-19T01:17:31Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Lamp_factory",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $10,250, 2,000x [[rubber]], <br/>25,000x [[wood]]\n|-\n|'''Total Cost''' || $28000\n|-\n|'''Inputs''' || 12x [[LED]], 6x [[plastic]]\n|-\n|'''Outputs''' || 2x [[lamp]]\n|-\n|'''Production interval''' || 15 seconds\n|-\n|'''Production/Min''' || 8 [[lamp]]\n|-\n|'''Production/Hour''' || 480x [[lamp]]\n|-\n|'''Profit/Min''' || $200.00\n|-\n|'''Profit/Hour''' || $12,000.00\n|-\n|'''Return On Investment/Min''' || 0.329%\n|-\n|'''Time to reach ROI''' || 304.35 Minutes <br/>(~5 Hours)\n|-\n|'''Aliases||lamp factory, lampfactory, <br/>lamp fac\n|}\n[[Category:Facility]]\n\nThe Lamp factory is a facility that creates 2x [[lamp]] every 15 seconds.\n\nYou need 1x [[LED factory]] and 1/20x [[Plastic factory|Plastic factories]] to sustain this.\n\nTo sustain all components in the tree, you need 1x[[LED factory]], 2x [[Silicon mine]]s, 1/25x of an [[Oil well]], and 1/20x [[Plastic factory|Plastic factories]] to function.\n\nThe optimal ratio is 20:40:1:1.",
+  "links": [
+    "rubber",
+    "wood",
+    "LED",
+    "plastic",
+    "lamp",
+    "Category:Facility",
+    "LED factory",
+    "Plastic factory",
+    "Silicon mine",
+    "Oil well"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Lamp factory",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$10,250, 2,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, <br />25,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$28000\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>12x <a href=\"/index.php/LED\" title=\"LED\">LED</a>, 6x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>2x <a href=\"/index.php/Lamp\" title=\"Lamp\">lamp</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>15 seconds\n</td></tr>\n<tr>\n<td><b>Production/Min</b></td>\n<td>8 <a href=\"/index.php/Lamp\" title=\"Lamp\">lamp</a>\n</td></tr>\n<tr>\n<td><b>Production/Hour</b></td>\n<td>480x <a href=\"/index.php/Lamp\" title=\"Lamp\">lamp</a>\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$200.00\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$12,000.00\n</td></tr>\n<tr>\n<td><b>Return On Investment/Min</b></td>\n<td>0.329%\n</td></tr>\n<tr>\n<td><b>Time to reach ROI</b></td>\n<td>304.35 Minutes <br />(~5 Hours)\n</td></tr>\n<tr>\n<td><b>Aliases</b></td>\n<td>lamp factory, lampfactory, <br />lamp fac\n</td></tr></tbody></table>\n<p>The Lamp factory is a facility that creates 2x <a href=\"/index.php/Lamp\" title=\"Lamp\">lamp</a> every 15 seconds.\n</p><p>You need 1x <a href=\"/index.php/LED_factory\" title=\"LED factory\">LED factory</a> and 1/20x <a href=\"/index.php/Plastic_factory\" title=\"Plastic factory\">Plastic factories</a> to sustain this.\n</p><p>To sustain all components in the tree, you need 1x<a href=\"/index.php/LED_factory\" title=\"LED factory\">LED factory</a>, 2x <a href=\"/index.php/Silicon_mine\" title=\"Silicon mine\">Silicon mines</a>, 1/25x of an <a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a>, and 1/20x <a href=\"/index.php/Plastic_factory\" title=\"Plastic factory\">Plastic factories</a> to function.\n</p><p>The optimal ratio is 20:40:1:1.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008205405\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.011 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:107-0!canonical and timestamp 20261008205405 and revision id 1431\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "LED",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "LED factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Lamp",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil well",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

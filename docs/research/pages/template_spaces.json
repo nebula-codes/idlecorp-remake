@@ -1,0 +1,25 @@
+{
+  "id": 198,
+  "title": "Template:Spaces",
+  "namespace": 10,
+  "revisionId": 909,
+  "revisionTimestamp": "2020-12-17T09:00:59Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Template%3ASpaces",
+  "wikitext": "<span class=\"nowrap\">{{#iferror:{{#expr:{{{1|1}}}}}\n  |{{#switch:{{{1}}}\n     |fig=&#8199;\n     |en=&ensp;\n     |em=&emsp;\n     |thin=&thinsp;\n     |hair=&#8202;\n     |&nbsp;\n   }}\n  |{{#invoke:String|rep|{{#switch:{{{2}}}\n     |fig=&#8199;\n     |en=&ensp;\n     |em=&emsp;\n     |thin=&thinsp;\n     |hair=&#8202;\n     |&nbsp;\n   }}|{{{1|1}}}}}\n}}</span>",
+  "links": [],
+  "templates": [
+    "#iferror:{{#expr:{{{1",
+    "#switch:{{{1",
+    "#invoke:String",
+    "#switch:{{{2",
+    "{1"
+  ],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Template:Spaces",
+  "html": "<div class=\"mw-parser-output\"><p><span class=\"nowrap\">{{#invoke:String|rep|&#160;|1}}</span>\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009010656\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 16/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 38/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 4/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:198-0!canonical and timestamp 20261009010656 and revision id 909\n -->\n</div>",
+  "renderedLinks": [],
+  "images": [],
+  "expandedTemplates": []
+}

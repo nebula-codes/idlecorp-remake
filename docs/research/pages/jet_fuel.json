@@ -1,0 +1,56 @@
+{
+  "id": 115,
+  "title": "Jet fuel",
+  "namespace": 0,
+  "revisionId": 1425,
+  "revisionTimestamp": "2021-06-18T23:53:07Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Jet_fuel",
+  "wikitext": "Jet fuel is an [[Category:Asset|asset]] that is produced by an [[Oil refinery]] with the [[Jet fuel refining]] technology.\n\n== Jet fuel Production ==\n{| class=\"wikitable sortable\"\n!Name !! Additional tech !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Oil refinery]] || [[Jet fuel refining]] || $5,000 || 5x [[crude oil]] || 1x [[Jet fuel]] || $10.00 || 0:30\n|-\n|}\n\n== Facilities that use Jet fuel ==\n{|class=\"wikitable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Airport]] || $20,000,000 || 10x [[jet fuel]], 25x [[energy]] || $1,000 || $700.00 - $1,400.00 || 1:00 - 0:30\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Oil refinery",
+    "Jet fuel refining",
+    "crude oil",
+    "Jet fuel",
+    "Airport",
+    "jet fuel",
+    "energy"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Jet fuel",
+  "html": "<div class=\"mw-parser-output\"><p>Jet fuel is an that is produced by an <a href=\"/index.php/Oil_refinery\" title=\"Oil refinery\">Oil refinery</a> with the <a href=\"/index.php/Jet_fuel_refining\" title=\"Jet fuel refining\">Jet fuel refining</a> technology.\n</p>\n<h2><span class=\"mw-headline\" id=\"Jet_fuel_Production\">Jet fuel Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Jet_fuel&amp;action=edit&amp;section=1\" title=\"Edit section: Jet fuel Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Additional tech</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Oil_refinery\" title=\"Oil refinery\">Oil refinery</a></td>\n<td><a href=\"/index.php/Jet_fuel_refining\" title=\"Jet fuel refining\">Jet fuel refining</a></td>\n<td>$5,000</td>\n<td>5x <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a></td>\n<td>1x <a class=\"mw-selflink selflink\">Jet fuel</a></td>\n<td>$10.00</td>\n<td>0:30\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_Jet_fuel\">Facilities that use Jet fuel</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Jet_fuel&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use Jet fuel\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Airport\" title=\"Airport\">Airport</a></td>\n<td>$20,000,000</td>\n<td>10x <a class=\"mw-selflink selflink\">jet fuel</a>, 25x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a></td>\n<td>$1,000</td>\n<td>$700.00 - $1,400.00</td>\n<td>1:00 - 0:30\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008151710\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 13/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:115-0!canonical and timestamp 20261008151710 and revision id 1425\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Airport",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Crude oil",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Jet fuel refining",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil refinery",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

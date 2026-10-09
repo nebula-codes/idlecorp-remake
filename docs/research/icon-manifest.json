@@ -1,0 +1,3602 @@
+[
+  {
+    "entityId": "crude_oil",
+    "entityType": "assets",
+    "name": "Crude oil",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Crude_oil",
+    "originalUrl": null,
+    "localPath": "/icons/crude_oil.svg",
+    "sha256": "a72e59b2677af0370ed962421a606d9712f7d1621af2162d0271086f26240f46",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "bauxite",
+    "entityType": "assets",
+    "name": "Bauxite",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Bauxite",
+    "originalUrl": null,
+    "localPath": "/icons/bauxite.svg",
+    "sha256": "0ff4965c7d03f48e18df72cc4b2c1afe1dedc6e4248e60dc6b4da83f194e98ca",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "bauxite"
+  },
+  {
+    "entityId": "wood",
+    "entityType": "assets",
+    "name": "Wood",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Wood",
+    "originalUrl": null,
+    "localPath": "/icons/wood.svg",
+    "sha256": "8d8e5c73be492ebb09921e927fac7b4f11aa0451d4a048e3608c20722404ee4f",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "wood"
+  },
+  {
+    "entityId": "coal",
+    "entityType": "assets",
+    "name": "Coal",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Coal",
+    "originalUrl": null,
+    "localPath": "/icons/coal.svg",
+    "sha256": "5f97be36e81debe057b10af540017ea8670b2563831c56b7f93f21fc56a27e21",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coal"
+  },
+  {
+    "entityId": "plastic",
+    "entityType": "assets",
+    "name": "Plastic",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Plastic",
+    "originalUrl": null,
+    "localPath": "/icons/plastic.svg",
+    "sha256": "5d49535753072e219a9d40b8ffb4ea90886b9c20f56600b3f23b98a8b710bbfb",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "plastic"
+  },
+  {
+    "entityId": "led",
+    "entityType": "assets",
+    "name": "LED",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/LED",
+    "originalUrl": null,
+    "localPath": "/icons/led.svg",
+    "sha256": "b65bd2c38cf89ecabc27c628fe9c889074085d45ee3ec8a6e22999d925d5111b",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "led"
+  },
+  {
+    "entityId": "iron",
+    "entityType": "assets",
+    "name": "Iron",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Iron",
+    "originalUrl": null,
+    "localPath": "/icons/iron.svg",
+    "sha256": "ba4dc95ea217865ac5372f86e2c1e95b701bce8abda4af19a90f8ceac57953f6",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "iron"
+  },
+  {
+    "entityId": "polyester",
+    "entityType": "assets",
+    "name": "Polyester",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Polyester",
+    "originalUrl": null,
+    "localPath": "/icons/polyester.svg",
+    "sha256": "9149ce4f9597c0b73e91b9ed0385ed58a0a041011d71936c09beff7302a714ba",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "polyester"
+  },
+  {
+    "entityId": "aluminum",
+    "entityType": "assets",
+    "name": "Aluminum",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Aluminum",
+    "originalUrl": null,
+    "localPath": "/icons/aluminum.svg",
+    "sha256": "000e486a61263a2a335303aae7c4d7ad219c8bf725722c9a51704b039ebd6371",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "aluminum"
+  },
+  {
+    "entityId": "gasoline",
+    "entityType": "assets",
+    "name": "Gasoline",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gasoline",
+    "originalUrl": null,
+    "localPath": "/icons/gasoline.svg",
+    "sha256": "a56d86a350a57695147336f8908ba97199e108c5c235a1622bf90c911d3a3ed8",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gasoline"
+  },
+  {
+    "entityId": "cotton",
+    "entityType": "assets",
+    "name": "Cotton",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Cotton",
+    "originalUrl": null,
+    "localPath": "/icons/cotton.svg",
+    "sha256": "634b601fa9c78e7dd936f924609af1647609af76d67c861061b4f385d784d53f",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cotton"
+  },
+  {
+    "entityId": "jet_fuel",
+    "entityType": "assets",
+    "name": "Jet fuel",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Jet_fuel",
+    "originalUrl": null,
+    "localPath": "/icons/jet_fuel.svg",
+    "sha256": "a486d7a8385bc5bea33f6d789c692813fb6b4f0077f2a86c7ef1b36d951ac985",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "rubber",
+    "entityType": "assets",
+    "name": "Rubber",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Rubber",
+    "originalUrl": null,
+    "localPath": "/icons/rubber.svg",
+    "sha256": "6089e6b207a9cd99e3c97c24bc325b6e02319cf41897d4493b19944e502cbfa8",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "rubber"
+  },
+  {
+    "entityId": "steel",
+    "entityType": "assets",
+    "name": "Steel",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Steel",
+    "originalUrl": null,
+    "localPath": "/icons/steel.svg",
+    "sha256": "7a0a21c96e5a5c1ddcd4d6a770525a3dcb3694b491274111cfef52f11f245651",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "steel"
+  },
+  {
+    "entityId": "energy",
+    "entityType": "assets",
+    "name": "Energy",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Energy",
+    "originalUrl": null,
+    "localPath": "/icons/energy.svg",
+    "sha256": "387b88a73f1d033bcfb10cd25bdc9016aee789216dfeb04bc5a1264619aa2d13",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "energy"
+  },
+  {
+    "entityId": "silicon",
+    "entityType": "assets",
+    "name": "Silicon",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Silicon",
+    "originalUrl": null,
+    "localPath": "/icons/silicon.svg",
+    "sha256": "2ca8ca4fbd36bf30c1a8e5116d66048b94b915e75d39ee44b58e4fea8219fb65",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "silicon"
+  },
+  {
+    "entityId": "lamp",
+    "entityType": "assets",
+    "name": "Lamp",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Lamp",
+    "originalUrl": null,
+    "localPath": "/icons/lamp.svg",
+    "sha256": "06937d3f0b5e75612442795b208d78764b225a95739ebd2c1c45e351a213dace",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "lamp"
+  },
+  {
+    "entityId": "glass",
+    "entityType": "assets",
+    "name": "Glass",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Glass",
+    "originalUrl": null,
+    "localPath": "/icons/glass.svg",
+    "sha256": "508748de2e84b54fc7763c829ce076465489f6dd28b2c7ac8f08467eb0f125e5",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "glass"
+  },
+  {
+    "entityId": "clothing",
+    "entityType": "assets",
+    "name": "Clothing",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Clothing",
+    "originalUrl": null,
+    "localPath": "/icons/clothing.svg",
+    "sha256": "9570b35cc65f7c3d1de3a5f28a13a43eeef0bfd5eddaa40b75887eb0feafe105",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "clothing"
+  },
+  {
+    "entityId": "furniture",
+    "entityType": "assets",
+    "name": "Furniture",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Furniture",
+    "originalUrl": null,
+    "localPath": "/icons/furniture.svg",
+    "sha256": "b11bd8171f4deeef08eb10d1e98e27c3162a02041a0464acfe68c53a4f2ad917",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "furniture"
+  },
+  {
+    "entityId": "gold",
+    "entityType": "assets",
+    "name": "Gold",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gold",
+    "originalUrl": null,
+    "localPath": "/icons/gold.svg",
+    "sha256": "b79eae4fc666662bf63d9a1760f0e82250920055fcacf40ea732861838136379",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gold"
+  },
+  {
+    "entityId": "rocket_fuel",
+    "entityType": "assets",
+    "name": "Rocket fuel",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Rocket_fuel",
+    "originalUrl": null,
+    "localPath": "/icons/rocket_fuel.svg",
+    "sha256": "31d938e114fa969a037f8335f843c2f92980c158ede3b608ede2c84390d2b85f",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "rocket_fuel"
+  },
+  {
+    "entityId": "research_chemical",
+    "entityType": "assets",
+    "name": "Research chemical",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Research_chemical",
+    "originalUrl": null,
+    "localPath": "/icons/research_chemical.svg",
+    "sha256": "9fe06c923f1227e3696a6c9d341fa1fe5a07302b063f796143819462177eb2d8",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "research_chemical"
+  },
+  {
+    "entityId": "cpu",
+    "entityType": "assets",
+    "name": "CPU",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Cpu",
+    "originalUrl": null,
+    "localPath": "/icons/cpu.svg",
+    "sha256": "a43d44bc46643e5d105c87731af9bcb1b9d8ad5d8f213d4a7903c0585ab3057f",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "bicycle",
+    "entityType": "assets",
+    "name": "Bicycle",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Bicycle",
+    "originalUrl": null,
+    "localPath": "/icons/bicycle.svg",
+    "sha256": "1cfde048992b9acfede2886fb29482ab364649fba87d626cab831be88773db79",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "bicycle"
+  },
+  {
+    "entityId": "prescription_drug",
+    "entityType": "assets",
+    "name": "Prescription drug",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Prescription_drug",
+    "originalUrl": null,
+    "localPath": "/icons/prescription_drug.svg",
+    "sha256": "13951a0058780216801b124715fe08b1e057ec17e44b38e1eb6d74154728721f",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "prescription_drug"
+  },
+  {
+    "entityId": "ccd",
+    "entityType": "assets",
+    "name": "CCD",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/CCD",
+    "originalUrl": null,
+    "localPath": "/icons/ccd.svg",
+    "sha256": "4035953ba4428123fb8786094f4b898d42751fb30e71b0ffa34f4a7e5191a873",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "ccd"
+  },
+  {
+    "entityId": "cell_phone",
+    "entityType": "assets",
+    "name": "Cell phone",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Cell_phone",
+    "originalUrl": null,
+    "localPath": "/icons/cell_phone.svg",
+    "sha256": "d5ad34b1994e625dc54a1ce8374ebdacb5fec2bf5b7a5332b747f3e0e14031d7",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cell_phone"
+  },
+  {
+    "entityId": "laptop",
+    "entityType": "assets",
+    "name": "Laptop",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Laptop",
+    "originalUrl": null,
+    "localPath": "/icons/laptop.svg",
+    "sha256": "abbfbafc62f3a7443222cb30601b144f0f0292bfebb3db28f3d768f05405b598",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "laptop"
+  },
+  {
+    "entityId": "digital_camera",
+    "entityType": "assets",
+    "name": "Digital camera",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Digital_camera",
+    "originalUrl": null,
+    "localPath": "/icons/digital_camera.svg",
+    "sha256": "986d72b9dfe8c9674095efead315aa7756bd2c33a23e5c5b32b9e6f8885802fd",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "digital_camera"
+  },
+  {
+    "entityId": "television",
+    "entityType": "assets",
+    "name": "Television",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Television",
+    "originalUrl": null,
+    "localPath": "/icons/television.svg",
+    "sha256": "b37415fb8d3441eac90d01aee8e50fbdbc9058f0d8d6d00137309b687336ff97",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "television"
+  },
+  {
+    "entityId": "gasoline_engine",
+    "entityType": "assets",
+    "name": "Gasoline engine",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gasoline_engine",
+    "originalUrl": null,
+    "localPath": "/icons/gasoline_engine.svg",
+    "sha256": "40a54fd8450e3cb1e53881e0a77d362ffe7afb889021cd1ced29bf00ec85d3a6",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gasoline_engine"
+  },
+  {
+    "entityId": "car",
+    "entityType": "assets",
+    "name": "Car",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Car",
+    "originalUrl": null,
+    "localPath": "/icons/car.svg",
+    "sha256": "e128e010493e08eb6c52121b1a71f8609fdbfd90a67df5f15be7363c80837b1b",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "car"
+  },
+  {
+    "entityId": "rocket",
+    "entityType": "assets",
+    "name": "Rocket",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Rocket",
+    "originalUrl": null,
+    "localPath": "/icons/rocket.svg",
+    "sha256": "f5729a2454151e0507ca685f7bd7204ae21db9c3e5ead938626204aad5f428b7",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "rocket"
+  },
+  {
+    "entityId": "scrap",
+    "entityType": "assets",
+    "name": "Scrap",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Scrap",
+    "originalUrl": null,
+    "localPath": "/icons/scrap.svg",
+    "sha256": "36eeaad75cd41de295d26171ed984a44dc0c4a5d6f5b5c0c18e64bb880ba7762",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "scrap"
+  },
+  {
+    "entityId": "truck",
+    "entityType": "assets",
+    "name": "Truck",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Truck",
+    "originalUrl": null,
+    "localPath": "/icons/truck.svg",
+    "sha256": "d3bab389db91cb6d8e9ad536c67cdefe9607e10fa1055b2d3a56a317577ed23f",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "truck"
+  },
+  {
+    "entityId": "space_station_parts",
+    "entityType": "assets",
+    "name": "Space Station Parts",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Galactic_Expedition",
+    "originalUrl": null,
+    "localPath": "/icons/space_station_parts.svg",
+    "sha256": "de66fc5a58ecbc89ed48b401e0a370ca068eb6b1993aa541be27f467d034933e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "space_station_parts"
+  },
+  {
+    "entityId": "galactic_coordinate_i",
+    "entityType": "assets",
+    "name": "Galactic Coordinate I",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+    "originalUrl": null,
+    "localPath": "/icons/galactic_coordinate_i.svg",
+    "sha256": "3551b5f39b33cc038c33b6a926fe1c9d50c525162e6abb942b8d5400834a07c0",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "star"
+  },
+  {
+    "entityId": "galactic_coordinate_ii",
+    "entityType": "assets",
+    "name": "Galactic Coordinate Ii",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+    "originalUrl": null,
+    "localPath": "/icons/galactic_coordinate_ii.svg",
+    "sha256": "d780d9f3bb14619b9be9faa6f1dff03dec63d77fef2b05a6468555e0d9f7e2af",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "star"
+  },
+  {
+    "entityId": "galactic_coordinate_iii",
+    "entityType": "assets",
+    "name": "Galactic Coordinate Iii",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+    "originalUrl": null,
+    "localPath": "/icons/galactic_coordinate_iii.svg",
+    "sha256": "9704b19c711f2ebec3569c9337cd9441a635608cc87f1aefb69cbc29d65fc1a7",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "star"
+  },
+  {
+    "entityId": "galactic_coordinate_iv",
+    "entityType": "assets",
+    "name": "Galactic Coordinate Iv",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+    "originalUrl": null,
+    "localPath": "/icons/galactic_coordinate_iv.svg",
+    "sha256": "79d8c93c70b9415d0f044a82aabbc5e375a73cb4cd23e137780686fed8a54090",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "star"
+  },
+  {
+    "entityId": "galactic_coordinate_v",
+    "entityType": "assets",
+    "name": "Galactic Coordinate V",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Galactic_coordinate",
+    "originalUrl": null,
+    "localPath": "/icons/galactic_coordinate_v.svg",
+    "sha256": "a204a574789ffe42596fb1150f6f1d82302f860795b1bbdff790eee65a02de89",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "star"
+  },
+  {
+    "entityId": "relic_of_haste",
+    "entityType": "assets",
+    "name": "Relic Of Haste",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Relic_of_haste",
+    "originalUrl": null,
+    "localPath": "/icons/relic_of_haste.svg",
+    "sha256": "3edd340e3d5e6cbd7f89b113bbaf9df06924279daf46e721ad092d02c8d5026e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "clock"
+  },
+  {
+    "entityId": "relic_of_efficiency",
+    "entityType": "assets",
+    "name": "Relic Of Efficiency",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Relic_of_efficiency",
+    "originalUrl": null,
+    "localPath": "/icons/relic_of_efficiency.svg",
+    "sha256": "c10f673d974667f82815c37f2592fedee00a1566177f13d7c83194f62ee3eb1d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "energy"
+  },
+  {
+    "entityId": "relic_of_knowledge",
+    "entityType": "assets",
+    "name": "Relic Of Knowledge",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Relic_of_knowledge",
+    "originalUrl": null,
+    "localPath": "/icons/relic_of_knowledge.svg",
+    "sha256": "1030d89eceb7258ef048c8100fb7bb4d6f3cf9e3731a24145a3af161fb7ceef8",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "research"
+  },
+  {
+    "entityId": "relic_of_prestige",
+    "entityType": "assets",
+    "name": "Relic Of Prestige",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Relic_of_prestige",
+    "originalUrl": null,
+    "localPath": "/icons/relic_of_prestige.svg",
+    "sha256": "441c9c75eda7de59fa5e9659db7c3f5033d1c7a00bbbcf9f20ae0eb7c94158f9",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "star"
+  },
+  {
+    "entityId": "oil_mapping",
+    "entityType": "assets",
+    "name": "Oil mapping",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Oil_mapping",
+    "originalUrl": null,
+    "localPath": "/icons/oil_mapping.svg",
+    "sha256": "b5b46e207848b240085e0737bce489132ff300064875a52b9fcb01e555951a67",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "oil_mapping_u",
+    "entityType": "assets",
+    "name": "Oil mapping u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Oil_mapping",
+    "originalUrl": null,
+    "localPath": "/icons/oil_mapping_u.svg",
+    "sha256": "45841c4dd7dcb0d4a25c6d2bb8141bf322d2b13517fffef9372a14d4b352f50e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "oil_mapping_uu",
+    "entityType": "assets",
+    "name": "Oil mapping uu",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Oil_mapping",
+    "originalUrl": null,
+    "localPath": "/icons/oil_mapping_uu.svg",
+    "sha256": "96823dc76f7641695530057286d79a4e0fb22b2282a1b058f07f54f4d61e9c53",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "coal_detector",
+    "entityType": "assets",
+    "name": "Coal detector",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Coal_detector",
+    "originalUrl": null,
+    "localPath": "/icons/coal_detector.svg",
+    "sha256": "8fc41ab78b8266a135dae997469c77bb41ecb679c827317ec28f4c90f9200b40",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coal"
+  },
+  {
+    "entityId": "coal_detector_u",
+    "entityType": "assets",
+    "name": "Coal detector u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Coal_detector",
+    "originalUrl": null,
+    "localPath": "/icons/coal_detector_u.svg",
+    "sha256": "fab8a51e930dbfcb327667b9182d578d9b8fd8bb20e06810d42d5f980474ba03",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coal"
+  },
+  {
+    "entityId": "coal_detector_uu",
+    "entityType": "assets",
+    "name": "Coal detector uu",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Coal_detector",
+    "originalUrl": null,
+    "localPath": "/icons/coal_detector_uu.svg",
+    "sha256": "4b7c0c5b2d8aedd7b59667a07530843b17a14a88bd7adce868f26688b4ecf5ff",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coal"
+  },
+  {
+    "entityId": "log_loader",
+    "entityType": "assets",
+    "name": "Log loader",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Log_loader",
+    "originalUrl": null,
+    "localPath": "/icons/log_loader.svg",
+    "sha256": "4de321490cb0a9310e397c1098508ae0619ea66461c586e68ddb545485f9b04d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "wood"
+  },
+  {
+    "entityId": "log_loader_u",
+    "entityType": "assets",
+    "name": "Log loader u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Log_loader",
+    "originalUrl": null,
+    "localPath": "/icons/log_loader_u.svg",
+    "sha256": "9c297cb7c308607a9ef47271bd26934f39c11f69ba01899b05927010c81741eb",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "wood"
+  },
+  {
+    "entityId": "log_loader_uu",
+    "entityType": "assets",
+    "name": "Log loader uu",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Log_loader",
+    "originalUrl": null,
+    "localPath": "/icons/log_loader_uu.svg",
+    "sha256": "242dacc99ff543a5b49681259f3d66205542ced0a35c7fc9a60d5a3045999ed3",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "wood"
+  },
+  {
+    "entityId": "advanced_woodworking",
+    "entityType": "assets",
+    "name": "Advanced woodworking",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Advanced_woodworking",
+    "originalUrl": null,
+    "localPath": "/icons/advanced_woodworking.svg",
+    "sha256": "462dfbea8dee95e95443c62077b71e95706da4a1b9de27c16f3b40078cdd6273",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "furniture"
+  },
+  {
+    "entityId": "advanced_woodworking_u",
+    "entityType": "assets",
+    "name": "Advanced woodworking u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Advanced_woodworking",
+    "originalUrl": null,
+    "localPath": "/icons/advanced_woodworking_u.svg",
+    "sha256": "9e56ac925458886133453d58e845f2ada1f113311cc4edb1dacd2d4673c25fd6",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "furniture"
+  },
+  {
+    "entityId": "advanced_woodworking_uu",
+    "entityType": "assets",
+    "name": "Advanced woodworking uu",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Advanced_woodworking",
+    "originalUrl": null,
+    "localPath": "/icons/advanced_woodworking_uu.svg",
+    "sha256": "ed08c188b75b96e966a2d48481f8a00908f9290b76966ead7fd07c6c3df7289e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "furniture"
+  },
+  {
+    "entityId": "bauxite_detector",
+    "entityType": "assets",
+    "name": "Bauxite detector",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Bauxite_detector",
+    "originalUrl": null,
+    "localPath": "/icons/bauxite_detector.svg",
+    "sha256": "a467a13e1a76683d199eb2b031e916ccadc5fb0248316d5d5079a97f1951321e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "bauxite"
+  },
+  {
+    "entityId": "bauxite_detector_u",
+    "entityType": "assets",
+    "name": "Bauxite detector u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Bauxite_detector",
+    "originalUrl": null,
+    "localPath": "/icons/bauxite_detector_u.svg",
+    "sha256": "87198c6dc8c96ece7e37891ec122959d5cb769c26972a0d2f525f82b2da14da2",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "bauxite"
+  },
+  {
+    "entityId": "jet_fuel_refining",
+    "entityType": "assets",
+    "name": "Jet fuel refining",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Jet_fuel_refining",
+    "originalUrl": null,
+    "localPath": "/icons/jet_fuel_refining.svg",
+    "sha256": "2de94e370b74de332a21179a5690e115a2be2b5d4f425daba023f2a51a7fbf7b",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "jet_fuel_refining_u",
+    "entityType": "assets",
+    "name": "Jet fuel refining u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Jet_fuel_refining",
+    "originalUrl": null,
+    "localPath": "/icons/jet_fuel_refining_u.svg",
+    "sha256": "6794ed2fb3b7ec0ea2c8e2900e591841ad14c662001ba7704f98436e5e3a0104",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "gold_detector",
+    "entityType": "assets",
+    "name": "Gold detector",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gold_detector",
+    "originalUrl": null,
+    "localPath": "/icons/gold_detector.svg",
+    "sha256": "36a7628961e7f7f3c88d6373acc22969e58a2ebf7a5018ebde22b28e0cb2c1f6",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gold"
+  },
+  {
+    "entityId": "gold_detector_u",
+    "entityType": "assets",
+    "name": "Gold detector u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gold_detector",
+    "originalUrl": null,
+    "localPath": "/icons/gold_detector_u.svg",
+    "sha256": "d61a27548c4369642e7857099be520453024416d4172aa4594fa34a3a5518591",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gold"
+  },
+  {
+    "entityId": "gold_detector_uu",
+    "entityType": "assets",
+    "name": "Gold detector uu",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gold_detector",
+    "originalUrl": null,
+    "localPath": "/icons/gold_detector_uu.svg",
+    "sha256": "94d70c2334004864d1d7226f7be4692d967a591b55455485110e4ddb287acf79",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gold"
+  },
+  {
+    "entityId": "vacuum_distillation",
+    "entityType": "assets",
+    "name": "Vacuum distillation",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Vacuum_distillation",
+    "originalUrl": null,
+    "localPath": "/icons/vacuum_distillation.svg",
+    "sha256": "bddd69b1c968ce7a35c1a643383cd4d6d9c47804c9df9ff30574f7d00c422ae2",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "vacuum_distillation_u",
+    "entityType": "assets",
+    "name": "Vacuum distillation u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Vacuum_distillation",
+    "originalUrl": null,
+    "localPath": "/icons/vacuum_distillation_u.svg",
+    "sha256": "443310c78424a8739287b4db1bab173245bf0003f1cb94670b7e5eadc4f2e153",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "robotic_automation",
+    "entityType": "assets",
+    "name": "Robotic automation",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Robotic_automation",
+    "originalUrl": null,
+    "localPath": "/icons/robotic_automation.svg",
+    "sha256": "bcb0f5b7142224a0a374846ff317c2da2c25dd8ff8224788f4a6ef9671e1c178",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "robotic_automation_u",
+    "entityType": "assets",
+    "name": "Robotic automation u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Robotic_automation",
+    "originalUrl": null,
+    "localPath": "/icons/robotic_automation_u.svg",
+    "sha256": "8ec3fa4090f3eaaa519a79351621a6df04cfb25cf78075b52a0417925b32a20c",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "robotic_automation_uu",
+    "entityType": "assets",
+    "name": "Robotic automation uu",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Robotic_automation",
+    "originalUrl": null,
+    "localPath": "/icons/robotic_automation_uu.svg",
+    "sha256": "de0c1efdc344dc6c2af2803c18b7a14652a122c625fc014ea26846df66ff4bf2",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "factory_specialization",
+    "entityType": "assets",
+    "name": "Factory specialization",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Factory_specialization",
+    "originalUrl": null,
+    "localPath": "/icons/factory_specialization.svg",
+    "sha256": "c992aa284797d619380b0b2274c77f503c9714430307c73ae42aa431c3778317",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gasoline_engine"
+  },
+  {
+    "entityId": "mining_specialization",
+    "entityType": "assets",
+    "name": "Mining specialization",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Mining_specialization",
+    "originalUrl": null,
+    "localPath": "/icons/mining_specialization.svg",
+    "sha256": "359316c67621c7280b410c62064f228346f577d8ebf2e0532123a1f9e6066090",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "mountain"
+  },
+  {
+    "entityId": "oil_specialization",
+    "entityType": "assets",
+    "name": "Oil specialization",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Oil_specialization",
+    "originalUrl": null,
+    "localPath": "/icons/oil_specialization.svg",
+    "sha256": "32dad571796fac444ad2cbab0d0fdf8a9edb2ddeb1a996252f0be6c18eb961ca",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "energy_specialization",
+    "entityType": "assets",
+    "name": "Energy specialization",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Energy_specialization",
+    "originalUrl": null,
+    "localPath": "/icons/energy_specialization.svg",
+    "sha256": "61b7cbb2c17300399a5ea94ae90e702a4eb6844b8b5a5e50e5abd6e5b38e57d1",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "energy"
+  },
+  {
+    "entityId": "logistics_expansion",
+    "entityType": "assets",
+    "name": "Logistics expansion",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Logistics_expansion",
+    "originalUrl": null,
+    "localPath": "/icons/logistics_expansion.svg",
+    "sha256": "b9ddfaad6701597f2425206aa827e5141b407233948f0c6add004bcb12d1c0ca",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "truck"
+  },
+  {
+    "entityId": "logistics_expansion_u",
+    "entityType": "assets",
+    "name": "Logistics expansion u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Logistics_expansion",
+    "originalUrl": null,
+    "localPath": "/icons/logistics_expansion_u.svg",
+    "sha256": "9926b30ca104f14a813603ec175ff8badef86c510374a7aacc588a9bbfed607e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "truck"
+  },
+  {
+    "entityId": "airport_tram",
+    "entityType": "assets",
+    "name": "Airport tram",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Airport_tram",
+    "originalUrl": null,
+    "localPath": "/icons/airport_tram.svg",
+    "sha256": "5d74f2fdc7593ffd963262d53ef9246e2b4584d2699512a56cfef70c8667d4ff",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "airport_tram_u",
+    "entityType": "assets",
+    "name": "Airport tram u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Airport_tram",
+    "originalUrl": null,
+    "localPath": "/icons/airport_tram_u.svg",
+    "sha256": "ef3498c32d1553689244f4c6bbb2e2ec96b554b1977c1203de9b714cc09f4afb",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "quality_control",
+    "entityType": "assets",
+    "name": "Quality control",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Quality_control",
+    "originalUrl": null,
+    "localPath": "/icons/quality_control.svg",
+    "sha256": "914bee63dd2cadbea148bab5f880de47abba25c3e447f740e2e2f44367ad7d42",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "shield"
+  },
+  {
+    "entityId": "quality_control_u",
+    "entityType": "assets",
+    "name": "Quality control u",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Quality_control",
+    "originalUrl": null,
+    "localPath": "/icons/quality_control_u.svg",
+    "sha256": "02d24c93fb6fd13d2c462d1f50869640c9c3e40b9737791d338407f5e360af24",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "shield"
+  },
+  {
+    "entityId": "reincorporation_computer",
+    "entityType": "assets",
+    "name": "Reincorporation computer",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Reincorporation_Computer",
+    "originalUrl": null,
+    "localPath": "/icons/reincorporation_computer.svg",
+    "sha256": "cac40f41f931aeeb10749f0ace352e9f0b13b4eca5105b242bca08d2d0bbef40",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "quantum_stabilization",
+    "entityType": "assets",
+    "name": "Quantum stabilization",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Quantum_stabilization",
+    "originalUrl": null,
+    "localPath": "/icons/quantum_stabilization.svg",
+    "sha256": "69e7711a4f995f303f8f15bdca68510e41ddeb234469caa4a47a98fcd77d8f5d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "vault"
+  },
+  {
+    "entityId": "crude_oil_plus",
+    "entityType": "assets",
+    "name": "Crude oil+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Crude_oil",
+    "originalUrl": null,
+    "localPath": "/icons/crude_oil_plus.svg",
+    "sha256": "5361f2d828d9224536a37ec6be6696e0d88628857ae9a2e3caee442f5a3c8b17",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "bauxite_plus",
+    "entityType": "assets",
+    "name": "Bauxite+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Bauxite",
+    "originalUrl": null,
+    "localPath": "/icons/bauxite_plus.svg",
+    "sha256": "83eaa7cfc98635560d8f8b18ac25739f29e2c4f1d19138f856e3c69cbb338726",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "bauxite"
+  },
+  {
+    "entityId": "wood_plus",
+    "entityType": "assets",
+    "name": "Wood+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Wood",
+    "originalUrl": null,
+    "localPath": "/icons/wood_plus.svg",
+    "sha256": "79899c3b22f129cd8aa8de1669924458050b571680cf57741319483be24a0e63",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "wood"
+  },
+  {
+    "entityId": "coal_plus",
+    "entityType": "assets",
+    "name": "Coal+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Coal",
+    "originalUrl": null,
+    "localPath": "/icons/coal_plus.svg",
+    "sha256": "df3dc7a1cb8461c0c4c665ed4dd109fe0efc1b89b2bea8e6d9887bf8cc29104b",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coal"
+  },
+  {
+    "entityId": "plastic_plus",
+    "entityType": "assets",
+    "name": "Plastic+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Plastic",
+    "originalUrl": null,
+    "localPath": "/icons/plastic_plus.svg",
+    "sha256": "ab67f6bcff997191edaa8122ca071a34fc19c277ee4760f9faa59d62f6ac6350",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "plastic"
+  },
+  {
+    "entityId": "led_plus",
+    "entityType": "assets",
+    "name": "LED+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/LED",
+    "originalUrl": null,
+    "localPath": "/icons/led_plus.svg",
+    "sha256": "9c8b8fbcd5699ae28fd723da0e727acd2f39ed0b573e4da3205872f7ca2a6708",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "led"
+  },
+  {
+    "entityId": "iron_plus",
+    "entityType": "assets",
+    "name": "Iron+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Iron",
+    "originalUrl": null,
+    "localPath": "/icons/iron_plus.svg",
+    "sha256": "3849c017b271287fa352a712ad51ed827cc19d7f38296e9db0829fa65b050456",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "iron"
+  },
+  {
+    "entityId": "polyester_plus",
+    "entityType": "assets",
+    "name": "Polyester+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Polyester",
+    "originalUrl": null,
+    "localPath": "/icons/polyester_plus.svg",
+    "sha256": "4f8be21b9007bc96d1dd504a5572bc9b7f4b4743de87f36ee774f895d4040aa2",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "polyester"
+  },
+  {
+    "entityId": "aluminum_plus",
+    "entityType": "assets",
+    "name": "Aluminum+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Aluminum",
+    "originalUrl": null,
+    "localPath": "/icons/aluminum_plus.svg",
+    "sha256": "80f0b72fa3e8d4fc776766f085362082ab8630b2a76a4b21615dd4ddddb6793d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "aluminum"
+  },
+  {
+    "entityId": "gasoline_plus",
+    "entityType": "assets",
+    "name": "Gasoline+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gasoline",
+    "originalUrl": null,
+    "localPath": "/icons/gasoline_plus.svg",
+    "sha256": "bcf5f7d1d07f48c6c8c46467b01690280892f74cb09675703ff314d379758138",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gasoline"
+  },
+  {
+    "entityId": "cotton_plus",
+    "entityType": "assets",
+    "name": "Cotton+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Cotton",
+    "originalUrl": null,
+    "localPath": "/icons/cotton_plus.svg",
+    "sha256": "16ee07e5634e4f953bcdef1c76b27838c929ec7f454e5275e304c531f0d0f316",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cotton"
+  },
+  {
+    "entityId": "jet_fuel_plus",
+    "entityType": "assets",
+    "name": "Jet fuel+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Jet_fuel",
+    "originalUrl": null,
+    "localPath": "/icons/jet_fuel_plus.svg",
+    "sha256": "7a2f087e35aabc1f52dde099531e7f1032ddb73887d8d0d7f0b53a563698e7e2",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "rubber_plus",
+    "entityType": "assets",
+    "name": "Rubber+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Rubber",
+    "originalUrl": null,
+    "localPath": "/icons/rubber_plus.svg",
+    "sha256": "d0dd5300e2f177527dc71b78f303346ca542e8d6c739266c8d7ba3ea91f706cd",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "rubber"
+  },
+  {
+    "entityId": "steel_plus",
+    "entityType": "assets",
+    "name": "Steel+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Steel",
+    "originalUrl": null,
+    "localPath": "/icons/steel_plus.svg",
+    "sha256": "0a5e39233d58af6634f6156db6ae6d65c5a4ea14eb0a483c41bcee9fe5922897",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "steel"
+  },
+  {
+    "entityId": "energy_plus",
+    "entityType": "assets",
+    "name": "Energy+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Energy",
+    "originalUrl": null,
+    "localPath": "/icons/energy_plus.svg",
+    "sha256": "0e071e71b281e62a6308394bb5e309b984e016423deb179643a81044875d68e0",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "energy"
+  },
+  {
+    "entityId": "silicon_plus",
+    "entityType": "assets",
+    "name": "Silicon+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Silicon",
+    "originalUrl": null,
+    "localPath": "/icons/silicon_plus.svg",
+    "sha256": "264433c5e5719223574a1d7ea706bf8f2aeb27f4e8dc28d876f135ae604181f4",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "silicon"
+  },
+  {
+    "entityId": "lamp_plus",
+    "entityType": "assets",
+    "name": "Lamp+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Lamp",
+    "originalUrl": null,
+    "localPath": "/icons/lamp_plus.svg",
+    "sha256": "300835730626b77dbecc0c818878329d8c1b36dc3fe75f920044a51b775f224a",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "lamp"
+  },
+  {
+    "entityId": "glass_plus",
+    "entityType": "assets",
+    "name": "Glass+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Glass",
+    "originalUrl": null,
+    "localPath": "/icons/glass_plus.svg",
+    "sha256": "e6a028ce0bd064a9c9971133793d767c3e6894fee5b4c83b57ebf1fa8911ea06",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "glass"
+  },
+  {
+    "entityId": "clothing_plus",
+    "entityType": "assets",
+    "name": "Clothing+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Clothing",
+    "originalUrl": null,
+    "localPath": "/icons/clothing_plus.svg",
+    "sha256": "f2ca68cb87549b6e7f2abef808ed1e55fc5aebdbcd20fbb8acd0fe60716a674e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "clothing"
+  },
+  {
+    "entityId": "furniture_plus",
+    "entityType": "assets",
+    "name": "Furniture+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Furniture",
+    "originalUrl": null,
+    "localPath": "/icons/furniture_plus.svg",
+    "sha256": "0ea4d5dd3d0b57ada2fedc5dae3161c303f7d7f0c805f8ee625facaad023af0c",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "furniture"
+  },
+  {
+    "entityId": "gold_plus",
+    "entityType": "assets",
+    "name": "Gold+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gold",
+    "originalUrl": null,
+    "localPath": "/icons/gold_plus.svg",
+    "sha256": "57a94183e60464bd81a90c0641f94732c3e052a4920629b177322c4d36add450",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gold"
+  },
+  {
+    "entityId": "research_chemical_plus",
+    "entityType": "assets",
+    "name": "Research chemical+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Research_chemical",
+    "originalUrl": null,
+    "localPath": "/icons/research_chemical_plus.svg",
+    "sha256": "da5b1518cb6e2f766ecd3a4514ca2ea07e052bf6339c337e4faf33b6d7a5b078",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "research_chemical"
+  },
+  {
+    "entityId": "cpu_plus",
+    "entityType": "assets",
+    "name": "CPU+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Cpu",
+    "originalUrl": null,
+    "localPath": "/icons/cpu_plus.svg",
+    "sha256": "ed93a8e8faff65a912f79e3664b638966e93615093a6dcf34f52f030f7532f26",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "bicycle_plus",
+    "entityType": "assets",
+    "name": "Bicycle+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Bicycle",
+    "originalUrl": null,
+    "localPath": "/icons/bicycle_plus.svg",
+    "sha256": "9d7724a8c76774806c96597a91bb398b1824a4e228278a02dae1f960c5c4a4d5",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "bicycle"
+  },
+  {
+    "entityId": "prescription_drug_plus",
+    "entityType": "assets",
+    "name": "Prescription drug+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Prescription_drug",
+    "originalUrl": null,
+    "localPath": "/icons/prescription_drug_plus.svg",
+    "sha256": "43de05c0d7145e9c3584e77fbdaac3987b792fbffc65aaa9e91912c1772f61ca",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "prescription_drug"
+  },
+  {
+    "entityId": "ccd_plus",
+    "entityType": "assets",
+    "name": "CCD+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/CCD",
+    "originalUrl": null,
+    "localPath": "/icons/ccd_plus.svg",
+    "sha256": "8fc16aeeb46afb90cb1eca1d6f21b83661833a6475185b1fa8625c22f0e3fd90",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "ccd"
+  },
+  {
+    "entityId": "cell_phone_plus",
+    "entityType": "assets",
+    "name": "Cell phone+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Cell_phone",
+    "originalUrl": null,
+    "localPath": "/icons/cell_phone_plus.svg",
+    "sha256": "0a8ecc354ffaee840834ef2c0788cb72c8db616d8dd46d55813e50ad3eb9a77d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cell_phone"
+  },
+  {
+    "entityId": "laptop_plus",
+    "entityType": "assets",
+    "name": "Laptop+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Laptop",
+    "originalUrl": null,
+    "localPath": "/icons/laptop_plus.svg",
+    "sha256": "bd38bea2fdadc9a73a65a82e6a6ed281a6d07ff16d4aa863f16d080019cc71f0",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "laptop"
+  },
+  {
+    "entityId": "digital_camera_plus",
+    "entityType": "assets",
+    "name": "Digital camera+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Digital_camera",
+    "originalUrl": null,
+    "localPath": "/icons/digital_camera_plus.svg",
+    "sha256": "ec707ee9c47950accd8e0952342728a6018fbd5db1f774af80625207bc331e2c",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "digital_camera"
+  },
+  {
+    "entityId": "television_plus",
+    "entityType": "assets",
+    "name": "Television+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Television",
+    "originalUrl": null,
+    "localPath": "/icons/television_plus.svg",
+    "sha256": "95cb9b53093c7a8bf53c3921c29ddf415b520643c5f7c5386a10603764963748",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "television"
+  },
+  {
+    "entityId": "gasoline_engine_plus",
+    "entityType": "assets",
+    "name": "Gasoline engine+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gasoline_engine",
+    "originalUrl": null,
+    "localPath": "/icons/gasoline_engine_plus.svg",
+    "sha256": "c51246607fb95af8de4e73106aa2f0414323257eb76d77264fef38fb1db502bc",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gasoline_engine"
+  },
+  {
+    "entityId": "car_plus",
+    "entityType": "assets",
+    "name": "Car+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Car",
+    "originalUrl": null,
+    "localPath": "/icons/car_plus.svg",
+    "sha256": "c63d877b21100f1cff55d05ce2b8de881631fda08a9dea330e034160317c9b79",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "car"
+  },
+  {
+    "entityId": "truck_plus",
+    "entityType": "assets",
+    "name": "Truck+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Truck",
+    "originalUrl": null,
+    "localPath": "/icons/truck_plus.svg",
+    "sha256": "93d952395f5cf53a8d6a3c55450335bdede6bad681dac3c380369a9e451ac0c8",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "truck"
+  },
+  {
+    "entityId": "space_station_parts_plus",
+    "entityType": "assets",
+    "name": "Space Station Parts+",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Galactic_Expedition",
+    "originalUrl": null,
+    "localPath": "/icons/space_station_parts_plus.svg",
+    "sha256": "e27d470bdd1aa0cc1e8e260914adf60ea2cf8b3b72b07355c7435f7cfb609236",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "space_station_parts"
+  },
+  {
+    "entityId": "blueprint_oil_mapping",
+    "entityType": "assets",
+    "name": "Oil mapping blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_oil_mapping.svg",
+    "sha256": "43db994707d177e461436e0420c1fde949c1f1d13290c4b885305433070df22d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "blueprint_coal_detector",
+    "entityType": "assets",
+    "name": "Coal detector blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_coal_detector.svg",
+    "sha256": "8a4c96ebaf28e9a66a8a1a09dda85988b6360fd973a3b549206fc2929f24fdbc",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coal"
+  },
+  {
+    "entityId": "blueprint_log_loader",
+    "entityType": "assets",
+    "name": "Log loader blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_log_loader.svg",
+    "sha256": "139d05c899f1292107067612eb3a488ef5b33cbc71dbcb074f6b7bf921e51bf6",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "wood"
+  },
+  {
+    "entityId": "blueprint_advanced_woodworking",
+    "entityType": "assets",
+    "name": "Advanced woodworking blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_advanced_woodworking.svg",
+    "sha256": "e00efdaf582cdc85b195573b968707f01a5622e08ae230f395b33ec61a91f759",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "furniture"
+  },
+  {
+    "entityId": "blueprint_bauxite_detector",
+    "entityType": "assets",
+    "name": "Bauxite detector blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_bauxite_detector.svg",
+    "sha256": "eafa7b2221ef66e6da727747e0a4b7c6729ff8aab08ac77aed12abe6ec289740",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "bauxite"
+  },
+  {
+    "entityId": "blueprint_jet_fuel_refining",
+    "entityType": "assets",
+    "name": "Jet fuel refining blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_jet_fuel_refining.svg",
+    "sha256": "57468a74a2615467099f860e4613e1c192baa911898e40a88e91d49f3d799006",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "blueprint_gold_detector",
+    "entityType": "assets",
+    "name": "Gold detector blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_gold_detector.svg",
+    "sha256": "9224f59ec8757a18d90525637197aa62e73b44bbd302e40ad5d8f509ff33230d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gold"
+  },
+  {
+    "entityId": "blueprint_vacuum_distillation",
+    "entityType": "assets",
+    "name": "Vacuum distillation blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_vacuum_distillation.svg",
+    "sha256": "4d6ba549998651846d8e29111fa22ef51ebc78f2f0d46fd032728b3f8c59b078",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "blueprint_robotic_automation",
+    "entityType": "assets",
+    "name": "Robotic automation blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_robotic_automation.svg",
+    "sha256": "b9a879a184b4b9d3b5064a5c0b6828aaf6e94ace2bb450352db520cfb9da7a65",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "blueprint_factory_specialization",
+    "entityType": "assets",
+    "name": "Factory specialization blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_factory_specialization.svg",
+    "sha256": "90316b2812cb2ae1d05858f813760307ab9f38fa0956c978b1ade8fa0de720a8",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gasoline_engine"
+  },
+  {
+    "entityId": "blueprint_mining_specialization",
+    "entityType": "assets",
+    "name": "Mining specialization blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_mining_specialization.svg",
+    "sha256": "ece0a24d825ad7ec636ba75396747ec530b0bf991f64171b215e87467c0510bc",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "mountain"
+  },
+  {
+    "entityId": "blueprint_oil_specialization",
+    "entityType": "assets",
+    "name": "Oil specialization blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_oil_specialization.svg",
+    "sha256": "751d97c385ade33f080590a3f3c847b78663d94f062888a447dfae0b61971f49",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "blueprint_energy_specialization",
+    "entityType": "assets",
+    "name": "Energy specialization blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_energy_specialization.svg",
+    "sha256": "d91bd9df5e8feda676a953b1ad6737c9ade53948af75c9e74cf955ae531db4d3",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "energy"
+  },
+  {
+    "entityId": "blueprint_logistics_expansion",
+    "entityType": "assets",
+    "name": "Logistics expansion blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_logistics_expansion.svg",
+    "sha256": "55ce807827d9476da082897a81b9331ae47119635ab27d0c372d90d34d6c65df",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "truck"
+  },
+  {
+    "entityId": "blueprint_airport_tram",
+    "entityType": "assets",
+    "name": "Airport tram blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_airport_tram.svg",
+    "sha256": "83bc16f3f617ef7c2a7ffb1903d74dd05840ee1710820a5575cbba56b4e6f90a",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "blueprint_quality_control",
+    "entityType": "assets",
+    "name": "Quality control blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_quality_control.svg",
+    "sha256": "bc1bd9e5ae6993de1409bcdc129e7f20458f8013af030bbb69180c634acf3957",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "shield"
+  },
+  {
+    "entityId": "blueprint_reincorporation_computer",
+    "entityType": "assets",
+    "name": "Reincorporation computer blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_reincorporation_computer.svg",
+    "sha256": "80b02e075a9113538eeb28c468d6ce1d60498fda1be8dc6583c5f4d1c1b5c54c",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "blueprint_quantum_stabilization",
+    "entityType": "assets",
+    "name": "Quantum stabilization blueprint",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+    "originalUrl": null,
+    "localPath": "/icons/blueprint_quantum_stabilization.svg",
+    "sha256": "6281a0dcf6f1525a63d235454e1099ee2e6e9ab3b2bb6af92d6fecd74e18ff03",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "vault"
+  },
+  {
+    "entityId": "tree_farm",
+    "entityType": "facilities",
+    "name": "Tree farm",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Tree_farm",
+    "originalUrl": null,
+    "localPath": "/icons/tree_farm.svg",
+    "sha256": "2c370224c8548d4d06eab363fc9b37d64ba766e7e1897847714c2e52a0eff75a",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "wood"
+  },
+  {
+    "entityId": "oil_well",
+    "entityType": "facilities",
+    "name": "Oil well",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Oil_well",
+    "originalUrl": null,
+    "localPath": "/icons/oil_well.svg",
+    "sha256": "d340177578821842272152c71cc49f0625320f3bc92e2670abedec4d2a54c48d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "crude_oil"
+  },
+  {
+    "entityId": "coal_mine",
+    "entityType": "facilities",
+    "name": "Coal mine",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Coal_mine",
+    "originalUrl": null,
+    "localPath": "/icons/coal_mine.svg",
+    "sha256": "1b80e2d1a0aef24d31c5acd90570491a4d0f432279fea4b2cfa6e874565c904d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coal"
+  },
+  {
+    "entityId": "iron_mine",
+    "entityType": "facilities",
+    "name": "Iron mine",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Iron_mine",
+    "originalUrl": null,
+    "localPath": "/icons/iron_mine.svg",
+    "sha256": "f0cb93010416adcb13e321c344855f3542e2901c4cdb515aada8b9b180bb40cc",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "iron"
+  },
+  {
+    "entityId": "oil_refinery",
+    "entityType": "facilities",
+    "name": "Oil refinery",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Oil_refinery",
+    "originalUrl": null,
+    "localPath": "/icons/oil_refinery.svg",
+    "sha256": "feb4f45b3a6e3d58d9bb2e5bb038b35ba0c81e4cbbac1cd339e896cafd74fe25",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gasoline"
+  },
+  {
+    "entityId": "steel_mill",
+    "entityType": "facilities",
+    "name": "Steel mill",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Steel_mill",
+    "originalUrl": null,
+    "localPath": "/icons/steel_mill.svg",
+    "sha256": "71ef9acf8c35d92f6dceabaa4743e3aa2f273a86afc7f252db1a875e673b9a38",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "steel"
+  },
+  {
+    "entityId": "bauxite_mine",
+    "entityType": "facilities",
+    "name": "Bauxite mine",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Bauxite_mine",
+    "originalUrl": null,
+    "localPath": "/icons/bauxite_mine.svg",
+    "sha256": "95e0a44146e40467471570860c3d7a2fcfdf4c17172de11d49da3252519c1f5b",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "bauxite"
+  },
+  {
+    "entityId": "rubber_factory",
+    "entityType": "facilities",
+    "name": "Rubber factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Rubber_factory",
+    "originalUrl": null,
+    "localPath": "/icons/rubber_factory.svg",
+    "sha256": "ef3004ee36d02f29b17839de1abac722d6c62e4c4e62d8d45520e03f5304beda",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "rubber"
+  },
+  {
+    "entityId": "gas_station",
+    "entityType": "facilities",
+    "name": "Gas station",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gas_station",
+    "originalUrl": null,
+    "localPath": "/icons/gas_station.svg",
+    "sha256": "8b5fa1c9ed57b5e6f274d98cf5fcefd35dc24f32a416a77a0be7c40b78d577eb",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coin"
+  },
+  {
+    "entityId": "furniture_factory",
+    "entityType": "facilities",
+    "name": "Furniture factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Furniture_factory",
+    "originalUrl": null,
+    "localPath": "/icons/furniture_factory.svg",
+    "sha256": "4f43e22c09b1aea93a231e3c5288b093e5378eb01173f089f146a20deac7a53f",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "furniture"
+  },
+  {
+    "entityId": "aluminum_factory",
+    "entityType": "facilities",
+    "name": "Aluminum factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Aluminum_factory",
+    "originalUrl": null,
+    "localPath": "/icons/aluminum_factory.svg",
+    "sha256": "60cc0d7b4ffe9cd0604ccabed2b08856f2642818c14a84f77fa69d271b3acd0a",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "aluminum"
+  },
+  {
+    "entityId": "led_factory",
+    "entityType": "facilities",
+    "name": "LED factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/LED_factory",
+    "originalUrl": null,
+    "localPath": "/icons/led_factory.svg",
+    "sha256": "d385be8d7ceff38920b15d02affd2afaf33087dc3084bca79cc001dd5cfd6436",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "led"
+  },
+  {
+    "entityId": "polyester_factory",
+    "entityType": "facilities",
+    "name": "Polyester factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Polyester_factory",
+    "originalUrl": null,
+    "localPath": "/icons/polyester_factory.svg",
+    "sha256": "9e420a71aab0a8b96d2cc3f054ab283946d8eef5eabfa3a62cf751e62a3db8db",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "polyester"
+  },
+  {
+    "entityId": "silicon_mine",
+    "entityType": "facilities",
+    "name": "Silicon mine",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Silicon_mine",
+    "originalUrl": null,
+    "localPath": "/icons/silicon_mine.svg",
+    "sha256": "428ce863bb3852eeb60d3aef4c0dbada0ec26876f682b9e2d80ed3fa29f92062",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "silicon"
+  },
+  {
+    "entityId": "bicycle_factory",
+    "entityType": "facilities",
+    "name": "Bicycle factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Bicycle_factory",
+    "originalUrl": null,
+    "localPath": "/icons/bicycle_factory.svg",
+    "sha256": "4290cdbbdbe17fe6442b8b059c1d4768724b1eec618570b8f1a7f657929e683a",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "bicycle"
+  },
+  {
+    "entityId": "gold_mine",
+    "entityType": "facilities",
+    "name": "Gold mine",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gold_mine",
+    "originalUrl": null,
+    "localPath": "/icons/gold_mine.svg",
+    "sha256": "b1446ecb84a981110133ce27705ea3a1098151debaaaf7fe2ca6da2651abc3e1",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gold"
+  },
+  {
+    "entityId": "lamp_factory",
+    "entityType": "facilities",
+    "name": "Lamp factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Lamp_factory",
+    "originalUrl": null,
+    "localPath": "/icons/lamp_factory.svg",
+    "sha256": "8ee624bcd6743560107e219b8b4ba24d463b0d05cb0ce8510f3f928aaaaccd25",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "lamp"
+  },
+  {
+    "entityId": "cotton_farm",
+    "entityType": "facilities",
+    "name": "Cotton farm",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Cotton_farm",
+    "originalUrl": null,
+    "localPath": "/icons/cotton_farm.svg",
+    "sha256": "58531771360e0024f03f30bb7d07f5366206786accc7bcb8445aa20e24303a49",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cotton"
+  },
+  {
+    "entityId": "plastic_factory",
+    "entityType": "facilities",
+    "name": "Plastic factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Plastic_factory",
+    "originalUrl": null,
+    "localPath": "/icons/plastic_factory.svg",
+    "sha256": "72baa17a1d57fd0695b5ac93c0c711d9b6c59398814b8354686e3ff8ce0f2162",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "plastic"
+  },
+  {
+    "entityId": "ccd_factory",
+    "entityType": "facilities",
+    "name": "CCD factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/CCD_factory",
+    "originalUrl": null,
+    "localPath": "/icons/ccd_factory.svg",
+    "sha256": "622e4c61cd23b4f746c6e1c79b8596eefca6067c790ce9e3d87e61cd69a38218",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "ccd"
+  },
+  {
+    "entityId": "glass_factory",
+    "entityType": "facilities",
+    "name": "Glass factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Glass_factory",
+    "originalUrl": null,
+    "localPath": "/icons/glass_factory.svg",
+    "sha256": "cdc6486dae900f7e21b03ecc31aaad1a5b12cdf9829eb66d6b527f9f66937b1d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "glass"
+  },
+  {
+    "entityId": "cpu_factory",
+    "entityType": "facilities",
+    "name": "CPU factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/CPU_factory",
+    "originalUrl": null,
+    "localPath": "/icons/cpu_factory.svg",
+    "sha256": "cc7ca85ef2f24beb68de57ca99bcc0361a96c07d9d0275a9048a6eb86f05f579",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "clothing_factory",
+    "entityType": "facilities",
+    "name": "Clothing factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Clothing_factory",
+    "originalUrl": null,
+    "localPath": "/icons/clothing_factory.svg",
+    "sha256": "0a9b523af2c6bf0ef020866aa6c09207622ee65a015affa063b2b67501cc8d03",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "clothing"
+  },
+  {
+    "entityId": "cell_phone_factory",
+    "entityType": "facilities",
+    "name": "Cell phone factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Cell_phone_factory",
+    "originalUrl": null,
+    "localPath": "/icons/cell_phone_factory.svg",
+    "sha256": "f92265df2e03cb83d6ce806a5308125098d85cd3b7f5c6b2e60945ff85456002",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cell_phone"
+  },
+  {
+    "entityId": "coal_power_plant",
+    "entityType": "facilities",
+    "name": "Coal power plant",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Coal_power_plant",
+    "originalUrl": null,
+    "localPath": "/icons/coal_power_plant.svg",
+    "sha256": "429c1015f6650bcb140962ba5cea5203fcdf143016174257321faa78b43532ae",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "energy"
+  },
+  {
+    "entityId": "laptop_factory",
+    "entityType": "facilities",
+    "name": "Laptop factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Laptop_factory",
+    "originalUrl": null,
+    "localPath": "/icons/laptop_factory.svg",
+    "sha256": "14b283fa2fa9e3de05a27f40e0e6f6c4058311c792433c7d54188d7626aec61e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "laptop"
+  },
+  {
+    "entityId": "research_chemical_factory",
+    "entityType": "facilities",
+    "name": "Research chemical factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Research_chemical_factory",
+    "originalUrl": null,
+    "localPath": "/icons/research_chemical_factory.svg",
+    "sha256": "7317bc9d1b0265755a202f433bdb7d90622e7eaab17859f7f87d43f179b55b1c",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "research_chemical"
+  },
+  {
+    "entityId": "solar_power_plant",
+    "entityType": "facilities",
+    "name": "Solar power plant",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Solar_power_plant",
+    "originalUrl": null,
+    "localPath": "/icons/solar_power_plant.svg",
+    "sha256": "87baa9b45bff8ac31a576087700d94cd2c8f4186f9315e8d0b07d065ed141d87",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "energy"
+  },
+  {
+    "entityId": "rocket_fuel_factory",
+    "entityType": "facilities",
+    "name": "Rocket fuel factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Rocket_fuel_factory",
+    "originalUrl": null,
+    "localPath": "/icons/rocket_fuel_factory.svg",
+    "sha256": "c430a09f13746b40061ac04a5112527c822b05ce17e41c2f7cb9b9e4d7c996c6",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "rocket_fuel"
+  },
+  {
+    "entityId": "digital_camera_factory",
+    "entityType": "facilities",
+    "name": "Digital camera factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Digital_camera_factory",
+    "originalUrl": null,
+    "localPath": "/icons/digital_camera_factory.svg",
+    "sha256": "a76889e590e000f7ce4bc8604e8239a40ac28d5a22a49d438265e701915ef7cc",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "digital_camera"
+  },
+  {
+    "entityId": "television_factory",
+    "entityType": "facilities",
+    "name": "Television factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Television_factory",
+    "originalUrl": null,
+    "localPath": "/icons/television_factory.svg",
+    "sha256": "11f37b00b0f235612f6dad173bda3ec71e8b35e70a13c0a10f4f53ec1a268785",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "television"
+  },
+  {
+    "entityId": "gasoline_engine_factory",
+    "entityType": "facilities",
+    "name": "Gasoline engine factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Gasoline_engine_factory",
+    "originalUrl": null,
+    "localPath": "/icons/gasoline_engine_factory.svg",
+    "sha256": "a9bc7728cac219e27fab583cb6a31096533ca0db23c14535065df96b3d805675",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "gasoline_engine"
+  },
+  {
+    "entityId": "car_factory",
+    "entityType": "facilities",
+    "name": "Car factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Car_factory",
+    "originalUrl": null,
+    "localPath": "/icons/car_factory.svg",
+    "sha256": "feb0755f38defe496f76ad0b6246e0b9156fba5f95bd70808b88dbc1294db4c3",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "car"
+  },
+  {
+    "entityId": "logistics_center",
+    "entityType": "facilities",
+    "name": "Logistics center",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Logistics_center",
+    "originalUrl": null,
+    "localPath": "/icons/logistics_center.svg",
+    "sha256": "6c4007321aa2d1b5dbb6132cb4cf6ab9636a18f3c2a5dfe520086b55f7417160",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "truck"
+  },
+  {
+    "entityId": "prescription_drug_factory",
+    "entityType": "facilities",
+    "name": "Prescription drug factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Prescription_drug_factory",
+    "originalUrl": null,
+    "localPath": "/icons/prescription_drug_factory.svg",
+    "sha256": "9ead6eef1911a832a5fd9ef5e460322985b452a68370fa532843501c371afa41",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "prescription_drug"
+  },
+  {
+    "entityId": "airport",
+    "entityType": "facilities",
+    "name": "Airport",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Airport",
+    "originalUrl": null,
+    "localPath": "/icons/airport.svg",
+    "sha256": "0416b68f129619737993b3fae960a6421909207c0480f6d2c9de0141a83125c1",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coin"
+  },
+  {
+    "entityId": "retail_store",
+    "entityType": "facilities",
+    "name": "Retail store",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Retail_store",
+    "originalUrl": null,
+    "localPath": "/icons/retail_store.svg",
+    "sha256": "cd4f6c5916bd7828480f86c26950c9cd58d8e3a00c34a68d29c6461256b4f594",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "furniture"
+  },
+  {
+    "entityId": "research_facility",
+    "entityType": "facilities",
+    "name": "Research facility",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Research_facility",
+    "originalUrl": null,
+    "localPath": "/icons/research_facility.svg",
+    "sha256": "2b2eb837a459f1f1c0615b91791a0264f451ba6086c1f7fa4ec865b7438e97a5",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "research"
+  },
+  {
+    "entityId": "customer_support_center",
+    "entityType": "facilities",
+    "name": "Customer support center",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Customer_support_center",
+    "originalUrl": null,
+    "localPath": "/icons/customer_support_center.svg",
+    "sha256": "b2859b0fdc403ff7052825fb64767e6e72397397ab51770442ed46399cc877c9",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "shield"
+  },
+  {
+    "entityId": "hq",
+    "entityType": "facilities",
+    "name": "HQ",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/HQ",
+    "originalUrl": null,
+    "localPath": "/icons/hq.svg",
+    "sha256": "e6619494326cb52f4231448a6a16284caf5e65609249606904254dcfca8eca49",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "office"
+  },
+  {
+    "entityId": "truck_factory",
+    "entityType": "facilities",
+    "name": "Truck factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Truck_factory",
+    "originalUrl": null,
+    "localPath": "/icons/truck_factory.svg",
+    "sha256": "2843ca48b619309a8337d3550f318c8db5203324b224273a740aa96d5d26397e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "truck"
+  },
+  {
+    "entityId": "air_traffic_control",
+    "entityType": "facilities",
+    "name": "Air traffic control",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Air_traffic_control",
+    "originalUrl": null,
+    "localPath": "/icons/air_traffic_control.svg",
+    "sha256": "3339493a48721ba869a2ccfc52ff251be4f641cc1e4a10f3652d743194186816",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "space_station_parts_factory",
+    "entityType": "facilities",
+    "name": "Space station parts factory",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Space_station_parts_factory",
+    "originalUrl": null,
+    "localPath": "/icons/space_station_parts_factory.svg",
+    "sha256": "32d5b7500a6f9c2644cb2c8f081c066ad330700e6e3d85f75c1e6ef0788b877f",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "space_station_parts"
+  },
+  {
+    "entityId": "rocket_launch_pad",
+    "entityType": "facilities",
+    "name": "Rocket launch pad",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Rocket_launch_pad",
+    "originalUrl": null,
+    "localPath": "/icons/rocket_launch_pad.svg",
+    "sha256": "2d8b376e72d8f7f431f58ce975fdb4012498896abdd127258a1db800c13e5b38",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "rocket"
+  },
+  {
+    "entityId": "land_management_office",
+    "entityType": "services",
+    "name": "Land management office",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Land_management_office",
+    "originalUrl": null,
+    "localPath": "/icons/land_management_office.svg",
+    "sha256": "2e06fb3ef7d8ee5ad707279dc2ef96356547fba4b9a24596d2350329b1fd5e71",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "land"
+  },
+  {
+    "entityId": "fiber_infrastructure",
+    "entityType": "services",
+    "name": "Fiber infrastructure",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Fiber_infrastructure",
+    "originalUrl": null,
+    "localPath": "/icons/fiber_infrastructure.svg",
+    "sha256": "0b69b42a7fe7f8d2f27394ad5004cfb83982c1292b7fa203648d3cf03a20074c",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  },
+  {
+    "entityId": "university",
+    "entityType": "services",
+    "name": "University",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/University",
+    "originalUrl": null,
+    "localPath": "/icons/university.svg",
+    "sha256": "ae2373f4defa6a08071558d3c8db485290a477cd19797651ff084a890dfd13d7",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "university"
+  },
+  {
+    "entityId": "small_park",
+    "entityType": "services",
+    "name": "Small park",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Small_park",
+    "originalUrl": null,
+    "localPath": "/icons/small_park.svg",
+    "sha256": "afa5fbe6710186f6b0cbc6530b8fd1ffd8f80678ef0fa84be887df53524b285e",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "park"
+  },
+  {
+    "entityId": "medium_park",
+    "entityType": "services",
+    "name": "Medium park",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Medium_park",
+    "originalUrl": null,
+    "localPath": "/icons/medium_park.svg",
+    "sha256": "de27b255d43bc2d2a5da6a3f01c8de6a8466b1eb06d0b00d290258b8aaefda41",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "park"
+  },
+  {
+    "entityId": "region_office",
+    "entityType": "services",
+    "name": "Region office",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Region_office",
+    "originalUrl": null,
+    "localPath": "/icons/region_office.svg",
+    "sha256": "9cf0bb01a98c8cba3d1023ddc761e83d1c6759f7e60c6409ff99b27fe6c70369",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "governance"
+  },
+  {
+    "entityId": "large_park",
+    "entityType": "services",
+    "name": "Large park",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Large_park",
+    "originalUrl": null,
+    "localPath": "/icons/large_park.svg",
+    "sha256": "e5849c0ce0693bd25a8250c9b3b2ecfb32fbc524c7aa5ebe3e3463d44d6533f0",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "park"
+  },
+  {
+    "entityId": "solar_subsidies",
+    "entityType": "policies",
+    "name": "Solar subsidies",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Solar_subsidies",
+    "originalUrl": null,
+    "localPath": "/icons/solar_subsidies.svg",
+    "sha256": "a253e4a7a18a7698ff5f6c9f33db5f5b2192341b690e6d21fc659e3e81351032",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "sun"
+  },
+  {
+    "entityId": "public_logistics_access",
+    "entityType": "policies",
+    "name": "Public logistics access",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Public_logistics_access",
+    "originalUrl": null,
+    "localPath": "/icons/public_logistics_access.svg",
+    "sha256": "84f7d6d61af6fe9e2c17ae32063c795119a6fe8f3a32aecba2624437bb85ce44",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "truck"
+  },
+  {
+    "entityId": "regional_planning",
+    "entityType": "policies",
+    "name": "Regional planning",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Regional_planning",
+    "originalUrl": null,
+    "localPath": "/icons/regional_planning.svg",
+    "sha256": "67e54b9024b9a2b275e5c6c48147709efe19ef1c37d3f5a6320d9058ce899438",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "land"
+  },
+  {
+    "entityId": "tourism_campaign",
+    "entityType": "policies",
+    "name": "Tourism campaign",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Tourism_campaign",
+    "originalUrl": null,
+    "localPath": "/icons/tourism_campaign.svg",
+    "sha256": "590e752fa7399bbed14b18ac92e4d1f0f2aa50f6e9d1a886870442c98dc85e5d",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "jet_fuel"
+  },
+  {
+    "entityId": "low_income_tax",
+    "entityType": "policies",
+    "name": "Low income tax",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Low_income_tax",
+    "originalUrl": null,
+    "localPath": "/icons/low_income_tax.svg",
+    "sha256": "cd2c0205ba70b8cb9f23fd847103aa4860630a1463bc514ba133f292a9707906",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coin"
+  },
+  {
+    "entityId": "research_grant",
+    "entityType": "policies",
+    "name": "Research grant",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Research_grant",
+    "originalUrl": null,
+    "localPath": "/icons/research_grant.svg",
+    "sha256": "584019cc319a2412c67ed106a948497aee45a9a55052ccb5d41a951124d41a78",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "research"
+  },
+  {
+    "entityId": "organic_farming",
+    "entityType": "policies",
+    "name": "Organic farming",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Organic_farming",
+    "originalUrl": null,
+    "localPath": "/icons/organic_farming.svg",
+    "sha256": "765aa9c065e62c78870f5250a8a5b1e5e14333dcab4d77b1699e59f6def9314a",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "park"
+  },
+  {
+    "entityId": "high_income_tax",
+    "entityType": "policies",
+    "name": "High income tax",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/High_income_tax",
+    "originalUrl": null,
+    "localPath": "/icons/high_income_tax.svg",
+    "sha256": "64e9cefe552d4451a5b209ad263a040543a5c3c5f2af6a81448ae25393b97b90",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "coin"
+  },
+  {
+    "entityId": "land_grant",
+    "entityType": "policies",
+    "name": "Land grant",
+    "sourcePage": "https://wiki.idlecorp.xyz/index.php/Land_grant",
+    "originalUrl": null,
+    "localPath": "/icons/land_grant.svg",
+    "sha256": "dd6b1a9675894acc760b993b53e4fcb0d4bf3b99350150fbf84ac62eb640ec43",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "land"
+  },
+  {
+    "entityId": "verdant",
+    "entityType": "regions",
+    "name": "Verdant Basin",
+    "sourcePage": null,
+    "originalUrl": null,
+    "localPath": "/icons/verdant.svg",
+    "sha256": "fc1969e44b9a44bb2ffdcc0f7e59ae0df9a25936d6606990d713035fb4765946",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "park"
+  },
+  {
+    "entityId": "ironridge",
+    "entityType": "regions",
+    "name": "Ironridge",
+    "sourcePage": null,
+    "originalUrl": null,
+    "localPath": "/icons/ironridge.svg",
+    "sha256": "9099c154f381d3ff28c1abcf7efb1d8a82cb31019557f3f56fb80cf199293c27",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "mountain"
+  },
+  {
+    "entityId": "suncoast",
+    "entityType": "regions",
+    "name": "Suncoast",
+    "sourcePage": null,
+    "originalUrl": null,
+    "localPath": "/icons/suncoast.svg",
+    "sha256": "de10cee95dd1fcea582612a2b5ec45c71b470751ab10251fa671915a558afee8",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "sun"
+  },
+  {
+    "entityId": "space_station",
+    "entityType": "space",
+    "name": "Space station",
+    "sourcePage": null,
+    "originalUrl": null,
+    "localPath": "/icons/space_station.svg",
+    "sha256": "b1a0796c38c3792f166146f68715dfe0f4cef26e1b8b5832591e9c4fa10b6872",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "space_station_parts"
+  },
+  {
+    "entityId": "quantum_vault",
+    "entityType": "space",
+    "name": "Quantum vault",
+    "sourcePage": null,
+    "originalUrl": null,
+    "localPath": "/icons/quantum_vault.svg",
+    "sha256": "30b5e53af0b14eb17a9836570345bbbcee21b31caf9bd1266a9257cbf35b2b71",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "vault"
+  },
+  {
+    "entityId": "blueprint",
+    "entityType": "research",
+    "name": "Blueprint",
+    "sourcePage": null,
+    "originalUrl": null,
+    "localPath": "/icons/blueprint.svg",
+    "sha256": "3d718fdb30531f18edd16e6c7860b1e7cae929527cbaed13f5d09f7410409db6",
+    "dimensions": {
+      "width": 64,
+      "height": 64
+    },
+    "status": "replaced",
+    "artwork": "original vector pictogram created for this remake",
+    "license": null,
+    "attribution": "IdleCorp remake project; original artwork, not scraped artwork",
+    "glyph": "cpu"
+  }
+]

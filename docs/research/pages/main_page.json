@@ -1,0 +1,153 @@
+{
+  "id": 1,
+  "title": "Main Page",
+  "namespace": 0,
+  "revisionId": 1724,
+  "revisionTimestamp": "2022-12-22T10:10:16Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Main_Page",
+  "wikitext": "'''Welcome to the IdleCorp Wiki!'''\n\nIdleCorp is an industry themed idle tycoon game served by a Discord bot.\n\nYou can '''join our community Discord''' server by '''[https://discord.gg/N9CH9wV accepting this invite]'''.\n\nYou can also '''invite the bot''' to your own Discord server by '''[https://discordapp.com/api/oauth2/authorize?client_id=601241235474350122&permissions=354368&scope=bot clicking here]'''.\n\nYou can view our market stats on '''MarketView''' by '''[https://market.idlecorp.xyz clicking here]'''.\n\n* [[FAQ]]\n* [[Command list]]\n* [[:Category:Asset|Assets]]\n** [[Technology|Technologies]]\n* [[:Category:Facility|Facilities]]\n* [[Land]]\n* [[Region|Regions]]\n** [[Export|Exporting assets to other regions]]\n** [[Population]]\n** [[:Category:Service|Services]]\n* [[Season|Seasons]]\n** [[Season pass]]\n* [[Reincorporation]]\n* [[Liquidation]]\n* [[Research]]\n** [[Blueprint|Blueprints]]\n* [[Market]]\n* [[Retail]]\n* [[:Category:Policy|Policies]]\n* [[Voting]]\n* [[Premium]]\n* [[Updates|Updates log]]",
+  "links": [
+    "FAQ",
+    "Command list",
+    ":Category:Asset",
+    "Technology",
+    ":Category:Facility",
+    "Land",
+    "Region",
+    "Export",
+    "Population",
+    ":Category:Service",
+    "Season",
+    "Season pass",
+    "Reincorporation",
+    "Liquidation",
+    "Research",
+    "Blueprint",
+    "Market",
+    "Retail",
+    ":Category:Policy",
+    "Voting",
+    "Premium",
+    "Updates"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Main Page",
+  "html": "<div class=\"mw-parser-output\"><p><b>Welcome to the IdleCorp Wiki!</b>\n</p><p>IdleCorp is an industry themed idle tycoon game served by a Discord bot.\n</p><p>You can <b>join our community Discord</b> server by <b><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://discord.gg/N9CH9wV\">accepting this invite</a></b>.\n</p><p>You can also <b>invite the bot</b> to your own Discord server by <b><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://discordapp.com/api/oauth2/authorize?client_id=601241235474350122&amp;permissions=354368&amp;scope=bot\">clicking here</a></b>.\n</p><p>You can view our market stats on <b>MarketView</b> by <b><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://market.idlecorp.xyz\">clicking here</a></b>.\n</p>\n<ul><li><a href=\"/index.php/FAQ\" title=\"FAQ\">FAQ</a></li>\n<li><a href=\"/index.php/Command_list\" title=\"Command list\">Command list</a></li>\n<li><a href=\"/index.php/Category:Asset\" title=\"Category:Asset\">Assets</a>\n<ul><li><a href=\"/index.php/Technology\" class=\"mw-redirect\" title=\"Technology\">Technologies</a></li></ul></li>\n<li><a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">Facilities</a></li>\n<li><a href=\"/index.php/Land\" title=\"Land\">Land</a></li>\n<li><a href=\"/index.php/Region\" title=\"Region\">Regions</a>\n<ul><li><a href=\"/index.php/Export\" title=\"Export\">Exporting assets to other regions</a></li>\n<li><a href=\"/index.php/Population\" title=\"Population\">Population</a></li>\n<li><a href=\"/index.php/Category:Service\" title=\"Category:Service\">Services</a></li></ul></li>\n<li><a href=\"/index.php/Season\" title=\"Season\">Seasons</a>\n<ul><li><a href=\"/index.php/Season_pass\" title=\"Season pass\">Season pass</a></li></ul></li>\n<li><a href=\"/index.php/Reincorporation\" title=\"Reincorporation\">Reincorporation</a></li>\n<li><a href=\"/index.php/Liquidation\" title=\"Liquidation\">Liquidation</a></li>\n<li><a href=\"/index.php/Research\" title=\"Research\">Research</a>\n<ul><li><a href=\"/index.php/Blueprint\" title=\"Blueprint\">Blueprints</a></li></ul></li>\n<li><a href=\"/index.php/Market\" title=\"Market\">Market</a></li>\n<li><a href=\"/index.php/Retail\" title=\"Retail\">Retail</a></li>\n<li><a href=\"/index.php/Category:Policy\" title=\"Category:Policy\">Policies</a></li>\n<li><a href=\"/index.php/Voting\" title=\"Voting\">Voting</a></li>\n<li><a href=\"/index.php/Premium\" title=\"Premium\">Premium</a></li>\n<li><a href=\"/index.php/Updates\" class=\"mw-redirect\" title=\"Updates\">Updates log</a></li></ul>\n<!-- \nNewPP limit report\nCached time: 20261009085757\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.009 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:1-0!canonical and timestamp 20261009085757 and revision id 1724\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Blueprint",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Command list",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Export",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "FAQ",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Land",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Liquidation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Market",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Population",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Premium",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Reincorporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Retail",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Season",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Season pass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Technology",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Updates",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Voting",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Asset",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Facility",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Policy",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Service",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

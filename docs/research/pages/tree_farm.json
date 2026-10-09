@@ -1,0 +1,153 @@
+{
+  "id": 12,
+  "title": "Tree farm",
+  "namespace": 0,
+  "revisionId": 1608,
+  "revisionTimestamp": "2021-11-08T02:36:25Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Tree_farm",
+  "wikitext": "{|\n|\n{|class=\"wikitable\" style=\"float:right; max-width: 35%\"\n|'''Cost''' || $100\n|-\n!colspan=\"2\"| Production\n|-\n|'''Inputs''' || N/A\n|-\n|'''Outputs''' || 2x [[wood]]\n|-\n|'''Production interval''' || 5 seconds\n|-\n|'''Production/Min''' || 24x [[wood]]\n|-\n!colspan=\"2\"| Profit\n|-\n|'''Profit/Min'''|| $3.60\n|-\n|'''True Profit/Min'''|| $3.60\n|-\n|'''Profit/Hour''' || $216\n|-\n|'''Return of Investment/Min'''|| 3.6% \n|-\n|'''True Return of Investment/Min'''|| 3.6% \n|-\n!colspan=\"2\"| Aliases\n|-\n|colspan=\"2\"| tree farm, treefarm, wood farm, woodfarm\n|}\n[[Category:Facility]][[Category:Farm]]\n\nThe tree farm is used to farm wood from your region. You are told to build 2 tree farms in the tutorial. A tree farm can harvest 2 wood every 5 seconds. Wood is a fairly cheap resource and does not yield much return. However, it yields the best ROI (return of investment) in all facilities(not counting land cost) at 3.6%/min.\n\n{{legend}}\n\n== Building a Tree Farm ==\nIn order to build a tree farm, you will need to enter the command <code>$$build tree farm (amount)</code> Once you have entered the command, click the green checkmark under the message returned by the bot.\n|}\n\n== Related Facilities ==\n'''As construction material'''\n<div style=\"column-count:3;-moz-column-count:3;-webkit-column-count:3\">\n*[[Coal mine]]\n*[[Iron mine]]\n*[[Bauxite mine]]\n*[[Rubber factory]]\n*[[Furniture factory]]\n*[[LED factory]]\n*[[Polyester factory]]\n*[[Silicon mine]]\n*[[Bicycle factory]]\n*[[Gold mine]]\n*[[Lamp factory]]\n*[[Cotton farm]]\n*[[Plastic factory]]\n*[[CPU factory]]\n*[[Clothing factory]]\n*[[Cell phone factory]]\n*[[Coal power plant]]\n*[[Laptop factory]]\n</div>\n'''As input'''\n*[[Furniture factory]]",
+  "links": [
+    "wood",
+    "Category:Facility",
+    "Category:Farm",
+    "Coal mine",
+    "Iron mine",
+    "Bauxite mine",
+    "Rubber factory",
+    "Furniture factory",
+    "LED factory",
+    "Polyester factory",
+    "Silicon mine",
+    "Bicycle factory",
+    "Gold mine",
+    "Lamp factory",
+    "Cotton farm",
+    "Plastic factory",
+    "CPU factory",
+    "Clothing factory",
+    "Cell phone factory",
+    "Coal power plant",
+    "Laptop factory"
+  ],
+  "templates": [
+    "legend"
+  ],
+  "categories": [
+    "Facility",
+    "Farm"
+  ],
+  "redirect": null,
+  "renderedTitle": "Tree farm",
+  "html": "<div class=\"mw-parser-output\"><table>\n<tbody><tr>\n<td>\n<table class=\"wikitable\" style=\"float:right; max-width: 35%\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$100\n</td></tr>\n<tr>\n<th colspan=\"2\">Production\n</th></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>2x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>5 seconds\n</td></tr>\n<tr>\n<td><b>Production/Min</b></td>\n<td>24x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>\n</td></tr>\n<tr>\n<th colspan=\"2\">Profit\n</th></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$3.60\n</td></tr>\n<tr>\n<td><b>True Profit/Min</b></td>\n<td>$3.60\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$216\n</td></tr>\n<tr>\n<td><b>Return of Investment/Min</b></td>\n<td>3.6%\n</td></tr>\n<tr>\n<td><b>True Return of Investment/Min</b></td>\n<td>3.6%\n</td></tr>\n<tr>\n<th colspan=\"2\">Aliases\n</th></tr>\n<tr>\n<td colspan=\"2\">tree farm, treefarm, wood farm, woodfarm\n</td></tr></tbody></table>\n<p>The tree farm is used to farm wood from your region. You are told to build 2 tree farms in the tutorial. A tree farm can harvest 2 wood every 5 seconds. Wood is a fairly cheap resource and does not yield much return. However, it yields the best ROI (return of investment) in all facilities(not counting land cost) at 3.6%/min.\n</p><p>Are you confused by the table on the right? You may want to read how it exactly works <a href=\"/index.php/Legend\" title=\"Legend\">here</a>. Some of the terms can confuse a decent chunk after all.\n</p>\n<h2><span class=\"mw-headline\" id=\"Building_a_Tree_Farm\">Building a Tree Farm</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Tree_farm&amp;action=edit&amp;section=1\" title=\"Edit section: Building a Tree Farm\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>In order to build a tree farm, you will need to enter the command <code>$$build tree farm (amount)</code> Once you have entered the command, click the green checkmark under the message returned by the bot.\n</p>\n</td></tr></tbody></table>\n<h2><span class=\"mw-headline\" id=\"Related_Facilities\">Related Facilities</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Tree_farm&amp;action=edit&amp;section=2\" title=\"Edit section: Related Facilities\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><b>As construction material</b>\n</p>\n<div style=\"column-count:3;-moz-column-count:3;-webkit-column-count:3\">\n<ul><li><a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a></li>\n<li><a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a></li>\n<li><a href=\"/index.php/Bauxite_mine\" title=\"Bauxite mine\">Bauxite mine</a></li>\n<li><a href=\"/index.php/Rubber_factory\" title=\"Rubber factory\">Rubber factory</a></li>\n<li><a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">Furniture factory</a></li>\n<li><a href=\"/index.php/LED_factory\" title=\"LED factory\">LED factory</a></li>\n<li><a href=\"/index.php/Polyester_factory\" title=\"Polyester factory\">Polyester factory</a></li>\n<li><a href=\"/index.php/Silicon_mine\" title=\"Silicon mine\">Silicon mine</a></li>\n<li><a href=\"/index.php/Bicycle_factory\" title=\"Bicycle factory\">Bicycle factory</a></li>\n<li><a href=\"/index.php/Gold_mine\" title=\"Gold mine\">Gold mine</a></li>\n<li><a href=\"/index.php/Lamp_factory\" title=\"Lamp factory\">Lamp factory</a></li>\n<li><a href=\"/index.php/Cotton_farm\" title=\"Cotton farm\">Cotton farm</a></li>\n<li><a href=\"/index.php/Plastic_factory\" title=\"Plastic factory\">Plastic factory</a></li>\n<li><a href=\"/index.php/CPU_factory\" title=\"CPU factory\">CPU factory</a></li>\n<li><a href=\"/index.php/Clothing_factory\" title=\"Clothing factory\">Clothing factory</a></li>\n<li><a href=\"/index.php/Cell_phone_factory\" title=\"Cell phone factory\">Cell phone factory</a></li>\n<li><a href=\"/index.php/Coal_power_plant\" title=\"Coal power plant\">Coal power plant</a></li>\n<li><a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\">Laptop factory</a></li></ul>\n</div>\n<p><b>As input</b>\n</p>\n<ul><li><a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">Furniture factory</a></li></ul>\n<!-- \nNewPP limit report\nCached time: 20261009073041\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.007 seconds\nPreprocessor visited node count: 15/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 158/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    2.046      1 Template:Legend\n100.00%    2.046      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:12-0!canonical and timestamp 20261009073041 and revision id 1608\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Bauxite mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bicycle factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cell phone factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Clothing factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cotton farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "LED factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Lamp factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Legend",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Polyester factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": [
+    {
+      "ns": 10,
+      "title": "Template:Legend",
+      "exists": true
+    }
+  ]
+}

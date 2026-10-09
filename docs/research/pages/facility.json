@@ -1,0 +1,404 @@
+{
+  "id": 38,
+  "title": "Facility",
+  "namespace": 0,
+  "revisionId": 69,
+  "revisionTimestamp": "2019-11-19T23:31:52Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Facility",
+  "wikitext": "#REDIRECT [[Category:Facility]]",
+  "links": [
+    "Category:Facility"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": "Category:Facility",
+  "renderedTitle": "Category:Facility",
+  "html": "<div class=\"mw-parser-output\"><p>Facilities are what produce <a href=\"/index.php/Asset\" class=\"mw-redirect\" title=\"Asset\">assets</a> for your corporation. Some facilities will require you to already own certain assets in order to produce their products. Facilities gain 1 XP for the region they are in for each production cycle. Each level your facility gains will increase its base '+' variant chance by 0.5%.\n</p>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Construction materials</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farm</a></td>\n<td>$100</td>\n<td>N/A</td>\n<td>2x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>$3.60</td>\n<td>0:05\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Oil_well\" title=\"Oil well\">Oil well</a></td>\n<td>$100, 100x <a href=\"/index.php/Iron\" title=\"Iron\">iron</a></td>\n<td>N/A</td>\n<td>10x <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a></td>\n<td>$6.00</td>\n<td>0:10\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Coal_mine\" title=\"Coal mine\">Coal mine</a></td>\n<td>$250, 1,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>N/A</td>\n<td>8x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a></td>\n<td>$9.60</td>\n<td>0:10\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Iron_mine\" title=\"Iron mine\">Iron mine</a></td>\n<td>$250, 2,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>N/A</td>\n<td>1x <a href=\"/index.php/Iron\" title=\"Iron\">iron</a></td>\n<td>$6.00</td>\n<td>0:20\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Oil_refinery\" title=\"Oil refinery\">Oil refinery</a></td>\n<td>$240, 200x <a href=\"/index.php/Iron\" title=\"Iron\">iron</a>, 100x <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a>, 50x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>5x <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a></td>\n<td>1x <a href=\"/index.php/Gasoline\" title=\"Gasoline\">gasoline</a></td>\n<td>$9.00</td>\n<td>0:30\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a></td>\n<td>$150, 250x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a>, 500x <a href=\"/index.php/Iron\" title=\"Iron\">iron</a></td>\n<td>1x <a href=\"/index.php/Iron\" title=\"Iron\">iron</a>, 4x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a></td>\n<td>1x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>$8.91~</td>\n<td>0:35\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Bauxite_mine\" title=\"Bauxite mine\">Bauxite mine</a></td>\n<td>$150, 5,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 50x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>N/A</td>\n<td>40x <a href=\"/index.php/Bauxite\" title=\"Bauxite\">bauxite</a></td>\n<td>$9.60</td>\n<td>0:25\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Rubber_factory\" title=\"Rubber factory\">Rubber factory</a></td>\n<td>$325, 2,500x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 100x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>8x <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a></td>\n<td>1x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a></td>\n<td>$9.30</td>\n<td>0:40\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Gas_station\" title=\"Gas station\">Gas station</a></td>\n<td>$300, 100x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 100x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>2x <a href=\"/index.php/Gasoline\" title=\"Gasoline\">gasoline</a></td>\n<td>$15</td>\n<td>$20.00</td>\n<td>0:15\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">Furniture factory</a></td>\n<td>$450, 5,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 100x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>10x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>1x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a></td>\n<td>$14.63~</td>\n<td>4:00\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Aluminum_factory\" title=\"Aluminum factory\">Aluminum factory</a></td>\n<td>$450, 300x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 150x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>10x <a href=\"/index.php/Bauxite\" title=\"Bauxite\">bauxite</a></td>\n<td>3x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a></td>\n<td>$26.40</td>\n<td>0:25\n</td></tr>\n<tr>\n<td><a href=\"/index.php/LED_factory\" title=\"LED factory\">LED factory</a></td>\n<td>$2,850, 200x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 2,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 10x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a></td>\n<td>2x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a></td>\n<td>40x <a href=\"/index.php/LED\" title=\"LED\">LED</a></td>\n<td>$36.00</td>\n<td>0:50\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Polyester_factory\" title=\"Polyester factory\">Polyester factory</a></td>\n<td>$500, 500x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 10,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>110x <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a></td>\n<td>14x <a href=\"/index.php/Polyester\" title=\"Polyester\">polyester</a></td>\n<td>$40.80</td>\n<td>0:25\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Silicon_mine\" title=\"Silicon mine\">Silicon mine</a></td>\n<td>$2,050, 400x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 25,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>N/A</td>\n<td>4x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a></td>\n<td>$30.00</td>\n<td>3:20\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Bicycle_factory\" title=\"Bicycle factory\">Bicycle factory</a></td>\n<td>$3,100, 200x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 10,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 500x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>24x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 8x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a></td>\n<td>1x <a href=\"/index.php/Bicycle\" title=\"Bicycle\">bicycle</a></td>\n<td>$58.67~</td>\n<td>1:30\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Gold_mine\" title=\"Gold mine\">Gold mine</a></td>\n<td>$4,500, 50,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 1,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>N/A</td>\n<td>4x <a href=\"/index.php/Gold\" title=\"Gold\">gold</a></td>\n<td>$48.00</td>\n<td>5:00\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Lamp_factory\" title=\"Lamp factory\">Lamp factory</a></td>\n<td>$10,250, 2,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 25,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>12x <a href=\"/index.php/LED\" title=\"LED\">LED</a> 6x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a></td>\n<td>1x <a href=\"/index.php/Lamp\" title=\"Lamp\">lamp</a></td>\n<td>$128.00</td>\n<td>0:15\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Cotton_farm\" title=\"Cotton farm\">Cotton farm</a></td>\n<td>$15,000, 100,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>N/A</td>\n<td>4x <a href=\"/index.php/Cotton\" title=\"Cotton\">cotton</a></td>\n<td>$60.00</td>\n<td>0:20\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Plastic_factory\" title=\"Plastic factory\">Plastic factory</a></td>\n<td>$5,650, 6,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 200x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 5,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>20x <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a></td>\n<td>200x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a></td>\n<td>$235.20</td>\n<td>0:25\n</td></tr>\n<tr>\n<td><a href=\"/index.php/CCD_factory\" title=\"CCD factory\">CCD factory</a></td>\n<td>$14,000, 500x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 5,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>6x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a></td>\n<td>1x <a href=\"/index.php/CCD\" title=\"CCD\">CCD</a></td>\n<td>$323.08~</td>\n<td>1:05\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Glass_factory\" title=\"Glass factory\">Glass factory</a></td>\n<td>$30,000, 500x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 6,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>2x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a></td>\n<td>8x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a></td>\n<td>$325.71~</td>\n<td>0:35\n</td></tr>\n<tr>\n<td><a href=\"/index.php/CPU_factory\" title=\"CPU factory\">CPU factory</a></td>\n<td>$15,000, 1,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 10,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 100,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>1x <a href=\"/index.php/Gold\" title=\"Gold\">gold</a>, 8x <a href=\"/index.php/Silicon\" title=\"Silicon\">silicon</a></td>\n<td>5x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a></td>\n<td>$370.00</td>\n<td>2:00\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Clothing_factory\" title=\"Clothing factory\">Clothing factory</a></td>\n<td>$137,000, 100,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 1,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>10x <a href=\"/index.php/Cotton\" title=\"Cotton\">cotton</a>, 20x <a href=\"/index.php/Polyester\" title=\"Polyester\">polyester</a></td>\n<td>10x <a href=\"/index.php/Clothing\" title=\"Clothing\">clothing</a></td>\n<td>$315.00</td>\n<td>0:40\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Cell_phone_factory\" title=\"Cell phone factory\">Cell phone factory</a></td>\n<td>$32,500, 2,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 50,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 50,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 10,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 100x <a href=\"/index.php/Cpu\" class=\"mw-redirect\" title=\"Cpu\">cpu</a></td>\n<td>1x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 5x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a></td>\n<td>1x <a href=\"/index.php/Cell_phone\" title=\"Cell phone\">cell phone</a></td>\n<td>$756.67~</td>\n<td>0:45\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Coal_power_plant\" title=\"Coal power plant\">Coal power plant</a></td>\n<td>$70,000, 200,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 50,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>50x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a></td>\n<td>35x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a></td>\n<td>$680.00</td>\n<td>0:30\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Laptop_factory\" title=\"Laptop factory\">Laptop factory</a></td>\n<td>$365,000, 10,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 10,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 10,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 100,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a></td>\n<td>2x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 8x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a></td>\n<td>1x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a></td>\n<td>$1,116.00</td>\n<td>1:30\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Research_chemical_factory\" title=\"Research chemical factory\">Research chemical factory</a></td>\n<td>$330,000, 50,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 10,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 10,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>10x <a href=\"/index.php/Crude_oil\" title=\"Crude oil\">crude oil</a></td>\n<td>4x <a href=\"/index.php/Research_chemical\" title=\"Research chemical\">research chemical</a></td>\n<td>$798.00</td>\n<td>0:30\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Solar_power_plant\" title=\"Solar power plant\">Solar power plant</a></td>\n<td>$110,000, 250,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 25,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 5,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>N/A</td>\n<td>60x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a></td>\n<td>$400.00</td>\n<td>1:30\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Rocket_fuel_factory\" title=\"Rocket fuel factory\">Rocket fuel factory</a></td>\n<td>$1,000,000</td>\n<td>10x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a></td>\n<td>1x <a href=\"/index.php/Rocket_fuel\" title=\"Rocket fuel\">rocket fuel</a></td>\n<td>$0.00</td>\n<td>15:00\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Digital_camera_factory\" title=\"Digital camera factory\">Digital camera factory</a></td>\n<td>$320,000, 200,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 100,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 10,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>100x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, 1x <a href=\"/index.php/CCD\" title=\"CCD\">CCD</a></td>\n<td>1x <a href=\"/index.php/Digital_camera\" title=\"Digital camera\">digital camera</a></td>\n<td>$1087.50</td>\n<td>1:20\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Television_factory\" title=\"Television factory\">Television factory</a></td>\n<td>$450,000, 10,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 10,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 150,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 10,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>12x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 36x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a></td>\n<td>1x <a href=\"/index.php/Television\" title=\"Television\">television</a></td>\n<td>$1,140.67~</td>\n<td>3:00\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Gasoline_engine_factory\" title=\"Gasoline engine factory\">Gasoline engine factory</a></td>\n<td>$500,000, 100,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 100,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a></td>\n<td>15x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 6x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a></td>\n<td>1x <a href=\"/index.php/Gasoline_engine\" title=\"Gasoline engine\">gasoline engine</a></td>\n<td>$1,116.46~</td>\n<td>4:20\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a></td>\n<td>$6,750,000, 10,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 100,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 3,000x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a>, 1,000x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a></td>\n<td>28x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 1,000x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>,<br /> 1x <a href=\"/index.php/Gasoline_engine\" title=\"Gasoline engine\">gasoline engine</a>, 40x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 30x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a></td>\n<td>1x <a href=\"/index.php/Car\" title=\"Car\">car</a></td>\n<td>$1,293.00</td>\n<td>10:00\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Logistics_center\" title=\"Logistics center\">Logistics center</a></td>\n<td>$8,605,000, 10,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 250,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 10,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 250x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a></td>\n<td>N/A</td>\n<td>N/A</td>\n<td>N/A</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Prescription_drug_factory\" title=\"Prescription drug factory\">Prescription drug factory</a></td>\n<td>$3,700,000, 1,000,000x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a>, 10,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 1,000,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a></td>\n<td>1x <a href=\"/index.php/Research_chemical\" title=\"Research chemical\">research chemical</a></td>\n<td>2x <a href=\"/index.php/Prescription_drug\" title=\"Prescription drug\">prescription drug</a></td>\n<td>$1,080.00</td>\n<td>0:50\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Airport\" title=\"Airport\">Airport</a></td>\n<td>$20,000,000</td>\n<td>20x <a href=\"/index.php/Jet_fuel\" title=\"Jet fuel\">jet fuel</a>, 20x <a href=\"/index.php/Energy\" title=\"Energy\">energy</a></td>\n<td>$1,000</td>\n<td>$700.00 - $1,400.00</td>\n<td>1:00 - 0:30\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Retail_store\" title=\"Retail store\">Retail store</a></td>\n<td>$15,485,000, 500x <a href=\"/index.php/Clothing\" title=\"Clothing\">clothing</a>, 100,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 100,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 100,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 5,000x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a></td>\n<td>Varies</td>\n<td>Varies</td>\n<td>Varies</td>\n<td>10:00\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Research_facility\" title=\"Research facility\">Research facility</a></td>\n<td>$12,877,000, 100x <a href=\"/index.php/Clothing\" title=\"Clothing\">clothing</a>, 100,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 100,000x <a href=\"/index.php/Research_chemical\" title=\"Research chemical\">research chemical</a>, 600x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a></td>\n<td>N/A</td>\n<td>N/A</td>\n<td>N/A</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/Customer_support_center\" title=\"Customer support center\">Customer support center</a></td>\n<td>$43,300,000, 100,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 100,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 100,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 5,000x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a>, 1,000x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a></td>\n<td>N/A</td>\n<td>N/A</td>\n<td>N/A</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><a href=\"/index.php/HQ\" title=\"HQ\">HQ</a></td>\n<td>$32,600,000, 1x <a href=\"/index.php/Logistics_expansion\" title=\"Logistics expansion\">logistics expansion</a>, 100,000x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 2,000x <a href=\"/index.php/Television\" title=\"Television\">television</a>, 100,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 10,000x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a>, 20,000x <a href=\"/index.php/Laptop\" title=\"Laptop\">laptop</a></td>\n<td>N/A</td>\n<td>N/A</td>\n<td>N/A</td>\n<td>N/A\n</td></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008202829\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.020 seconds\nReal time usage: 0.024 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:4-0!canonical and timestamp 20261008202829 and revision id 1357\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Airport",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Aluminum factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Asset",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bauxite mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bicycle",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Bicycle factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CCD",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CCD factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Car",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Car factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cell phone",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cell phone factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Clothing",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Clothing factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cotton",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cotton farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Cpu",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Crude oil",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Customer support center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Digital camera",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Digital camera factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gas station",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline engine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline engine factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "HQ",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Jet fuel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "LED",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "LED factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Lamp",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Lamp factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Laptop factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics expansion",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil refinery",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Oil well",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Polyester",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Polyester factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Prescription drug",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Prescription drug factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research chemical factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research facility",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Retail store",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket fuel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rocket fuel factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Silicon mine",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Solar power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel mill",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Television",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Television factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Tree farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

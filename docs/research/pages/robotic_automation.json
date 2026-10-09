@@ -1,0 +1,57 @@
+{
+  "id": 114,
+  "title": "Robotic automation",
+  "namespace": 0,
+  "revisionId": 434,
+  "revisionTimestamp": "2020-07-06T17:01:28Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Robotic_automation",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;\"\n!Blueprint Requirements\n|-\n|1,000,000x [[aluminum]], 10,000x [[CPU]], 1,000,000x [[steel]], 500,000x[[rubber]] 5,000,000x [[plastic]]\n|}\n\nImproves all [[:Category:Facility|facilities]] by 2.5% when installed.",
+  "links": [
+    "aluminum",
+    "CPU",
+    "steel",
+    "rubber",
+    "plastic",
+    ":Category:Facility"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Robotic automation",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;\">\n<tbody><tr>\n<th>Blueprint Requirements\n</th></tr>\n<tr>\n<td>1,000,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">aluminum</a>, 10,000x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>, 1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 500,000x<a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a> 5,000,000x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>\n</td></tr></tbody></table>\n<p>Improves all <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facilities</a> by 2.5% when installed.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008185227\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.013 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:114-0!canonical and timestamp 20261008185227 and revision id 434\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Facility",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

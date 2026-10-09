@@ -1,0 +1,45 @@
+{
+  "id": 267,
+  "title": "Relic",
+  "namespace": 0,
+  "revisionId": 1638,
+  "revisionTimestamp": "2021-11-12T14:55:58Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Relic",
+  "wikitext": "Relic is an asset class which includes: [[relic of haste]], [[relic of prestige]], [[relic of efficiency]] and [[relic of knowledge]].\n\nThey provide different effects when they are effective. Relics have some global effect on your corporation when placed in your quantum vault",
+  "links": [
+    "relic of haste",
+    "relic of prestige",
+    "relic of efficiency",
+    "relic of knowledge"
+  ],
+  "templates": [],
+  "categories": [],
+  "redirect": null,
+  "renderedTitle": "Relic",
+  "html": "<div class=\"mw-parser-output\"><p>Relic is an asset class which includes: <a href=\"/index.php/Relic_of_haste\" title=\"Relic of haste\">relic of haste</a>, <a href=\"/index.php/Relic_of_prestige\" title=\"Relic of prestige\">relic of prestige</a>, <a href=\"/index.php/Relic_of_efficiency\" title=\"Relic of efficiency\">relic of efficiency</a> and <a href=\"/index.php/Relic_of_knowledge\" title=\"Relic of knowledge\">relic of knowledge</a>.\n</p><p>They provide different effects when they are effective. Relics have some global effect on your corporation when placed in your quantum vault\n</p>\n<!-- \nNewPP limit report\nCached time: 20261008232940\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:267-0!canonical and timestamp 20261008232940 and revision id 1638\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Relic of efficiency",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Relic of haste",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Relic of knowledge",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Relic of prestige",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

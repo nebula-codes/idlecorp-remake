@@ -1,0 +1,228 @@
+{
+  "id": 256,
+  "title": "Newcomer guide",
+  "namespace": 0,
+  "revisionId": 1610,
+  "revisionTimestamp": "2021-11-08T02:38:58Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Newcomer_guide",
+  "wikitext": "Hello, Newcomer! Welcome to IdleCorp Discord server, run by professional IdleCorp players and the bot developer. This text intends to shed some light on features and mechanics you might find confusing, and get your factories running as soon as possible without overwhelming you on Day 1. This text <u>'''is not going to have a list of IdleCorp setups as I'd like for you to discover and learn about the bot first.'''</u><br><br>\n Last Updated: 28/08/2021\n<br><br>\n&nbsp; - Run the [[Help:How to play|<code>$$tutorial</code>]] command to learn about some of the commands you will be frequently using during your first playthrough, and set your first facilities up. This command is going to introduce you to the game's mechanics and help you get a general sense of how things work.<br>\n&nbsp; - Table of Contents:\n:* Assets\n:* Facilities & Production\n:* Trading & Market\n:* Research & Technology\n:* Region & Logistics\n:* Modifiers & Services\n:* Reincorporation & Miscellaneous\n__TOC__\n-----\n== <u>'''DISCLAIMER:'''</u> ==\n&nbsp; - This message may see changes over time, depending on changes made to IdleCorp. The date of the last [[Updates|update]] will be shown.\n\n&nbsp; - This guide does not cover all of IdleCorp's features. Extensive guide can be accessed by running $$help or by visiting the Wiki that's run, edited and updated by both the bot developer and IdleCorp players. \n\nLink to IdleCorp Wiki: https://wiki.idlecorp.xyz/index.php/Main_Page<br>\n\n&nbsp; - Try to use <code>$$examine <asset/facility/service/policy></code> command to get concise information on a specific matter that you need help about.\n\n&nbsp; - If this text lacks the information you need, feel free to ask a question in <span style=\"color:blue\">'''#help'''</span> (You are<!--not--> here!).\n-----\n== <u>'''[[:Category:Asset|ASSETS]]'''</u> ==\n&nbsp; - [[:Category:Asset|Asset]]s from [[:Category:Facility|facilities]] are generated within a time frame. Those assets can then be sold to get [[capital]]. Certain assets are considered prerequisites, meaning they are required to either build facilities or be consumed to make another asset. The best example to this is the [[steel mill]], which you may build early on, which consumes 4 [[coal]] and 1 [[iron]] to produce 1 [[steel]].\n\n&nbsp; - A lot of the assets can be purchased with <code>$$buy</code>. This command, like many commands, has certain specifiers. This command is commonly used by players who are focusing on producing a certain asset that requires more than 2 prerequisites. It is a key command you will be frequently using early-mid stages. \n\n&nbsp; - A lot of the assets can also be scrapped with <code>$$scrap</code>. This command does not give you an asset that you can sell. You can use [[scrap]]s to give your factories experience and level them up with <code>$$addxp <facility> <amount></code>.\n\n&nbsp; - Facilities with experience can produce the Plus variant of an asset, given that the produced asset's Plus variant exists. Plus variants cost more than the normal asset. When your factories have more experience, the chances of an asset being a Plus variant increases. Another method to increase the chance is using plus variants of prerequisites or using [[:Category:Technology|technology]]. Consumption of Plus assets are turned OFF by default. You need to use the command <code>$$scp <facility></code> to have them consume said assets. This can be turned off by <code>$$ucp <facility></code>.\n\n&nbsp; - [[Land]]s are the only exception to most of these rules. They cannot be sold or transported.\n-----\n== <u>'''[[:Category:Facility|FACILITIES]] & PRODUCTION'''</u> ==\n&nbsp; - Almost every [[:Category:Facility|facility]] in game produces [[:Category:Facility|assets]] which you can sell for [[capital]].\n\n&nbsp; - Facility amount depends on how much [[land]] you have. You cannot build 2 facilities on a single land.\n\n&nbsp; - Production times can be shortened or extended. These mostly depend on the [[:Category:Technology|tech]] you have in the [[region]] and the regional production modifiers.\n\n&nbsp; - Passive Efficiency is determined by the amount of prerequisite assets you're <u>'''producing'''</u> to continually supply a factory that needs one. If you are producing enough prerequisites, your factory's passive efficiency is going to be at 100% and will not need extra purchases to keep it running. \n\n&nbsp; - There are LOTS of facilities in the game, don't be afraid to experiment with them! Try out different facilities and play-styles to see what suits you best. See <code>$$faclist</code> for a complete list of facilities you can build on IdleCorp.\n-----\n== <u>'''TRADING & [[market|MARKET]]'''</u> ==\n&nbsp; - Trading with other players is a crucial part of IdleCorp. All sorts of [[Category:Asset|assets]] can be traded on IdleCorp, ranging from [[wood]] to [[truck]]s.\n\n&nbsp; - <code>$$price</code> command shows you the existing assets, how much they cost, if they're tradable, if they can be [[scrap]]ped and if they can be sold on [[retail]] stores. The scale icon indicates that it's tradable. Shopping bags indicate that the asset can be sold on retail stores and is scrappable. \n\n&nbsp; - Two types of [[market]]s exist. One of them is the [[market#NPC Market|NPC market]], the other is the global [[market#Player Market|player market]].\n\n&nbsp; - NPC market has unlimited assets. The only restriction to your purchases from the NPC market is your '''hourly buy limit which can be viewed with $$cap'''. The hourly buy limit can be increased by building more [[logistics center|Logistics Centers]].\n\n&nbsp; - Global market access always requires at least one Logistics Center to be built. Global market is where players sell to and buy from other players. However, assets on global market are limited, and asset prices may vary depending on who sells the asset. Hourly buy limit is not affected when you buy assets from the global market.\n-----\n== <u>'''[[Research|RESEARCH]] & [[:Category:Technology|TECHNOLOGY]]'''</u> ==\n&nbsp; - [[Research]]ing is another crucial part of IdleCorp. Researching yields [[blueprint]]s, which you need to develop it into a technology with <code>$$dev <blueprint></code>. You need at least one [[research facility]], 1 million [[energy]] and [[capital]] to start a research.\n\n&nbsp; - Researching requires energy, an [[asset]] that can be generated using [[solar power plant]]s or [[coal power plant]]s. Energy can be purchased on global market as well as the NPC market. Coal power plant, as the name suggests, requires a steady supply of [[coal]] to continually produce energy. Solar power plants do not need to be supplied.\n\n&nbsp; - You can build a maximum of 8 research facilities in one [[region]]. Each research facility in the region grants you one blueprint per research facility, up to a maximum of 8 blueprints. The rarity for the blueprints are random. After 6 research facilities, the research cost also goes up by 500k energy+, which cannot be purchased from NPC market. 8 research facilities need 1 million energy, 1 million energy+ and 1 million capital to start a research. \n\n&nbsp; - A research can take up to 3 hours to finish, but can be completed instantly with 4 gratitude points, which are earned by voting.\n\n&nbsp; - Technologies can be traded. Fun fact, technology used to be the only asset which could be traded. Blueprints cannot be traded on the market, but can be sold to NPC market for 4 million capital.\n\n&nbsp; - Some of the technologies can be combined to create an \"u\"pgraded version. You need three of the same technology to combine them. You can also combine the upgraded versions to create an UU version of the tech. \n\n&nbsp; - Some technologies can be stacked to multiply their effects.\n\n&nbsp - Up to 6 technology slots can be unlocked by using [[reincorporation]] tokens.\n-----\n== <u>'''[[region|REGION]] & [[logistics|LOGISTICS]]'''</u> ==\n&nbsp; - [[Region]]s are individual servers with their own unique statistics. They are where your [[:Category:Asset|asset]]s are stored, and where your [[:Category:Facility|facilities]] are located.\n\n&nbsp; - Every region is assigned a region code that can be viewed with <code>$$rc</code>.\n\n&nbsp; - Assets can be transported between regions with <code>$$export(all) <region code> <asset> <amount></code>. Exporting requires trucks, an asset which can be produced, or be bought from other players. [[Truck]]s need [[gasoline]], which can be purchased from [[market#NPC Market|NPC market]]. Exports normally take 30 minutes, this time can be decreased with truck+ by 15 minutes. You can export a maximum of three times from a region. [[:Category:Technology|Technologies]] and [[blueprint]]s can also be transported. [[Land]]s or facilities cannot be exported to another region. [[Capital]] is shared across regions.\n\n&nbsp; - Do <code>$$logistics</code> to view the amount of trucks and gasoline you have, and your inboxes. \n\n&nbsp; - There are two types of inboxes, one of them is regional and one of them is global. Inboxes are where your trucks, assets and capital come to before you claim them with <code>$$claim <arrivals/inbox></code>.\n\n&nbsp; - Each [[Logistics center|Logistics Center]] increases your hourly buy limit by 2 million dollars.\n-----\n\n== <u>'''[[Region#Modifiers|MODIFIERS]] & [[:Category:service|SERVICES]]'''</u> ==\n&nbsp; - [[Region]]s have production modifiers that change every week. These modifiers affect the time it takes for a [[:Category:Facility|facility]] to produce an [[:Category:Asset|asset]]. \n\n&nbsp; - Happiness is another production modifier that decreases production time if it is increased.\n\n&nbsp; - [[:Category:Service|Service]]s are bonuses which modify various stats of your region. These range from happiness to a bonus on your factories' levels. These require a significant amount of money to unlock. Unlike assets, services are donated money to with <code>$$ds <service> <capital></code>. This means that you get to pay as small as you want, and unlock it over time.\n\n&nbsp; - [[:Category:Policy|Policies]] can be enacted to make significant boosts to your region. These can be viewed with <code>$$policies</code>.\n\n&nbsp; - Policies can only be enacted by the [[Regional legislator|Regional Legislator]]. Enacting policies require [[funding point|Funding Point]]s (FP).\n\n&nbsp; - Regional policies require [[Region office|Region Office]] service to be unlocked. This allows your players to participate in elections, any player who has the Voter's Boon and 10 million capital can become a candidate for the Regional Legislator spot by typing <code>$$joinballot</code>. Players then have to vote for the candidate they see fit with <code>$$voteballot <mention user></code>. Voters also need Voter's Boon to vote for a candidate.\n-----\n== <u>'''[[reincorporation|REINCORPORATION]] & MISCELLANEOUS'''</u> ==\n&nbsp; - As with all Idle Tycoon games, restarting your company is a really important part of IdleCorp. It unlocks significant bonuses, reincorporation points, reincorporation tokens and gives you 1,000 Pass XP for each billion of your net worth.\n\n&nbsp; - It is recommended to reincorporate at 10 billion net worth, as no more [[reincorporation]] token can be earned afterwards, unless you purchase any of the premium ranks. Reincorporation score is a value that can go up as high as your net worth, so is Pass XP.\n\n&nbsp; - Reincorporation tokens can be used with <code>$$usetoken <bonus></code>. Using the command without specifying a bonus shows you a window displaying the bonuses you can use your tokens on.\n\n&nbsp; - Your free starting [[land]] is going to be given to you in the region you reincorporate. \n\n&nbsp; - If you've progressed a bit in a [[region]] different than the one you intended to, you can <code>$$liquidate</code> to sell and demolish everything (including land) to move to a different region.\n\n&nbsp; - Before reincorporating or liquidating, make sure to remove installed [[:Category:Technology|technology]] and check [[market#Player Market|player market]] to see if you can sell your [[asset]]s to other people.\n\n&nbsp; - Land prices are exponential. The more you buy land, the more its price increases.<br><br><br>\nThis concludes this guide for now! It has been wonderful to closely interact with the members of this community to make this guide. Any feedback on it is highly appreciated!\n-----\nSpecial thanks to:<br>\nTeemaw for making this possible,<br>\nDermelles for constructing the guide, <br>\nPunisher<br>\nXPARAD0X<br>\navalidname<br>\nBossMan<br>\nMoykhaile<br>\nDrathmar for their valuable feedback contributions in perfecting this guide,<br>\nBen Cheung for carrying this guide over to the Wiki!",
+  "links": [
+    "Help:How to play",
+    "Updates",
+    ":Category:Asset",
+    ":Category:Facility",
+    "capital",
+    "steel mill",
+    "coal",
+    "iron",
+    "steel",
+    "scrap",
+    ":Category:Technology",
+    "Land",
+    "land",
+    "region",
+    "market",
+    "Category:Asset",
+    "wood",
+    "truck",
+    "retail",
+    "logistics center",
+    "Research",
+    "blueprint",
+    "research facility",
+    "energy",
+    "asset",
+    "solar power plant",
+    "coal power plant",
+    "reincorporation",
+    "logistics",
+    "Region",
+    "Truck",
+    "gasoline",
+    "Capital",
+    "Logistics center",
+    ":Category:service",
+    ":Category:Service",
+    ":Category:Policy",
+    "Regional legislator",
+    "funding point",
+    "Region office"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Newcomer guide",
+  "html": "<div class=\"mw-parser-output\"><p>Hello, Newcomer! Welcome to IdleCorp Discord server, run by professional IdleCorp players and the bot developer. This text intends to shed some light on features and mechanics you might find confusing, and get your factories running as soon as possible without overwhelming you on Day 1. This text <u><b>is not going to have a list of IdleCorp setups as I'd like for you to discover and learn about the bot first.</b></u><br /><br />\n</p>\n<pre>Last Updated: 28/08/2021\n</pre>\n<p><br /><br />\n&#160; - Run the <a href=\"/index.php/Help:How_to_play\" title=\"Help:How to play\"><code>$$tutorial</code></a> command to learn about some of the commands you will be frequently using during your first playthrough, and set your first facilities up. This command is going to introduce you to the game's mechanics and help you get a general sense of how things work.<br />\n&#160; - Table of Contents:\n</p>\n<dl><dd><ul><li>Assets</li>\n<li>Facilities &amp; Production</li>\n<li>Trading &amp; Market</li>\n<li>Research &amp; Technology</li>\n<li>Region &amp; Logistics</li>\n<li>Modifiers &amp; Services</li>\n<li>Reincorporation &amp; Miscellaneous</li></ul></dd></dl>\n<div id=\"toc\" class=\"toc\"><input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\" /><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2>Contents</h2><span class=\"toctogglespan\"><label class=\"toctogglelabel\" for=\"toctogglecheckbox\"></label></span></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#DISCLAIMER:\"><span class=\"tocnumber\">1</span> <span class=\"toctext\"><b>DISCLAIMER:</b></span></a></li>\n<li class=\"toclevel-1 tocsection-2\"><a href=\"#ASSETS\"><span class=\"tocnumber\">2</span> <span class=\"toctext\"><b>ASSETS</b></span></a></li>\n<li class=\"toclevel-1 tocsection-3\"><a href=\"#FACILITIES_.26_PRODUCTION\"><span class=\"tocnumber\">3</span> <span class=\"toctext\"><b>FACILITIES &amp; PRODUCTION</b></span></a></li>\n<li class=\"toclevel-1 tocsection-4\"><a href=\"#TRADING_.26_MARKET\"><span class=\"tocnumber\">4</span> <span class=\"toctext\"><b>TRADING &amp; MARKET</b></span></a></li>\n<li class=\"toclevel-1 tocsection-5\"><a href=\"#RESEARCH_.26_TECHNOLOGY\"><span class=\"tocnumber\">5</span> <span class=\"toctext\"><b>RESEARCH &amp; TECHNOLOGY</b></span></a></li>\n<li class=\"toclevel-1 tocsection-6\"><a href=\"#REGION_.26_LOGISTICS\"><span class=\"tocnumber\">6</span> <span class=\"toctext\"><b>REGION &amp; LOGISTICS</b></span></a></li>\n<li class=\"toclevel-1 tocsection-7\"><a href=\"#MODIFIERS_.26_SERVICES\"><span class=\"tocnumber\">7</span> <span class=\"toctext\"><b>MODIFIERS &amp; SERVICES</b></span></a></li>\n<li class=\"toclevel-1 tocsection-8\"><a href=\"#REINCORPORATION_.26_MISCELLANEOUS\"><span class=\"tocnumber\">8</span> <span class=\"toctext\"><b>REINCORPORATION &amp; MISCELLANEOUS</b></span></a></li>\n</ul>\n</div>\n\n<hr />\n<h2><span class=\"mw-headline\" id=\"DISCLAIMER:\"><u><b>DISCLAIMER:</b></u></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Newcomer_guide&amp;action=edit&amp;section=1\" title=\"Edit section: DISCLAIMER:\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>&#160; - This message may see changes over time, depending on changes made to IdleCorp. The date of the last <a href=\"/index.php/Updates\" class=\"mw-redirect\" title=\"Updates\">update</a> will be shown.\n</p><p>&#160; - This guide does not cover all of IdleCorp's features. Extensive guide can be accessed by running $$help or by visiting the Wiki that's run, edited and updated by both the bot developer and IdleCorp players. \n</p><p>Link to IdleCorp Wiki: <a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external free\" href=\"https://wiki.idlecorp.xyz/index.php/Main_Page\">https://wiki.idlecorp.xyz/index.php/Main_Page</a><br />\n</p><p>&#160; - Try to use <code>$$examine &lt;asset/facility/service/policy&gt;</code> command to get concise information on a specific matter that you need help about.\n</p><p>&#160; - If this text lacks the information you need, feel free to ask a question in <span style=\"color:blue\"><b>#help</b></span> (You are here!).\n</p>\n<hr />\n<h2><span class=\"mw-headline\" id=\"ASSETS\"><u><b><a href=\"/index.php/Category:Asset\" title=\"Category:Asset\">ASSETS</a></b></u></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Newcomer_guide&amp;action=edit&amp;section=2\" title=\"Edit section: ASSETS\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>&#160; - <a href=\"/index.php/Category:Asset\" title=\"Category:Asset\">Assets</a> from <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facilities</a> are generated within a time frame. Those assets can then be sold to get <a href=\"/index.php/Capital\" title=\"Capital\">capital</a>. Certain assets are considered prerequisites, meaning they are required to either build facilities or be consumed to make another asset. The best example to this is the <a href=\"/index.php/Steel_mill\" title=\"Steel mill\">steel mill</a>, which you may build early on, which consumes 4 <a href=\"/index.php/Coal\" title=\"Coal\">coal</a> and 1 <a href=\"/index.php/Iron\" title=\"Iron\">iron</a> to produce 1 <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>.\n</p><p>&#160; - A lot of the assets can be purchased with <code>$$buy</code>. This command, like many commands, has certain specifiers. This command is commonly used by players who are focusing on producing a certain asset that requires more than 2 prerequisites. It is a key command you will be frequently using early-mid stages. \n</p><p>&#160; - A lot of the assets can also be scrapped with <code>$$scrap</code>. This command does not give you an asset that you can sell. You can use <a href=\"/index.php/Scrap\" title=\"Scrap\">scraps</a> to give your factories experience and level them up with <code>$$addxp &lt;facility&gt; &lt;amount&gt;</code>.\n</p><p>&#160; - Facilities with experience can produce the Plus variant of an asset, given that the produced asset's Plus variant exists. Plus variants cost more than the normal asset. When your factories have more experience, the chances of an asset being a Plus variant increases. Another method to increase the chance is using plus variants of prerequisites or using <a href=\"/index.php/Category:Technology\" title=\"Category:Technology\">technology</a>. Consumption of Plus assets are turned OFF by default. You need to use the command <code>$$scp &lt;facility&gt;</code> to have them consume said assets. This can be turned off by <code>$$ucp &lt;facility&gt;</code>.\n</p><p>&#160; - <a href=\"/index.php/Land\" title=\"Land\">Lands</a> are the only exception to most of these rules. They cannot be sold or transported.\n</p>\n<hr />\n<h2><span id=\"FACILITIES_&amp;_PRODUCTION\"></span><span class=\"mw-headline\" id=\"FACILITIES_.26_PRODUCTION\"><u><b><a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">FACILITIES</a> &amp; PRODUCTION</b></u></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Newcomer_guide&amp;action=edit&amp;section=3\" title=\"Edit section: FACILITIES &amp; PRODUCTION\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>&#160; - Almost every <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facility</a> in game produces <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">assets</a> which you can sell for <a href=\"/index.php/Capital\" title=\"Capital\">capital</a>.\n</p><p>&#160; - Facility amount depends on how much <a href=\"/index.php/Land\" title=\"Land\">land</a> you have. You cannot build 2 facilities on a single land.\n</p><p>&#160; - Production times can be shortened or extended. These mostly depend on the <a href=\"/index.php/Category:Technology\" title=\"Category:Technology\">tech</a> you have in the <a href=\"/index.php/Region\" title=\"Region\">region</a> and the regional production modifiers.\n</p><p>&#160; - Passive Efficiency is determined by the amount of prerequisite assets you're <u><b>producing</b></u> to continually supply a factory that needs one. If you are producing enough prerequisites, your factory's passive efficiency is going to be at 100% and will not need extra purchases to keep it running. \n</p><p>&#160; - There are LOTS of facilities in the game, don't be afraid to experiment with them! Try out different facilities and play-styles to see what suits you best. See <code>$$faclist</code> for a complete list of facilities you can build on IdleCorp.\n</p>\n<hr />\n<h2><span id=\"TRADING_&amp;_MARKET\"></span><span class=\"mw-headline\" id=\"TRADING_.26_MARKET\"><u><b>TRADING &amp; <a href=\"/index.php/Market\" title=\"Market\">MARKET</a></b></u></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Newcomer_guide&amp;action=edit&amp;section=4\" title=\"Edit section: TRADING &amp; MARKET\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>&#160; - Trading with other players is a crucial part of IdleCorp. All sorts of can be traded on IdleCorp, ranging from <a href=\"/index.php/Wood\" title=\"Wood\">wood</a> to <a href=\"/index.php/Truck\" title=\"Truck\">trucks</a>.\n</p><p>&#160; - <code>$$price</code> command shows you the existing assets, how much they cost, if they're tradable, if they can be <a href=\"/index.php/Scrap\" title=\"Scrap\">scrapped</a> and if they can be sold on <a href=\"/index.php/Retail\" title=\"Retail\">retail</a> stores. The scale icon indicates that it's tradable. Shopping bags indicate that the asset can be sold on retail stores and is scrappable. \n</p><p>&#160; - Two types of <a href=\"/index.php/Market\" title=\"Market\">markets</a> exist. One of them is the <a href=\"/index.php/Market#NPC_Market\" title=\"Market\">NPC market</a>, the other is the global <a href=\"/index.php/Market#Player_Market\" title=\"Market\">player market</a>.\n</p><p>&#160; - NPC market has unlimited assets. The only restriction to your purchases from the NPC market is your <b>hourly buy limit which can be viewed with $$cap</b>. The hourly buy limit can be increased by building more <a href=\"/index.php/Logistics_center\" title=\"Logistics center\">Logistics Centers</a>.\n</p><p>&#160; - Global market access always requires at least one Logistics Center to be built. Global market is where players sell to and buy from other players. However, assets on global market are limited, and asset prices may vary depending on who sells the asset. Hourly buy limit is not affected when you buy assets from the global market.\n</p>\n<hr />\n<h2><span id=\"RESEARCH_&amp;_TECHNOLOGY\"></span><span class=\"mw-headline\" id=\"RESEARCH_.26_TECHNOLOGY\"><u><b><a href=\"/index.php/Research\" title=\"Research\">RESEARCH</a> &amp; <a href=\"/index.php/Category:Technology\" title=\"Category:Technology\">TECHNOLOGY</a></b></u></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Newcomer_guide&amp;action=edit&amp;section=5\" title=\"Edit section: RESEARCH &amp; TECHNOLOGY\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>&#160; - <a href=\"/index.php/Research\" title=\"Research\">Researching</a> is another crucial part of IdleCorp. Researching yields <a href=\"/index.php/Blueprint\" title=\"Blueprint\">blueprints</a>, which you need to develop it into a technology with <code>$$dev &lt;blueprint&gt;</code>. You need at least one <a href=\"/index.php/Research_facility\" title=\"Research facility\">research facility</a>, 1 million <a href=\"/index.php/Energy\" title=\"Energy\">energy</a> and <a href=\"/index.php/Capital\" title=\"Capital\">capital</a> to start a research.\n</p><p>&#160; - Researching requires energy, an <a href=\"/index.php/Asset\" class=\"mw-redirect\" title=\"Asset\">asset</a> that can be generated using <a href=\"/index.php/Solar_power_plant\" title=\"Solar power plant\">solar power plants</a> or <a href=\"/index.php/Coal_power_plant\" title=\"Coal power plant\">coal power plants</a>. Energy can be purchased on global market as well as the NPC market. Coal power plant, as the name suggests, requires a steady supply of <a href=\"/index.php/Coal\" title=\"Coal\">coal</a> to continually produce energy. Solar power plants do not need to be supplied.\n</p><p>&#160; - You can build a maximum of 8 research facilities in one <a href=\"/index.php/Region\" title=\"Region\">region</a>. Each research facility in the region grants you one blueprint per research facility, up to a maximum of 8 blueprints. The rarity for the blueprints are random. After 6 research facilities, the research cost also goes up by 500k energy+, which cannot be purchased from NPC market. 8 research facilities need 1 million energy, 1 million energy+ and 1 million capital to start a research. \n</p><p>&#160; - A research can take up to 3 hours to finish, but can be completed instantly with 4 gratitude points, which are earned by voting.\n</p><p>&#160; - Technologies can be traded. Fun fact, technology used to be the only asset which could be traded. Blueprints cannot be traded on the market, but can be sold to NPC market for 4 million capital.\n</p><p>&#160; - Some of the technologies can be combined to create an \"u\"pgraded version. You need three of the same technology to combine them. You can also combine the upgraded versions to create an UU version of the tech. \n</p><p>&#160; - Some technologies can be stacked to multiply their effects.\n</p><p>&amp;nbsp - Up to 6 technology slots can be unlocked by using <a href=\"/index.php/Reincorporation\" title=\"Reincorporation\">reincorporation</a> tokens.\n</p>\n<hr />\n<h2><span id=\"REGION_&amp;_LOGISTICS\"></span><span class=\"mw-headline\" id=\"REGION_.26_LOGISTICS\"><u><b><a href=\"/index.php/Region\" title=\"Region\">REGION</a> &amp; <a href=\"/index.php/Logistics\" title=\"Logistics\">LOGISTICS</a></b></u></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Newcomer_guide&amp;action=edit&amp;section=6\" title=\"Edit section: REGION &amp; LOGISTICS\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>&#160; - <a href=\"/index.php/Region\" title=\"Region\">Regions</a> are individual servers with their own unique statistics. They are where your <a href=\"/index.php/Category:Asset\" title=\"Category:Asset\">assets</a> are stored, and where your <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facilities</a> are located.\n</p><p>&#160; - Every region is assigned a region code that can be viewed with <code>$$rc</code>.\n</p><p>&#160; - Assets can be transported between regions with <code>$$export(all) &lt;region code&gt; &lt;asset&gt; &lt;amount&gt;</code>. Exporting requires trucks, an asset which can be produced, or be bought from other players. <a href=\"/index.php/Truck\" title=\"Truck\">Trucks</a> need <a href=\"/index.php/Gasoline\" title=\"Gasoline\">gasoline</a>, which can be purchased from <a href=\"/index.php/Market#NPC_Market\" title=\"Market\">NPC market</a>. Exports normally take 30 minutes, this time can be decreased with truck+ by 15 minutes. You can export a maximum of three times from a region. <a href=\"/index.php/Category:Technology\" title=\"Category:Technology\">Technologies</a> and <a href=\"/index.php/Blueprint\" title=\"Blueprint\">blueprints</a> can also be transported. <a href=\"/index.php/Land\" title=\"Land\">Lands</a> or facilities cannot be exported to another region. <a href=\"/index.php/Capital\" title=\"Capital\">Capital</a> is shared across regions.\n</p><p>&#160; - Do <code>$$logistics</code> to view the amount of trucks and gasoline you have, and your inboxes. \n</p><p>&#160; - There are two types of inboxes, one of them is regional and one of them is global. Inboxes are where your trucks, assets and capital come to before you claim them with <code>$$claim &lt;arrivals/inbox&gt;</code>.\n</p><p>&#160; - Each <a href=\"/index.php/Logistics_center\" title=\"Logistics center\">Logistics Center</a> increases your hourly buy limit by 2 million dollars.\n</p>\n<hr />\n<h2><span id=\"MODIFIERS_&amp;_SERVICES\"></span><span class=\"mw-headline\" id=\"MODIFIERS_.26_SERVICES\"><u><b><a href=\"/index.php/Region#Modifiers\" title=\"Region\">MODIFIERS</a> &amp; <a href=\"/index.php/Category:Service\" title=\"Category:Service\">SERVICES</a></b></u></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Newcomer_guide&amp;action=edit&amp;section=7\" title=\"Edit section: MODIFIERS &amp; SERVICES\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>&#160; - <a href=\"/index.php/Region\" title=\"Region\">Regions</a> have production modifiers that change every week. These modifiers affect the time it takes for a <a href=\"/index.php/Category:Facility\" title=\"Category:Facility\">facility</a> to produce an <a href=\"/index.php/Category:Asset\" title=\"Category:Asset\">asset</a>. \n</p><p>&#160; - Happiness is another production modifier that decreases production time if it is increased.\n</p><p>&#160; - <a href=\"/index.php/Category:Service\" title=\"Category:Service\">Services</a> are bonuses which modify various stats of your region. These range from happiness to a bonus on your factories' levels. These require a significant amount of money to unlock. Unlike assets, services are donated money to with <code>$$ds &lt;service&gt; &lt;capital&gt;</code>. This means that you get to pay as small as you want, and unlock it over time.\n</p><p>&#160; - <a href=\"/index.php/Category:Policy\" title=\"Category:Policy\">Policies</a> can be enacted to make significant boosts to your region. These can be viewed with <code>$$policies</code>.\n</p><p>&#160; - Policies can only be enacted by the <a href=\"/index.php/Regional_legislator\" title=\"Regional legislator\">Regional Legislator</a>. Enacting policies require <a href=\"/index.php/Funding_point\" title=\"Funding point\">Funding Points</a> (FP).\n</p><p>&#160; - Regional policies require <a href=\"/index.php/Region_office\" title=\"Region office\">Region Office</a> service to be unlocked. This allows your players to participate in elections, any player who has the Voter's Boon and 10 million capital can become a candidate for the Regional Legislator spot by typing <code>$$joinballot</code>. Players then have to vote for the candidate they see fit with <code>$$voteballot &lt;mention user&gt;</code>. Voters also need Voter's Boon to vote for a candidate.\n</p>\n<hr />\n<h2><span id=\"REINCORPORATION_&amp;_MISCELLANEOUS\"></span><span class=\"mw-headline\" id=\"REINCORPORATION_.26_MISCELLANEOUS\"><u><b><a href=\"/index.php/Reincorporation\" title=\"Reincorporation\">REINCORPORATION</a> &amp; MISCELLANEOUS</b></u></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Newcomer_guide&amp;action=edit&amp;section=8\" title=\"Edit section: REINCORPORATION &amp; MISCELLANEOUS\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>&#160; - As with all Idle Tycoon games, restarting your company is a really important part of IdleCorp. It unlocks significant bonuses, reincorporation points, reincorporation tokens and gives you 1,000 Pass XP for each billion of your net worth.\n</p><p>&#160; - It is recommended to reincorporate at 10 billion net worth, as no more <a href=\"/index.php/Reincorporation\" title=\"Reincorporation\">reincorporation</a> token can be earned afterwards, unless you purchase any of the premium ranks. Reincorporation score is a value that can go up as high as your net worth, so is Pass XP.\n</p><p>&#160; - Reincorporation tokens can be used with <code>$$usetoken &lt;bonus&gt;</code>. Using the command without specifying a bonus shows you a window displaying the bonuses you can use your tokens on.\n</p><p>&#160; - Your free starting <a href=\"/index.php/Land\" title=\"Land\">land</a> is going to be given to you in the region you reincorporate. \n</p><p>&#160; - If you've progressed a bit in a <a href=\"/index.php/Region\" title=\"Region\">region</a> different than the one you intended to, you can <code>$$liquidate</code> to sell and demolish everything (including land) to move to a different region.\n</p><p>&#160; - Before reincorporating or liquidating, make sure to remove installed <a href=\"/index.php/Category:Technology\" title=\"Category:Technology\">technology</a> and check <a href=\"/index.php/Market#Player_Market\" title=\"Market\">player market</a> to see if you can sell your <a href=\"/index.php/Asset\" class=\"mw-redirect\" title=\"Asset\">assets</a> to other people.\n</p><p>&#160; - Land prices are exponential. The more you buy land, the more its price increases.<br /><br /><br />\nThis concludes this guide for now! It has been wonderful to closely interact with the members of this community to make this guide. Any feedback on it is highly appreciated!\n</p>\n<hr />\n<p>Special thanks to:<br />\nTeemaw for making this possible,<br />\nDermelles for constructing the guide, <br />\nPunisher<br />\nXPARAD0X<br />\navalidname<br />\nBossMan<br />\nMoykhaile<br />\nDrathmar for their valuable feedback contributions in perfecting this guide,<br />\nBen Cheung for carrying this guide over to the Wiki!\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009140020\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.012 seconds\nReal time usage: 0.012 seconds\nPreprocessor visited node count: 84/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:256-0!canonical and timestamp 20261009140020 and revision id 1610\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Asset",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Blueprint",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Capital",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Energy",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Funding point",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Iron",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Land",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Logistics center",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Market",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region office",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Regional legislator",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Reincorporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Research facility",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Retail",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Scrap",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Solar power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel mill",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Truck",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Updates",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    },
+    {
+      "ns": 12,
+      "title": "Help:How to play",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Asset",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Facility",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Policy",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Service",
+      "exists": true
+    },
+    {
+      "ns": 14,
+      "title": "Category:Technology",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

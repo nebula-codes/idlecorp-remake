@@ -1,0 +1,66 @@
+{
+  "id": 14,
+  "title": "Coal mine",
+  "namespace": 0,
+  "revisionId": 1448,
+  "revisionTimestamp": "2021-07-03T06:21:01Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Coal_mine",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n!colspan=\"2\"| Cost\n|-\n|'''Cost''' || $250, 1,000x [[wood]]\n|-\n|'''Total Cost'''|| $400\n|-\n!colspan=\"2\"| Production\n|-\n|'''Inputs''' || N/A\n|-\n|'''Outputs''' || 8x [[coal]]\n|-\n|'''Production interval''' || 10 seconds\n|-\n|'''Production/Min''' || 48x [[coal]]\n|-\n!colspan=\"2\"| Profit\n|-\n|'''Profit/Min'''|| $9.60\n|-\n|'''True Profit/Min'''|| $9.60\n|-\n|'''Profit/Hour'''|| $576\n|-\n|'''Return of Investment/Min'''|| 2.4%\n|-\n|'''True Return of Investment/Min'''|| 2.4% \n|-\n!colspan=\"2\"| Aliases\n|-\n|colspan=\"2\" | coal mine, coalmine\n|}\n[[Category:Facility]]\n\nThe coal mine is a facility that produces 8x [[coal]] every 10 seconds. this is best budget option for high profit in early games. it also works very well in mid until late game for Coal Power Plant.\n\n== Related facilities ==\n'''As Building Material'''\n*[[Tree farm]]\n\n'''As input'''\n*[[Steel mill]]\n*[[Coal power plant]]\n\n== Related Blueprint ==\n*[[coal detector]]\n*[[mining specialization]]",
+  "links": [
+    "wood",
+    "coal",
+    "Category:Facility",
+    "Tree farm",
+    "Steel mill",
+    "Coal power plant",
+    "coal detector",
+    "mining specialization"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Coal mine",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<th colspan=\"2\">Cost\n</th></tr>\n<tr>\n<td><b>Cost</b></td>\n<td>$250, 1,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$400\n</td></tr>\n<tr>\n<th colspan=\"2\">Production\n</th></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>8x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>10 seconds\n</td></tr>\n<tr>\n<td><b>Production/Min</b></td>\n<td>48x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a>\n</td></tr>\n<tr>\n<th colspan=\"2\">Profit\n</th></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$9.60\n</td></tr>\n<tr>\n<td><b>True Profit/Min</b></td>\n<td>$9.60\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$576\n</td></tr>\n<tr>\n<td><b>Return of Investment/Min</b></td>\n<td>2.4%\n</td></tr>\n<tr>\n<td><b>True Return of Investment/Min</b></td>\n<td>2.4%\n</td></tr>\n<tr>\n<th colspan=\"2\">Aliases\n</th></tr>\n<tr>\n<td colspan=\"2\">coal mine, coalmine\n</td></tr></tbody></table>\n<p>The coal mine is a facility that produces 8x <a href=\"/index.php/Coal\" title=\"Coal\">coal</a> every 10 seconds. this is best budget option for high profit in early games. it also works very well in mid until late game for Coal Power Plant.\n</p>\n<h2><span class=\"mw-headline\" id=\"Related_facilities\">Related facilities</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Coal_mine&amp;action=edit&amp;section=1\" title=\"Edit section: Related facilities\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><b>As Building Material</b>\n</p>\n<ul><li><a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farm</a></li></ul>\n<p><b>As input</b>\n</p>\n<ul><li><a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a></li>\n<li><a href=\"/index.php/Coal_power_plant\" title=\"Coal power plant\">Coal power plant</a></li></ul>\n<h2><span class=\"mw-headline\" id=\"Related_Blueprint\">Related Blueprint</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Coal_mine&amp;action=edit&amp;section=2\" title=\"Edit section: Related Blueprint\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<ul><li><a href=\"/index.php/Coal_detector\" title=\"Coal detector\">coal detector</a></li>\n<li><a href=\"/index.php/Mining_specialization\" title=\"Mining specialization\">mining specialization</a></li></ul>\n<!-- \nNewPP limit report\nCached time: 20261009133301\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.008 seconds\nReal time usage: 0.012 seconds\nPreprocessor visited node count: 14/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:14-0!canonical and timestamp 20261009133301 and revision id 1448\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Coal",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal detector",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Coal power plant",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Mining specialization",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel mill",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Tree farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

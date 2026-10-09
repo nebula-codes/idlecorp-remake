@@ -1,0 +1,44 @@
+{
+  "id": 215,
+  "title": "Vacuum distillation",
+  "namespace": 0,
+  "revisionId": 1137,
+  "revisionTimestamp": "2021-02-05T20:07:28Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Vacuum_distillation",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;\"\n!Blueprint Requirements\n|-\n|1,000,000x [[Steel]], 800x [[Rubber]], 800,000x [[Aluminum]]\n|}\n\nChanges all oil refinery you own in this region. Each oil refinery now takes 0:15 for production when installed. The u version further decreases to 0:08 of production time.\n\n[[Category:Asset]]\n[[Category:Technology]]",
+  "links": [
+    "Steel",
+    "Rubber",
+    "Aluminum",
+    "Category:Asset",
+    "Category:Technology"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset",
+    "Technology"
+  ],
+  "redirect": null,
+  "renderedTitle": "Vacuum distillation",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;\">\n<tbody><tr>\n<th>Blueprint Requirements\n</th></tr>\n<tr>\n<td>1,000,000x <a href=\"/index.php/Steel\" title=\"Steel\">Steel</a>, 800x <a href=\"/index.php/Rubber\" title=\"Rubber\">Rubber</a>, 800,000x <a href=\"/index.php/Aluminum\" title=\"Aluminum\">Aluminum</a>\n</td></tr></tbody></table>\n<p>Changes all oil refinery you own in this region. Each oil refinery now takes 0:15 for production when installed. The u version further decreases to 0:08 of production time.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009063813\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.004 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:215-0!canonical and timestamp 20261009063813 and revision id 1137\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Aluminum",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

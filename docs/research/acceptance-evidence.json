@@ -1,0 +1,1081 @@
+{
+  "reports": {
+    "e2e-report.json": {
+      "path": "artifacts/e2e-report.json",
+      "sha256": "618719a1d396b6eb1ffcbd9e26f2326c7d1c04d1bc370ddeed3fed06379b4c37",
+      "report": {
+        "date": "2026-10-09T15:30:02.461Z",
+        "passed": [
+          "Two player accounts and a second session on one account",
+          "Clean unboosted onboarding",
+          "Concurrent duplicate build executes once and mismatched key reuse fails",
+          "Ownership and numeric bounds enforced",
+          "Land, construction, timed production, inventory, NPC sale, synchronized sessions",
+          "Concurrent unaffordable builds cannot double-spend",
+          "Server restart preserves account/session/state and catches up offline production",
+          "Two players trade with price priority, partial fill, escrow refund and cash conservation",
+          "Cancellation/fill race conserves escrowed goods, inbox deliveries and funds",
+          "Browser login, all screens, desktop/mobile layout and keyboard focus",
+          "Inspectable game state matches the authoritative account",
+          "Logout invalidates only the current session",
+          "Economic audit entries persisted",
+          "Consistent backup and transactional restore preserve the world"
+        ],
+        "fixtureScope": "Fresh unboosted onboarding through production and sale; explicit isolated SQL fixtures only for midgame player-market access.",
+        "browserErrors": []
+      }
+    },
+    "ui-workflows/report.json": {
+      "path": "artifacts/ui-workflows/report.json",
+      "sha256": "4dc2dcb09f78ed903c30ba9b2ec1e5132a42cb88c7b7d51e5d27e670778fb708",
+      "report": {
+        "date": "2026-10-09T15:37:03.520Z",
+        "passed": [
+          "Registration, build requirements modal, keyboard containment, Escape and confirmed construction",
+          "Inventory lock blocks sale, unlock restores operation, NPC sale and buy confirm actual funds and stock",
+          "GUI scrap conversion, facility XP allocation, plus-input preference and demolition refund",
+          "Player sell order, second-account fill, cash inbox and GUI claim",
+          "GUI buy-order escrow and cancellation refund",
+          "GUI research start, gratitude finish and blueprint claim",
+          "GUI technology development, installation, uninstall and tier combination",
+          "GUI retail product pricing, storefront naming and product naming",
+          "GUI public-service funding, candidacy and election vote",
+          "GUI daily reward, season-bonus claim, weekly unlock and daily challenge claim",
+          "GUI export dispatch and gifting to a private corporation by ID",
+          "GUI orbital launch, station construction and expedition dispatch",
+          "GUI knowledge relic finishes a real research project and claim stays available",
+          "GUI quantum vault deposit and withdrawal",
+          "GUI persisted expedition result claim, damaged-station repair and XP-based station upgrade",
+          "GUI timed export arrival and cargo claim",
+          "GUI confirmed timed retail sales and listing removal",
+          "GUI elected legislator policy activation with funding budget",
+          "GUI permanent token upgrade",
+          "GUI authoritative liquidation preview, confirmation and selected-region reset",
+          "390px mobile navigation, menu closes on selection, usable cards without horizontal overflow",
+          "GUI reincorporation preview, permanent reset and carried score",
+          "GUI identity changes charge gratitude and save privacy and notification preferences",
+          "No browser page errors across tested workflows"
+        ],
+        "errors": [],
+        "requests": {
+          "total": 425,
+          "api": 70,
+          "static": 355,
+          "throttled": 0
+        },
+        "fixtureScope": "Normal fresh registration/build/production/sale. Explicit isolated database fixtures for all midgame and space workflows. No production cheats or live accounts modified."
+      }
+    },
+    "desktop-report.json": {
+      "path": "artifacts/desktop-report.json",
+      "sha256": "d9c353675af5cb72750baca796f25e50f98eca3048693413c2f59d13b5861002",
+      "report": {
+        "date": "2026-10-09T15:37:34.870Z",
+        "packaged": true,
+        "executablePath": "release/win-unpacked/IdleCorp.exe",
+        "origin": "http://localhost:3001",
+        "security": {
+          "nodeIntegration": false,
+          "contextIsolation": true,
+          "sandbox": true,
+          "webSecurity": true
+        },
+        "sharedAccount": true,
+        "corporationId": "28c6d371-9a69-4728-862d-0921f1a4574e"
+      }
+    },
+    "portable-report.json": {
+      "path": "artifacts/portable-report.json",
+      "sha256": "ba83ed9a98b9d61cd1de7289f7f72232eaeb404ac66b8cdcbbf323bfca25bd3f",
+      "report": {
+        "date": "2026-10-09T15:37:51.106Z",
+        "portableExecutable": "release/IdleCorp-1.0.0-Windows-x64.exe",
+        "launched": true,
+        "packagedUi": "idlecorp://app/",
+        "sharedServerHealth": {
+          "ok": true,
+          "protocol": 1,
+          "ruleset": "2026.10-remake.1",
+          "database": "postgresql"
+        },
+        "rendererNodeDisabled": true
+      }
+    },
+    "clean-install-report.json": {
+      "path": "artifacts/clean-install-report.json",
+      "sha256": "983d99335c7061442ece1b5930f4ca2953f8647002049f66b52ec7111edcd1e9",
+      "report": {
+        "date": "2026-10-09T15:30:02.861Z",
+        "directory": ".runtime/clean-install-1791559784204",
+        "commands": [
+          "npm ci",
+          "npm run typecheck",
+          "npm run build",
+          "fresh PostgreSQL migration on startup",
+          "normal account registration and built web HTTP200"
+        ],
+        "passed": true,
+        "limitation": "Docker daemon was unavailable; native PostgreSQL used for clean-start verification. Electron binary download skipped in this second dependency tree; Windows package verified separately."
+      }
+    },
+    "load-report.json": {
+      "path": "artifacts/load-report.json",
+      "sha256": "e6655ad5eec91deb9a865c34352dcb271ef32e4d400d201562bf98ebb5e17961",
+      "report": {
+        "date": "2026-10-09T15:30:48.759Z",
+        "accounts": 6,
+        "concurrentClients": 12,
+        "facilities": 60,
+        "requests": 120,
+        "durationMs": 7737,
+        "requestsPerSecond": 15.5,
+        "p50Ms": 30,
+        "p95Ms": 101,
+        "maxMs": 157,
+        "productionVerified": true,
+        "errors": [],
+        "scope": "Loopback Windows Node server + native PostgreSQL. 6 corporations, 2 authenticated clients each, 60 live tree farms. Ten bursts of 12 concurrent settings writes/snapshots, paced 700ms. No claim for saturation throughput, large production fleets or internet latency."
+      }
+    },
+    "unit-test-report.json": {
+      "path": "artifacts/unit-test-report.json",
+      "sha256": "5e78434d79b7dc299bd39dfc655a05aeb978d8bc0211ac640468a8240aeb3455",
+      "report": {
+        "numTotalTestSuites": 13,
+        "numPassedTestSuites": 13,
+        "numFailedTestSuites": 0,
+        "numPendingTestSuites": 0,
+        "numTotalTests": 61,
+        "numPassedTests": 61,
+        "numFailedTests": 0,
+        "numPendingTests": 0,
+        "numTodoTests": 0,
+        "snapshot": {
+          "added": 0,
+          "failure": false,
+          "filesAdded": 0,
+          "filesRemoved": 0,
+          "filesRemovedList": [],
+          "filesUnmatched": 0,
+          "filesUpdated": 0,
+          "matched": 0,
+          "total": 0,
+          "unchecked": 0,
+          "uncheckedKeysByFile": [],
+          "unmatched": 0,
+          "updated": 0,
+          "didUpdate": false
+        },
+        "startTime": 1791560198008,
+        "success": true,
+        "testResults": [
+          {
+            "assertionResults": [
+              {
+                "ancestorTitles": [
+                  "source-backed regional technology and shared services"
+                ],
+                "fullName": "source-backed regional technology and shared services combines nine log loaders into UU, consumes the technology and improves all regional tree farms",
+                "status": "passed",
+                "title": "combines nine log loaders into UU, consumes the technology and improves all regional tree farms",
+                "duration": 3.0508000000000095,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "source-backed regional technology and shared services"
+                ],
+                "fullName": "source-backed regional technology and shared services oil mapping changes every regional oil-well output without leaking into other regions",
+                "status": "passed",
+                "title": "oil mapping changes every regional oil-well output without leaking into other regions",
+                "duration": 3.661299999999983,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "source-backed regional technology and shared services"
+                ],
+                "fullName": "source-backed regional technology and shared services funded fiber infrastructure affects both corporations and policies spend documented funding points",
+                "status": "passed",
+                "title": "funded fiber infrastructure affects both corporations and policies spend documented funding points",
+                "duration": 2.5689999999999884,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "source-backed regional technology and shared services"
+                ],
+                "fullName": "source-backed regional technology and shared services weekly election ties elect nobody instead of silently awarding the earliest candidate",
+                "status": "passed",
+                "title": "weekly election ties elect nobody instead of silently awarding the earliest candidate",
+                "duration": 0.700099999999992,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "source-backed prestige accounting and persistence"
+                ],
+                "fullName": "source-backed prestige accounting and persistence values land and facility construction at forty percent, including historical materials",
+                "status": "passed",
+                "title": "values land and facility construction at forty percent, including historical materials",
+                "duration": 0.19930000000002224,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "source-backed prestige accounting and persistence"
+                ],
+                "fullName": "source-backed prestige accounting and persistence free token land does not raise the next paid-land exponent",
+                "status": "passed",
+                "title": "free token land does not raise the next paid-land exponent",
+                "duration": 0.20810000000000173,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "source-backed prestige accounting and persistence"
+                ],
+                "fullName": "source-backed prestige accounting and persistence prestige stacks seasonal starter bonuses and preserves permanent/global resources",
+                "status": "passed",
+                "title": "prestige stacks seasonal starter bonuses and preserves permanent/global resources",
+                "duration": 0.6034999999999968,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "source-backed prestige accounting and persistence"
+                ],
+                "fullName": "source-backed prestige accounting and persistence vault retention is replay-deterministic and stabilization only applies in the reset region",
+                "status": "passed",
+                "title": "vault retention is replay-deterministic and stabilization only applies in the reset region",
+                "duration": 0.7752000000000123,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "late game orbital workflows with real resource accounting"
+                ],
+                "fullName": "late game orbital workflows with real resource accounting launches, builds a station, dispatches fixed research coordinates, claims once, and deposits/withdraws vault items",
+                "status": "passed",
+                "title": "launches, builds a station, dispatches fixed research coordinates, claims once, and deposits/withdraws vault items",
+                "duration": 0.9780000000000086,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "late game orbital workflows with real resource accounting"
+                ],
+                "fullName": "late game orbital workflows with real resource accounting uses a knowledge relic exactly once to finish existing research without rerolling its outcome",
+                "status": "passed",
+                "title": "uses a knowledge relic exactly once to finish existing research without rerolling its outcome",
+                "duration": 0.4182999999999879,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "passive relics activate only inside the global quantum vault"
+                ],
+                "fullName": "passive relics activate only inside the global quantum vault five vaulted haste relics shorten both regions research by exactly 150 seconds without changing rewards",
+                "status": "passed",
+                "title": "five vaulted haste relics shorten both regions research by exactly 150 seconds without changing rewards",
+                "duration": 0.6492000000000075,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "passive relics activate only inside the global quantum vault"
+                ],
+                "fullName": "passive relics activate only inside the global quantum vault one vaulted efficiency relic converts a plus batch into twice the normal output in both regions until withdrawn",
+                "status": "passed",
+                "title": "one vaulted efficiency relic converts a plus batch into twice the normal output in both regions until withdrawn",
+                "duration": 0.6200000000000045,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "passive relics activate only inside the global quantum vault"
+                ],
+                "fullName": "passive relics activate only inside the global quantum vault vaulted prestige relics lower the token divisor with the configured cap while leaving score and valuation unchanged",
+                "status": "passed",
+                "title": "vaulted prestige relics lower the token divisor with the configured cap while leaving score and valuation unchanged",
+                "duration": 0.6913000000000125,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "research, daily tiers, and regional inventory boundaries"
+                ],
+                "fullName": "research, daily tiers, and regional inventory boundaries catches up a 72-hour absence identically to minute checkpoints across two-day regional modifier changes",
+                "status": "passed",
+                "title": "catches up a 72-hour absence identically to minute checkpoints across two-day regional modifier changes",
+                "duration": 260.45120000000003,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "research, daily tiers, and regional inventory boundaries"
+                ],
+                "fullName": "research, daily tiers, and regional inventory boundaries season level seven discounts normal energy, plus energy, and money for an eight-facility project",
+                "status": "passed",
+                "title": "season level seven discounts normal energy, plus energy, and money for an eight-facility project",
+                "duration": 0.9787000000000035,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "research, daily tiers, and regional inventory boundaries"
+                ],
+                "fullName": "research, daily tiers, and regional inventory boundaries supports three free challenges and six platinum challenges with one claim each",
+                "status": "passed",
+                "title": "supports three free challenges and six platinum challenges with one claim each",
+                "duration": 2,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "research, daily tiers, and regional inventory boundaries"
+                ],
+                "fullName": "research, daily tiers, and regional inventory boundaries keeps awarded blueprints regional, exportable, and unavailable to the player order book",
+                "status": "passed",
+                "title": "keeps awarded blueprints regional, exportable, and unavailable to the player order book",
+                "duration": 0.5769000000000233,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "research, daily tiers, and regional inventory boundaries"
+                ],
+                "fullName": "research, daily tiers, and regional inventory boundaries charges gratitude only for actual identity changes and preserves privacy as free configuration",
+                "status": "passed",
+                "title": "charges gratitude only for actual identity changes and preserves privacy as free configuration",
+                "duration": 0.15739999999999554,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 1 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 1 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.602800000000002,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 1 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 1 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 1.2092000000000098,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 1 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 1 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 1.425100000000043,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 2 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 2 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.35480000000001155,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 2 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 2 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 1.3541000000000167,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 2 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 2 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.6243999999999801,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 3 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 3 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.29230000000001155,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 3 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 3 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.6016999999999939,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 3 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 3 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.4811000000000263,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 4 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 4 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.305499999999995,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 4 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 4 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.4163000000000352,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 4 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 4 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.4490000000000123,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 5 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 5 success: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.30340000000001055,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 5 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 5 failure_returned: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.3675000000000068,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "all expedition difficulties and deterministic success/failure paths"
+                ],
+                "fullName": "all expedition difficulties and deterministic success/failure paths difficulty 5 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "status": "passed",
+                "title": "difficulty 5 failure_destroyed: consumes documented coordinates/fuel, applies outcome once, and repairs exact damage",
+                "duration": 0.293200000000013,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "concurrent research, retail consumption, and tier rewards"
+                ],
+                "fullName": "concurrent research, retail consumption, and tier rewards runs independent projects in two regions and claims exactly their original regional outcomes",
+                "status": "passed",
+                "title": "runs independent projects in two regions and claims exactly their original regional outcomes",
+                "duration": 0.8978000000000179,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "concurrent research, retail consumption, and tier rewards"
+                ],
+                "fullName": "concurrent research, retail consumption, and tier rewards requires global HQ, consumes retail goods, applies support demand, and preserves locked inventory",
+                "status": "passed",
+                "title": "requires global HQ, consumes retail goods, applies support demand, and preserves locked inventory",
+                "duration": 0.8283000000000129,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "concurrent research, retail consumption, and tier rewards"
+                ],
+                "fullName": "concurrent research, retail consumption, and tier rewards free vote/weekly rewards respect entitlements, season unlock and replay protection",
+                "status": "passed",
+                "title": "free vote/weekly rewards respect entitlements, season unlock and replay protection",
+                "duration": 0.6961000000000013,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "concurrent research, retail consumption, and tier rewards"
+                ],
+                "fullName": "concurrent research, retail consumption, and tier rewards plus vote/weekly rewards respect entitlements, season unlock and replay protection",
+                "status": "passed",
+                "title": "plus vote/weekly rewards respect entitlements, season unlock and replay protection",
+                "duration": 0.4239000000000033,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "concurrent research, retail consumption, and tier rewards"
+                ],
+                "fullName": "concurrent research, retail consumption, and tier rewards gold vote/weekly rewards respect entitlements, season unlock and replay protection",
+                "status": "passed",
+                "title": "gold vote/weekly rewards respect entitlements, season unlock and replay protection",
+                "duration": 0.4157999999999902,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "concurrent research, retail consumption, and tier rewards"
+                ],
+                "fullName": "concurrent research, retail consumption, and tier rewards platinum vote/weekly rewards respect entitlements, season unlock and replay protection",
+                "status": "passed",
+                "title": "platinum vote/weekly rewards respect entitlements, season unlock and replay protection",
+                "duration": 0.3790000000000191,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              }
+            ],
+            "startTime": 1791560198243,
+            "endTime": 1791560198536.379,
+            "status": "passed",
+            "message": "",
+            "name": "tests/source-parity.test.ts"
+          },
+          {
+            "assertionResults": [
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy unboosted starter builds a documented tree farm and produces exactly at the deadline",
+                "status": "passed",
+                "title": "unboosted starter builds a documented tree farm and produces exactly at the deadline",
+                "duration": 3.501199999999997,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy does not conjure downstream resources without inputs",
+                "status": "passed",
+                "title": "does not conjure downstream resources without inputs",
+                "duration": 2.5626999999999924,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy one catch-up equals one-second reference advancement with shared scarce inputs and chains",
+                "status": "passed",
+                "title": "one catch-up equals one-second reference advancement with shared scarce inputs and chains",
+                "duration": 57.1528,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy matches reference through voter-boon expiry and regional modifier boundaries",
+                "status": "passed",
+                "title": "matches reference through voter-boon expiry and regional modifier boundaries",
+                "duration": 15.418499999999995,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy preserves random state on restart and never rerolls a completed research outcome",
+                "status": "passed",
+                "title": "preserves random state on restart and never rerolls a completed research outcome",
+                "duration": 1.3375000000000057,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy scrap gives units, explicit addxp gives levels, plus-input preference never consumes plus while disabled",
+                "status": "passed",
+                "title": "scrap gives units, explicit addxp gives levels, plus-input preference never consumes plus while disabled",
+                "duration": 0.5637000000000114,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy land tokens do not raise the paid-land exponent and liquidation refunds historical values",
+                "status": "passed",
+                "title": "land tokens do not raise the paid-land exponent and liquidation refunds historical values",
+                "duration": 0.582099999999997,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy partial global order fill conserves escrow and fees, cancellation returns only remaining amount",
+                "status": "passed",
+                "title": "partial global order fill conserves escrow and fees, cancellation returns only remaining amount",
+                "duration": 0.9104999999999848,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy exports consume documented gasoline and cannot claim twice or change region inventory early",
+                "status": "passed",
+                "title": "exports consume documented gasoline and cannot claim twice or change region inventory early",
+                "duration": 0.5741000000000156,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy guards integer ranges, account-local facility ownership and reward replay",
+                "status": "passed",
+                "title": "guards integer ranges, account-local facility ownership and reward replay",
+                "duration": 0.5525000000000091,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy stalls saturated cash and inventory producers before consuming inputs without blocking another corporation",
+                "status": "passed",
+                "title": "stalls saturated cash and inventory producers before consuming inputs without blocking another corporation",
+                "duration": 2.778800000000018,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy continues retail safely with saturated historical counters and rejects nonfinite simulation clocks",
+                "status": "passed",
+                "title": "continues retail safely with saturated historical counters and rejects nonfinite simulation clocks",
+                "duration": 0.6668000000000234,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy liquidation settles escrow and deliveries once, returns inbound cargo, and leaves other-region research intact",
+                "status": "passed",
+                "title": "liquidation settles escrow and deliveries once, returns inbound cargo, and leaves other-region research intact",
+                "duration": 1.4093000000000018,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "authoritative chronological economy"
+                ],
+                "fullName": "authoritative chronological economy prestige closes pending escrow without overflowing temporary ledgers and never resurrects projects or deliveries",
+                "status": "passed",
+                "title": "prestige closes pending escrow without overflowing temporary ledgers and never resurrects projects or deliveries",
+                "duration": 0.545800000000014,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              }
+            ],
+            "startTime": 1791560198664,
+            "endTime": 1791560198753.546,
+            "status": "passed",
+            "message": "",
+            "name": "apps/server/test/engine.test.ts"
+          },
+          {
+            "assertionResults": [
+              {
+                "ancestorTitles": [
+                  "pinned wiki content and original local artwork"
+                ],
+                "fullName": "pinned wiki content and original local artwork has complete stable identifiers and resolves every recipe, construction and technology reference",
+                "status": "passed",
+                "title": "has complete stable identifiers and resolves every recipe, construction and technology reference",
+                "duration": 7.940899999999999,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "pinned wiki content and original local artwork"
+                ],
+                "fullName": "pinned wiki content and original local artwork includes transport and space facilities omitted by category tables",
+                "status": "passed",
+                "title": "includes transport and space facilities omitted by category tables",
+                "duration": 1.1473999999999904,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "pinned wiki content and original local artwork"
+                ],
+                "fullName": "pinned wiki content and original local artwork maps every entity to a local accessible icon with provenance",
+                "status": "passed",
+                "title": "maps every entity to a local accessible icon with provenance",
+                "duration": 26.893799999999985,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "pinned wiki content and original local artwork"
+                ],
+                "fullName": "pinned wiki content and original local artwork pins sources and correctly distinguishes quality and NPC restrictions",
+                "status": "passed",
+                "title": "pins sources and correctly distinguishes quality and NPC restrictions",
+                "duration": 0.9321999999999946,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "documented economy examples and declared approximations"
+                ],
+                "fullName": "documented economy examples and declared approximations preserves representative wiki recipe, cost, and interval examples",
+                "status": "passed",
+                "title": "preserves representative wiki recipe, cost, and interval examples",
+                "duration": 0.716700000000003,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "documented economy examples and declared approximations"
+                ],
+                "fullName": "documented economy examples and declared approximations uses 100000 XP per level and base half-percent quality chance per level",
+                "status": "passed",
+                "title": "uses 100000 XP per level and base half-percent quality chance per level",
+                "duration": 0.19290000000000873,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "documented economy examples and declared approximations"
+                ],
+                "fullName": "documented economy examples and declared approximations keeps all research outcomes reachable with normalized independent rarity pools",
+                "status": "passed",
+                "title": "keeps all research outcomes reachable with normalized independent rarity pools",
+                "duration": 0.404200000000003,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              },
+              {
+                "ancestorTitles": [
+                  "documented economy examples and declared approximations"
+                ],
+                "fullName": "documented economy examples and declared approximations fixes unknown formulas as stable configurable approximations",
+                "status": "passed",
+                "title": "fixes unknown formulas as stable configurable approximations",
+                "duration": 0.21339999999997872,
+                "failureMessages": [],
+                "meta": {},
+                "tags": [],
+                "benchmarks": []
+              }
+            ],
+            "startTime": 1791560198883,
+            "endTime": 1791560198922.4043,
+            "status": "passed",
+            "message": "",
+            "name": "packages/rules/src/content.test.ts"
+          }
+        ]
+      }
+    },
+    "operations-report.json": {
+      "path": "artifacts/operations-report.json",
+      "sha256": "90145846c832f9f074a523789c711189b77ad25b7f930d9333408c24c1edf471",
+      "report": {
+        "date": "2026-10-09T15:36:43.061Z",
+        "passed": [
+          "All four administrative entitlement grants reach the authoritative account and persist audit entries",
+          "Invalid administrative tiers are rejected without changing entitlement",
+          "Explicit early, mid and late fixtures create usable facilities and region-local blueprint inventories",
+          "Development time advance settles actual chronological production and persists the result",
+          "Fixture opt-in, production rejection and bounded time validation enforced"
+        ],
+        "fixtureScope": "Isolated temporary PostgreSQL database; administrative and development CLIs only, no production endpoint."
+      }
+    },
+    "package-report.json": {
+      "path": "artifacts/package-report.json",
+      "sha256": "d2e5c0f6d2779cec49cd6e84b31ce96b32abc8623cdbe1866a16b198aea2fbc8",
+      "report": {
+        "date": "2026-10-09T15:37:32.619Z",
+        "matchedFiles": 207,
+        "sourceMatched": true,
+        "portableExecutable": "release/IdleCorp-1.0.0-Windows-x64.exe",
+        "bytes": 102474889,
+        "sha256": "27c06c116a44206140d89773f7ee2477302ee81b47772f197d97d0b042a25d96"
+      }
+    }
+  },
+  "testFiles": [
+    {
+      "path": "packages/rules/src/content.test.ts",
+      "exists": true,
+      "sha256": "2ff4a6fa5575dfd7f09c8524d0bf9f3b90a301904855bfa5257ce95f8aeb36e0"
+    },
+    {
+      "path": "apps/server/test/engine.test.ts",
+      "exists": true,
+      "sha256": "86bdfa92ebd16d201ab2fce2c3a6df9579f22f4b641e4f06fbb6fc437e4fe7fa"
+    },
+    {
+      "path": "tests/source-parity.test.ts",
+      "exists": true,
+      "sha256": "30bc7c1e8640a28f6491a60761bbb868acae91a9474d5532968e07baae737795"
+    },
+    {
+      "path": "scripts/test-e2e.mjs",
+      "exists": true,
+      "sha256": "98cfa02496e69d5a406e42145ddf1350c839ad934b78349e62fbc42b62b0ceaf"
+    },
+    {
+      "path": "apps/web/verify-ui.mjs",
+      "exists": true,
+      "sha256": "00c440adf3253640dc70ffcda11e9d6f34cc3e4d52067a044791cf92ef9f2e99"
+    },
+    {
+      "path": "scripts/test-desktop.mjs",
+      "exists": true,
+      "sha256": "07d5f8eb87e875f46cbf36cf860ee2c2bad0b5abdb88b05293c5bc6d215c9cd0"
+    },
+    {
+      "path": "scripts/test-portable.mjs",
+      "exists": true,
+      "sha256": "fbb55b9e97db7a7d88c649b1d8c0aa5dff0fb0c8e5f6648e0839988c141b60af"
+    },
+    {
+      "path": "scripts/test-clean-install.mjs",
+      "exists": true,
+      "sha256": "ea2c832b9a80c3ed21d56d46e1d88b00a3a4962a12d760bc88d158b67ad4c842"
+    },
+    {
+      "path": "scripts/test-load.mjs",
+      "exists": true,
+      "sha256": "3d598096f8899b7d76c93affa071cda319463e10c589ba46f540f2412b7e8412"
+    },
+    {
+      "path": "scripts/test-operations.mjs",
+      "exists": true,
+      "sha256": "af57c960ea09798f10a0a60edc5421035019aa76affb65a00106081480686753"
+    },
+    {
+      "path": "scripts/test-package.mjs",
+      "exists": true,
+      "sha256": "ce8844dcd8e47547aef7ac5a2cd9a6a25a87142c31b4dc780f970da852141fab"
+    }
+  ],
+  "interpretation": "Only explicit report assertions are evidence. Per-command and mechanic scope is maintained separately. Reports precede final polish unless regenerated. File hashes record the inspected evidence version."
+}

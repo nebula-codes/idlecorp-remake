@@ -1,0 +1,74 @@
+{
+  "id": 95,
+  "title": "Gasoline engine",
+  "namespace": 0,
+  "revisionId": 553,
+  "revisionTimestamp": "2020-07-26T12:22:26Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Gasoline_engine",
+  "wikitext": "[[Category:Asset]]\nThe gasoline engine is an asset that can be produced using [[Gasoline engine factory | Gasoline engine factories ]] and is used to build other assets or can be sold. A gasoline engine (American English) or Petrol engine (British English) is an internal combustion engine with spark-ignition, designed to run on petrol (gasoline) and similar volatile fuels.\n\n== Gasoline engine Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Gasoline engine factory]] || $2,000,000 || 15x [[steel]], 6x [[rubber]] || 1x [[gasoline engine]] || $1,116.46~ || 4:20\n|-\n|}\n\n== Facilities that use Gasoline engine ==\n{|class=\"wikitable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !!Production interval (MM:SS)\n|-\n|[[Car factory]] || $10,000,000 || 28x [[glass]], 1,000x [[plastic]], 1x [[CPU]],<br/> 1x [[gasoline engine]], 40x [[steel]], 30x [[rubber]] || 1x [[car]] || $1,293.00 || 10:00\n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Gasoline engine factory ",
+    "Gasoline engine factory",
+    "steel",
+    "rubber",
+    "gasoline engine",
+    "Car factory",
+    "glass",
+    "plastic",
+    "CPU",
+    "car"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Gasoline engine",
+  "html": "<div class=\"mw-parser-output\"><p>The gasoline engine is an asset that can be produced using <a href=\"/index.php/Gasoline_engine_factory\" title=\"Gasoline engine factory\"> Gasoline engine factories </a> and is used to build other assets or can be sold. A gasoline engine (American English) or Petrol engine (British English) is an internal combustion engine with spark-ignition, designed to run on petrol (gasoline) and similar volatile fuels.\n</p>\n<h2><span class=\"mw-headline\" id=\"Gasoline_engine_Production\">Gasoline engine Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Gasoline_engine&amp;action=edit&amp;section=1\" title=\"Edit section: Gasoline engine Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Gasoline_engine_factory\" title=\"Gasoline engine factory\">Gasoline engine factory</a></td>\n<td>$2,000,000</td>\n<td>15x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 6x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a></td>\n<td>1x <a class=\"mw-selflink selflink\">gasoline engine</a></td>\n<td>$1,116.46~</td>\n<td>4:20\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_Gasoline_engine\">Facilities that use Gasoline engine</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Gasoline_engine&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use Gasoline engine\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Car_factory\" title=\"Car factory\">Car factory</a></td>\n<td>$10,000,000</td>\n<td>28x <a href=\"/index.php/Glass\" title=\"Glass\">glass</a>, 1,000x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>, 1x <a href=\"/index.php/CPU\" title=\"CPU\">CPU</a>,<br /> 1x <a class=\"mw-selflink selflink\">gasoline engine</a>, 40x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 30x <a href=\"/index.php/Rubber\" title=\"Rubber\">rubber</a></td>\n<td>1x <a href=\"/index.php/Car\" title=\"Car\">car</a></td>\n<td>$1,293.00</td>\n<td>10:00\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008163350\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 11/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:95-0!canonical and timestamp 20261008163350 and revision id 553\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "CPU",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Car",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Car factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gasoline engine factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Glass",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Rubber",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

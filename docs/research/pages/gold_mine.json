@@ -1,0 +1,60 @@
+{
+  "id": 36,
+  "title": "Gold mine",
+  "namespace": 0,
+  "revisionId": 1435,
+  "revisionTimestamp": "2021-06-19T01:24:20Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Gold_mine",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;max-width: 35%;\"\n|'''Cost''' || $4,500, 50,000x [[wood]], 1,000x [[steel]]\n|-\n|'''Total Cost''' || $20,000\n|-\n|'''Inputs''' || N/A\n|-\n|'''Outputs''' || 4x [[gold]]\n|-\n|'''Production interval''' || 5 minutes\n|-\n|'''Production/Min''' || 0.8x [[gold]]\n|-\n|'''Profit/Min''' || $48.00\n|-\n|'''Profit/Hour''' || $2,880.00\n|-\n|'''Return On Investment''' || 0.024%\n|-\n|'''Aliases'''||gold mine, goldmine\n|}\n[[Category:Facility]]\n\nGold mine produces 4x [[gold]] every 5 minutes.\n\n== Related Facility ==\n'''Required Construction Material'''\n*[[Tree farm]]\n*[[Steel mill]]\n\n'''As Input'''\n*[[CPU factory]]",
+  "links": [
+    "wood",
+    "steel",
+    "gold",
+    "Category:Facility",
+    "Tree farm",
+    "Steel mill",
+    "CPU factory"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Gold mine",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;max-width: 35%;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$4,500, 50,000x <a href=\"/index.php/Wood\" title=\"Wood\">wood</a>, 1,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>\n</td></tr>\n<tr>\n<td><b>Total Cost</b></td>\n<td>$20,000\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>4x <a href=\"/index.php/Gold\" title=\"Gold\">gold</a>\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>5 minutes\n</td></tr>\n<tr>\n<td><b>Production/Min</b></td>\n<td>0.8x <a href=\"/index.php/Gold\" title=\"Gold\">gold</a>\n</td></tr>\n<tr>\n<td><b>Profit/Min</b></td>\n<td>$48.00\n</td></tr>\n<tr>\n<td><b>Profit/Hour</b></td>\n<td>$2,880.00\n</td></tr>\n<tr>\n<td><b>Return On Investment</b></td>\n<td>0.024%\n</td></tr>\n<tr>\n<td><b>Aliases</b></td>\n<td>gold mine, goldmine\n</td></tr></tbody></table>\n<p>Gold mine produces 4x <a href=\"/index.php/Gold\" title=\"Gold\">gold</a> every 5 minutes.\n</p>\n<h2><span class=\"mw-headline\" id=\"Related_Facility\">Related Facility</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Gold_mine&amp;action=edit&amp;section=1\" title=\"Edit section: Related Facility\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><b>Required Construction Material</b>\n</p>\n<ul><li><a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farm</a></li>\n<li><a href=\"/index.php/Steel_mill\" title=\"Steel mill\">Steel mill</a></li></ul>\n<p><b>As Input</b>\n</p>\n<ul><li><a href=\"/index.php/CPU_factory\" title=\"CPU factory\">CPU factory</a></li></ul>\n<!-- \nNewPP limit report\nCached time: 20261009034124\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 9/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:36-0!canonical and timestamp 20261009034124 and revision id 1435\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "CPU factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Gold",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel mill",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Tree farm",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Wood",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

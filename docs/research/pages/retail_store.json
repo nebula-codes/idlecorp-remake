@@ -1,0 +1,36 @@
+{
+  "id": 118,
+  "title": "Retail store",
+  "namespace": 0,
+  "revisionId": 509,
+  "revisionTimestamp": "2020-07-25T05:40:59Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Retail_store",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;\"\n|'''Cost''' || $20,000,000\n|-\n|'''Inputs''' || N/A\n|-\n|'''Outputs''' || N/A\n|-\n|'''Production interval''' || 10:00\n|}\n[[Category:Facility]]\n\nThe retail store is a facility created in the 1.7.0 [[Updates | Update]]. It sells products automatically to customers. For more info on the facilities, please see the [[Retail]] page.",
+  "links": [
+    "Category:Facility",
+    "Updates ",
+    "Retail"
+  ],
+  "templates": [],
+  "categories": [
+    "Facility"
+  ],
+  "redirect": null,
+  "renderedTitle": "Retail store",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;\">\n<tbody><tr>\n<td><b>Cost</b></td>\n<td>$20,000,000\n</td></tr>\n<tr>\n<td><b>Inputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Outputs</b></td>\n<td>N/A\n</td></tr>\n<tr>\n<td><b>Production interval</b></td>\n<td>10:00\n</td></tr></tbody></table>\n<p>The retail store is a facility created in the 1.7.0 <a href=\"/index.php/Updates\" class=\"mw-redirect\" title=\"Updates\"> Update</a>. It sells products automatically to customers. For more info on the facilities, please see the <a href=\"/index.php/Retail\" title=\"Retail\">Retail</a> page.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009124408\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.003 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:118-0!canonical and timestamp 20261009124408 and revision id 509\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Retail",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Updates",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

@@ -1,0 +1,113 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { randomUUID } from 'node:crypto';
+import { chromium } from 'playwright';
+import { testServer, client, sleep } from '../../scripts/test-support.mjs';
+
+const server=await testServer('ui_workflows',3027),passed=[],errors=[],requests=[],throttled=[];
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+page.on('pageerror',error=>errors.push(error.message));
+page.on('request',request=>requests.push(new URL(request.url()).pathname));
+page.on('response',response=>{if(response.status()===429)throttled.push(response.url());});
+page.setDefaultTimeout(15000);
+const capture=async name=>{fs.mkdirSync('artifacts/ui-workflows',{recursive:true});await page.screenshot({path:`artifacts/ui-workflows/${name}.png`,fullPage:true,animations:'disabled'});};
+const check=name=>{passed.push(name);console.log('PASS '+name);};
+const screen=async name=>{await page.getByRole('button',{name,exact:true}).first().click();};
+const state=()=>page.evaluate(()=>JSON.parse(window.render_game_to_text()));
+const changed=async fn=>{const before=(await state()).revision;await fn();await page.waitForFunction(rev=>JSON.parse(window.render_game_to_text()).revision>rev,before);await page.waitForFunction(()=>!JSON.parse(window.render_game_to_text()).busy);};
+const content=await(await fetch(server.origin+'/api/content')).json(),rid=content.regions[0].id;
+const password='Gui-workflow-test-42!',api=client(server.origin),peer=client(server.origin);
+try{
+ await page.goto(server.origin);
+ await page.getByLabel('Corporation name',{exact:true}).fill('Cedar Works');
+ await page.getByLabel('Username',{exact:true}).fill('gui_operator');
+ await page.getByLabel('Password',{exact:true}).fill(password);
+ await page.getByRole('button',{name:'Start building',exact:true}).click();
+ await page.getByText('Corporation overview',{exact:true}).waitFor();
+ await screen('Show all systems');
+ await screen('Facilities');
+ await page.getByLabel('Search facilities',{exact:true}).fill('Tree farm');
+ await page.getByRole('button',{name:'Build facility',exact:true}).click();
+ await page.getByRole('dialog').waitFor();await page.keyboard.press('Tab');
+ assert.ok(await page.evaluate(()=>Boolean(document.activeElement.closest('.modal'))));
+ await page.keyboard.press('Escape');assert.equal(await page.getByRole('dialog').count(),0);
+ await page.getByRole('button',{name:'Build facility',exact:true}).click();
+ await changed(()=>page.getByRole('button',{name:/Build for /}).click());
+ assert.equal((await state()).holding.facilities.length,1);check('Registration, build requirements modal, keyboard containment, Escape and confirmed construction');
+ await sleep(5500);await page.reload();await page.getByText('Corporation overview',{exact:true}).waitFor();
+ await screen('Inventory');
+ const wood=()=>page.getByRole('row').filter({has:page.getByText('Wood',{exact:true})});
+ await wood().getByRole('button',{name:'Manage'}).click();
+ await changed(()=>page.getByRole('button',{name:'Lock resource',exact:true}).click());
+ assert.ok((await state()).holding.locks.includes('wood'));await page.getByRole('button',{name:'Done',exact:true}).click();
+ await screen('Exchange');await page.getByLabel('Resource',{exact:true}).selectOption('wood');
+ assert.ok(await page.getByRole('button',{name:/^Sell 1/}).isDisabled());
+ await screen('Inventory');await wood().getByRole('button',{name:'Manage'}).click();
+ await changed(()=>page.getByRole('button',{name:'Unlock resource',exact:true}).click());await page.getByRole('button',{name:'Done',exact:true}).click();
+ await screen('Exchange');await page.getByLabel('Resource',{exact:true}).selectOption('wood');const beforeSale=(await state()).corporation.cash;
+ await changed(()=>page.getByRole('button',{name:/^Sell 1/}).click());assert.ok((await state()).corporation.cash>beforeSale);await changed(()=>page.getByRole('button',{name:/^Buy 1/}).click());check('Inventory lock blocks sale, unlock restores operation, NPC sale and buy confirm actual funds and stock');
+ await api.request('/api/auth/login',{username:'gui_operator',password});
+ await peer.request('/api/auth/register',{username:'gui_counterparty',password,name:'Birch Supply'});
+ await server.stop();
+ // Explicit progression fixtures exist only in this isolated database. No production account is edited.
+ for(const row of (await server.query('SELECT id,state FROM corporations')).rows){const c=row.state;c.cash=2_000_000_000_000;c.entitlement='platinum';c.gratitude=30;c.tokens=20;c.createdAt=Date.now()-120000;c.season.xp=1000000;const day=Math.floor(Date.now()/86400000);c.season.challenges={[`${day}:produce`]:10000,[`${day}:salesCents`]:10000000,[`${day}:builds`]:10,[`${day}:purchasesCents`]:10000000};c.lastProcessed=Date.now();const h=c.holdings[rid];h.land=100;h.inventory={relic_of_knowledge:1,lamp:2000,scrap:1000,wood:5000,energy:5000000,energy_plus:1000000,steel:10000000,rubber:10000000,blueprint_log_loader:5,log_loader:3,truck:5,gasoline:100000,rocket:10,rocket_fuel:20000,space_station_parts:50000,galactic_coordinate_i:5};h.blueprints={log_loader:5};h.facilities=['tree_farm','steel_mill','logistics_center','research_facility','hq','retail_store','customer_support_center','rocket_launch_pad'].map(type=>{const d=content.facilities.find(x=>x.id===type);return{id:randomUUID(),type,level:0,xp:0,nextCycle:Date.now()+60000,enabled:false,plus:true,allowPlus:false,installed:[],costPaid:d.cost,materialsPaid:d.materials,builtAt:Date.now()};});for(const [id,other]of Object.entries(c.holdings))if(id!==rid){other.land=10;other.facilities=[{...h.facilities.find(f=>f.type==='logistics_center'),id:randomUUID()}];}await server.query('UPDATE corporations SET state=$1 WHERE id=$2',[JSON.stringify(c),row.id]);}
+ await server.start();await page.reload();await page.getByText('Corporation overview',{exact:true}).waitFor();
+
+ await screen('Inventory');const lamp=page.getByRole('row').filter({has:page.getByText('Lamp',{exact:true})});await lamp.getByRole('button',{name:'Manage'}).click();await page.getByRole('button',{name:'Review scrap',exact:true}).click();await changed(()=>page.getByRole('button',{name:'Confirm scrap',exact:true}).click());assert.equal((await state()).holding.inventory.scrap,1001);
+ await screen('Facilities');await page.getByRole('button',{name:/Your facilities/}).click();const tree=page.locator('.owned-facility').filter({has:page.getByRole('heading',{name:'Tree farm',exact:true})});await tree.getByLabel('Quantity',{exact:true}).fill('100');await changed(()=>tree.getByRole('button',{name:'Apply XP',exact:true}).click());assert.equal((await state()).holding.facilities.find(f=>f.type==='tree_farm').xp,100);
+ const mill=page.locator('.owned-facility').filter({has:page.getByRole('heading',{name:'Steel mill',exact:true})});await changed(()=>mill.getByRole('button',{name:'Plus inputs: disabled',exact:true}).click());assert.ok((await state()).holding.facilities.find(f=>f.type==='steel_mill').allowPlus);const funds=(await state()).corporation.cash;await mill.getByRole('button',{name:'Demolish',exact:true}).click();await changed(()=>page.getByRole('dialog').getByRole('button',{name:'Demolish facility',exact:true}).click());assert.ok((await state()).corporation.cash>funds);assert.ok(!(await state()).holding.facilities.some(f=>f.type==='steel_mill'));check('GUI scrap conversion, facility XP allocation, plus-input preference and demolition refund');
+ await screen('Exchange');await page.getByRole('button',{name:'Player exchange',exact:true}).click();
+ await page.getByLabel('Resource',{exact:true}).selectOption('wood');await page.getByLabel('Quantity',{exact:true}).fill('10');await page.getByLabel('Price per unit ($)',{exact:true}).fill('1');
+ await page.getByRole('button',{name:'Review sell order',exact:true}).click();await page.getByRole('dialog').waitFor();await changed(()=>page.getByRole('button',{name:'Place sell order',exact:true}).click());
+ let response=await peer.action('order.create',rid,{side:'buy',assetId:'wood',quantity:10,price:100});assert.equal(response.status,200,JSON.stringify(response));
+ await page.reload();await page.getByText('Corporation overview',{exact:true}).waitFor();await screen('Logistics');
+ await changed(()=>page.getByRole('button',{name:'Claim all',exact:true}).click());assert.equal((await api.state()).inbox.filter(x=>x.status==='pending').length,0);check('Player sell order, second-account fill, cash inbox and GUI claim');
+
+ await screen('Exchange');await page.getByRole('button',{name:'Player exchange',exact:true}).click();await page.getByRole('button',{name:'Buy order',exact:true}).click();await page.getByLabel('Resource',{exact:true}).selectOption('wood');await page.getByLabel('Quantity',{exact:true}).fill('3');const escrowBefore=(await state()).corporation.cash;await page.getByRole('button',{name:'Review buy order',exact:true}).click();await page.getByRole('dialog').waitFor();await changed(()=>page.getByRole('button',{name:'Place buy order',exact:true}).click());assert.ok((await state()).corporation.cash<escrowBefore);await page.getByRole('button',{name:/My orders/}).click();await changed(()=>page.getByRole('button',{name:'Cancel',exact:true}).click());assert.equal((await state()).corporation.cash,escrowBefore);check('GUI buy-order escrow and cancellation refund');
+ await screen('Research & technology');await changed(()=>page.getByRole('button',{name:'Begin research',exact:true}).click());assert.equal((await state()).holding.research.at(-1).status,'working');
+ await changed(()=>page.getByRole('button',{name:/Finish now/}).click());assert.equal((await state()).holding.research.at(-1).status,'ready');
+ await changed(()=>page.getByRole('button',{name:'Collect discoveries',exact:true}).click());assert.equal((await state()).holding.research.at(-1).status,'claimed');check('GUI research start, gratitude finish and blueprint claim');
+ await page.getByRole('button',{name:'Technology library',exact:true}).click();await page.getByLabel('Search technologies',{exact:true}).fill('Log loader');await changed(()=>page.getByRole('button',{name:'Develop technology',exact:true}).click());
+ await page.getByRole('button',{name:'Install & upgrade',exact:true}).click();const farm=(await state()).holding.facilities.find(f=>f.type==='tree_farm');
+ await page.getByLabel('Installation facility',{exact:true}).selectOption(farm.id);await page.getByLabel('Technology item in regional inventory',{exact:true}).selectOption('log_loader');
+ await changed(()=>page.getByRole('button',{name:'Install technology',exact:true}).click());assert.ok((await state()).holding.facilities.find(f=>f.id===farm.id).installed.includes('log_loader'));
+ await changed(()=>page.getByRole('button',{name:'Uninstall',exact:true}).click());
+ await changed(()=>page.getByRole('button',{name:'Combine & upgrade',exact:true}).first().click());assert.ok((await state()).holding.inventory.log_loader_u>0);check('GUI technology development, installation, uninstall and tier combination');
+ await capture('research-desktop');
+
+ await screen('Retail');await page.getByLabel('Product',{exact:true}).selectOption('lamp');await page.getByLabel('Retail price per unit ($)',{exact:true}).fill('25');await changed(()=>page.getByRole('button',{name:'Save product listing',exact:true}).click());assert.equal((await state()).holding.retail[0].assetId,'lamp');
+ await page.getByLabel('Storefront name',{exact:true}).fill('Cedar General');await changed(()=>page.getByRole('button',{name:'Rename storefront',exact:true}).click());await page.getByLabel('Selected product’s display name',{exact:true}).fill('Cedar Reading Lamp');await changed(()=>page.getByRole('button',{name:'Rename product',exact:true}).click());assert.equal((await state()).holding.retail[0].name,'Cedar Reading Lamp');check('GUI retail product pricing, storefront naming and product naming');
+ await screen('Region & government');await page.getByLabel('Contribution ($)',{exact:true}).fill('100000000');const office=page.locator('.technology-card').filter({has:page.getByRole('heading',{name:'Region office',exact:true})});await changed(()=>office.getByRole('button',{name:/Contribute/}).click());
+ await page.getByRole('button',{name:'Elections',exact:true}).click();await changed(()=>page.getByRole('button',{name:'Stand for election',exact:true}).click());await changed(()=>page.getByRole('button',{name:'Vote',exact:true}).click());check('GUI public-service funding, candidacy and election vote');
+ await screen('Season & rewards');await changed(()=>page.locator('.reward-card').filter({has:page.getByRole('heading',{name:'Daily supply drop',exact:true})}).getByRole('button',{name:'Claim reward',exact:true}).click());await changed(()=>page.locator('.season-reward').first().getByRole('button',{name:'Claim',exact:true}).click());await changed(()=>page.locator('.reward-card').filter({has:page.getByRole('heading',{name:'Weekly dividend',exact:true})}).getByRole('button',{name:'Claim reward',exact:true}).click());await changed(()=>page.getByRole('button',{name:'Claim challenge reward',exact:true}).first().click());check('GUI daily reward, season-bonus claim, weekly unlock and daily challenge claim');
+ await screen('Logistics');await page.getByLabel('Destination region',{exact:true}).selectOption(content.regions[1].id);await page.getByLabel('Resource',{exact:true}).selectOption('wood');await page.getByLabel('Quantity',{exact:true}).fill('10');await changed(()=>page.getByRole('button',{name:'Dispatch shipment',exact:true}).click());
+ await page.getByRole('button',{name:'Corporation gifts',exact:true}).click();await page.getByLabel('Recipient corporation ID',{exact:true}).fill((await peer.state()).corporation.id);await page.getByLabel('Resource',{exact:true}).selectOption('wood');await changed(()=>page.getByRole('button',{name:'Send gift',exact:true}).click());assert.ok((await peer.state()).inbox.some(i=>i.status==='pending'));check('GUI export dispatch and gifting to a private corporation by ID');
+ await screen('Space program');await changed(()=>page.getByRole('button',{name:'Launch rocket',exact:true}).click());await changed(()=>page.getByRole('button',{name:'Construct station',exact:true}).click());await changed(()=>page.getByRole('button',{name:'Dispatch expedition',exact:true}).click());assert.equal((await api.state()).space.expedition.status,'traveling');check('GUI orbital launch, station construction and expedition dispatch');
+
+
+ await screen('Research & technology');await changed(()=>page.getByRole('button',{name:'Begin research',exact:true}).click());await screen('Space program');await changed(()=>page.getByRole('button',{name:'Use knowledge relic',exact:true}).click());assert.equal((await state()).holding.research.at(-1).status,'ready');await screen('Research & technology');await changed(()=>page.getByRole('button',{name:'Collect discoveries',exact:true}).click());await screen('Space program');check('GUI knowledge relic finishes a real research project and claim stays available');
+ await page.getByLabel('Resource',{exact:true}).selectOption('wood');await page.getByLabel('Quantity',{exact:true}).fill('5');await changed(()=>page.getByRole('button',{name:'Deposit',exact:true}).click());assert.equal((await api.state()).space.vault.wood,5);await changed(()=>page.getByRole('button',{name:'Withdraw',exact:true}).click());assert.equal((await api.state()).space.vault.wood,0);check('GUI quantum vault deposit and withdrawal');
+ await server.stop();
+ // Advance persisted deadlines only in the isolated fixture. Preserve the actual committed expedition outcome.
+ const corpus=(await server.query('SELECT id,state FROM corporations')).rows.find(row=>row.state.name==='Cedar Works');const c=corpus.state;c.lastProcessed=Date.now()-10000;c.space.expedition.readyAt=Date.now()-1000;c.space.station.hull=500;for(const shipment of c.shipments)shipment.arrivesAt=Date.now()-1000;for(const row of c.holdings[rid].retail)row.nextSale=Date.now()-5000;await server.query('UPDATE corporations SET state=$1 WHERE id=$2',[JSON.stringify(c),corpus.id]);const w=(await server.query('SELECT state FROM world WHERE id=1')).rows[0].state;const r=w.regions.find(r=>r.id===rid);r.electionEndsAt=Date.now()-1000;r.nextUpdate=Date.now()-500;await server.query('UPDATE world SET state=$1 WHERE id=1',[JSON.stringify(w)]);
+ await server.start();await page.reload();await page.getByText('Corporation overview',{exact:true}).waitFor();await screen('Space program');await changed(()=>page.getByRole('button',{name:'Receive expedition report',exact:true}).click());assert.equal((await api.state()).space.expedition.status,'claimed');await changed(()=>page.getByRole('button',{name:'Repair hull',exact:true}).click());assert.equal((await api.state()).space.station.hull,content.rules.remake.initialStationHull);await changed(()=>page.getByRole('button',{name:'Upgrade station',exact:true}).click());assert.equal((await api.state()).space.station.level,2);check('GUI persisted expedition result claim, damaged-station repair and XP-based station upgrade');
+ await screen('Logistics');await changed(()=>page.getByRole('button',{name:'Claim cargo',exact:true}).click());assert.equal((await api.state()).shipments[0].status,'claimed');check('GUI timed export arrival and cargo claim');
+ await screen('Retail');assert.ok((await state()).holding.retail[0].sold>0);await changed(()=>page.getByRole('button',{name:'Remove',exact:true}).click());assert.equal((await state()).holding.retail.length,0);check('GUI confirmed timed retail sales and listing removal');
+ await screen('Region & government');await page.getByRole('button',{name:'Regional policies',exact:true}).click();const policy=page.locator('.technology-card').filter({has:page.getByRole('heading',{name:'Solar subsidies',exact:true})});await changed(()=>policy.getByRole('button',{name:'Enable policy',exact:true}).click());assert.ok((await api.state()).regions.find(r=>r.id===rid).policies.includes('solar_subsidies'));check('GUI elected legislator policy activation with funding budget');
+ await screen('Reincorporation');const upgrade=page.locator('.upgrade-card').filter({has:page.getByRole('heading',{name:'Land acquisition',exact:true})});await changed(()=>upgrade.getByRole('button',{name:'1 tokens',exact:true}).click());assert.equal((await state()).corporation.upgrades.land_discount,1);check('GUI permanent token upgrade');
+ await page.getByLabel('Active region',{exact:true}).selectOption(content.regions[2].id);await page.getByRole('button',{name:'Preview regional liquidation',exact:true}).click();await page.getByRole('dialog').waitFor();await page.getByRole('button',{name:'Review permanent reset',exact:true}).click();await changed(()=>page.getByRole('button',{name:'Confirm permanent reset',exact:true}).click());assert.equal((await state()).holding.land,0);check('GUI authoritative liquidation preview, confirmation and selected-region reset');
+ await page.getByLabel('Active region',{exact:true}).selectOption(rid);
+ await screen('Overview');await capture('overview-desktop');
+ await page.setViewportSize({width:390,height:844});await page.getByRole('button',{name:'Toggle navigation',exact:true}).click();await screen('Facilities');
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1));assert.equal(await page.locator('.app-shell.menu-open').count(),0);
+ await page.getByLabel('Search facilities',{exact:true}).fill('Tree farm');await capture('facilities-mobile');
+ await page.getByRole('button',{name:'Toggle navigation',exact:true}).click();await screen('Inventory');assert.ok(await page.getByRole('heading',{name:'Inventory',exact:true}).isVisible());check('390px mobile navigation, menu closes on selection, usable cards without horizontal overflow');
+ await page.setViewportSize({width:1440,height:1000});await screen('Reincorporation');await page.getByRole('button',{name:'Preview reincorporation',exact:true}).click();await page.getByRole('dialog').waitFor();await page.getByRole('button',{name:'Review permanent reset',exact:true}).click();await changed(()=>page.getByRole('button',{name:'Confirm permanent reset',exact:true}).click());assert.equal((await state()).holding.facilities.length,0);assert.ok((await state()).corporation.score>0);check('GUI reincorporation preview, permanent reset and carried score');
+
+ await screen('Settings & field guide');await page.getByLabel('Corporation name',{exact:true}).fill('Cedar Refined');await page.getByLabel('Motto',{exact:true}).fill('Built and verified together.');await page.getByLabel('Hide my corporation from public leaderboards',{exact:true}).uncheck();await page.getByLabel('Show completed-event notifications',{exact:true}).uncheck();const gratitudeBefore=(await state()).corporation.gratitude;await changed(()=>page.getByRole('button',{name:'Save corporation settings',exact:true}).click());const updated=(await state()).corporation;assert.equal(updated.name,'Cedar Refined');assert.equal(updated.privacy,false);assert.equal(updated.notifications,false);assert.equal(updated.gratitude,gratitudeBefore-3);check('GUI identity changes charge gratitude and save privacy and notification preferences');
+ assert.equal(errors.length,0,errors.join('\n'));check('No browser page errors across tested workflows');
+ assert.equal(throttled.length,0,'Static asset loading must not exhaust the API rate allowance');
+ fs.writeFileSync('artifacts/ui-workflows/report.json',JSON.stringify({date:new Date().toISOString(),passed,errors,requests:{total:requests.length,api:requests.filter(url=>url.startsWith('/api')).length,static:requests.filter(url=>!url.startsWith('/api')).length,throttled:throttled.length},fixtureScope:'Normal fresh registration/build/production/sale. Explicit isolated database fixtures for all midgame and space workflows. No production cheats or live accounts modified.'},null,2));
+}catch(error){await capture('failure');console.error(await state().catch(()=>({})));throw error;}
+finally{await browser.close();await server.close();}

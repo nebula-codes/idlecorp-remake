@@ -1,0 +1,56 @@
+{
+  "id": 45,
+  "title": "Advanced woodworking",
+  "namespace": 0,
+  "revisionId": 203,
+  "revisionTimestamp": "2019-12-06T07:16:36Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Advanced_woodworking",
+  "wikitext": "{|class=\"wikitable\" style=\"float:right;\"\n!Blueprint Requirements\n|-\n|50,000x [[steel]], 50,000x [[plastic]]\n|}\n\nImproves all [[furniture factory|furniture factories]] of a [[corporation]] in the [[region]] it is installed in to reduce its production time to 3:20 from 4:00.\n[[Category:Asset]]\n[[Category:Technology]]",
+  "links": [
+    "steel",
+    "plastic",
+    "furniture factory",
+    "corporation",
+    "region",
+    "Category:Asset",
+    "Category:Technology"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset",
+    "Technology"
+  ],
+  "redirect": null,
+  "renderedTitle": "Advanced woodworking",
+  "html": "<div class=\"mw-parser-output\"><table class=\"wikitable\" style=\"float:right;\">\n<tbody><tr>\n<th>Blueprint Requirements\n</th></tr>\n<tr>\n<td>50,000x <a href=\"/index.php/Steel\" title=\"Steel\">steel</a>, 50,000x <a href=\"/index.php/Plastic\" title=\"Plastic\">plastic</a>\n</td></tr></tbody></table>\n<p>Improves all <a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">furniture factories</a> of a <a href=\"/index.php/Corporation\" title=\"Corporation\">corporation</a> in the <a href=\"/index.php/Region\" title=\"Region\">region</a> it is installed in to reduce its production time to 3:20 from 4:00.\n</p>\n<!-- \nNewPP limit report\nCached time: 20261009145531\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.004 seconds\nReal time usage: 0.005 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:45-0!canonical and timestamp 20261009145531 and revision id 203\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Corporation",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Plastic",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Region",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Steel",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

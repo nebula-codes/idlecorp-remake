@@ -1,0 +1,43 @@
+{
+  "id": 66,
+  "title": "Wood",
+  "namespace": 0,
+  "revisionId": 460,
+  "revisionTimestamp": "2020-07-08T09:22:09Z",
+  "retrievedAt": "2026-10-09T15:05:31.328378+00:00",
+  "url": "https://wiki.idlecorp.xyz/index.php/Wood",
+  "wikitext": "[[Category:Asset]]\nWood is an asset grown in the region using [[Tree farm]]s. The wood can be processed into other commodities or sold.\n\n== Wood Production ==\n{| class=\"wikitable sortable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !! Production <br/>interval (MM:SS)\n|-\n|[[Tree farm]] || $100 || N/A || 2x [[wood]] || $3.60 || 0:05\n|-\n|}\n\n== Facilities that use Wood ==\n{|class=\"wikitable\"\n!Name !! Cost !! Inputs !! Outputs !! Profit/Min !!Production interval (MM:SS)\n|-\n|[[Furniture factory]] || $2,000 || 10x [[wood]] || 1x [[furniture]] || $14.63~ || 4:00 \n|-\n|}",
+  "links": [
+    "Category:Asset",
+    "Tree farm",
+    "wood",
+    "Furniture factory",
+    "furniture"
+  ],
+  "templates": [],
+  "categories": [
+    "Asset"
+  ],
+  "redirect": null,
+  "renderedTitle": "Wood",
+  "html": "<div class=\"mw-parser-output\"><p>Wood is an asset grown in the region using <a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farms</a>. The wood can be processed into other commodities or sold.\n</p>\n<h2><span class=\"mw-headline\" id=\"Wood_Production\">Wood Production</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Wood&amp;action=edit&amp;section=1\" title=\"Edit section: Wood Production\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable sortable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production <br />interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Tree_farm\" title=\"Tree farm\">Tree farm</a></td>\n<td>$100</td>\n<td>N/A</td>\n<td>2x <a class=\"mw-selflink selflink\">wood</a></td>\n<td>$3.60</td>\n<td>0:05\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Facilities_that_use_Wood\">Facilities that use Wood</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/index.php?title=Wood&amp;action=edit&amp;section=2\" title=\"Edit section: Facilities that use Wood\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Inputs</th>\n<th>Outputs</th>\n<th>Profit/Min</th>\n<th>Production interval (MM:SS)\n</th></tr>\n<tr>\n<td><a href=\"/index.php/Furniture_factory\" title=\"Furniture factory\">Furniture factory</a></td>\n<td>$2,000</td>\n<td>10x <a class=\"mw-selflink selflink\">wood</a></td>\n<td>1x <a href=\"/index.php/Furniture\" title=\"Furniture\">furniture</a></td>\n<td>$14.63~</td>\n<td>4:00\n</td></tr>\n</tbody></table>\n<!-- \nNewPP limit report\nCached time: 20261008162156\nCache expiry: 86400\nDynamic content: false\nComplications: []\nCPU time usage: 0.000 seconds\nReal time usage: 0.002 seconds\nPreprocessor visited node count: 9/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key icwiki:pcache:idhash:66-0!canonical and timestamp 20261008162156 and revision id 460\n -->\n</div>",
+  "renderedLinks": [
+    {
+      "ns": 0,
+      "title": "Furniture",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Furniture factory",
+      "exists": true
+    },
+    {
+      "ns": 0,
+      "title": "Tree farm",
+      "exists": true
+    }
+  ],
+  "images": [],
+  "expandedTemplates": []
+}

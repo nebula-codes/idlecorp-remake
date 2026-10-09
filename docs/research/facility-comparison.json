@@ -1,0 +1,508 @@
+[
+  {
+    "facility": "Lamp factory",
+    "field": "Inputs",
+    "summary": "12x [[LED]] 6x [[plastic]]",
+    "detail": "12x [[LED]], 6x [[plastic]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Lamp factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Lamp_factory",
+        "revisionId": 1431,
+        "revisionTimestamp": "2021-06-19T01:17:31Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Lamp factory",
+    "field": "Outputs",
+    "summary": "1x [[lamp]]",
+    "detail": "2x [[lamp]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Lamp factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Lamp_factory",
+        "revisionId": 1431,
+        "revisionTimestamp": "2021-06-19T01:17:31Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Clothing factory",
+    "field": "Inputs",
+    "summary": "10x [[cotton]], 20x [[polyester]]",
+    "detail": "20x [[polyester]], 10x [[cotton]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Clothing factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Clothing_factory",
+        "revisionId": 1433,
+        "revisionTimestamp": "2021-06-19T01:21:16Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Cell phone factory",
+    "field": "Inputs",
+    "summary": "1x [[glass]], 5x [[plastic]], 1x [[CPU]]",
+    "detail": "1x [[CPU]], 5x [[plastic]], 1x [[glass]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Cell phone factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Cell_phone_factory",
+        "revisionId": 1441,
+        "revisionTimestamp": "2021-06-19T01:31:31Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Laptop factory",
+    "field": "Cost",
+    "summary": "$365,000, 10,000x [[glass]], 10,000x [[aluminum]], 10,000x [[steel]], 100,000x [[wood]]",
+    "detail": "$365,000, 10,000x [[steel]], <br/>100,000x [[wood]], <br/>10,000x [[aluminum]], <br/>10,000x [[glass]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Laptop factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Laptop_factory",
+        "revisionId": 1442,
+        "revisionTimestamp": "2021-06-19T01:32:31Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Laptop factory",
+    "field": "Inputs",
+    "summary": "2x [[glass]], 8x [[plastic]], 1x [[CPU]]",
+    "detail": "1x [[CPU]], 8x [[plastic]], 2x [[glass]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Laptop factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Laptop_factory",
+        "revisionId": 1442,
+        "revisionTimestamp": "2021-06-19T01:32:31Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Research chemical factory",
+    "field": "Cost",
+    "summary": "$330,000, 50,000x [[rubber]], 10,000x [[aluminum]], 10,000x [[steel]]",
+    "detail": "$330,000, 10,000x [[steel]], <br/>50,000x [[rubber]], </br>10,000x [[aluminum]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Research chemical factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_chemical_factory",
+        "revisionId": 1436,
+        "revisionTimestamp": "2021-06-19T01:25:37Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Solar power plant",
+    "field": "Cost",
+    "summary": "$110,000, 250,000x [[glass]], 25,000x [[aluminum]], 5,000x [[steel]]",
+    "detail": "$110,000, 5,000x [[steel]], <br/>25,000x [[aluminum]], 25,000x [[glass]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Solar power plant",
+        "url": "https://wiki.idlecorp.xyz/index.php/Solar_power_plant",
+        "revisionId": 1429,
+        "revisionTimestamp": "2021-06-19T01:12:55Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Digital camera factory",
+    "field": "Cost",
+    "summary": "$320,000, 200,000x [[glass]], 100,000x [[aluminum]], 10,000x [[steel]]",
+    "detail": "$320,000, 10,000x [[steel]], <br/>100,000x [[aluminum]], 20,000x [[glass]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Digital camera factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Digital_camera_factory",
+        "revisionId": 1444,
+        "revisionTimestamp": "2021-06-19T01:34:19Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Digital camera factory",
+    "field": "Inputs",
+    "summary": "100x [[plastic]], 1x [[CCD]]",
+    "detail": "1x [[CCD]], 100x [[plastic]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Digital camera factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Digital_camera_factory",
+        "revisionId": 1444,
+        "revisionTimestamp": "2021-06-19T01:34:19Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Television factory",
+    "field": "Cost",
+    "summary": "$450,000, 10,000x [[rubber]], 10,000x [[glass]], 150,000x [[aluminum]], 10,000x [[steel]]",
+    "detail": "$450,000, 10,000x [[rubber]], <br/>10,000x [[steel]], <br/>150,000x [[aluminum]], <br/>10,000x [[glass]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Television factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Television_factory",
+        "revisionId": 1445,
+        "revisionTimestamp": "2021-06-19T01:35:23Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Gasoline engine factory",
+    "field": "Cost",
+    "summary": "$500,000, 100,000x [[rubber]], 100,000x [[steel]]",
+    "detail": "$500,000, 100,000x [[steel]], 100,000x [[rubber]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Gasoline engine factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Gasoline_engine_factory",
+        "revisionId": 1446,
+        "revisionTimestamp": "2021-06-19T01:36:16Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Car factory",
+    "field": "Cost",
+    "summary": "$6,750,000, 10,000x [[rubber]], 100,000x [[steel]], 3,000x [[furniture]], 1,000x [[laptop]]",
+    "detail": "$6,750,000, 100,000x [[steel]], 10,000x [[rubber]], 3,000x [[furniture]], 1,000x [[laptop]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Car factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Car_factory",
+        "revisionId": 1447,
+        "revisionTimestamp": "2021-06-19T01:37:14Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Car factory",
+    "field": "Inputs",
+    "summary": "28x [[glass]], 1,000x [[plastic]], 1x [[CPU]],<br/> 1x [[gasoline engine]], 40x [[steel]], 30x [[rubber]]",
+    "detail": "1x [[CPU]], 40x [[steel]], 30x [[rubber]], 1,000x [[plastic]], 28x [[glass]], 1x [[gasoline engine]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Car factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Car_factory",
+        "revisionId": 1447,
+        "revisionTimestamp": "2021-06-19T01:37:14Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Logistics center",
+    "field": "Cost",
+    "summary": "$8,605,000, 10,000x [[glass]], 250,000x [[aluminum]], 10,000x [[steel]], 250x [[furniture]]",
+    "detail": "$10,000,000",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Logistics center",
+        "url": "https://wiki.idlecorp.xyz/index.php/Logistics_center",
+        "revisionId": 1343,
+        "revisionTimestamp": "2021-05-11T12:20:25Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Prescription drug factory",
+    "field": "Cost",
+    "summary": "$3,700,000, 1,000,000x [[rubber]], 10,000x [[glass]], 1,000,000x [[aluminum]]",
+    "detail": "$13,000,000, 100,000x [[rubber]], 250,000x [[steel]], 10,000x [[glass]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Prescription drug factory",
+        "url": "https://wiki.idlecorp.xyz/index.php/Prescription_drug_factory",
+        "revisionId": 1439,
+        "revisionTimestamp": "2021-06-19T01:29:29Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Retail store",
+    "field": "Cost",
+    "summary": "$15,485,000, 500x [[clothing]], 100,000x [[glass]], 100,000x [[aluminum]], 100,000x [[steel]], 5,000x [[furniture]]",
+    "detail": "$20,000,000",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Retail store",
+        "url": "https://wiki.idlecorp.xyz/index.php/Retail_store",
+        "revisionId": 509,
+        "revisionTimestamp": "2020-07-25T05:40:59Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Retail store",
+    "field": "Inputs",
+    "summary": "Varies",
+    "detail": "N/A",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Retail store",
+        "url": "https://wiki.idlecorp.xyz/index.php/Retail_store",
+        "revisionId": 509,
+        "revisionTimestamp": "2020-07-25T05:40:59Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Retail store",
+    "field": "Outputs",
+    "summary": "Varies",
+    "detail": "N/A",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Retail store",
+        "url": "https://wiki.idlecorp.xyz/index.php/Retail_store",
+        "revisionId": 509,
+        "revisionTimestamp": "2020-07-25T05:40:59Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Research facility",
+    "field": "Inputs",
+    "summary": "N/A",
+    "detail": "1,000,000 [[energy]], $1,000,000, \n500,000 [[energy]]+ per research facility past 6",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Research facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_facility",
+        "revisionId": 1069,
+        "revisionTimestamp": "2021-01-17T13:54:13Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "Research facility",
+    "field": "Outputs",
+    "summary": "N/A",
+    "detail": "1 Blueprint",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "Research facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Research_facility",
+        "revisionId": 1069,
+        "revisionTimestamp": "2021-01-17T13:54:13Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  },
+  {
+    "facility": "HQ",
+    "field": "Cost",
+    "summary": "$32,600,000, 1x [[logistics expansion]], 100,000x [[glass]], 2,000x [[television]], 100,000x [[steel]], 10,000x [[furniture]], 20,000x [[laptop]]",
+    "detail": "$17,600,000, 1x [[logistics expansion]],100,000x [[glass]], 2,000x [[television]], 100,000x [[steel]], 10,000x [[furniture]], 20,000x [[laptop]]",
+    "selected": "specific detail page; comparison may include benign order/case changes",
+    "sources": [
+      {
+        "title": "Category:Facility",
+        "url": "https://wiki.idlecorp.xyz/index.php/Category%3AFacility",
+        "revisionId": 1357,
+        "revisionTimestamp": "2021-05-20T16:14:21Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      },
+      {
+        "title": "HQ",
+        "url": "https://wiki.idlecorp.xyz/index.php/HQ",
+        "revisionId": 1409,
+        "revisionTimestamp": "2021-05-21T03:30:12Z",
+        "retrievedAt": "2026-10-09T15:05:31.328378+00:00"
+      }
+    ]
+  }
+]
