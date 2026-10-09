@@ -6,6 +6,8 @@ The facilities list, production planner, resource view, navigation, and notifica
 
 Your facilities opens by default once you own a building. Grouped rows show a facility type's count, mixed statuses, expected enabled input/output rates, and quick controls. Expand a group to see individual facilities and open their details for XP, technologies, quality-input preferences, statistics, and demolition. Switch to individual rows or comfortable density when useful.
 
+Each producing facility's row fills from left to right with its estimated cycle progress and shows a percentage beside its status. This works inside expanded groups and in individual layout. Paused rows are gray, blocked rows are amber, and infrastructure has no production fill. Progress uses the server's cycle timing and waits for confirmation before beginning the next cycle.
+
 Search, status, group, sort, layout, and density are saved per corporation and region in this browser. The selection toolbar remains available while scrolling. Batch actions retain server ownership checks and idempotency. Rate totals represent expected capacity, not measured output or guaranteed profit.
 
 ## Production planning

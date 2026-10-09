@@ -19,9 +19,9 @@ function SelectionBox({ ids, selected, onChange, label }: { ids: string[]; selec
   return <input ref={ref} type="checkbox" aria-label={label} checked={ids.length > 0 && count === ids.length} onChange={event => onChange(event.target.checked ? [...new Set([...selected, ...ids])] : selected.filter(id => !ids.includes(id)))}/>;
 }
 
-function StatusCounts({ facilities }: { facilities: Data[] }) {
+function StatusCounts({ facilities, cycleProgress }: { facilities: Data[]; cycleProgress?: number }) {
   const counts = facilities.reduce<Record<string, number>>((all, facility) => { const status = statusOf(facility); all[status] = (all[status] || 0) + 1; return all; }, {});
-  return <span className="facility-status-counts">{Object.entries(counts).map(([status, count]) => <Badge key={status} tone={statusTone[status]}>{facilities.length > 1 ? `${count} ` : ''}{statusNames[status] || titleCase(status)}</Badge>)}</span>;
+  return <span className="facility-status-counts">{Object.entries(counts).map(([status, count]) => <Badge key={status} tone={statusTone[status]}>{facilities.length > 1 ? `${count} ` : ''}{statusNames[status] || titleCase(status)}</Badge>)}{cycleProgress !== undefined && <small className="facility-cycle-percent">{Math.floor(cycleProgress)}%</small>}</span>;
 }
 
 function RateSummary({ facilities }: { facilities: Data[] }) {
@@ -114,10 +114,14 @@ export function Facilities() {
 
   const instanceRow = (f: Data, nested = false) => {
     const def = definitions.get(f.type), expanded = expandedId === f.id;
+    const status = statusOf(f), duration = Number(f.cycleSeconds) * 1000;
+    const progress = status === 'producing' && duration > 0 && Number.isFinite(duration) && Number.isFinite(f.nextCycle) && Number.isFinite(now) ? Math.max(0, Math.min(100, (1 - (f.nextCycle - now) / duration) * 100)) : undefined;
     return <article className={`facility-instance ${nested ? 'nested' : 'owned-facility'} ${expanded ? 'expanded' : ''}${mutationClass([f])}`} key={f.id} id={`facility-${f.id}`} tabIndex={-1} data-facility-id={f.id}>
-      <div className="facility-compact-row"><SelectionBox ids={[f.id]} selected={selectedIds} onChange={setSelectedIds} label={`Select ${def?.name || f.type} ${f.id}`}/>
+      <div className={`facility-compact-row facility-cycle-row cycle-${status}`}>
+        {progress !== undefined && <div key={f.nextCycle} className="facility-cycle-fill" style={{width: `${progress}%`}} role="progressbar" aria-label={`${def?.name || titleCase(f.type)} ${f.id.slice(0, 8)} production cycle`} aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.floor(progress)} aria-valuetext={`${Math.floor(progress)}% of estimated cycle · next cycle ${remaining(f.nextCycle, now)}`}/>}
+        <SelectionBox ids={[f.id]} selected={selectedIds} onChange={setSelectedIds} label={`Select ${def?.name || f.type} ${f.id}`}/>
         <button className="facility-disclosure" aria-expanded={expanded} aria-controls={`facility-details-${f.id}`} aria-label={`${expanded ? 'Collapse' : 'Expand'} ${def?.name || f.type} ${f.id.slice(0, 8)} details`} onClick={() => setExpandedId(expanded ? null : f.id)}>{expanded ? <ChevronDown size={16}/> : <ChevronRight size={16}/>}<EntityIcon entity={def} size={32}/><span><strong>{nested ? `#${f.id.slice(0, 8)}` : def?.name || titleCase(f.type)}</strong><small>Level {f.level || 0}{f.group ? ` · ${f.group}` : ''}{!nested ? ` · #${f.id.slice(0, 8)}` : ''}</small></span></button>
-        <StatusCounts facilities={[f]}/><RateSummary facilities={[f]}/><div className="facility-row-actions"><Action type="facility.organize" data={{ ids: [f.id], favorite: !f.favorite }} variant="quiet" title={f.favorite ? 'Remove favorite' : 'Add favorite'}><Star size={15} fill={f.favorite ? 'currentColor' : 'none'}/><span className="sr-only">{f.favorite ? 'Unfavorite' : 'Favorite'} facility</span></Action>{statusOf(f) !== 'infrastructure' && <Action type="facility.toggle" data={{ id: f.id }} variant="secondary">{f.enabled ? <Pause size={13}/> : <Play size={13}/>} {f.enabled ? 'Pause' : 'Resume'}</Action>}</div>
+        <StatusCounts facilities={[f]} cycleProgress={progress}/><RateSummary facilities={[f]}/><div className="facility-row-actions"><Action type="facility.organize" data={{ ids: [f.id], favorite: !f.favorite }} variant="quiet" title={f.favorite ? 'Remove favorite' : 'Add favorite'}><Star size={15} fill={f.favorite ? 'currentColor' : 'none'}/><span className="sr-only">{f.favorite ? 'Unfavorite' : 'Favorite'} facility</span></Action>{statusOf(f) !== 'infrastructure' && <Action type="facility.toggle" data={{ id: f.id }} variant="secondary">{f.enabled ? <Pause size={13}/> : <Play size={13}/>} {f.enabled ? 'Pause' : 'Resume'}</Action>}</div>
       </div>{expanded && details(f)}
     </article>;
   };
