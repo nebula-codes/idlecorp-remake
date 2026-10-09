@@ -70,7 +70,7 @@ try {
  const runtime=JSON.parse(await docker(['exec',names.app,'node','--input-type=module','-e',"import fs from 'node:fs';const absent=['electron','electron-builder','playwright','tsx','typescript','embedded-postgres'].filter(name=>fs.existsSync('node_modules/'+name));console.log(JSON.stringify({uid:process.getuid(),absent,entry:fs.existsSync('apps/server/src/index.js'),migrations:fs.readdirSync('apps/server/migrations').filter(name=>name.endsWith('.sql')).length}));"]));
  assert.notEqual(runtime.uid,0);assert.equal(runtime.entry,true);assert.ok(runtime.migrations>=2);assert.deepEqual(runtime.absent,[]);
  check('Production image runs compiled JavaScript as non-root, migrates PostgreSQL, and omits Electron, Playwright, tsx and development tooling');
- const html=await(await fetch(origin)).text();assert.ok(html.includes('id="root"'));const script=html.match(/src="([^"]+\.js)"/);assert.ok(script,'Built web script is referenced');const bundle=await fetch(new URL(script[1],origin+'/'));assert.equal(bundle.status,200);assert.ok((await bundle.text()).includes('render_game_to_text'));
+ const html=await(await fetch(origin)).text();assert.ok(html.includes('id="root"'));const script=html.match(/<script\b(?=[^>]*\btype="module")[^>]*\bsrc="([^"]+\.js)"/);assert.ok(script,'Built web module is referenced');const bundle=await fetch(new URL(script[1],origin+'/'));assert.equal(bundle.status,200);assert.ok((await bundle.text()).includes('render_game_to_text'));
  check('Container serves the built management UI and authoritative health endpoint');
  let cookie='';
  async function request(endpoint,body){

@@ -21,7 +21,7 @@ jobs:
     timeout-minutes: 20
     services:
       postgres:
-        image: postgres:18-alpine
+        image: public.ecr.aws/docker/library/postgres:18-alpine
         env:
           POSTGRES_USER: idlecorp
           POSTGRES_PASSWORD: ci-only-password
@@ -59,7 +59,9 @@ jobs:
           cache-from: type=gha,scope=idlecorp
           cache-to: type=gha,mode=max,scope=idlecorp
       - name: Verify the production container and persistent database
-        run: node scripts/test-container.mjs idlecorp:ci
+        run: |
+          docker tag public.ecr.aws/docker/library/postgres:18-alpine postgres:18-alpine
+          node scripts/test-container.mjs idlecorp:ci
 
   publish:
     needs: validate
