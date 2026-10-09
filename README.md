@@ -68,6 +68,8 @@ Portable Windows output: `release/IdleCorp-1.1.0-Windows-x64.exe`. The desktop s
 
 Manage facilities in compact grouped or individual rows with expandable controls, saved filters, and batch actions. The production workspace includes a connected flowgraph, output and stockpile targets, upstream factory requirements, supply choices, and named plans saved to your corporation. Inventory adds resource balances and production observations; a customizable resource bar and notification drawer keep important information available across pages. Browser Back/Forward, refresh, direct links, and per-region view preferences retain your place.
 
+Choose Light, Dark, High Contrast, Ocean, Sunset, or Terminal from the header palette button or Settings → Appearance. Your choice is remembered on this device; the optional device setting follows light, dark, and increased-contrast preferences.
+
 See [the management workspace guide](docs/workspace-1.2.md) for the complete workflow and update instructions. Existing worlds remain compatible; keep your existing database volume and credentials when pulling the updated container.
 
 ## New in 1.1

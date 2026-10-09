@@ -30,6 +30,12 @@ Page and region URLs support refresh and browser Back/Forward. Direct links can 
 
 The bell opens a global drawer with current operational problems and recorded events. Alerts lead to their related facilities, research, shipments, or trades. Opening a recorded event marks it read. Action buttons and confirmation dialogs indicate their own progress, and completed buttons briefly show confirmation. Request keys still protect retries after interruptions, including plain HTTP LAN deployments. Logout also discards late responses from the previous session.
 
+## Appearance
+
+Use the palette button in the page header or **Settings → Appearance** to switch between Light, Dark, High Contrast, Ocean, Sunset, and Terminal. A picker is also available before sign-in. The selected theme applies immediately to the full interface, including production graphs and facility progress backgrounds, and is remembered on this device across reloads, sessions, and open tabs.
+
+**Use device setting** follows the operating system's light/dark preference, or its increased-contrast preference when available. Explicit selections override the device preference. High Contrast uses stronger text, boundaries, and focus outlines; every theme retains status labels and respects reduced motion. Themes change presentation only.
+
 ## Updating
 
 Update the existing Portainer stack with re-pull enabled, preserving the existing credentials and volumes, then hard-refresh the browser. New saved plans and production observations are optional fields in the existing corporation state; no destructive reset or SQL schema replacement is required. The native development server must be restarted to load the new planning endpoints.
