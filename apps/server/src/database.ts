@@ -7,6 +7,7 @@ import { executeAction } from './actions.js';
 import { Corp, Dict, Game, GameError } from './types.js';
 import { recordInsights, makeReturnSummary, captureReturnBaseline } from './insights.js';
 import { onboardingProgress, planProduction } from './planning.js';
+import { productionTarget } from './production-targets.js';
 
 export const pool=new pg.Pool({connectionString:process.env.DATABASE_URL||(process.env.PGHOST?undefined:'postgres://idlecorp:idlecorp@localhost:5432/idlecorp'),max:10});
 export const WORLD_LOCK=19014349;
@@ -17,6 +18,7 @@ export async function saveGame(db:pg.PoolClient,game:Game){recordInsights(game,D
 function summary(c:Corp){return {cash:c.cash,tokens:c.tokens,score:c.score,gratitude:c.gratitude,inventory:Object.fromEntries(Object.entries(c.holdings).map(([id,h])=>[id,h.inventory])),facilities:Object.values(c.holdings).reduce((n,h)=>n+h.facilities.length,0),inbox:c.inbox||[],shipments:c.shipments,commitments:c.commitments||{cash:0,assets:{}}};}
 export async function getSnapshot(accountId:string){return transaction(async db=>{const game=await loadGame(db),c=game.corps.find(x=>x.id===accountId);if(!c)throw new GameError('Corporation not found.',404);const now=Date.now();const catchup=advance(game,now);if(catchup.events)game.world.revision++;const summary=makeReturnSummary(game,c,now);captureReturnBaseline(c,now);c.lastSeenAt=now;c.lastSeenProduced=c.stats.produced;await saveGame(db,game);return snapshot(game,c,now,{returnSummary:{...summary,processedEvents:catchup.events},onboarding:onboardingProgress(game,c,now)});});}
 export async function getPlan(accountId:string,options:{regionId?:string;facilityId?:string;quantity?:number}){return transaction(async db=>{const game=await loadGame(db),c=game.corps.find(x=>x.id===accountId);if(!c)throw new GameError('Corporation not found.',404);const now=Date.now(),result=advance(game,now);if(result.events)game.world.revision++;const plan=planProduction(game,c,{...options,regionId:options.regionId||game.world.regions[0]!.id,now});await saveGame(db,game);return plan;});}
+export async function getProductionTarget(accountId:string,options:Dict){return transaction(async db=>{const game=await loadGame(db),c=game.corps.find(x=>x.id===accountId);if(!c)throw new GameError('Corporation not found.',404);const now=Date.now(),result=advance(game,now);if(result.events)game.world.revision++;const plan=productionTarget(game,c,options,now);await saveGame(db,game);return plan;});}
 function canonicalize(value:any):any{if(Array.isArray(value))return value.map(canonicalize);if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(key=>[key,canonicalize(value[key])]));return value;}
 export async function performAction(accountId:string,key:string,payload:Dict){return transaction(async db=>{
  const canonical=JSON.stringify(canonicalize(payload));const hash=createHash('sha256').update(canonical).digest('hex');

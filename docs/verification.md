@@ -70,3 +70,15 @@ The official web-game skill runner was also executed against the final UI and it
 - Production dependency audit had zero findings. The full developer-tool audit reports moderate transitive Electron builder findings; no compatible fixed update was available in the checked toolchain. No forced dependency downgrade was applied.
 
 Source-conflict resolution and uncertain formulas are release decisions, not unresolved runtime placeholders. This verification does not claim undocumented original-algorithm parity, formal security certification or unmeasured deployment capacity.
+
+## Management workspace 1.2 — October 9, 2026
+
+This update adds compact facility management, an interactive flowgraph and target planner, resource accounting, saved navigation, and contextual notifications. TypeScript, ESLint, Vite production build, and **111 unit tests** pass. The graph engine is lazy-loaded; its layout bundle is intentionally separate from the initial page.
+
+Seven isolated PostgreSQL planner groups verify request validation, read-only calculations, ownership, idempotent plan saves, restart persistence, production observations and deletion. Ten compact-facility groups verify grouping, filters, measured row density, batch behavior, deep-link visibility, account isolation and mobile layout. Thirteen planner browser groups exercise connected edges, keyboard selection, focus/collapse, saved plans, supply choices, mobile list mode and preserved construction controls. The workspace browser suite verifies Back/Forward, refresh and scroll, deficit links, resource pins, notifications, inline feedback, and late response/session safety. Seven real insecure-origin LAN tests retain the protected purchase retry behavior.
+
+The original **24 gameplay GUI groups and 16 enhancement GUI groups** pass with selectors updated for expandable facilities and the new planner tabs. Their economic assertions are retained. Test databases are isolated and removed, and screenshots were inspected on desktop and mobile. The official web-game runner also completed against the upgraded native server; its signed-out session probe returns the expected HTTP 401.
+
+The preserved native world was backed up before restart. All six prior accounts and corporations, sixteen facilities and password hashes remain. New planner endpoints are registered and authenticated. Recorded production is not reconstructed from invented history. Planning uses a conservative bounded heuristic and reports limits rather than claiming an optimal build; a local 2,000-factory target benchmark completed within 1.15 seconds. No large multiplayer saturation claim is made.
+
+The container workflow now gates AMD64/ARM64 publication on these checks plus its existing database, account, API and real-container persistence tests. Portainer deployments must pull and recreate the application container and refresh their browser to load the update; existing database and backup volumes stay in place. The older Windows portable executable has not been repackaged for this web/container release.

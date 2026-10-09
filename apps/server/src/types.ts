@@ -10,6 +10,7 @@ export interface Holding {
   land: number; landSpent: number; purchasedLand?:number; inventory: Record<string, number>; locks: string[];
   facilities: Facility[]; research: Dict[]; retail: Dict[]; npcPurchases: Record<string,number>;
   purchaseDay: number; scrap: number; blueprints?:Record<string,number>;
+  productionObservation?:{since:number;inputs:Record<string,number>;outputs:Record<string,number>;capped?:boolean};
 }
 export interface Corp {
   id: string; name: string; motto: string; cash: number; tokens: number; score: number;
@@ -21,6 +22,7 @@ export interface Corp {
   pinnedGoals?:Record<string,{facilityId:string;quantity:number;createdAt:number;baselineCount?:number;targetCount?:number}>;
   watchlist?:string[]; notificationsList?:Dict[]; insights?:Dict; returnBaseline?:Dict;
   commitments?:{cash:number;assets:Record<string,number>};
+  savedPlans?:Dict[];
 }
 export interface Region extends Dict {
   id: string; name: string; description: string; modifiers: Dict; population: number;

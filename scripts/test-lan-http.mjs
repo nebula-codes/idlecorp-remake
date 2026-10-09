@@ -40,7 +40,7 @@ try {
  const initial=await state(),initialCash=initial.corporation.cash;
  await page.getByRole('button',{name:'Facilities',exact:true}).click();
  await page.getByLabel('Search facilities',{exact:true}).fill('Tree farm');
- const openBuild=async()=>{const catalogue=page.getByRole('button',{name:/Build catalogue/});await catalogue.click();await page.getByRole('button',{name:'Build facility',exact:true}).click();await page.getByRole('dialog',{name:'Build Tree farm',exact:true}).waitFor();};
+ const openBuild=async()=>{const catalogue=page.getByRole('button',{name:/Build catalogue/});await catalogue.click();await page.getByLabel('Search facilities',{exact:true}).fill('Tree farm');await page.getByRole('button',{name:'Build facility',exact:true}).click();await page.getByRole('dialog',{name:'Build Tree farm',exact:true}).waitFor();};
  const confirmBuild=()=>page.getByRole('dialog').getByRole('button',{name:/Build for /}).click();
  await openBuild();await confirmBuild();await settled();let current=await assertCount(1);
  assert.equal(await page.getByRole('dialog').count(),0);assert.ok(current.corporation.cash<initialCash);assert.equal(requests.length,1);assert.match(requests[0].key,/^[A-Za-z0-9-]{8,128}$/);
@@ -74,8 +74,9 @@ try {
  expectedCount++;await openBuild();await confirmBuild();await settled();current=await assertCount(expectedCount);
  assert.notEqual(requests.at(-1).key,ambiguousKey);assert.equal(current.corporation.cash,initialCash-firstCost*expectedCount);
  check('A subsequent fresh purchase gets a new key and succeeds after the ambiguous retry completes');
- await page.reload();await page.getByText('Corporation overview',{exact:true}).waitFor();current=await assertCount(expectedCount);assert.equal(current.corporation.id,initial.corporation.id);
+ await page.reload();await page.getByRole('heading',{name:'Facilities',exact:true}).waitFor();current=await assertCount(expectedCount);assert.equal(current.corporation.id,initial.corporation.id);
  await page.getByRole('button',{name:'Facilities',exact:true}).click();await page.getByRole('button',{name:/Your facilities/}).click();
+ await page.getByLabel('Facility layout',{exact:true}).selectOption('individual');
  await page.waitForFunction(count=>document.querySelectorAll('.owned-facility').length===count,expectedCount);
  assert.deepEqual(pageErrors,[]);check('Reload preserves the confirmed purchases and no unhandled browser errors occurred');
  report.status='passed';report.finalState=current;report.actionAttempts=requests.map(({key,body})=>({key,type:body.type,facilityId:body.facilityId}));

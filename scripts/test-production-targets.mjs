@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { randomUUID } from 'node:crypto';
+import { URLSearchParams } from 'node:url';
+import { client,testServer,sleep } from './test-support.mjs';
+
+const server=await testServer('production_targets',3077),a=client(server.origin),a2=client(server.origin),b=client(server.origin),anonymous=client(server.origin),passed=[];
+const check=name=>{passed.push(name);console.log('PASS '+name);};
+const ok=response=>{assert.equal(response.status,200,JSON.stringify(response.data));return response.data;};
+const target=(who,options={})=>who.request('/api/production-plan?'+new URLSearchParams({regionId:'verdant',assetId:'steel',mode:'rate',amount:'3',source:'produce',...options}));
+try{
+ for(const [who,username]of [[a,'target_owner'],[b,'target_other']])ok(await who.request('/api/auth/register',{username,name:username,password:'Target-planner-password-42'}));
+ ok(await a2.request('/api/auth/login',{username:'target_owner',password:'Target-planner-password-42'}));
+ assert.equal((await target(anonymous)).status,401);
+ const before=await a.state(),p=ok(await target(a)),after=await a.state();assert(p.facilities.some(f=>f.facilityId==='steel_mill'&&f.additionalCount>0));assert(p.projected.sustainableNetPerMinute>=3);assert.equal(after.corporation.cash,before.corporation.cash);assert.deepEqual(after.holdings.verdant.inventory,before.holdings.verdant.inventory);assert.deepEqual(after.holdings.verdant.facilities,before.holdings.verdant.facilities);assert(p.graph.edges.some(e=>e.kind==='construction'));check('Read-only authenticated target endpoint computes production and construction chains without spending or building');
+ for(const options of [{amount:'NaN'},{amount:'Infinity'},{amount:'-1'},{mode:'stock',amount:'1.5'},{mode:'other'},{source:'invent'},{regionId:'other_account'},{horizonMinutes:'0'},{choices:'not JSON'},{choices:JSON.stringify({coal:'invent'})},{producerChoices:JSON.stringify({steel:'tree_farm'})}])assert.equal((await target(a,options)).status,400,JSON.stringify(options));check('Query parsing rejects invalid numbers, bounds, regions, sources and producer overrides');
+ const mixed=ok(await target(a,{choices:JSON.stringify({iron:'buy',coal:'buy'})}));assert(mixed.purchases.some(x=>x.assetId==='iron'));assert(!mixed.facilities.some(x=>x.facilityId==='iron_mine'));assert(mixed.blockers.some(x=>x.code==='manual_purchase'));
+ const buy=ok(await target(a,{assetId:'wood',mode:'stock',amount:'10',source:'buy'}));assert.equal(buy.purchases.find(x=>x.assetId==='wood').quantity,10);assert.equal(buy.eta.status,'blocked');check('Source overrides produce real NPC quotes and clearly require manual purchases');
+ const payload={name:'Steel capacity',assetId:'steel',mode:'rate',amount:3,source:'produce',choices:{coal:'buy'}},key=randomUUID();
+ const replies=await Promise.all([a.action('plan.save','verdant',payload,key),a2.action('plan.save','verdant',payload,key)]);ok(replies[0]);ok(replies[1]);assert.deepEqual(replies[0].data,replies[1].data);const saved=replies[0].data.savedPlan;assert.equal((await a2.state()).savedPlans.length,1);assert.equal((await b.state()).savedPlans.length,0);assert.equal((await a.action('plan.save','verdant',{...payload,amount:4},key)).status,409);assert.equal((await b.action('plan.save','verdant',{...payload,id:saved.id})).status,404);assert.equal((await b.action('plan.delete','verdant',{id:saved.id})).status,404);check('Concurrent saved-plan retries create one private record and reject payload/key mismatch or foreign ownership');
+ ok(await a.action('plan.save','verdant',{...payload,id:saved.id,name:'Revised steel',amount:6}));await server.stop();await server.start();const restored=await a2.state();assert.equal(restored.savedPlans.length,1);assert.equal(restored.savedPlans[0].name,'Revised steel');assert.equal(restored.savedPlans[0].amount,6);check('Named plans persist across sessions and server restart');
+ ok(await a.action('facility.build','verdant',{facilityId:'tree_farm',quantity:1}));await sleep(5500);const produced=await a.state(),wood=produced.holdings.verdant.resourceBalances.find(x=>x.assetId==='wood');assert(wood.actual);assert(wood.actual.output>0);assert.equal(wood.actual.output,produced.holdings.verdant.inventory.wood);assert(wood.actual.observedUntil>wood.actual.observedSince);assert(wood.producers.some(p=>p.facilityId==='tree_farm'));assert(wood.capacityOutputPerMinute>0);check('Snapshots report actual recorded production separately from expected capacity and sustainable rates');
+ ok(await a.action('plan.delete','verdant',{id:saved.id}));assert.equal((await a2.state()).savedPlans.length,0);assert.equal((await a.action('plan.delete','verdant',{id:saved.id})).status,404);check('Deletion synchronizes across sessions and cannot remove another corporation data');
+ fs.mkdirSync('artifacts',{recursive:true});fs.writeFileSync('artifacts/production-targets-report.json',JSON.stringify({passed,at:new Date().toISOString(),scope:'Two corporations and two owner sessions in an automatically removed isolated PostgreSQL database.'},null,2));
+}finally{await server.close();}

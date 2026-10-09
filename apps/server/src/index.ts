@@ -6,7 +6,7 @@ import staticPlugin from '@fastify/static';
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { content,rules } from '../../../packages/rules/src/index.js';
-import { getSnapshot,getPlan,migrate,performAction,pool,tick } from './database.js';
+import { getSnapshot,getPlan,getProductionTarget,migrate,performAction,pool,tick } from './database.js';
 import { expansionRules, enhancementRules } from '../../../packages/rules/src/expansion.js';
 import { GameError } from './types.js';
 import { authenticate, registerAuth } from './auth.js';
@@ -26,6 +26,7 @@ export async function buildApp(){
  app.get('/api/content',async()=>({...content,expansionRules,enhancementRules,protocol:1}));
  app.get('/api/state',async req=>getSnapshot(await account(req)));
  app.get('/api/plan',async req=>{const a=req.query as any;if(a.regionId!==undefined&&typeof a.regionId!=='string'||a.facilityId!==undefined&&typeof a.facilityId!=='string'||a.quantity!==undefined&&typeof a.quantity!=='string')throw new GameError('Invalid planner query.');return getPlan(await account(req),{regionId:a.regionId,facilityId:a.facilityId,quantity:a.quantity===undefined?undefined:Number(a.quantity)});});
+ app.get('/api/production-plan',async req=>{const query=req.query as Record<string,unknown>,a:Record<string,unknown>={};for(const key of ['regionId','assetId','mode','amount','source','horizonMinutes','choices','producerChoices'])if(query[key]!==undefined){if(typeof query[key]!=='string')throw new GameError('Invalid production target query.');a[key]=query[key];}for(const key of ['amount','horizonMinutes'])if(a[key]!==undefined)a[key]=Number(a[key]);for(const key of ['choices','producerChoices'])if(a[key]!==undefined){try{a[key]=JSON.parse(a[key] as string);}catch{throw new GameError('Production target choices must contain valid JSON.');}}return getProductionTarget(await account(req),a);});
  const subscribers=new Set<any>();function publish(revision:number){for(const response of subscribers){if(!response.destroyed)response.write(`event: revision\ndata: ${JSON.stringify({revision})}\n\n`);}}
  app.post('/api/action',async(req)=>{const id=await account(req),key=req.headers['idempotency-key'];if(typeof key!=='string'||key.length<8||key.length>128)throw new GameError('Supply an Idempotency-Key of 8–128 characters.');if(!req.body||typeof req.body!=='object'||Array.isArray(req.body))throw new GameError('Expected an action object.');const result=await performAction(id,key,req.body as any);publish(result.revision);return result;});
  app.get('/api/events',async(req,reply)=>{await account(req);reply.hijack();reply.raw.writeHead(200,{'Content-Type':'text/event-stream','Cache-Control':'no-cache','Connection':'keep-alive','X-Accel-Buffering':'no'});reply.raw.write('event: connected\ndata: {"protocol":1}\n\n');subscribers.add(reply.raw);req.raw.on('close',()=>subscribers.delete(reply.raw));});

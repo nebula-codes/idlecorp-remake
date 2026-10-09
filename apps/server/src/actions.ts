@@ -4,6 +4,7 @@ import { Corp, Dict, Game, GameError, Holding, Order } from './types.js';
 import { enhancementRules } from '../../../packages/rules/src/expansion.js';
 import { normalizeEnhancements, notifyCorporation, quoteOrder } from './insights.js';
 import { claimExpansionInbox, expansionAction, projectBonus, resetExpansion } from './expansion.js';
+import { savePlan, deletePlan } from './production-targets.js';
 import { R, add, assetMap, assetPrice, bounded, consume, cycleMs, emptyHolding, facilityMap, getAsset, getHolding, has, integer, landCost, marketPrice, note, preview, requireFacility, roll, spend, stock, techMap, xp, installedTech, regionalEffect, serviceActive, buildCost, buyingLimit, challengeProgress, constructionWorth } from './engine.js';
 
 function text(v:any,label:string,max=100){if(typeof v!=='string'||!v.trim()||v.trim().length>max)throw new GameError(`${label} must contain 1–${max} characters.`);return v.trim();}
@@ -36,6 +37,8 @@ export function executeAction(game:Game,c:Corp,a:Dict,now:number):Dict {
  const result:Dict={};
  if(expansionAction(game,c,a,now))return result;
  switch(type){
+ case 'plan.save':{result.savedPlan=savePlan(game,c,a,now);break;}
+ case 'plan.delete':{deletePlan(c,a.id);break;}
  case 'facility.organize':{const fs=selectedFacilities(h,a.ids);if(a.group===undefined&&a.favorite===undefined)throw new GameError('Choose a group or favorite preference.');if(a.group!==undefined&&(typeof a.group!=='string'||a.group.trim().length>enhancementRules.maximumGroupNameLength))throw new GameError('Group names must be at most 40 characters.');if(a.favorite!==undefined&&typeof a.favorite!=='boolean')throw new GameError('Favorite must be a boolean.');const next=a.group===undefined?undefined:a.group.trim(),ids=new Set(fs.map(f=>f.id)),groups=new Set(h.facilities.map(f=>next!==undefined&&ids.has(f.id)?next:f.group).filter(Boolean));if(groups.size>enhancementRules.maximumGroupsPerRegion)throw new GameError('A region supports at most 30 named facility groups.');for(const f of fs){if(next!==undefined)f.group=next;if(a.favorite!==undefined)f.favorite=a.favorite;}break;}
  case 'facility.batch':{const fs=selectedFacilities(h,a.ids);if(typeof a.enabled!=='boolean')throw new GameError('Choose whether the selected facilities should run.');for(const f of fs){if(f.enabled===a.enabled)continue;f.enabled=a.enabled;if(f.enabled)f.nextCycle=now+cycleMs(f,c,r);}note(c,`${a.enabled?'Resumed':'Paused'} ${fs.length} selected facilities.`,now,'production');break;}
  case 'goal.pin':{if(!facilityMap.has(a.facilityId))throw new GameError('Choose a known facility goal.');const quantity=integer(a.quantity??1,'Goal quantity',1,100),baselineCount=h.facilities.filter(f=>f.type===a.facilityId).length;c.pinnedGoals![rid]={facilityId:a.facilityId,quantity,createdAt:now,baselineCount,targetCount:baselineCount+quantity};break;}

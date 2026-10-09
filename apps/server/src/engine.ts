@@ -3,6 +3,7 @@ import { assets, facilities, technologies, services, policies, regions, rules, l
 import { Corp, Dict, Facility, Game, GameError, Holding, Region, World } from './types.js';
 import { normalizeEnhancements, observeCycle, facilityMetrics, insightSnapshot, notifyCorporation } from './insights.js';
 import { committedValue, expansionResetPreview, expansionSnapshot, nextExpansionEvent, projectBonus, settleExpansion } from './expansion.js';
+import { facilityFlow, recordProduction, resourceBalances } from './resource-balances.js';
 
 const assetList = assets as unknown as Dict[];
 const facilityList = facilities as unknown as Dict[];
@@ -100,11 +101,11 @@ function produce(f:Facility,h:Holding,c:Corp,r:Region,at:number){
  const d=facilityMap.get(f.type);if(!d||!f.enabled)return;
  const chosen=chosenInputs(f,h,c,r);for(const[id,n]of Object.entries(chosen.items)){if(id==='cash'?c.cash<n:(h.inventory[id]||0)<n){observeCycle(f,'starved',at);return;}}
  if(capacityReason(f,h,c,r)){observeCycle(f,'capacity',at);return;}
- for(const[id,n]of Object.entries(chosen.items)){if(id==='cash')spend(c,n);else stock(h,id,-n);}
+ for(const[id,n]of Object.entries(chosen.items)){if(id==='cash')spend(c,n);else stock(h,id,-n);recordProduction(h,'inputs',id,n,at);}
  const values=Object.entries(chosen.items),total=values.reduce((n,[,v])=>n+v,0),plus=values.filter(([id])=>id.endsWith('_plus')).reduce((n,[,v])=>n+v,0);
  const quality=f.plus&&roll(c)<qualityChance(effectiveLevel(f,r,c),total?plus/total:0);
  for(const[id,n]of Object.entries(recipe(f,c,r).outputs)){
-  if(id==='cash'){add(c,'cash',n);c.stats.earned=Math.min(Number.MAX_SAFE_INTEGER,c.stats.earned+n);}else{const isPlus=quality&&assetMap.has(plusId(id));const efficiency=isPlus&&(c.space.vault.relic_of_efficiency||0)>0;stock(h,isPlus&&!efficiency?plusId(id):id,efficiency?n*2:n);c.stats.produced=Math.min(Number.MAX_SAFE_INTEGER,c.stats.produced+(efficiency?n*2:n));}
+  if(id==='cash'){add(c,'cash',n);c.stats.earned=Math.min(Number.MAX_SAFE_INTEGER,c.stats.earned+n);recordProduction(h,'outputs',id,n,at);}else{const isPlus=quality&&assetMap.has(plusId(id));const efficiency=isPlus&&(c.space.vault.relic_of_efficiency||0)>0;const outputId=isPlus&&!efficiency?plusId(id):id,amount=efficiency?n*2:n;stock(h,outputId,amount);recordProduction(h,'outputs',outputId,amount,at);c.stats.produced=Math.min(Number.MAX_SAFE_INTEGER,c.stats.produced+amount);}
  }
  f.xp=Math.min(rules.maxFacilityLevel*rules.facilityXpPerLevel,f.xp+Number(d.xp||0));f.level=levelFromXp(f.xp);
  observeCycle(f,'successful',at);
@@ -129,6 +130,7 @@ function updateRegion(r:Region,at:number){const happiness=(services as unknown a
 export function advance(game:Game,to:number):{events:number;elapsed:number} {
  if(!Number.isSafeInteger(to)||to<0)throw new GameError('Simulation time must be a finite, nonnegative integer timestamp.');
  normalizeEnhancements(game);
+ for(const c of game.corps)for(const h of Object.values(c.holdings))h.productionObservation??={since:c.lastProcessed,inputs:{},outputs:{}};
  let events=0;const from=Math.min(to,...game.corps.map(c=>c.lastProcessed));
  const corps=game.corps.slice().sort((a,b)=>a.id.localeCompare(b.id));
  const orderedFacilities=new Map<Holding,Facility[]>();for(const c of corps)for(const h of Object.values(c.holdings))orderedFacilities.set(h,h.facilities.slice().sort((a,b)=>a.id.localeCompare(b.id)));
@@ -159,12 +161,12 @@ export function preview(c:Corp,world:World,regionId:string,kind:'prestige'|'liqu
 }
 export function snapshot(game:Game,c:Corp,now:number,extra:Dict={}){
  const holdings:Dict={};for(const[rid,h]of Object.entries(c.holdings)){const r=game.world.regions.find(r=>r.id===rid)!;
-  holdings[rid]={...h,groups:[...new Set(h.facilities.map(f=>f.group).filter(Boolean))].sort(),usedLand:h.facilities.reduce((n,f)=>n+Number(facilityMap.get(f.type)?.land||1),0),nextLandCost:landCost(h,1,c,r),buyLimit:buyingLimit(c,h,r,now),buyLimitUsed:h.purchaseDay===Math.floor(now/3600000)?h.npcPurchases.spent||0:0,
+  holdings[rid]={...h,resourceBalances:resourceBalances(c,r),groups:[...new Set(h.facilities.map(f=>f.group).filter(Boolean))].sort(),usedLand:h.facilities.reduce((n,f)=>n+Number(facilityMap.get(f.type)?.land||1),0),nextLandCost:landCost(h,1,c,r),buyLimit:buyingLimit(c,h,r,now),buyLimitUsed:h.purchaseDay===Math.floor(now/3600000)?h.npcPurchases.spent||0:0,
    buildCosts:Object.fromEntries(facilityList.map(d=>[d.id,buildCost(d,r)])),
-   facilities:h.facilities.map(f=>{const ms=cycleMs(f,c,r),rec=recipe(f,c,r),chosen=chosenInputs(f,h,c,r),missing=Object.entries(chosen.items).filter(([id,n])=>id==='cash'?c.cash<n:(h.inventory[id]||0)<n).map(([id,n])=>({assetId:id,required:n,available:id==='cash'?c.cash:h.inventory[id]||0}));const capacity=capacityReason(f,h,c,r);return {...f,group:f.group||'',favorite:!!f.favorite,metrics:facilityMetrics(f,h,c,r,now),capacityReason:capacity,effectiveLevel:effectiveLevel(f,r,c),regionalTechnologies:regionalTech(c,r,f),cycleSeconds:ms/1000,status:!Object.keys(rec.outputs).length?'infrastructure':!f.enabled?'paused':missing.length?'starved':capacity?'capacity':'producing',missingInputs:missing,inputRates:Object.fromEntries(Object.entries(rec.inputs).map(([k,v])=>[k,v*60000/ms])),outputRates:Object.fromEntries(Object.entries(rec.outputs).map(([k,v])=>[k,v*60000/ms])),};}),research:h.research.map(({outcome:_outcome,...p})=>p)};
+   facilities:h.facilities.map(f=>{const ms=cycleMs(f,c,r),rec=recipe(f,c,r),chosen=chosenInputs(f,h,c,r),missing=Object.entries(chosen.items).filter(([id,n])=>id==='cash'?c.cash<n:(h.inventory[id]||0)<n).map(([id,n])=>({assetId:id,required:n,available:id==='cash'?c.cash:h.inventory[id]||0}));const capacity=capacityReason(f,h,c,r),expected=facilityFlow(f,c,r);return {...f,expectedInputRates:expected.inputs,expectedOutputRates:expected.outputs,group:f.group||'',favorite:!!f.favorite,metrics:facilityMetrics(f,h,c,r,now),capacityReason:capacity,effectiveLevel:effectiveLevel(f,r,c),regionalTechnologies:regionalTech(c,r,f),cycleSeconds:ms/1000,status:!Object.keys(rec.outputs).length?'infrastructure':!f.enabled?'paused':missing.length?'starved':capacity?'capacity':'producing',missingInputs:missing,inputRates:Object.fromEntries(Object.entries(rec.inputs).map(([k,v])=>[k,v*60000/ms])),outputRates:Object.fromEntries(Object.entries(rec.outputs).map(([k,v])=>[k,v*60000/ms])),};}),research:h.research.map(({outcome:_outcome,...p})=>p)};
  }
  const publicCorps=game.corps.filter(x=>!x.privacy||x.id===c.id).map(x=>({id:x.id,name:x.name,score:x.score,netWorth:netWorth(x),motto:x.motto,seasonXp:x.season.xp,regionIds:Object.entries(x.holdings).filter(([,h])=>h.land>0).map(([id])=>id),regional:Object.fromEntries(Object.entries(x.holdings).map(([id,h])=>[id,{land:h.land,facilities:h.facilities.length,inventoryValue:Object.entries(h.inventory).reduce((n,[a,q])=>n+assetPrice(a)*q,0)}]))})).sort((a,b)=>b.score-a.score||b.netWorth-a.netWorth);
- return {...insightSnapshot(game,c),expansion:expansionSnapshot(game,c),protocol:1,ruleset:(rules as Dict).version||'2026.10-remake.1',revision:game.world.revision,serverTime:now,
+ return {...insightSnapshot(game,c),savedPlans:c.savedPlans||[],expansion:expansionSnapshot(game,c),protocol:1,ruleset:(rules as Dict).version||'2026.10-remake.1',revision:game.world.revision,serverTime:now,
  corporation:{id:c.id,name:c.name,motto:c.motto,cash:c.cash,tokens:c.tokens,score:c.score,gratitude:c.gratitude,entitlement:c.entitlement,privacy:c.privacy,notifications:(c as any).notifications!==false,createdAt:c.createdAt,netWorth:netWorth(c),upgrades:c.upgrades,lastPrestige:c.lastPrestige},
  regions:game.world.regions,holdings,orders:game.world.orders.filter(o=>o.status==='open'||o.corporationId===c.id).slice(-500),trades:game.world.trades.slice(-100),shipments:c.shipments,inbox:c.inbox||[],
  technologies:c.technologies,blueprints:c.blueprints,season:{...game.world.season,...c.season,level:rules.season.xpThresholds.filter(n=>c.season.xp>=n).length,rewards:rules.season.xpThresholds.map((n,i)=>({...rules.season.rewards[i],level:i+1,requiredXp:n,cash:(i+1)*R.seasonRewardCashPerLevel,tokens:0,premiumTokens:0})),challengesList:rules.season.challenges.slice(0,(rules.entitlements as Dict)[c.entitlement].dailyChallenges).map(ch=>({...ch,progress:c.season.challenges[`${Math.floor(now/86400000)}:${ch.metric==='cycles'?'produce':ch.metric}`]||0,claimed:!!c.season.challenges[`${Math.floor(now/86400000)}:claimed:${ch.id}`]})),dailyChallenge:{progress:c.season.challenges[`${Math.floor(now/86400000)}:produce`]||0,target:100,claimed:!!c.season.challenges[`${Math.floor(now/86400000)}:produce:claimed`]}},

@@ -64,6 +64,12 @@ npm run desktop
 
 Portable Windows output: `release/IdleCorp-1.1.0-Windows-x64.exe`. The desktop server setting defaults to `http://localhost:3001`. Set the same HTTPS server address on every remote desktop client. Packaging does not bundle a private game server or database.
 
+## New in 1.2
+
+Manage facilities in compact grouped or individual rows with expandable controls, saved filters, and batch actions. The production workspace includes a connected flowgraph, output and stockpile targets, upstream factory requirements, supply choices, and named plans saved to your corporation. Inventory adds resource balances and production observations; a customizable resource bar and notification drawer keep important information available across pages. Browser Back/Forward, refresh, direct links, and per-region view preferences retain your place.
+
+See [the management workspace guide](docs/workspace-1.2.md) for the complete workflow and update instructions. Existing worlds remain compatible; keep your existing database volume and credentials when pulling the updated container.
+
 ## New in 1.1
 
 Production planning now includes pinned goals, live dependency graphs and bottlenecks. Facility groups, favorites, batch controls, measured trends, attention notices, return summaries and progressive guidance help manage larger corporations. The exchange adds watchlists, observed price history, fee previews and fill notifications. Settings provides recovery codes and session management; administrators have server health, automatic backups and expansion controls.
@@ -91,6 +97,10 @@ npm run test:operations
 npm run test:accounts
 npm run test:enhancements
 npm run test:ui-enhancements
+npm run test:production-targets
+npm run test:facilities
+npm run test:planner-workspace
+npm run test:workspace-ux
 npm run test:load
 npm run test:desktop
 npm run test:portable
@@ -120,6 +130,7 @@ Review source differences and ruleset decisions before adopting a new snapshot. 
 - `docs/self-hosting.md`: one world for multiple computers, TLS, backup and updates.
 - `docs/research/`: content evidence, revisions, interpretations and artwork provenance.
 - `docs/verification.md`: measured checks and remaining limitations.
+- `docs/workspace-1.2.md`: compact facilities, flowgraph planning, resource balances, navigation and notifications.
 - `docs/enhancements.md`: production planning, management tools, account recovery and cooperative expansion.
 - `docs/github-deployment.md`: published Docker image, Compose configuration and GitHub Actions.
 - `progress.md`: implementation checkpoint.

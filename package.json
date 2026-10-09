@@ -1,6 +1,6 @@
 {
   "name": "idlecorp-remake",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "description": "A self-hostable multiplayer industrial management game",
@@ -42,7 +42,11 @@
     "test:ui-enhancements": "node apps/web/verify-enhancements.mjs",
     "test:upgrade": "node scripts/test-upgrade.mjs",
     "test:container": "node scripts/test-container.mjs",
-    "test:lan-http": "node scripts/test-lan-http.mjs"
+    "test:lan-http": "node scripts/test-lan-http.mjs",
+    "test:production-targets": "node scripts/test-production-targets.mjs",
+    "test:facilities": "node scripts/test-compact-facilities.mjs",
+    "test:planner-workspace": "node scripts/test-planner-workspace.mjs",
+    "test:workspace-ux": "node scripts/test-workspace-ux.mjs"
   },
   "build": {
     "appId": "org.idlecorp.remake",
@@ -70,6 +74,8 @@
     "@fastify/cors": "^11.3.1",
     "@fastify/rate-limit": "^11.2.1",
     "@fastify/static": "^10.1.5",
+    "@xyflow/react": "^12.12.0",
+    "elkjs": "^0.12.0",
     "fastify": "^5.12.5",
     "lucide-react": "^1.54.0",
     "pg": "^8.23.1",
