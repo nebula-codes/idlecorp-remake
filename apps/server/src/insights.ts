@@ -8,8 +8,8 @@ export function normalizeEnhancements(game:Game){
   game.world.expansionEnabled ??= false;game.world.contracts ??=[];game.world.projects ??=[];
   for(const c of game.corps){c.pinnedGoals??={};c.watchlist??=[];c.notificationsList??=[];c.commitments??={cash:0,assets:{}};c.insights??={corporation:[],prices:{}};}
 }
-export function notifyCorporation(c:Corp,type:string,title:string,message:string,at:number,relatedId?:string){
-  c.notificationsList??=[];c.notificationsList.unshift({id:randomUUID(),at,type,title,message,read:false,relatedId});
+export function notifyCorporation(c:Corp,type:string,title:string,message:string,at:number,relatedId?:string,details:Dict={}){
+  c.notificationsList??=[];c.notificationsList.unshift({...details,id:randomUUID(),at,type,title,message,read:false,relatedId});
   c.notificationsList=c.notificationsList.slice(0,enhancementRules.maximumNotifications);
 }
 export function facilityMetrics(f:Facility,_h:Holding,c:Corp,r:Region,now:number){

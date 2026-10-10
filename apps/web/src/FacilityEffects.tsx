@@ -34,19 +34,21 @@ export function FacilityEffects({ facility, now }: { facility: Data; now: number
     <header><h4 id={`facility-effects-heading-${facility.id}`}>Active effects</h4><span>Latest server snapshot</span></header>
     {!available ? <p className="facility-effects-empty"><CircleHelp size={16} aria-hidden="true"/>This server has not provided an effects breakdown. The displayed production rates and cycle time still come from the server.</p> : <>
       {!effects.positiveCount && !effects.negativeCount && <p className="facility-effects-empty"><Minus size={16} aria-hidden="true"/>No active bonuses or penalties.{entries.length ? ' Additional conditions are shown below.' : ''}</p>}
-      {cycle && <div className="facility-cycle-breakdown">
-        <div className="facility-cycle-values"><span>Base cycle<strong>{number(cycle.baseSeconds, 3)}s</strong></span><span>Adjusted duration<strong>{number(cycle.adjustedSeconds, 3)}s</strong></span><span>Combined speed<strong>×{number(cycle.speedMultiplier, 5)}</strong></span><span>Latest effective cycle<strong>{number(cycle.effectiveSeconds, 3)}s</strong></span></div>
-        <p>Duration adjustments and their limits apply first. The adjusted duration is divided by combined speed, then rounded to milliseconds and bounded by the final minimum cycle.</p>
-        {cycle.floorApplied && <p className="facility-cycle-limit"><Info size={14} aria-hidden="true"/>A minimum duration applies; its source is listed below.</p>}
-        <p className="facility-schedule-note"><Timer size={14} aria-hidden="true"/>{facility.status === 'producing' ? `Scheduled next cycle: ${remaining(facility.nextCycle, now)}. ` : ''}Existing scheduled cycles keep their timing. These latest modifiers apply when the server schedules the following cycle.</p>
-      </div>}
-      {quality && <p className="facility-quality-note">Current plus-quality chance: <strong>{number(quality.chance * 100, 2)}%</strong>. Quality changes the output mix; it does not shorten the cycle.</p>}
+      {(cycle || quality) && <details className="facility-secondary-details facility-cycle-disclosure"><summary>Cycle calculation & quality</summary>
+        {cycle && <div className="facility-cycle-breakdown">
+          <div className="facility-cycle-values"><span>Base cycle<strong>{number(cycle.baseSeconds, 3)}s</strong></span><span>Adjusted duration<strong>{number(cycle.adjustedSeconds, 3)}s</strong></span><span>Combined speed<strong>×{number(cycle.speedMultiplier, 5)}</strong></span><span>Latest effective cycle<strong>{number(cycle.effectiveSeconds, 3)}s</strong></span></div>
+          <p>Duration adjustments and their limits apply first. The adjusted duration is divided by combined speed, then rounded to milliseconds and bounded by the final minimum cycle.</p>
+          {cycle.floorApplied && <p className="facility-cycle-limit"><Info size={14} aria-hidden="true"/>A minimum duration applies; its source is listed below.</p>}
+          <p className="facility-schedule-note"><Timer size={14} aria-hidden="true"/>{facility.status === 'producing' ? `Scheduled next cycle: ${remaining(facility.nextCycle, now)}. ` : ''}Existing scheduled cycles keep their timing. These latest modifiers apply when the server schedules the following cycle.</p>
+        </div>}
+        {quality && <p className="facility-quality-note">Current plus-quality chance: <strong>{number(quality.chance * 100, 2)}%</strong>. Quality changes the output mix; it does not shorten the cycle.</p>}
+      </details>}
       <div className="facility-effect-categories">{effectCategories.map(([category, heading]) => {
         const items = entries.filter(entry => entry.category === category);
         return items.length > 0 ? <div className="facility-effect-category" key={category}><h5>{heading}</h5><ul>{items.map(entry => {
           const Icon = entry.tone === 'positive' ? ArrowUp : entry.tone === 'negative' ? ArrowDown : Minus;
           return <li className={`facility-effect-entry effect-${entry.tone || 'neutral'}`} data-effect-id={entry.id} key={entry.id}>
-            <Icon size={16} aria-hidden="true"/><div><div className="facility-effect-label"><strong>{entry.label}</strong><span className="facility-effect-value">{entry.value}</span></div><p>{entry.description}</p><div className="facility-effect-meta"><span>{entry.scope}</span><span>{entry.tone === 'positive' ? 'Bonus' : entry.tone === 'negative' ? 'Penalty' : 'Baseline / condition'}</span>{entry.expiresAt != null && <span className="facility-effect-expiry">{entry.expiresAt > now ? `Next change in ${remaining(entry.expiresAt, now)}` : 'Awaiting server refresh'}</span>}</div></div>
+            <details><summary aria-label={`Details for ${entry.label}`}><Icon size={13} aria-hidden="true"/><strong>{entry.label}</strong><span className="facility-effect-value">{entry.value}</span><span className="facility-effect-tone">{entry.tone === 'positive' ? 'Bonus' : entry.tone === 'negative' ? 'Penalty' : 'Condition'}</span><ChevronRight className="effect-disclosure-icon" size={12} aria-hidden="true"/>{entry.expiresAt != null && <span className="facility-effect-expiry">{entry.expiresAt > now ? `Next change ${remaining(entry.expiresAt, now)}` : 'Awaiting refresh'}</span>}</summary><div className="facility-effect-description"><p>{entry.description}</p><span>{entry.scope}</span></div></details>
           </li>;
         })}</ul></div> : null;
       })}</div>

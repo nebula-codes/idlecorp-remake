@@ -126,6 +126,7 @@ try {
   await effects(oil.id).waitFor();
   await page.waitForFunction(id => document.activeElement?.id === `facility-effects-${id}`, oil.id);
   assert.equal(await effects(oil.id).evaluate(node => node === document.activeElement), true);
+  await effects(oil.id).locator('summary').filter({ hasText: 'Cycle calculation & quality' }).click();
   assert.match(await effects(oil.id).innerText(), /8\.715/);
   assert.match(await effects(oil.id).innerText(), /10/);
   for (const entry of oilState.effects.entries) {

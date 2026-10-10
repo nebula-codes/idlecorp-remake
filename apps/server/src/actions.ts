@@ -5,6 +5,7 @@ import { enhancementRules } from '../../../packages/rules/src/expansion.js';
 import { normalizeEnhancements, notifyCorporation, quoteOrder } from './insights.js';
 import { claimExpansionInbox, expansionAction, projectBonus, resetExpansion } from './expansion.js';
 import { savePlan, deletePlan } from './production-targets.js';
+import { notifyFacilityLevels } from './facility-progression.js';
 import { R, add, assetMap, assetPrice, bounded, consume, cycleMs, emptyHolding, facilityMap, getAsset, getHolding, has, integer, landCost, marketPrice, note, preview, requireFacility, roll, spend, stock, techMap, xp, installedTech, regionalEffect, serviceActive, buildCost, buyingLimit, challengeProgress, constructionWorth } from './engine.js';
 
 function text(v:any,label:string,max=100){if(typeof v!=='string'||!v.trim()||v.trim().length>max)throw new GameError(`${label} must contain 1–${max} characters.`);return v.trim();}
@@ -58,7 +59,11 @@ export function executeAction(game:Game,c:Corp,a:Dict,now:number):Dict {
   for(let i=0;i<q;i++){const f={id:randomUUID(),type:d.id,level:0,xp:0,nextCycle:now+Number(d.cycleSeconds||60)*1000,enabled:true,plus:true,allowPlus:false,installed:[],costPaid:cost,materialsPaid:{...d.materials},builtAt:now};f.nextCycle=now+cycleMs(f,c,r);h.facilities.push(f);}
   c.stats.built+=q;challengeProgress(c,'builds',q,now);xp(c,q*10);note(c,`Built ${q} ${d.name}.`,now);break;}
  case 'facility.demolish':{const f=facility(h,a.id);if(f.installed.length)throw new GameError('Uninstall technologies before demolition.');add(c,'cash',Math.floor(constructionWorth(f)*rules.liquidationRefund));h.facilities=h.facilities.filter(x=>x.id!==f.id);if(f.type==='retail_store'&&!has(h,'retail_store'))h.retail=[];note(c,`Demolished ${facilityMap.get(f.type)?.name}; refunded 40% of historical construction value.`,now);break;}
- case 'facility.addxp':{const f=facility(h,a.id),q=integer(a.quantity,'Scrap quantity');if(f.xp+q>rules.facilityXpPerLevel*rules.maxFacilityLevel)throw new GameError('This would exceed the facility level cap.');consume(h,'scrap',q);f.xp+=q;f.level=levelFromXp(f.xp);break;}
+ case 'facility.addxp':{const f=facility(h,a.id),cap=rules.facilityXpPerLevel*rules.maxFacilityLevel,targeted=a.targetXp!==undefined||a.maxScrap!==undefined;let q:number;
+  if(targeted){if(a.quantity!==undefined)throw new GameError('Choose either a target XP and maximum scrap budget, or a scrap quantity.');const target=integer(a.targetXp,'Target XP',1,cap),budget=integer(a.maxScrap,'Maximum scrap');if(target<=f.xp)throw new GameError('This facility has already reached the confirmed XP target. Refresh its upgrade preview.');q=target-f.xp;if(q>budget)throw new GameError('Reaching this target would exceed the confirmed scrap budget. Refresh its upgrade preview.');}
+  else q=integer(a.quantity,'Scrap quantity');
+  if(f.xp+q>cap)throw new GameError('This would exceed the facility level cap.');if(h.locks.includes('scrap'))throw new GameError('Scrap is locked. Unlock it in Inventory before upgrading.');if((h.inventory.scrap||0)<q)throw new GameError('Insufficient scrap in this region.');
+  const fromLevel=f.level;consume(h,'scrap',q);f.xp+=q;f.level=levelFromXp(f.xp);notifyFacilityLevels(c,r,[{id:f.id,type:f.type,fromLevel,toLevel:f.level,levelsGained:f.level-fromLevel}],now,'scrap');result.facilityUpgrade={id:f.id,regionId:rid,spentScrap:q,xp:f.xp,level:f.level};break;}
  case 'facility.toggle':{const f=facility(h,a.id);f.enabled=!f.enabled;if(f.enabled)f.nextCycle=now+cycleMs(f,c,r);break;}
  case 'facility.plus':{const f=facility(h,a.id);if(typeof a.enabled!=='boolean')throw new GameError('Choose whether plus inputs are allowed.');f.allowPlus=a.enabled;if(typeof a.producePlus==='boolean')f.plus=a.producePlus;break;}
  case 'inventory.lock':{getAsset(a.assetId);h.locks=h.locks.includes(a.assetId)?h.locks.filter(x=>x!==a.assetId):[...h.locks,a.assetId];break;}
