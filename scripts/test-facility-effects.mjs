@@ -124,6 +124,7 @@ try {
   assert.match(await trigger('group-tree_farm').innerText(), /1 penalized/);
   await trigger('group-oil_well').focus(); await page.keyboard.press('Enter');
   await effects(oil.id).waitFor();
+  await page.waitForFunction(id => document.activeElement?.id === `facility-effects-${id}`, oil.id);
   assert.equal(await effects(oil.id).evaluate(node => node === document.activeElement), true);
   assert.match(await effects(oil.id).innerText(), /8\.715/);
   assert.match(await effects(oil.id).innerText(), /10/);
@@ -176,6 +177,7 @@ try {
   await page.getByLabel('Facility layout', { exact: true }).selectOption('individual');
   await trigger(oil.id).focus(); await page.keyboard.press('Enter');
   await effects(oil.id).waitFor();
+  await page.waitForFunction(id => document.activeElement?.id === `facility-effects-${id}`, oil.id);
   assert.equal(await effects(oil.id).evaluate(node => node === document.activeElement), true);
   await button('Overview').click(); await button('Sign out').click();
   await page.waitForFunction(() => JSON.parse(window.render_game_to_text()).mode === 'authentication');
