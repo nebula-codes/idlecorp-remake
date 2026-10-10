@@ -102,6 +102,7 @@ npm run test:ui-enhancements
 npm run test:production-targets
 npm run test:facilities
 npm run test:facility-effects
+npm run test:exchange
 npm run test:planner-workspace
 npm run test:workspace-ux
 npm run test:load

@@ -8,7 +8,7 @@ export type Data = Record<string, any>;
 
 export type Screen = 'overview'|'facilities'|'inventory'|'chains'|'market'|'retail'|'logistics'|'research'|'region'|'prestige'|'season'|'space'|'leaderboard'|'settings'|'planner'|'cooperation';
 
-export type GameContext = { state: Data; content: Data; region: Data; holding: Data; regionId: string; busy: boolean; mutation?:{type:string;data:Data;status:'pending'|'success'|'error';message:string;at:number}|null; act: (type: string, data?: Data) => Promise<any>; go: (screen: Screen, intent?: Data) => void; intent: Data; advice:Data|null; dismissReturn:()=>void; api: (path:string,opts?:RequestInit)=>Promise<any>; notify:(message:string)=>void; reportError:(message:string)=>void; now: number; refresh: () => Promise<void> };
+export type GameContext = { state: Data; content: Data; region: Data; holding: Data; regionId: string; busy: boolean; mutation?:{type:string;data:Data;status:'pending'|'success'|'error';message:string;at:number}|null; act: (type: string, data?: Data, onFailure?: (uncertain: boolean) => void) => Promise<any>; go: (screen: Screen, intent?: Data) => void; intent: Data; advice:Data|null; dismissReturn:()=>void; api: (path:string,opts?:RequestInit)=>Promise<any>; notify:(message:string)=>void; reportError:(message:string)=>void; now: number; refresh: () => Promise<void> };
 
 export const Context = createContext<GameContext>(null!);
 

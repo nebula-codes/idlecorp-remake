@@ -43,12 +43,13 @@ try{
  await wood().getByRole('button',{name:'Manage'}).click();
  await changed(()=>page.getByRole('button',{name:'Lock resource',exact:true}).click());
  assert.ok((await state()).holding.locks.includes('wood'));await page.getByRole('button',{name:'Done',exact:true}).click();
- await screen('Exchange');await page.getByLabel('Resource',{exact:true}).selectOption('wood');
- assert.ok(await page.getByRole('button',{name:/^Sell 1/}).isDisabled());
+ await screen('Exchange');const npcWood=page.locator('[data-market-resource="wood"]');
+ if(await npcWood.getByRole('button',{name:'Trade Wood',exact:true}).getAttribute('aria-expanded')!=='true')await npcWood.getByRole('button',{name:'Trade Wood',exact:true}).click();
+ assert.ok(await npcWood.getByRole('button',{name:/^Sell 1 ·/}).isDisabled());
  await screen('Inventory');await wood().getByRole('button',{name:'Manage'}).click();
  await changed(()=>page.getByRole('button',{name:'Unlock resource',exact:true}).click());await page.getByRole('button',{name:'Done',exact:true}).click();
- await screen('Exchange');await page.getByLabel('Resource',{exact:true}).selectOption('wood');const beforeSale=(await state()).corporation.cash;
- await changed(()=>page.getByRole('button',{name:/^Sell 1/}).click());assert.ok((await state()).corporation.cash>beforeSale);await changed(()=>page.getByRole('button',{name:/^Buy 1/}).click());check('Inventory lock blocks sale, unlock restores operation, NPC sale and buy confirm actual funds and stock');
+ await screen('Exchange');if(await npcWood.getByRole('button',{name:'Trade Wood',exact:true}).getAttribute('aria-expanded')!=='true')await npcWood.getByRole('button',{name:'Trade Wood',exact:true}).click();const beforeSale=(await state()).corporation.cash;
+ await changed(()=>npcWood.getByRole('button',{name:/^Sell 1 ·/}).click());assert.ok((await state()).corporation.cash>beforeSale);await changed(()=>npcWood.getByRole('button',{name:/^Buy 1 ·/}).click());check('Inventory lock blocks sale, unlock restores operation, NPC sale and buy confirm actual funds and stock');
  await api.request('/api/auth/login',{username:'gui_operator',password});
  await peer.request('/api/auth/register',{username:'gui_counterparty',password,name:'Birch Supply'});
  await server.stop();

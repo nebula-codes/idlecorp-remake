@@ -68,9 +68,9 @@ try{
  await page.goBack();await waitRegion(otherRegion);await page.getByRole('dialog',{name:'Liquidation preview',exact:true}).waitFor({state:'detached'});assert.equal(await page.getByRole('button',{name:'Confirm permanent reset',exact:true}).count(),0);
  await page.goForward();await waitRegion('verdant');assert.equal(await page.getByRole('dialog').count(),0);const afterReset=await api.state();assert.deepEqual(Object.fromEntries(Object.entries(afterReset.holdings).map(([id,h])=>[id,{land:h.land,facilities:h.facilities.map(f=>f.id)}])),holdingsBefore);
  check('Region Back/Forward discards final liquidation confirmation and preserves both regions');
- await screen('Exchange');await screen('Regional market');await page.getByLabel('Resource',{exact:true}).selectOption('wood');
+ await screen('Exchange');await screen('Regional market');const npcWood=page.locator('[data-market-resource="wood"]');if(await npcWood.getByRole('button',{name:'Trade Wood',exact:true}).getAttribute('aria-expanded')!=='true')await npcWood.getByRole('button',{name:'Trade Wood',exact:true}).click();
  let release;const gate=new Promise(resolve=>{release=resolve;});await page.route('**/api/action',async route=>{await gate;await route.continue();});
- const buy=page.getByRole('button',{name:/^Buy 1 ·/});await buy.click();assert.equal(await buy.getAttribute('aria-busy'),'true');assert.equal(await page.locator('.mutation-progress').count(),0);release();await page.waitForFunction(()=>!JSON.parse(window.render_game_to_text()).busy);await page.getByText('Confirmed',{exact:true}).waitFor();await page.unroute('**/api/action');
+ const buy=npcWood.getByRole('button',{name:/^Buy 1 ·/});await buy.click();assert.equal(await buy.getAttribute('aria-busy'),'true');assert.equal(await page.locator('.mutation-progress').count(),0);release();await page.waitForFunction(()=>!JSON.parse(window.render_game_to_text()).busy);await page.getByText('Confirmed',{exact:true}).waitFor();await page.unroute('**/api/action');
  check('Mutation feedback stays on the clicked control and confirms the server result without a floating busy banner');
  await page.screenshot({path:directory+'/resource-bar-and-feedback.png',fullPage:true});
  // Hold an authenticated poll until after logout, then deliver the old snapshot.

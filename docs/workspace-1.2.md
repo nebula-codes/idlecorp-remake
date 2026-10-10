@@ -28,6 +28,16 @@ Inventory shows stock, produced/consumed/net rates, and stock forecasts. Choose 
 
 Select a net rate to inspect contributing producers and consumers, follow the chain, plan output, or trade the resource. Depletion estimates use expected capacity; full-stock estimates use sustainable net supply. Both assume unchanged operation. Pin up to six resources to a bar available on every management page. Pins are private browser preferences scoped to the current corporation and region.
 
+## Regional exchange
+
+The Regional market opens with an inventory-first resource list. Search by resource name or category, show all resources when buying, and sort by name, stock, or sale value. Each row shows its regional stock and current NPC sell quote; normal and plus-quality resources remain separate.
+
+**Sell 100**, **Sell 1,000**, **Sell 10,000**, and **Sell all** execute a sale directly. Sell all refers only to that row's resource in the active region, using the displayed stock quantity. Locked resources, unavailable NPC trades, and quantities above the available stock cannot be sold. Open a row's **Trade** controls for custom quantities or purchases.
+
+Prices are estimates until the server confirms the trade. Production and other sessions can change stock before a request arrives; the server either executes the requested quantity or rejects the sale without a partial trade. Newly produced stock may remain after Sell all. NPC sales have no player-market fee or hourly sell limit. Player exchange orders continue to use their separate fee, escrow, and review flow.
+
+If a quick sale is interrupted, **Retry sale** retains the original resource and quantity so a completed sale cannot execute twice. A definite server rejection can be cleared after checking the updated stock; an uncertain response must be resolved through Retry first. Sold-out rows remain visible for the current visit with a confirmation.
+
 ## Navigation and feedback
 
 Page and region URLs support refresh and browser Back/Forward. Direct links can select a resource, facility, technology installation, or saved plan. View preferences and scroll positions are restored without resubmitting any economic action.
