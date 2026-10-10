@@ -8,6 +8,10 @@ Your facilities opens by default once you own a building. Grouped rows show a fa
 
 Each producing facility's row fills from left to right with its estimated cycle progress and shows a percentage beside its status. This works inside expanded groups and in individual layout. Paused rows are gray, blocked rows are amber, and infrastructure has no production fill. Progress uses the server's cycle timing and waits for confirmation before beginning the next cycle.
 
+Bonus and penalty indicators open an **Active effects** breakdown for a facility. Group summaries count affected facilities; individual rows count their effects. The breakdown identifies the sources of speed, output, quality, input, and operational changes, including eligible technologies installed on another facility in the same region. Temporary effects show their remaining duration. Paused or blocked facilities still show their potential modifiers alongside the reason they cannot currently produce.
+
+The cycle calculation starts with the catalogue's **base cycle**, applies flat adjustments and the combined speed multiplier, and shows the effective cycle with applicable minimum-time limits. It describes current modifiers; an already scheduled cycle keeps its deadline until the next cycle is scheduled. Output and quality effects are listed separately because they do not necessarily change speed. These are server explanations of the existing rules, not new gameplay bonuses.
+
 Search, status, group, sort, layout, and density are saved per corporation and region in this browser. The selection toolbar remains available while scrolling. Batch actions retain server ownership checks and idempotency. Rate totals represent expected capacity, not measured output or guaranteed profit.
 
 ## Production planning

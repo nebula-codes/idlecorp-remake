@@ -45,7 +45,7 @@ jobs:
       - name: Verify PostgreSQL and browser integration
         run: npm run test:e2e && npm run test:enhancements && npm run test:accounts && npm run test:lan-http
       - name: Verify the production planner and management workspace
-        run: npm run test:production-targets && npm run test:facilities && npm run test:planner-workspace && npm run test:workspace-ux
+        run: npm run test:production-targets && npm run test:facilities && npm run test:facility-effects && npm run test:planner-workspace && npm run test:workspace-ux
       - name: Verify existing gameplay controls
         run: npm run test:ui && npm run test:ui-enhancements
       - uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1

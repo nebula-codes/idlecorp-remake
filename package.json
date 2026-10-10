@@ -45,6 +45,7 @@
     "test:lan-http": "node scripts/test-lan-http.mjs",
     "test:production-targets": "node scripts/test-production-targets.mjs",
     "test:facilities": "node scripts/test-compact-facilities.mjs",
+    "test:facility-effects": "node scripts/test-facility-effects.mjs",
     "test:planner-workspace": "node scripts/test-planner-workspace.mjs",
     "test:workspace-ux": "node scripts/test-workspace-ux.mjs"
   },

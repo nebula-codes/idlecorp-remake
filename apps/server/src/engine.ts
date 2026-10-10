@@ -4,6 +4,7 @@ import { Corp, Dict, Facility, Game, GameError, Holding, Region, World } from '.
 import { normalizeEnhancements, observeCycle, facilityMetrics, insightSnapshot, notifyCorporation } from './insights.js';
 import { committedValue, expansionResetPreview, expansionSnapshot, nextExpansionEvent, projectBonus, settleExpansion } from './expansion.js';
 import { facilityFlow, recordProduction, resourceBalances } from './resource-balances.js';
+import { facilityEffects } from './facility-effects.js';
 
 const assetList = assets as unknown as Dict[];
 const facilityList = facilities as unknown as Dict[];
@@ -67,18 +68,32 @@ export function marketPrice(region:Region,id:string,side:'buy'|'sell',now:number
  const steps=Math.round(R.npcPriceSpread*100),variation=1-steps/100+(hash%(steps*2+1))/100;const policy=baseId(id)==='energy'?policyMultiplier(region,'energyPriceMultiplier'):1;
  return Math.max(1,Math.round(assetPrice(id)*variation*(side==='buy'?R.npcBuyMarkup:R.npcSellMarkdown)*policy));
 }
-export function cycleMs(f:Facility,c:Corp,r:Region):number {
+/** Optional numeric trace shares every operation with the simulation; no report is built during ticks. */
+export interface CycleFactors {
+ baseSeconds:number; adjustedSeconds:number; speedMultiplier:number; effectiveSeconds:number; floorApplied:boolean;
+ regionalKey:string|null; regionalBase:number; regionalPolicy:number; regionalMultiplier:number; happinessMultiplier:number;
+ technologySpeed:number; boonActive:boolean; hasteActive:boolean; projectSpeed:number;
+ airportCount:number; airportBaseSeconds:number; airportPolicySeconds:number; airportFloorApplied:boolean; minimumFloorApplied:boolean;
+}
+export function cycleMs(f:Facility,c:Corp,r:Region,trace?:CycleFactors):number {
  const d=facilityMap.get(f.type);if(!d)return 60000;
- let speed=1,seconds=Number(d.cycleSeconds||60);
- if(f.type==='airport')seconds=airportInterval(c.holdings[r.id]!.facilities.filter(x=>x.type==='airport').length);
+ const baseSeconds=Number(d.cycleSeconds||60),airportCount=f.type==='airport'?c.holdings[r.id]!.facilities.filter(x=>x.type==='airport').length:0;
+ let speed=1,seconds=baseSeconds;
+ if(f.type==='airport')seconds=airportInterval(airportCount);
+ const airportBaseSeconds=seconds;
  for(const id of regionalTech(c,r,f)){const {t,tier}=installedTech(id);speed+=Number(t?.effect?.speedBonuses?.[tier]||0);seconds-=Number(t?.effect?.cycleReductions?.[tier]||0);}
  const key=['tree_farm','cotton_farm'].includes(f.type)?'soil':f.type==='oil_well'?'oil':f.type==='solar_power_plant'?'solar':f.type.endsWith('_mine')?'minerals':['laptop_factory','coal_power_plant','gasoline_engine_factory','car_factory','television_factory','digital_camera_factory','prescription_drug_factory','truck_factory'].includes(f.type)?'industry':null;
- if(key)speed*=Math.max(0.1,Number(r.modifiers[key]||1)+regionalEffect(r,key));speed*=1+(r.happiness-50)/500;
- if(c.entitlement!=='free'||(c.rewards.vote||0)+rules.vote.boonSeconds*1000>c.lastProcessed)speed*=1+rules.vote.speedBonus;
- if((c.rewards.haste||0)>c.lastProcessed)speed*=1.25;
- speed*=1+projectBonus(r,'productionSpeed',c.lastProcessed);
- if(f.type==='airport')seconds=Math.max(30,seconds+regionalEffect(r,'airportSeconds'));
- return Math.max(1000,Math.round(seconds*1000/speed));
+ const technologySpeed=speed,regionalBase=key?Number(r.modifiers[key]||1):1,regionalPolicy=key?regionalEffect(r,key):0,regionalMultiplier=key?Math.max(0.1,regionalBase+regionalPolicy):1,happinessMultiplier=1+(r.happiness-50)/500;
+ if(key)speed*=regionalMultiplier;speed*=happinessMultiplier;
+ const boonActive=c.entitlement!=='free'||(c.rewards.vote||0)+rules.vote.boonSeconds*1000>c.lastProcessed,hasteActive=(c.rewards.haste||0)>c.lastProcessed,projectSpeed=projectBonus(r,'productionSpeed',c.lastProcessed);
+ if(boonActive)speed*=1+rules.vote.speedBonus;
+ if(hasteActive)speed*=1.25;
+ speed*=1+projectSpeed;
+ const airportPolicySeconds=f.type==='airport'?regionalEffect(r,'airportSeconds'):0,airportFloorApplied=f.type==='airport'&&seconds+airportPolicySeconds<30;
+ if(f.type==='airport')seconds=Math.max(30,seconds+airportPolicySeconds);
+ const rounded=Math.round(seconds*1000/speed),ms=Math.max(1000,rounded);
+ if(trace)Object.assign(trace,{baseSeconds,adjustedSeconds:seconds,speedMultiplier:speed,effectiveSeconds:ms/1000,floorApplied:airportFloorApplied||rounded<1000,regionalKey:key,regionalBase,regionalPolicy,regionalMultiplier,happinessMultiplier,technologySpeed,boonActive,hasteActive,projectSpeed,airportCount,airportBaseSeconds,airportPolicySeconds,airportFloorApplied,minimumFloorApplied:rounded<1000});
+ return ms;
 }
 export function recipe(f:Facility,c:Corp,r?:Region):{inputs:Record<string,number>;outputs:Record<string,number>} {
  const d=facilityMap.get(f.type)!;const inputs:Record<string,number>={};const outputs:Record<string,number>={};
@@ -88,7 +103,7 @@ export function recipe(f:Facility,c:Corp,r?:Region):{inputs:Record<string,number
  if(r&&f.type==='airport')inputs.jet_fuel=(inputs.jet_fuel||0)+regionalEffect(r,'airportFuel');
  return {inputs,outputs};
 }
-function chosenInputs(f:Facility,h:Holding,c:Corp,r?:Region){const items:Record<string,number>={};let allPlus=Object.keys(recipe(f,c,r).inputs).length>0;
+export function chosenInputs(f:Facility,h:Holding,c:Corp,r?:Region){const items:Record<string,number>={};let allPlus=Object.keys(recipe(f,c,r).inputs).length>0;
  for(const [id,n] of Object.entries(recipe(f,c,r).inputs)){
   if(id==='cash'){items[id]=n;allPlus=false;continue;}
   let left=n;if(f.allowPlus&&(h.inventory[plusId(id)]||0)>0){const use=Math.min(left,h.inventory[plusId(id)]||0);items[plusId(id)]=use;left-=use;}
@@ -163,7 +178,7 @@ export function snapshot(game:Game,c:Corp,now:number,extra:Dict={}){
  const holdings:Dict={};for(const[rid,h]of Object.entries(c.holdings)){const r=game.world.regions.find(r=>r.id===rid)!;
   holdings[rid]={...h,resourceBalances:resourceBalances(c,r),groups:[...new Set(h.facilities.map(f=>f.group).filter(Boolean))].sort(),usedLand:h.facilities.reduce((n,f)=>n+Number(facilityMap.get(f.type)?.land||1),0),nextLandCost:landCost(h,1,c,r),buyLimit:buyingLimit(c,h,r,now),buyLimitUsed:h.purchaseDay===Math.floor(now/3600000)?h.npcPurchases.spent||0:0,
    buildCosts:Object.fromEntries(facilityList.map(d=>[d.id,buildCost(d,r)])),
-   facilities:h.facilities.map(f=>{const ms=cycleMs(f,c,r),rec=recipe(f,c,r),chosen=chosenInputs(f,h,c,r),missing=Object.entries(chosen.items).filter(([id,n])=>id==='cash'?c.cash<n:(h.inventory[id]||0)<n).map(([id,n])=>({assetId:id,required:n,available:id==='cash'?c.cash:h.inventory[id]||0}));const capacity=capacityReason(f,h,c,r),expected=facilityFlow(f,c,r);return {...f,expectedInputRates:expected.inputs,expectedOutputRates:expected.outputs,group:f.group||'',favorite:!!f.favorite,metrics:facilityMetrics(f,h,c,r,now),capacityReason:capacity,effectiveLevel:effectiveLevel(f,r,c),regionalTechnologies:regionalTech(c,r,f),cycleSeconds:ms/1000,status:!Object.keys(rec.outputs).length?'infrastructure':!f.enabled?'paused':missing.length?'starved':capacity?'capacity':'producing',missingInputs:missing,inputRates:Object.fromEntries(Object.entries(rec.inputs).map(([k,v])=>[k,v*60000/ms])),outputRates:Object.fromEntries(Object.entries(rec.outputs).map(([k,v])=>[k,v*60000/ms])),};}),research:h.research.map(({outcome:_outcome,...p})=>p)};
+   facilities:h.facilities.map(f=>{const ms=cycleMs(f,c,r),rec=recipe(f,c,r),chosen=chosenInputs(f,h,c,r),missing=Object.entries(chosen.items).filter(([id,n])=>id==='cash'?c.cash<n:(h.inventory[id]||0)<n).map(([id,n])=>({assetId:id,required:n,available:id==='cash'?c.cash:h.inventory[id]||0}));const capacity=capacityReason(f,h,c,r),expected=facilityFlow(f,c,r);return {...f,effects:facilityEffects(f,c,r),expectedInputRates:expected.inputs,expectedOutputRates:expected.outputs,group:f.group||'',favorite:!!f.favorite,metrics:facilityMetrics(f,h,c,r,now),capacityReason:capacity,effectiveLevel:effectiveLevel(f,r,c),regionalTechnologies:regionalTech(c,r,f),cycleSeconds:ms/1000,status:!Object.keys(rec.outputs).length?'infrastructure':!f.enabled?'paused':missing.length?'starved':capacity?'capacity':'producing',missingInputs:missing,inputRates:Object.fromEntries(Object.entries(rec.inputs).map(([k,v])=>[k,v*60000/ms])),outputRates:Object.fromEntries(Object.entries(rec.outputs).map(([k,v])=>[k,v*60000/ms])),};}),research:h.research.map(({outcome:_outcome,...p})=>p)};
  }
  const publicCorps=game.corps.filter(x=>!x.privacy||x.id===c.id).map(x=>({id:x.id,name:x.name,score:x.score,netWorth:netWorth(x),motto:x.motto,seasonXp:x.season.xp,regionIds:Object.entries(x.holdings).filter(([,h])=>h.land>0).map(([id])=>id),regional:Object.fromEntries(Object.entries(x.holdings).map(([id,h])=>[id,{land:h.land,facilities:h.facilities.length,inventoryValue:Object.entries(h.inventory).reduce((n,[a,q])=>n+assetPrice(a)*q,0)}]))})).sort((a,b)=>b.score-a.score||b.netWorth-a.netWorth);
  return {...insightSnapshot(game,c),savedPlans:c.savedPlans||[],expansion:expansionSnapshot(game,c),protocol:1,ruleset:(rules as Dict).version||'2026.10-remake.1',revision:game.world.revision,serverTime:now,
